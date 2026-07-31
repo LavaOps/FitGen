@@ -1,0 +1,53 @@
+```json
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {"type": "str", "min_len": 0, "max_len": 20}
+  ],
+  "fitness_code": "
+def fitness_string_category(chromosome, target):
+    s = chromosome[0]
+    if len(s) == 0:
+        category = \"empty\"
+    elif s == s[::-1] and len(s) > 3:
+        category = \"long_palindrome\"
+    elif s == s[::-1]:
+        category = \"short_palindrome\"
+    elif len(s) > 5:
+        category = \"long_non_palindrome\"
+    else:
+        category = \"other\"
+    if target == category:
+        return 0
+    elif target == \"empty\" and len(s) != 0:
+        return max(0, len(s))
+    elif target == \"long_palindrome\" and (len(s) <= 3 or s != s[::-1]):
+        return max(0, 4 - len(s) if len(s) < 4 else 1)
+    elif target == \"short_palindrome\" and (len(s) > 3 or s != s[::-1]):
+        return max(0, len(s) - 3 if len(s) > 3 else 1)
+    elif target == \"long_non_palindrome\" and (len(s) <= 5 or s == s[::-1]):
+        return max(0, 6 - len(s) if len(s) < 6 else 1)
+    elif target == \"other\" and (len(s) == 0 or (len(s) > 3 and s == s[::-1]) or len(s) > 5):
+        return max(0, len(s) - 1)
+    else:
+        raise ValueError(\"Unknown target\")
+
+TARGETS_string_category = [
+    \"empty\",
+    \"long_palindrome\",
+    \"short_palindrome\",
+    \"long_non_palindrome\",
+    \"other\"
+]
+",
+  "notes": ""
+}
+```

@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "type": "int",
+      "min": 1,
+      "max": 100
+    },
+    {
+      "type": "int",
+      "min": 1,
+      "max": 100
+    }
+  ],
+  "fitness_code": "\nTARGETS_triangle_type = [\n    \"invalid_side\",\n    \"not_triangle\",\n    \"equilateral\",\n    \"isosceles\",\n    \"scalene\"\n]\n\ndef fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome\n\n    if a <= 0 or b <= 0 or c <= 0:\n        pred = \"invalid_side\"\n    elif a + b <= c or a + c <= b or b + c <= a:\n        pred = \"not_triangle\"\n    elif a == b and b == c:\n        pred = \"equilateral\"\n    elif a == b or a == c or b == c:\n        pred = \"isosceles\"\n    else:\n        pred = \"scalene\"\n\n    if pred == target:\n        return 0\n    elif pred == \"invalid_side\" and target == \"invalid_side\":\n        return max(0, -a) + max(0, -b) + max(0, -c)\n    elif pred == \"not_triangle\" and target == \"not_triangle\":\n        dist = float('inf')\n        dist = min(dist, max(0, a + b - c))\n        dist = min(dist, max(0, a + c - b))\n        dist = min(dist, max(0, b + c - a))\n        return dist\n    elif pred == \"equilateral\" and target == \"equilateral\":\n        return max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(a - c))\n    elif pred == \"isosceles\" and target == \"isosceles\":\n        dist = float('inf')\n        if a == b:\n            dist = min(dist, max(0, abs(a - c)))\n        if a == c:\n            dist = min(dist, max(0, abs(a - b)))\n        if b == c:\n            dist = min(dist, max(0, abs(b - a)))\n        return dist\n    elif pred == \"scalene\" and target == \"scalene\":\n        dist = 0\n        if a == b:\n            dist += max(0, abs(a - b))\n        if a == c:\n            dist += max(0, abs(a - c))\n        if b == c:\n            dist += max(0, abs(b - c))\n        return dist\n    else:\n        raise ValueError(\"Unknown target\")\n\n    return 1\n",
+  "notes": ""
+}

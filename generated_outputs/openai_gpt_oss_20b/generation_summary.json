@@ -1,0 +1,48 @@
+{
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt_oss_20b",
+  "semantic_validation_enabled": false,
+  "max_generation_attempts": 3,
+  "successful_count": 3,
+  "failed_count": 8,
+  "successful_functions": [
+    "number_kind",
+    "sign_type",
+    "transaction_pattern"
+  ],
+  "failed_functions": [
+    {
+      "function_name": "bmi_category",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "list_pattern",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "password_strength",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "pin_pattern",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "shipping_discount",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "string_category",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "triangle_type",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    },
+    {
+      "function_name": "username_category",
+      "error": "Empty response from groq:openai/gpt-oss-20b"
+    }
+  ]
+}

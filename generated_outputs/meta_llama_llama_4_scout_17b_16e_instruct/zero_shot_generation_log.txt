@@ -1,0 +1,117 @@
+bmi_category: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.209
+bmi_category: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.152
+bmi_category: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.170
+bmi_category: FAILED during generation: bmi_category: failed after 3 generation attempts. Last error: Semantic mismatch rate too high: 0.170
+list_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n    "functio...    "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+number_kind: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+password_strength: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.207
+password_strength: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.387
+password_strength: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.340
+password_strength: FAILED during generation: password_strength: failed after 3 generation attempts. Last error: Semantic mismatch rate too high: 0.340
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n    "functio...    "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.063
+shipping_discount: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.063
+shipping_discount: FAILED during generation: shipping_discount: failed after 3 generation attempts. Last error: Semantic mismatch rate too high: 0.063
+sign_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.333
+sign_type: semantic validation passed on attempt 3: Semantic validation passed. mismatch_rate=0.000
+string_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n    "functio...    "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.013
+transaction_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+triangle_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.800
+triangle_type: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.800
+triangle_type: FAILED during generation: triangle_type: failed after 3 generation attempts. Last error: Semantic mismatch rate too high: 0.800
+username_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.033
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.698
+password_strength: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.456
+password_strength: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.478
+password_strength: attempt 4 failed semantic validation: Semantic mismatch rate too high: 0.478
+password_strength: attempt 5 failed semantic validation: Semantic mismatch rate too high: 0.427
+password_strength: FAILED during generation: password_strength: failed after 5 generation attempts. Last error: Semantic mismatch rate too high: 0.427
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.001
+shipping_discount: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.205
+shipping_discount: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.019
+sign_type: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.333
+sign_type: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.027
+transaction_pattern: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.081
+transaction_pattern: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.053
+transaction_pattern: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.053
+transaction_pattern: attempt 4 failed semantic validation: Semantic mismatch rate too high: 0.053
+transaction_pattern: attempt 5 failed semantic validation: Semantic mismatch rate too high: 0.053
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 5 generation attempts. Last error: Semantic mismatch rate too high: 0.053
+triangle_type: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.094
+triangle_type: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.200
+triangle_type: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+fitness_code
+  Input should be a valid string [type=string_type, input_value=['def fitness_triangle_ty...rror("Unknown target")'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+triangle_type: attempt 4 failed JSON parsing: 1 validation error for FitnessGenerationResult
+fitness_code
+  Input should be a valid string [type=string_type, input_value=['def fitness_triangle_ty...rror("Unknown target")'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+triangle_type: attempt 5 failed JSON parsing: 1 validation error for FitnessGenerationResult
+fitness_code
+  Input should be a valid string [type=string_type, input_value=['def fitness_triangle_ty...rror("Unknown target")'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+triangle_type: FAILED during generation: triangle_type: failed after 5 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+fitness_code
+  Input should be a valid string [type=string_type, input_value=['def fitness_triangle_ty...rror("Unknown target")'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+username_category: attempt 1 failed semantic validation: Semantic mismatch rate too high: 1.000
+username_category: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.306
+username_category: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.282
+username_category: attempt 4 failed semantic validation: Semantic mismatch rate too high: 0.182
+username_category: attempt 5 failed semantic validation: Semantic mismatch rate too high: 0.216
+username_category: FAILED during generation: username_category: failed after 5 generation attempts. Last error: Semantic mismatch rate too high: 0.216
+bmi_category: accepted attempt 1 without semantic validation
+list_pattern: accepted attempt 1 without semantic validation
+number_kind: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n    "functio...    "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: accepted attempt 2 without semantic validation
+password_strength: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: accepted attempt 2 without semantic validation
+pin_pattern: accepted attempt 1 without semantic validation
+shipping_discount: accepted attempt 1 without semantic validation
+sign_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: accepted attempt 2 without semantic validation
+string_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: accepted attempt 2 without semantic validation
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: accepted attempt 2 without semantic validation
+username_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='```json\n{\n  "function_...\n  "notes": ""\n}\n```', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: accepted attempt 2 without semantic validation

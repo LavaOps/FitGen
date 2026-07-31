@@ -1,0 +1,18 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 500
+    }
+  ],
+  "fitness_code": "def fitness_sign_type(chromosome, target):\n    x = chromosome[0]\n\n    if target == \"positive\":\n        # Target: x > 0\n        # If x is already > 0, fitness is 0.\n        # Otherwise, we want to make x positive, so we calculate distance from 0.\n        return max(0, 1 - x)\n    elif target == \"negative\":\n        # Target: x < 0\n        # If x is already < 0, fitness is 0.\n        # Otherwise, we want to make x negative, so we calculate distance from 0.\n        return max(0, x + 1)\n    elif target == \"zero\":\n        # Target: x == 0\n        # If x is 0, fitness is 0.\n        # Otherwise, the distance is the absolute value of x.\n        return abs(x)\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function calculates the branch distance for the 'positive', 'negative', and 'zero' outcomes based on the value of 'x'. For 'positive' (x > 0), it measures how far x is from being greater than 0. For 'negative' (x < 0), it measures how far x is from being less than 0. For 'zero' (x == 0), it measures the absolute difference from 0."
+}

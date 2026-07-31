@@ -1,0 +1,15 @@
+sign_type: generated successfully; targets=['positive', 'negative', 'zero']
+number_kind: generated successfully; targets=['zero', 'even', 'odd']
+Generated code for max_of_three does not compile: invalid syntax (<unknown>, line 1)
+Generated code for max_of_three does not compile: invalid syntax (<unknown>, line 1)
+max_of_three: generated successfully; targets=['a_is_max', 'b_is_max', 'c_is_max']
+Generated code for triangle_type does not compile: invalid syntax (<unknown>, line 1)
+triangle_type: generated successfully; targets=['invalid_side', 'not_triangle', 'equilateral', 'isosceles', 'scalene']
+is_leap_year: generated successfully; targets=['divisible_by_400', 'divisible_by_100_not_400', 'divisible_by_4_not_100', 'not_leap_year']
+grade_category: generated successfully; targets=['invalid', 'A', 'B', 'C', 'D', 'F']
+bmi_category: generated successfully; targets=['invalid_height', 'underweight', 'normal', 'overweight', 'obese']
+loan_eligibility: generated successfully; targets=['reject_underage', 'approve', 'review', 'reject_low_income']
+password_strength: generated successfully; targets=['weak_short', 'strong', 'medium', 'weak_no_digit_upper']
+string_category: generated successfully; targets=['empty', 'long_palindrome', 'short_palindrome', 'long_non_palindrome', 'other']
+list_score: generated successfully; targets=['empty', 'high', 'medium', 'low']
+list_pattern: generated successfully; targets=['too_short', 'sorted_with_duplicates', 'sorted_unique', 'unsorted_with_duplicates', 'unsorted_unique']

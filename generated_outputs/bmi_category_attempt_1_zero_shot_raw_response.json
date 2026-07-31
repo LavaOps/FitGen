@@ -1,0 +1,25 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height",
+    "underweight",
+    "normal",
+    "overweight",
+    "obese"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 3000.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 3000.0
+    }
+  ],
+  "fitness_code": "def fitness_bmi_category(chromosome, target):\n    weight, height = chromosome\n    epsilon = 1e-6 # small constant to ensure non-zero distance when condition is not met\n\n    # Helper for a <= b (target is a <= b)\n    # Returns 0 if a <= b is true, positive if false.\n    def branch_dist_le(a, b):\n        if a <= b: return 0.0\n        else: return a - b + epsilon # a > b, need to decrease a or increase b\n\n    # Helper for a < b (target is a < b)\n    # Returns 0 if a < b is true, positive if false.\n    def branch_dist_lt(a, b):\n        if a < b: return 0.0\n        else: return a - b + epsilon # a >= b, need to decrease a or increase b\n\n    # Helper for a >= b (target is a >= b)\n    # Returns 0 if a >= b is true, positive if false.\n    def branch_dist_ge(a, b):\n        if a >= b: return 0.0\n        else: return b - a + epsilon # a < b, need to increase a or decrease b\n\n    # Helper for a > b (target is a > b)\n    # Returns 0 if a > b is true, positive if false.\n    def branch_dist_gt(a, b):\n        if a > b: return 0.0\n        else: return b - a + epsilon # a <= b, need to increase a or decrease b\n\n    if target == \"invalid_height\":\n        # Original condition: height <= 0\n        return branch_dist_le(height, 0.0)\n\n    # For all other targets, we need height > 0.\n    # Calculate the distance for height > 0 to be true.\n    height_gt_0_dist = branch_dist_gt(height, 0.0)\n\n    # If height <= 0, the original function would return \"invalid_height\".\n    # For any other target, if height <= 0, we are far from the target branch.\n    if height <= 0:\n        return height_gt_0_dist\n\n    # If we reach here, height > 0 is implied, and height_gt_0_dist will be 0.0.\n    # Now calculate BMI (weight / (height * height)) as height is guaranteed > 0\n    bmi = weight / (height * height)\n\n    if target == \"underweight\":\n        # Original condition: bmi < 18.5\n        bmi_lt_18_5_dist = branch_dist_lt(bmi, 18.5)\n        return height_gt_0_dist + bmi_lt_18_5_dist\n\n    elif target == \"normal\":\n        # Original conditions: bmi >= 18.5 and bmi < 25\n        bmi_ge_18_5_dist = branch_dist_ge(bmi, 18.5)\n        bmi_lt_25_dist = branch_dist_lt(bmi, 25.0)\n        return height_gt_0_dist + bmi_ge_18_5_dist + bmi_lt_25_dist\n\n    elif target == \"overweight\":\n        # Original conditions: bmi >= 25 and bmi < 30\n        bmi_ge_25_dist = branch_dist_ge(bmi, 25.0)\n        bmi_lt_30_dist = branch_dist_lt(bmi, 30.0)\n        return height_gt_0_dist + bmi_ge_25_dist + bmi_lt_30_dist\n\n    elif target == \"obese\":\n        # Original condition: bmi >= 30\n        bmi_ge_30_dist = branch_dist_ge(bmi, 30.0)\n        return height_gt_0_dist + bmi_ge_30_dist\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function calculates branch distances based on the conditions in the original bmi_category function. It uses helper functions to calculate distances for '<=', '<', '>=' and '>' conditions. For any target other than 'invalid_height', it first ensures that 'height > 0' by adding a penalty if it's not. An epsilon value is added to distances to ensure they are strictly positive when the target condition is not met."
+}

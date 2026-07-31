@@ -1,0 +1,22 @@
+{
+  "function_name": "grade_category",
+  "fitness_function_name": "fitness_grade_category",
+  "targets": [
+    "invalid_less_than_0",
+    "invalid_greater_than_100",
+    "grade_A",
+    "grade_B",
+    "grade_C",
+    "grade_D",
+    "grade_F"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -10,
+      "max": 110
+    }
+  ],
+  "fitness_code": "def _branch_distance(left, op, right):\n    if op == \"==\":\n        return abs(left - right)\n    if op == \"!=\":\n        return 0 if left != right else 1\n    if op == \"<\":\n        return 0 if left < right else left - right + 1\n    if op == \">\":\n        return 0 if left > right else right - left + 1\n    if op == \"<=\":\n        return 0 if left <= right else left - right + 1\n    if op == \">=\":\n        return 0 if left >= right else right - left + 1\n    raise ValueError(f\"Unknown operator: {op}\")\n\n\ndef fitness_grade_category(chromosome, target):\n    score = chromosome[0]\n\n    if target == \"invalid_less_than_0\":\n        # Target: score < 0\n        return _branch_distance(score, \"<\", 0)\n\n    elif target == \"invalid_greater_than_100\":\n        # Target: score > 100 AND NOT (score < 0)\n        fitness = _branch_distance(score, \">=\", 0) # Path from first if (score < 0) must be false\n        fitness += _branch_distance(score, \">\", 100) # This part must be true\n        return fitness\n\n    elif target == \"grade_A\":\n        # Target: score >= 90 AND NOT (score < 0 or score > 100)\n        fitness = _branch_distance(score, \">=\", 0) # Path from score < 0 must be false\n        fitness += _branch_distance(score, \"<=\", 100) # Path from score > 100 must be false\n        fitness += _branch_distance(score, \">=\", 90) # This part must be true\n        return fitness\n\n    elif target == \"grade_B\":\n        # Target: score >= 80 AND NOT (score < 0 or score > 100 or score >= 90)\n        fitness = _branch_distance(score, \">=\", 0)\n        fitness += _branch_distance(score, \"<=\", 100)\n        fitness += _branch_distance(score, \"<\", 90) # Path from score >= 90 must be false\n        fitness += _branch_distance(score, \">=\", 80) # This part must be true\n        return fitness\n\n    elif target == \"grade_C\":\n        # Target: score >= 70 AND NOT (... or score >= 80)\n        fitness = _branch_distance(score, \">=\", 0)\n        fitness += _branch_distance(score, \"<=\", 100)\n        fitness += _branch_distance(score, \"<\", 90)\n        fitness += _branch_distance(score, \"<\", 80) # Path from score >= 80 must be false\n        fitness += _branch_distance(score, \">=\", 70) # This part must be true\n        return fitness\n\n    elif target == \"grade_D\":\n        # Target: score >= 60 AND NOT (... or score >= 70)\n        fitness = _branch_distance(score, \">=\", 0)\n        fitness += _branch_distance(score, \"<=\", 100)\n        fitness += _branch_distance(score, \"<\", 90)\n        fitness += _branch_distance(score, \"<\", 80)\n        fitness += _branch_distance(score, \"<\", 70) # Path from score >= 70 must be false\n        fitness += _branch_distance(score, \">=\", 60) # This part must be true\n        return fitness\n\n    elif target == \"grade_F\":\n        # Target: NOT (... or score >= 60) which implies 0 <= score < 60\n        fitness = _branch_distance(score, \">=\", 0)\n        fitness += _branch_distance(score, \"<=\", 100)\n        fitness += _branch_distance(score, \"<\", 90)\n        fitness += _branch_distance(score, \"<\", 80)\n        fitness += _branch_distance(score, \"<\", 70)\n        fitness += _branch_distance(score, \"<\", 60) # Path from score >= 60 must be false\n        return fitness\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "Generated branch distance fitness function for `grade_category`. Each target represents a specific return path. The fitness for a target is the sum of branch distances for predicates that need to be true to reach that target, and for predicates in preceding `if/elif` statements that need to be false to fall through to the target's branch."
+}

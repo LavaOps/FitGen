@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    }
+  ],
+  "fitness_code": "def fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome\n\n    # Helper functions for branch distance (return 0 if condition met, positive otherwise)\n    # dist_true_le(X, Y): Distance to make X <= Y true. Returns 0 if X <= Y, positive otherwise.\n    def dist_true_le(X, Y): return max(0.0, float(X - Y + 1))\n\n    # dist_true_gt(X, Y): Distance to make X > Y true. Returns 0 if X > Y, positive otherwise.\n    def dist_true_gt(X, Y): return max(0.0, float(Y - X + 1))\n\n    # dist_true_eq(X, Y): Distance to make X == Y true. Returns 0 if X == Y, positive otherwise.\n    def dist_true_eq(X, Y): return abs(float(X - Y))\n\n    # Distances for individual conditions to be TRUE\n    d_a_le_0 = dist_true_le(a, 0)\n    d_b_le_0 = dist_true_le(b, 0)\n    d_c_le_0 = dist_true_le(c, 0)\n\n    d_ab_le_c = dist_true_le(a + b, c)\n    d_ac_le_b = dist_true_le(a + c, b)\n    d_bc_le_a = dist_true_le(b + c, a)\n\n    d_a_eq_b = dist_true_eq(a, b)\n    d_b_eq_c = dist_true_eq(b, c)\n    d_a_eq_c = dist_true_eq(a, c)\n\n    # Fitness for \"invalid_side\" target\n    if target == \"invalid_side\":\n        # Condition: a <= 0 or b <= 0 or c <= 0 (OR condition: take minimum distance)\n        return min(d_a_le_0, d_b_le_0, d_c_le_0)\n\n    # Cost to bypass the \"invalid_side\" branch (i.e., make a > 0 AND b > 0 AND c > 0)\n    # Sum of distances for each sub-condition to be true (AND condition)\n    cost_not_invalid_side = dist_true_gt(a, 0) + dist_true_gt(b, 0) + dist_true_gt(c, 0)\n\n    # Fitness for \"not_triangle\" target\n    if target == \"not_triangle\":\n        # Condition: (a + b <= c or a + c <= b or b + c <= a) (OR condition: take minimum distance)\n        d_not_triangle_cond = min(d_ab_le_c, d_ac_le_b, d_bc_le_a)\n        return cost_not_invalid_side + d_not_triangle_cond\n\n    # Cost to bypass the \"not_triangle\" branch (i.e., make a+b > c AND a+c > b AND b+c > a)\n    cost_not_not_triangle = dist_true_gt(a + b, c) + dist_true_gt(a + c, b) + dist_true_gt(b + c, a)\n\n    # Fitness for \"equilateral\" target\n    if target == \"equilateral\":\n        # Condition: (a == b and b == c) (AND condition: sum distances)\n        d_equilateral_cond = d_a_eq_b + d_b_eq_c\n        return cost_not_invalid_side + cost_not_not_triangle + d_equilateral_cond\n\n    # Cost to bypass the \"equilateral\" branch (i.e., make NOT (a == b AND b == c))\n    # If (a == b and b == c) is true (d_a_eq_b + d_b_eq_c == 0.0), add a penalty of 1.0\n    # Otherwise, 0.0 penalty.\n    cost_not_equilateral = 1.0 if (d_a_eq_b + d_b_eq_c == 0.0) else 0.0\n\n    # Fitness for \"isosceles\" target\n    if target == \"isosceles\":\n        # Condition: (a == b or a == c or b == c) (OR condition: take minimum distance)\n        d_isosceles_cond = min(d_a_eq_b, d_a_eq_c, d_b_eq_c)\n        return cost_not_invalid_side + cost_not_not_triangle + cost_not_equilateral + d_isosceles_cond\n\n    # Cost to bypass the \"isosceles\" branch (i.e., make NOT (a == b OR a == c OR b == c))\n    # If (a == b or a == c or b == c) is true (min(...) == 0.0), add a penalty of 1.0\n    # Otherwise, 0.0 penalty.\n    cost_not_isosceles = 1.0 if (min(d_a_eq_b, d_a_eq_c, d_b_eq_c) == 0.0) else 0.0\n\n    # Fitness for \"scalene\" target\n    if target == \"scalene\":\n        # This is the 'else' branch, requiring all preceding conditions to be false.\n        return cost_not_invalid_side + cost_not_not_triangle + cost_not_equilateral + cost_not_isosceles\n\n    raise ValueError(\"Unknown target: \" + target)\n",
+  "notes": "The fitness function uses branch distance. For `if/elif/else` structures, it accumulates a penalty of 1.0 if a preceding `if` or `elif` condition that would lead to a different target is met, otherwise 0.0. Conditions are combined with sum for AND and minimum for OR. `max(0.0, ...)` ensures non-negative fitness values."
+}

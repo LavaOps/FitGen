@@ -1,0 +1,5 @@
+model,method,actual_success_rate,total_runs
+qwen_qwen3_32b,GA_ADAPTIVE,93.01587301587301,630
+qwen_qwen3_32b,GA_FIXED,93.17460317460318,630
+qwen_qwen3_32b,HILL_CLIMBING,94.76190476190476,630
+qwen_qwen3_32b,RANDOM,81.42857142857143,630

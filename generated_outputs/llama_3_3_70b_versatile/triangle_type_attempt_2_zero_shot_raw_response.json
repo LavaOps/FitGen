@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    }
+  ],
+  "fitness_code": "\ndef fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome\n    if target == \"invalid_side\":\n        if a <= 0 or b <= 0 or c <= 0:\n            return 0\n        else:\n            return 1\n    elif target == \"not_triangle\":\n        if a + b <= c or a + c <= b or b + c <= a:\n            return 0\n        else:\n            return min(a + b - c, a + c - b, b + c - a)\n    elif target == \"equilateral\":\n        if a == b and b == c:\n            return 0\n        else:\n            return max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(c - a))\n    elif target == \"isosceles\":\n        if a == b or a == c or b == c:\n            return 0\n        else:\n            return max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(c - a))\n    elif target == \"scalene\":\n        if a != b and b != c and c != a:\n            return 0\n        else:\n            return max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(c - a))\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": "The fitness function returns 0 when the chromosome covers the selected target and a positive value otherwise."
+}

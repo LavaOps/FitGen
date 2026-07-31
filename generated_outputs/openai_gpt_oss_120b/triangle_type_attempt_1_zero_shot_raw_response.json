@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "def fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome[0], chromosome[1], chromosome[2]\n    # distance for invalid side (any side <= 0)\n    invalid_dist = 0 if (a <= 0 or b <= 0 or c <= 0) else min(a, b, c)\n    # distances for not_triangle (triangle inequality violations)\n    d1 = max(0, (a + b) - c)\n    d2 = max(0, (a + c) - b)\n    d3 = max(0, (b + c) - a)\n    not_tri_dist = min(d1, d2, d3)\n    if any(x <= 0 for x in (a, b, c)):\n        not_tri_dist = 1000  # large penalty when sides are invalid\n    # distance for equilateral (all sides equal)\n    eq_dist = abs(a - b) + abs(b - c)\n    # distances for isosceles (any two sides equal, but not all three)\n    pair_diffs = [abs(a - b), abs(a - c), abs(b - c)]\n    iso_min = min(pair_diffs)\n    iso_dist = iso_min if iso_min > 0 else 1  # penalize the equilateral case\n    # distance for scalene (all sides different)\n    scalene_dist = 0 if iso_min > 0 else 1\n    if target == \"invalid_side\":\n        return max(0, invalid_dist)\n    elif target == \"not_triangle\":\n        return max(0, not_tri_dist)\n    elif target == \"equilateral\":\n        base = eq_dist\n        if a <= 0 or b <= 0 or c <= 0:\n            base += 1000\n        if (a + b <= c) or (a + c <= b) or (b + c <= a):\n            base += 1000\n        return max(0, base)\n    elif target == \"isosceles\":\n        base = iso_dist\n        if a <= 0 or b <= 0 or c <= 0:\n            base += 1000\n        if (a + b <= c) or (a + c <= b) or (b + c <= a):\n            base += 1000\n        return max(0, base)\n    elif target == \"scalene\":\n        base = scalene_dist\n        if a <= 0 or b <= 0 or c <= 0:\n            base += 1000\n        if (a + b <= c) or (a + c <= b) or (b + c <= a):\n            base += 1000\n        return max(0, base)\n    else:\n        raise ValueError(\"Unknown target: \" + str(target))",
+  "notes": "The fitness function computes a non\u2011negative distance for each possible return label of triangle_type. Zero distance is returned exactly when the chromosome would cause the original function to return the selected target."
+}

@@ -1,0 +1,19 @@
+{
+  "function_name": "username_category",
+  "fitness_function_name": "fitness_username_category",
+  "targets": [
+    "empty",
+    "too_short",
+    "starts_with_digit",
+    "strong_username",
+    "medium_username",
+    "weak_username"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ]
+}

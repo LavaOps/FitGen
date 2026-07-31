@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin",
+    "all_same",
+    "ordered_sum_20",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\"secret_pin\", \"all_same\", \"ordered_sum_20\", \"other\"]\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n\n    # Helper conditions to determine which branch would be taken by the original function\n    # These evaluate the truthiness of the original conditions, without branch distance.\n    secret_pin_condition_met = (a == 7 and b == 3 and c == 9 and d == 1)\n    all_same_condition_met = (a == b and b == c and c == d)\n    ordered_sum_20_condition_met = (a + b + c + d == 20 and a < b and b < c and c < d)\n\n    if target == \"secret_pin\":\n        # Target: a == 7 and b == 3 and c == 9 and d == 1\n        dist_a = abs(a - 7)\n        dist_b = abs(b - 3)\n        dist_c = abs(c - 9)\n        dist_d = abs(d - 1)\n        return dist_a + dist_b + dist_c + dist_d\n\n    elif target == \"all_same\":\n        # Target: a == b == c == d AND NOT secret_pin_condition_met\n        dist_ab = abs(a - b)\n        dist_bc = abs(b - c)\n        dist_cd = abs(c - d)\n        \n        fitness_val = dist_ab + dist_bc + dist_cd\n        \n        # Add a penalty if the higher-priority \"secret_pin\" condition is met,\n        # because the original function would return \"secret_pin\" in that case.\n        if secret_pin_condition_met:\n            fitness_val += 1\n        return fitness_val\n\n    elif target == \"ordered_sum_20\":\n        # Target: a + b + c + d == 20 AND a < b < c < d\n        # AND NOT secret_pin_condition_met AND NOT all_same_condition_met\n        dist_sum = abs(a + b + c + d - 20)\n        dist_order_ab = max(0, a - b + 1)\n        dist_order_bc = max(0, b - c + 1)\n        dist_order_cd = max(0, c - d + 1)\n        \n        fitness_val = dist_sum + dist_order_ab + dist_order_bc + dist_order_cd\n        \n        # Add penalties if higher-priority conditions are met\n        if secret_pin_condition_met:\n            fitness_val += 1\n        # Use elif to reflect the original function's branch priority\n        elif all_same_condition_met:\n            fitness_val += 1\n        return fitness_val\n\n    elif target == \"other\":\n        # Target: ELSE branch, meaning NOT secret_pin_condition_met \n        # AND NOT all_same_condition_met AND NOT ordered_sum_20_condition_met\n        fitness_val = 0\n        if secret_pin_condition_met:\n            fitness_val += 1\n        elif all_same_condition_met:\n            fitness_val += 1\n        elif ordered_sum_20_condition_met:\n            fitness_val += 1\n        return fitness_val\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function `fitness_pin_pattern` calculates branch distance for each target. For targets that are lower in the `if-elif-else` hierarchy ('all_same', 'ordered_sum_20', 'other'), a penalty of `+1` is added to their fitness value if a higher-priority branch's condition is met. This ensures that the fitness for a specific target is 0 only if that target's associated return value would actually be produced by the original function for the given input. For comparison conditions like 'a < b', the distance is calculated as `max(0, a - b + 1)`."
+}

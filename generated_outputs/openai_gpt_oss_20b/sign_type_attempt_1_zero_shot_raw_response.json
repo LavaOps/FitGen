@@ -1,0 +1,18 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_sign_type = [\"positive\", \"negative\", \"zero\"]\n\ndef fitness_sign_type(chromosome, target):\n    if not chromosome:\n        raise ValueError(\"Chromosome must contain at least one element.\")\n    x = chromosome[0]\n    if target == \"positive\":\n        if x > 0:\n            return 0\n        else:\n            return max(0, 0 - x) + 1\n    elif target == \"negative\":\n        if x < 0:\n            return 0\n        else:\n            return max(0, x) + 1\n    elif target == \"zero\":\n        if x == 0:\n            return 0\n        else:\n            return abs(x)\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": ""
+}

@@ -1,0 +1,194 @@
+bmi_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...the other negative, the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+list_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...n(nums) - 1.\n\nNow for', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+number_kind: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...e problem says that the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+password_strength: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...stance would be how far', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...the "strong" conditions', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...- distance for len(s) <', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: FAILED during generation: password_strength: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...- distance for len(s) <', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...s (a - b + 1) to make a', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...\')",\n  "notes": []\n}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+notes
+  Input should be a valid string [type=string_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+pin_pattern: FAILED during generation: pin_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+notes
+  Input should be a valid string [type=string_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+shipping_discount: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...e input would not reach', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.427
+shipping_discount: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...h you need to change to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: FAILED during generation: shipping_discount: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...h you need to change to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta.... For the condition x >', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...\")",\n  "notes": ""\n}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: semantic validation passed on attempt 3: Semantic validation passed. mismatch_rate=0.000
+string_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... "other" is 1 (since it', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.013
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...t. Because if the input', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr... So the distance is the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... min_len 0, max_len 6 (', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... min_len 0, max_len 6 (', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... Let\'s think. For each', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr... equilateral and isosce', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 3 failed semantic validation: Semantic mismatch rate too high: 0.093
+triangle_type: FAILED during generation: triangle_type: failed after 3 generation attempts. Last error: Semantic mismatch rate too high: 0.093
+username_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...o reach len>0? Wait, no', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...x(0, 5 - len(username))', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...being true (0) plus the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: FAILED during generation: username_category: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...being true (0) plus the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... next category. However', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...e is the minimum of the', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...he distance is zero. If', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: FAILED during generation: bmi_category: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...he distance is zero. If', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...nNow, how to model each', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: accepted attempt 2 without semantic validation
+number_kind: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta..., the first condition (', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...ce for "even" is 1 if x', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: accepted attempt 3 without semantic validation
+password_strength: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...stance is calculated as', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: accepted attempt 2 without semantic validation
+pin_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta.... However, since "other', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...target, and the fitness', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...t meet any of the other', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: FAILED during generation: pin_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...t meet any of the other', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... need to decrease it to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...h might not be correct.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...rts. Also, the "free_ex', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: FAILED during generation: shipping_discount: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...rts. Also, the "free_ex', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...tion. The targets are "', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s se...the branch distance for', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...efore, this approach is', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: FAILED during generation: sign_type: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...efore, this approach is', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta... second condition to be', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr... original function, but', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...)",\n    "notes": ""\n}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+string_category: FAILED during generation: string_category: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...)",\n    "notes": ""\n}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...itions that are not met', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...ould be the distance to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...ions, then the distance', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...ions, then the distance', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...he fitness is min( |a -', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...unction for each target', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...ateral, isosceles) plus', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: FAILED during generation: triangle_type: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s tr...ateral, isosceles) plus', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<think>\nOkay, let\'s ta...ance for "too_short" is', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: accepted attempt 2 without semantic validation

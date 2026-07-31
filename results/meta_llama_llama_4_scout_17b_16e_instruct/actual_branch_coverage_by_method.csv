@@ -1,0 +1,5 @@
+model,method,actual_success_rate,total_runs
+meta_llama_llama_4_scout_17b_16e_instruct,GA_ADAPTIVE,80.33333333333333,900
+meta_llama_llama_4_scout_17b_16e_instruct,GA_FIXED,81.33333333333333,900
+meta_llama_llama_4_scout_17b_16e_instruct,HILL_CLIMBING,78.55555555555556,900
+meta_llama_llama_4_scout_17b_16e_instruct,RANDOM,69.0,900

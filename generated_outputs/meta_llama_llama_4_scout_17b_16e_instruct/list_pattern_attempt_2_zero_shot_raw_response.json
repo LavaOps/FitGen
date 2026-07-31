@@ -1,0 +1,22 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_unique",
+    "sorted_with_duplicates",
+    "unsorted_unique",
+    "unsorted_with_duplicates"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "\nTARGETS_list_pattern = [\n    \"too_short\",\n    \"sorted_unique\",\n    \"sorted_with_duplicates\",\n    \"unsorted_unique\",\n    \"unsorted_with_duplicates\"\n]\n\ndef fitness_list_pattern(chromosome, target):\n    if target not in TARGETS_list_pattern:\n        raise ValueError(\"Unknown target\")\n\n    nums = chromosome[0]\n\n    if len(nums) < 2:\n        distance = 0 if target == \"too_short\" else 1\n    else:\n        sorted_nums = sorted(nums)\n        has_duplicates = len(nums) != len(set(nums))\n\n        if nums == sorted_nums:\n            distance = 0 if target == \"sorted_unique\" and not has_duplicates else (1 if target == \"sorted_unique\" and has_duplicates else (0 if target == \"sorted_with_duplicates\" and has_duplicates else 1))\n        else:\n            distance = 0 if target == \"unsorted_unique\" and not has_duplicates else (1 if target == \"unsorted_unique\" and has_duplicates else (0 if target == \"unsorted_with_duplicates\" and has_duplicates else 1))\n\n    return max(0, distance)\n",
+  "notes": ""
+}

@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -100,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": -100,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": -100,
+      "max": 1000
+    }
+  ],
+  "fitness_code": "def fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome\n    k = 1.0 # Normalization constant for branch distance\n\n    def rel_dist_target(left, op, right, target_is_true):\n        # Calculate distance for relational operators to be true or false.\n        if op == \"==\":\n            if target_is_true:\n                if left == right: return 0.0\n                return abs(left - right) + k\n            else: # target_is_false, want left != right\n                if left != right: return 0.0\n                return abs(left - right) + k\n        elif op == \"<=\":\n            if target_is_true:\n                if left <= right: return 0.0\n                return (left - right) + k\n            else: # target_is_false, want left > right\n                if left > right: return 0.0\n                return (right - left) + k\n        elif op == \">\":\n            if target_is_true:\n                if left > right: return 0.0\n                return (right - left) + k\n            else: # target_is_false, want left <= right\n                if left <= right: return 0.0\n                return (left - right) + k\n        else:\n            raise ValueError(f\"Unsupported operator: {op}\")\n\n    # Target: \"invalid_side\" (if a <= 0 or b <= 0 or c <= 0)\n    if target == \"invalid_side\":\n        d_a = rel_dist_target(a, \"<=\", 0, True)\n        d_b = rel_dist_target(b, \"<=\", 0, True)\n        d_c = rel_dist_target(c, \"<=\", 0, True)\n        return min(d_a, d_b, d_c) # OR condition: take min distance to make one true\n\n    # Pre-condition for \"not_triangle\" and subsequent branches: not \"invalid_side\"\n    # (a > 0 AND b > 0 AND c > 0)\n    d_not_invalid_side = (\n        rel_dist_target(a, \"<=\", 0, False) + # dist to make a > 0\n        rel_dist_target(b, \"<=\", 0, False) + # dist to make b > 0\n        rel_dist_target(c, \"<=\", 0, False)   # dist to make c > 0\n    )\n\n    # Target: \"not_triangle\" (if a + b <= c or a + c <= b or b + c <= a)\n    if target == \"not_triangle\":\n        d_ab_c = rel_dist_target(a + b, \"<=\", c, True)\n        d_ac_b = rel_dist_target(a + c, \"<=\", b, True)\n        d_bc_a = rel_dist_target(b + c, \"<=\", a, True)\n        return d_not_invalid_side + min(d_ab_c, d_ac_b, d_bc_a) # OR condition\n\n    # Pre-condition for \"equilateral\", \"isosceles\", \"scalene\": not \"not_triangle\"\n    # (a + b > c AND a + c > b AND b + c > a)\n    d_not_not_triangle = (\n        rel_dist_target(a + b, \"<=\", c, False) + # dist to make a+b > c\n        rel_dist_target(a + c, \"<=\", b, False) + # dist to make a+c > b\n        rel_dist_target(b + c, \"<=\", a, False)   # dist to make b+c > a\n    )\n    d_pre_type_checks = d_not_invalid_side + d_not_not_triangle\n\n    # Target: \"equilateral\" (if a == b and b == c)\n    if target == \"equilateral\":\n        d_eq_ab = rel_dist_target(a, \"==\", b, True)\n        d_eq_bc = rel_dist_target(b, \"==\", c, True)\n        return d_pre_type_checks + d_eq_ab + d_eq_bc # AND condition: sum distances\n\n    # Pre-condition for \"isosceles\", \"scalene\": not \"equilateral\"\n    # (NOT (a == b AND b == c)) which is (a != b OR b != c)\n    d_not_equilateral = min(\n        rel_dist_target(a, \"==\", b, False), # dist to make a != b\n        rel_dist_target(b, \"==\", c, False)   # dist to make b != c\n    )\n\n    # Target: \"isosceles\" (elif a == b or a == c or b == c)\n    if target == \"isosceles\":\n        d_iso_ab = rel_dist_target(a, \"==\", b, True)\n        d_iso_ac = rel_dist_target(a, \"==\", c, True)\n        d_iso_bc = rel_dist_target(b, \"==\", c, True)\n        return d_pre_type_checks + d_not_equilateral + min(d_iso_ab, d_iso_ac, d_iso_bc) # OR condition\n\n    # Pre-condition for \"scalene\": not \"isosceles\"\n    # (NOT (a == b or a == c or b == c)) which is (a != b AND a != c AND b != c)\n    d_not_isosceles = (\n        rel_dist_target(a, \"==\", b, False) + # dist to make a != b\n        rel_dist_target(a, \"==\", c, False) + # dist to make a != c\n        rel_dist_target(b, \"==\", c, False)   # dist to make b != c\n    )\n\n    # Target: \"scalene\" (else branch)\n    if target == \"scalene\":\n        # The path to 'scalene' requires all preceding conditions to be false.\n        # d_not_isosceles implies d_not_equilateral, so we can directly sum up.\n        return d_pre_type_checks + d_not_isosceles\n\n    raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "Calculates branch distance for each target. Conditions for reaching subsequent branches (passing `if` statements) are summed. For `OR` conditions, the minimum branch distance of the constituent predicates is taken. For `AND` conditions, branch distances are summed. A normalization constant `k=1.0` is added to ensure positive distances and avoid zero distance when the condition is just barely met."
+}

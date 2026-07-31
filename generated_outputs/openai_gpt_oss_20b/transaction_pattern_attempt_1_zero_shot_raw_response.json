@@ -1,0 +1,23 @@
+{
+  "function_name": "transaction_pattern",
+  "fitness_function_name": "fitness_transaction_pattern",
+  "targets": [
+    "empty",
+    "contains_zero",
+    "many_large_deposits",
+    "many_large_withdrawals",
+    "mixed_transactions",
+    "simple_pattern"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "def fitness_transaction_pattern(chromosome, target):\n    # chromosome is expected to be a list of integers\n    amounts = chromosome\n    length = len(amounts)\n    positives = sum(1 for x in amounts if x > 0)\n    negatives = sum(1 for x in amounts if x < 0)\n    total = sum(amounts)\n\n    # Distance to 'empty'\n    dist_empty = 0 if length == 0 else 1\n\n    # Distance to 'contains_zero'\n    if any(x == 0 for x in amounts):\n        dist_contains_zero = 0\n    else:\n        # distance based on how close any element is to zero\n        dist_contains_zero = min(abs(x) for x in amounts) if amounts else 1\n\n    # Distance to 'many_large_deposits'\n    d1 = max(0, 3 - positives)          # need at least 3 positives\n    d2 = max(0, negatives)              # negatives must be 0\n    d3 = max(0, 100 - total)            # total must be > 100\n    dist_many_large_deposits = d1 + d2 + d3\n\n    # Distance to 'many_large_withdrawals'\n    d4 = max(0, 2 - negatives)          # need at least 2 negatives\n    d5 = max(0, total + 50)             # total must be < -50\n    dist_many_large_withdrawals = d4 + d5\n\n    # Distance to 'mixed_transactions'\n    d6 = max(0, 1 - positives)          # need at least one positive\n    d7 = max(0, 1 - negatives)          # need at least one negative\n    dist_mixed_transactions = d6 + d7\n\n    # Distance to 'simple_pattern'\n    # simple_pattern occurs only if none of the above conditions are satisfied\n    if dist_empty == 0 or dist_contains_zero == 0 or dist_many_large_deposits == 0 or dist_many_large_withdrawals == 0 or dist_mixed_transactions == 0:\n        dist_simple_pattern = 1\n    else:\n        dist_simple_pattern = 0\n\n    # Map target names to distances\n    distances = {\n        \"empty\": dist_empty,\n        \"contains_zero\": dist_contains_zero,\n        \"many_large_deposits\": dist_many_large_deposits,\n        \"many_large_withdrawals\": dist_many_large_withdrawals,\n        \"mixed_transactions\": dist_mixed_transactions,\n        \"simple_pattern\": dist_simple_pattern\n    }\n\n    if target not in distances:\n        raise ValueError(f\"Unknown target: {target}\")\n\n    return distances[target]\n",
+  "notes": ""
+}

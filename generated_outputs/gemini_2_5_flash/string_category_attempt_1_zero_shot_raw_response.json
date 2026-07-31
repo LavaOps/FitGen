@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_string_category = [\n    \"empty\",\n    \"long_palindrome\",\n    \"short_palindrome\",\n    \"long_non_palindrome\",\n    \"other\"\n]\n\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    _len_s = len(s)\n    is_palindrome = (s == s[::-1])\n\n    k = 1.0\n\n    def dist_true(condition_val):\n        return 0.0 if condition_val else k\n\n    def dist_false(condition_val):\n        return 0.0 if not condition_val else k\n\n    if target == \"empty\":\n        return abs(_len_s - 0)\n\n    elif target == \"long_palindrome\":\n        fitness = 0.0\n        fitness += dist_false(_len_s == 0)\n        fitness += dist_true(is_palindrome)\n        fitness += max(0.0, 3.0 - _len_s + k)\n        return fitness\n\n    elif target == \"short_palindrome\":\n        fitness = 0.0\n        fitness += dist_false(_len_s == 0)\n        fitness += dist_true(is_palindrome)\n        fitness += max(0.0, _len_s - 3.0)\n        return fitness\n\n    elif target == \"long_non_palindrome\":\n        fitness = 0.0\n        fitness += dist_false(_len_s == 0)\n        fitness += dist_false(is_palindrome)\n        fitness += max(0.0, 5.0 - _len_s + k)\n        return fitness\n\n    elif target == \"other\":\n        fitness = 0.0\n        fitness += dist_false(_len_s == 0)\n        fitness += dist_false(is_palindrome)\n        fitness += max(0.0, _len_s - 5.0)\n        return fitness\n\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function uses branch distance to guide the search for inputs that cover specific return paths. It calculates the sum of distances for each condition that must be met (or negated) to reach the target. A small constant 'k' is added for strict inequalities to ensure a positive distance when a condition is not strictly met."
+}

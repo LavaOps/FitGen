@@ -1,0 +1,16 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {"type": "int", "min": -500, "max": 3000},
+    {"type": "int", "min": -500, "max": 3000},
+    {"type": "int", "min": -500, "max": 3000}
+  ],
+  "fitness_code": "TARGETS_triangle_type = [\"invalid_side\", \"not_triangle\", \"equilateral\", \"isosceles\", \"scalene\"]\n\ndef fitness_triangle_type(chromosome, target):\n    if len(chromosome) != 3:\n        raise ValueError(\"Chromosome must have exactly three elements\")\n    a, b, c = chromosome[0], chromosome[1], chromosome[2]\n    if target not in TARGETS_triangle_type:\n        raise ValueError(f\"Unknown target: {target}\")\n\n    # Helper distances\n    def pos_distance(x):\n        # distance to x > 0\n        return max(0, -x + 1)\n\n    # ---------- invalid_side ----------\n    if target == \"invalid_side\":\n        d_a = max(0, a)\n        d_b

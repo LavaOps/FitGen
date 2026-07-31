@@ -1,0 +1,209 @@
+grade_category: generated successfully
+is_leap_year: generated successfully
+max_of_three: generated successfully
+number_kind: generated successfully
+sign_type: generated successfully
+triangle_type: generated code does not compile: invalid decimal literal (<unknown>, line 1)
+grade_category: generated successfully
+is_leap_year: generated successfully
+max_of_three: generated successfully
+number_kind: generated successfully
+sign_type: generated code does not compile: invalid syntax (<unknown>, line 23)
+grade_category: generated successfully
+is_leap_year: generated successfully
+max_of_three: generated successfully
+number_kind: generated successfully
+grade_category: generated code does not compile: expected an indented block after function definition on line 1 (<unknown>, line 1)
+grade_category: FAILED during generation: grade_category: generated code does not compile: expected an indented block after function definition on line 1 (<unknown>, line 1)
+is_leap_year: generated successfully
+max_of_three: generated successfully
+number_kind: generated successfully
+sign_type: generated successfully
+triangle_type: generated successfully
+bmi_category: FAILED during generation: additionalProperties is not supported in the Gemini API.
+grade_category: FAILED during generation: additionalProperties is not supported in the Gemini API.
+is_leap_year: FAILED during generation: additionalProperties is not supported in the Gemini API.
+list_pattern: FAILED during generation: additionalProperties is not supported in the Gemini API.
+list_score: FAILED during generation: additionalProperties is not supported in the Gemini API.
+loan_eligibility: FAILED during generation: additionalProperties is not supported in the Gemini API.
+max_of_three: FAILED during generation: additionalProperties is not supported in the Gemini API.
+number_kind: FAILED during generation: additionalProperties is not supported in the Gemini API.
+password_strength: FAILED during generation: additionalProperties is not supported in the Gemini API.
+sign_type: FAILED during generation: additionalProperties is not supported in the Gemini API.
+string_category: FAILED during generation: additionalProperties is not supported in the Gemini API.
+triangle_type: FAILED during generation: additionalProperties is not supported in the Gemini API.
+bmi_category: FAILED during generation: Gemini failed after 5 retries for bmi_category
+bmi_category: generated successfully
+grade_category: generated successfully
+is_leap_year: generated successfully
+list_pattern: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 15 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: FAILED during generation: Could not parse JSON response for list_pattern: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 15 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_score: FAILED during generation: Gemini failed after 5 retries for list_score
+loan_eligibility: FAILED during generation: Gemini failed after 5 retries for loan_eligibility
+max_of_three: FAILED during generation: Gemini failed after 5 retries for max_of_three
+number_kind: FAILED during generation: Gemini failed after 5 retries for number_kind
+password_strength: FAILED during generation: Gemini failed after 5 retries for password_strength
+sign_type: FAILED during generation: [Errno 8] nodename nor servname provided, or not known
+string_category: FAILED during generation: [Errno 8] nodename nor servname provided, or not known
+triangle_type: FAILED during generation: [Errno 8] nodename nor servname provided, or not known
+bmi_category: generated code does not compile: unterminated string literal (detected at line 4) (<unknown>, line 4)
+bmi_category: FAILED during generation: bmi_category: generated code does not compile: unterminated string literal (detected at line 4) (<unknown>, line 4)
+grade_category: generated successfully
+is_leap_year: generated successfully
+list_pattern: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 15 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: FAILED during generation: Could not parse JSON response for list_pattern: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 15 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_score: generated successfully
+loan_eligibility: generated successfully
+max_of_three: generated successfully
+number_kind: generated successfully
+password_strength: generated successfully
+sign_type: generated successfully
+string_category: generated successfully
+triangle_type: generated successfully
+bmi_category: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+grade_category: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+is_leap_year: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+list_pattern: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+list_score: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+loan_eligibility: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+max_of_three: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+number_kind: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+password_strength: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+sign_type: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+string_category: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+triangle_type: FAILED during generation: GEMINI_API_KEY is not set. Run:
+export GEMINI_API_KEY="your_real_api_key_here"
+bmi_category: generated successfully on attempt 1
+grade_category: generated successfully on attempt 1
+is_leap_year: generated successfully on attempt 1
+list_pattern: generated successfully on attempt 1
+list_score: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 14 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_score: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 14 column 4319 [type=json_invalid, input_value='{\n  "function_name": "l...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: generated successfully on attempt 1
+bmi_category: generated successfully on attempt 1
+list_pattern: generated successfully on attempt 1
+number_kind: generated successfully on attempt 1
+password_strength: generated successfully on attempt 1
+shipping_discount: generated successfully on attempt 1
+sign_type: generated successfully on attempt 1
+string_category: generated successfully on attempt 1
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 1 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: generated successfully on attempt 1
+username_category: generated successfully on attempt 1
+bmi_category: generated successfully on attempt 1
+list_pattern: generated successfully on attempt 1
+number_kind: generated successfully on attempt 1
+password_strength: generated successfully on attempt 1
+shipping_discount: generated successfully on attempt 1
+sign_type: generated successfully on attempt 1
+string_category: generated successfully on attempt 1
+transaction_pattern: generated successfully on attempt 1
+triangle_type: generated successfully on attempt 1
+username_category: generated successfully on attempt 1
+bmi_category: generated successfully on attempt 1
+list_pattern: generated successfully on attempt 1
+number_kind: generated successfully on attempt 1
+password_strength: generated successfully on attempt 1
+pin_pattern: generated successfully on attempt 1
+shipping_discount: generated successfully on attempt 1
+sign_type: generated successfully on attempt 1
+string_category: generated successfully on attempt 1
+transaction_pattern: generated successfully on attempt 1
+triangle_type: generated successfully on attempt 1
+username_category: generated successfully on attempt 1
+bmi_category: generated successfully on attempt 1
+list_pattern: generated successfully on attempt 1
+number_kind: generated successfully on attempt 1
+password_strength: generated successfully on attempt 1
+pin_pattern: attempt 1 failed compile check: unterminated string literal (detected at line 11) (<unknown>, line 11)
+pin_pattern: generated successfully on attempt 2
+shipping_discount: generated successfully on attempt 1
+sign_type: generated successfully on attempt 1
+string_category: generated successfully on attempt 1
+transaction_pattern: generated successfully on attempt 1
+triangle_type: generated successfully on attempt 1
+username_category: generated successfully on attempt 1
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.023
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.017
+transaction_pattern: FAILED during generation: Gemini failed after 5 retries for transaction_pattern
+bmi_category: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+list_pattern: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+number_kind: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+password_strength: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+pin_pattern: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+shipping_discount: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+sign_type: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+string_category: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+transaction_pattern: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+triangle_type: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+username_category: FAILED during generation: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: FAILED during generation: Gemini failed after 5 retries for list_pattern
+number_kind: FAILED during generation: Gemini failed after 5 retries for number_kind
+password_strength: FAILED during generation: Gemini failed after 5 retries for password_strength
+pin_pattern: FAILED during generation: Gemini failed after 5 retries for pin_pattern
+shipping_discount: FAILED during generation: Gemini failed after 5 retries for shipping_discount
+sign_type: FAILED during generation: Gemini failed after 5 retries for sign_type
+string_category: FAILED during generation: Gemini failed after 5 retries for string_category
+transaction_pattern: FAILED during generation: Gemini failed after 5 retries for transaction_pattern
+triangle_type: FAILED during generation: Gemini failed after 5 retries for triangle_type
+username_category: FAILED during generation: Gemini failed after 5 retries for username_category
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: FAILED during generation: Gemini failed after 5 retries for shipping_discount
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: FAILED during generation: Gemini failed after 5 retries for string_category
+transaction_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+triangle_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+username_category: FAILED during generation: Gemini failed after 5 retries for username_category
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.003
+triangle_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+username_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000

@@ -1,0 +1,5 @@
+model,method,actual_success_rate,total_runs
+gemini_2_5_flash,GA_ADAPTIVE,92.2875816993464,1530
+gemini_2_5_flash,GA_FIXED,93.59477124183006,1530
+gemini_2_5_flash,HILL_CLIMBING,90.98039215686275,1530
+gemini_2_5_flash,RANDOM,75.22875816993464,1530

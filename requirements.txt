@@ -1,0 +1,6 @@
+google-genai
+pydantic
+pandas
+matplotlib
+pytest
+pytest-cov

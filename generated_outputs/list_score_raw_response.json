@@ -1,0 +1,12 @@
+{
+  "function_name": "list_score",
+  "fitness_function_name": "fitness_list_score",
+  "targets": [
+    "empty",
+    "high",
+    "medium",
+    "low"
+  ],
+  "fitness_code": "def fitness_list_score(chromosome, target):\n    nums = chromosome[0]\n    length_nums = len(nums)\n\n    if target == \"empty\":\n        if length_nums == 0:\n            return 0\n        else:\n            return float(length_nums)\n\n    # For targets requiring calculations involving average, the list must not be empty\n    if length_nums == 0:\n        return 1.0 # Penalize for an empty list when other targets require a non-empty list\n\n    total = sum(nums)\n    avg = float(total) / length_nums\n\n    if target == \"high\": # Condition: avg > 10\n        if avg > 10:\n            return 0\n        else:\n            # Distance for avg <= 10. We want avg to be greater than 10.\n            return (10 - avg) + 1e-6\n\n    elif target == \"medium\": # Condition: 0 <= avg <= 10\n        if 0 <= avg <= 10:\n            return 0\n        else:\n            fitness = 0.0\n            # If avg is too high, push it down towards 10.\n            if avg > 10:\n                fitness += (avg - 10) + 1e-6\n            # If avg is too low, push it up towards 0.\n            if avg < 0:\n                fitness += (0 - avg) + 1e-6\n            return fitness\n\n    elif target == \"low\": # Condition: avg < 0\n        if avg < 0:\n            return 0\n        else:\n            # Distance for avg >= 0. We want avg to be less than 0.\n            return (avg - 0) + 1e-6\n\n    return float('inf')",
+  "notes": "Generates fitness values for achieving specific return branches of 'list_score': 'empty' (list length is 0), 'high' (average > 10), 'medium' (average is between 0 and 10 inclusive), and 'low' (average < 0). Fitness is 0 if the target is met, otherwise a positive value representing the distance to satisfy the branch conditions."
+}

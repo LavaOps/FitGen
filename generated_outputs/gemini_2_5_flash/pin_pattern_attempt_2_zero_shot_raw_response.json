@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin",
+    "all_same",
+    "ordered_sum_20",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 10
+    }
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\"secret_pin\", \"all_same\", \"ordered_sum_20\", \"other\"]\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n\n    def dist_equals(val, target_val):\n        return abs(val - target_val)\n\n    def dist_not_equals(val, target_val):\n        # Returns 0 if 'val != target_val' is true, 1 if false (i.e., val == target_val).\n        # This measures the distance to *not* satisfy the equality.\n        return 0 if val != target_val else 1\n\n    def dist_less(val, target_val):\n        # For 'val < target_val' to be true\n        return max(0, val - target_val + 1)\n\n    def dist_not_less(val, target_val):\n        # For 'val < target_val' to be false, i.e., 'val >= target_val' to be true.\n        # Measures distance to 'val >= target_val'.\n        return max(0, target_val - val)\n\n    # Condition 1: a == 7 and b == 3 and c == 9 and d == 1\n    c1_true_a = dist_equals(a, 7)\n    c1_true_b = dist_equals(b, 3)\n    c1_true_c = dist_equals(c, 9)\n    c1_true_d = dist_equals(d, 1)\n    cond1_true_dist = c1_true_a + c1_true_b + c1_true_c + c1_true_d\n\n    # Distance to make Condition 1 false\n    c1_false_a = dist_not_equals(a, 7)\n    c1_false_b = dist_not_equals(b, 3)\n    c1_false_c = dist_not_equals(c, 9)\n    c1_false_d = dist_not_equals(d, 1)\n    cond1_false_dist = c1_false_a + c1_false_b + c1_false_c + c1_false_d\n\n    # Condition 2: a == b == c == d  (equivalent to a==b and b==c and c==d)\n    c2_true_ab = dist_equals(a, b)\n    c2_true_bc = dist_equals(b, c)\n    c2_true_cd = dist_equals(c, d)\n    cond2_true_dist = c2_true_ab + c2_true_bc + c2_true_cd\n\n    # Distance to make Condition 2 false\n    c2_false_ab = dist_not_equals(a, b)\n    c2_false_bc = dist_not_equals(b, c)\n    c2_false_cd = dist_not_equals(c, d)\n    cond2_false_dist = c2_false_ab + c2_false_bc + c2_false_cd\n\n    # Condition 3: a + b + c + d == 20 and a < b < c < d\n    sum_val = a + b + c + d\n\n    c3_true_sum = dist_equals(sum_val, 20)\n    c3_true_ab_lt = dist_less(a, b)\n    c3_true_bc_lt = dist_less(b, c)\n    c3_true_cd_lt = dist_less(c, d)\n    cond3_true_dist = c3_true_sum + c3_true_ab_lt + c3_true_bc_lt + c3_true_cd_lt\n\n    # Distance to make Condition 3 false\n    c3_false_sum = dist_not_equals(sum_val, 20)\n    c3_false_ab_lt = dist_not_less(a, b)\n    c3_false_bc_lt = dist_not_less(b, c)\n    c3_false_cd_lt = dist_not_less(c, d)\n    cond3_false_dist = c3_false_sum + c3_false_ab_lt + c3_false_bc_lt + c3_false_cd_lt\n\n    if target == \"secret_pin\":\n        # To reach 'secret_pin', C1 must be true.\n        return cond1_true_dist\n    elif target == \"all_same\":\n        # To reach 'all_same', C1 must be false, AND C2 must be true.\n        return cond1_false_dist + cond2_true_dist\n    elif target == \"ordered_sum_20\":\n        # To reach 'ordered_sum_20', C1 must be false, C2 must be false, AND C3 must be true.\n        return cond1_false_dist + cond2_false_dist + cond3_true_dist\n    elif target == \"other\":\n        # To reach 'other', C1, C2, and C3 must all be false.\n        return cond1_false_dist + cond2_false_dist + cond3_false_dist\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function uses helper functions 'dist_equals' for true conditions and 'dist_not_equals' for false conditions, ensuring 0 fitness only when the target is fully met. 'dist_not_equals' returns 0 if the values are different (condition is false) and 1 if they are equal (condition is true, meaning we need to avoid it). Similarly, 'dist_less' and 'dist_not_less' handle inequality conditions. The distances are accumulated based on the control flow: each 'elif' branch requires the previous conditions to be false, so their 'false_dist' is added. The 'else' branch requires all preceding conditions to be false."
+}

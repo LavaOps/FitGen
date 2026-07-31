@@ -1,0 +1,21 @@
+{
+  "function_name": "username_category",
+  "fitness_function_name": "fitness_username_category",
+  "targets": [
+    "empty",
+    "too_short",
+    "starts_with_digit",
+    "strong_username",
+    "medium_username",
+    "weak_username"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_username_category = ['empty', 'too_short', 'starts_with_digit', 'strong_username', 'medium_username', 'weak_username']\n\ndef fitness_username_category(chromosome, target):\n    if target not in TARGETS_username_category:\n        raise ValueError(\"Unknown target\")\n\n    username = chromosome[0]\n\n    if target == \"empty\":\n        if len(username) == 0:\n            return 0\n        else:\n            return len(username)\n\n    if target == \"too_short\":\n        if len(username) < 5:\n            return 0\n        else:\n            return max(0, len(username) - 5)\n\n    if target == \"starts_with_digit\":\n        if len(username) > 0 and username[0].isdigit():\n            return 0\n        elif len(username) == 0:\n            return 1\n        else:\n            return 0\n\n    if target == \"strong_username\":\n        has_digit = any(ch.isdigit() for ch in username)\n        has_upper = any(ch.isupper() for ch in username)\n        has_special = any(not ch.isalnum() for ch in username)\n        if len(username) >= 10 and has_digit and has_upper and has_special:\n            return 0\n        else:\n            distance = 0\n            if len(username) < 10:\n                distance += max(0, 10 - len(username))\n            if not has_digit:\n                distance += 1\n            if not has_upper:\n                distance += 1\n            if not has_special:\n                distance += 1\n            return distance\n\n    if target == \"medium_username\":\n        has_digit = any(ch.isdigit() for ch in username)\n        has_upper = any(ch.isupper() for ch in username)\n        if has_digit and has_upper:\n            return 0\n        else:\n            distance = 0\n            if not has_digit:\n                distance += 1\n            if not has_upper:\n                distance += 1\n            return distance\n\n    if target == \"weak_username\":\n        has_digit = any(ch.isdigit() for ch in username)\n        has_upper = any(ch.isupper() for ch in username)\n        has_special = any(not ch.isalnum() for ch in username)\n        cond1 = len(username) >= 10 and has_digit and has_upper and has_special\n        cond2 = has_digit and has_upper\n        cond3 = len(username) == 0\n        cond4 = len(username) < 5\n        cond5 = len(username) > 0 and username[0].isdigit()\n        if not (cond1 or cond2 or cond3 or cond4 or cond5):\n            return 0\n        else:\n            return 1",
+  "notes": ""
+}

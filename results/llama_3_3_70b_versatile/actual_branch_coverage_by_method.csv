@@ -1,0 +1,5 @@
+model,method,actual_success_rate,total_runs
+llama_3_3_70b_versatile,GA_ADAPTIVE,82.04301075268818,930
+llama_3_3_70b_versatile,GA_FIXED,79.03225806451613,930
+llama_3_3_70b_versatile,HILL_CLIMBING,85.05376344086022,930
+llama_3_3_70b_versatile,RANDOM,71.61290322580646,930

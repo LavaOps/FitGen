@@ -1,0 +1,23 @@
+{
+  "function_name": "transaction_pattern",
+  "fitness_function_name": "fitness_transaction_pattern",
+  "targets": [
+    "empty",
+    "contains_zero",
+    "many_large_deposits",
+    "many_large_withdrawals",
+    "mixed_transactions",
+    "simple_pattern"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "def fitness_transaction_pattern(chromosome, target):\n    amounts = chromosome[0]\n    length = len(amounts)\n    any_zero = any(x == 0 for x in amounts)\n    positives = sum(1 for x in amounts if x > 0)\n    negatives = sum(1 for x in amounts if x < 0)\n    total = sum(amounts)\n\n    if target == \"empty\":\n        return max(0, length)\n    if target == \"contains_zero\":\n        return 0 if any_zero else 1\n    if target == \"many_large_deposits\":\n        d1 = max(0, 3 - positives)\n        d2 = max(0, negatives)\n        d3 = max(0, 101 - total)\n        return d1 + d2 + d3\n    if target == \"many_large_withdrawals\":\n        d1 = max(0, 2 - negatives)\n        d2 = max(0, total + 51)\n        return d1 + d2\n    if target == \"mixed_transactions\":\n        d1 = max(0, 1 - positives)\n        d2 = max(0, 1 - negatives)\n        return d1 + d2\n    if target == \"simple_pattern\":\n        cond_empty = (length == 0)\n        cond_zero = any_zero\n        cond_deposits = (positives >= 3 and negatives == 0 and total > 100)\n        cond_withdrawals = (negatives >= 2 and total < -50)\n        cond_mixed = (positives > 0 and negatives > 0)\n        if not (cond_empty or cond_zero or cond_deposits or cond_withdrawals or cond_mixed):\n            return 0\n        else:\n            return 1\n    raise ValueError(\"Unknown target\")",
+  "notes": "Fitness function returns 0 only when the chromosome would cause the original function to return the specified target; otherwise returns a positive branch-distance-like value."
+}

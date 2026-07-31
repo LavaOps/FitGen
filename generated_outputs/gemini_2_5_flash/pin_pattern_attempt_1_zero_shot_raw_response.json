@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin",
+    "all_same",
+    "ordered_sum_20",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\n    \"secret_pin\",\n    \"all_same\",\n    \"ordered_sum_20\",\n    \"other\"\n]\n\ndef _dist_true_eq(v1, v2):\n    return abs(v1 - v2)\n\ndef _dist_false_eq(v1, v2):\n    # Distance to make (v1 == v2) false.\n    # If v1 != v2, it's already false, distance is 0.\n    # If v1 == v2, it's true, a small constant (1.0) indicates effort to make it false.\n    return 0.0 if v1 != v2 else 1.0\n\ndef _dist_true_lt(v1, v2):\n    # Distance to make (v1 < v2) true.\n    # If v1 < v2 is false (i.e., v1 >= v2), then max(0, v1 - v2 + 1) gives positive distance.\n    return max(0, v1 - v2 + 1)\n\ndef _dist_false_lt(v1, v2):\n    # Distance to make (v1 < v2) false, which means (v1 >= v2) true.\n    # If v1 >= v2 is true, distance is 0.\n    # If v1 >= v2 is false (i.e., v1 < v2), then max(0, v2 - v1) gives positive distance.\n    return max(0, v2 - v1)\n\ndef _normalize(dist):\n    # Normalizes branch distance to a value between 0.0 (condition met) and 1.0 (condition not met, furthest).\n    if dist == 0:\n        return 0.0\n    return 1.0 - (1.0 / (1.0 + dist))\n\ndef _calc_compound_and_true_dist(*pred_true_dists):\n    # For P1 AND P2 to be true, all must be true. Sum normalized true distances.\n    return sum(_normalize(d) for d in pred_true_dists)\n\ndef _calc_compound_and_false_dist(*pred_false_dists):\n    # For P1 AND P2 to be false, at least one must be false.\n    # The minimum of individual predicate false distances (raw, before normalization)\n    # represents the 'easiest' way to make the compound condition false.\n    return _normalize(min(pred_false_dists))\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n\n    # ----- Predicates and their raw distances for true and false outcomes -----\n    # P1: a == 7\n    P1_true = _dist_true_eq(a, 7)\n    P1_false = _dist_false_eq(a, 7)\n    # P2: b == 3\n    P2_true = _dist_true_eq(b, 3)\n    P2_false = _dist_false_eq(b, 3)\n    # P3: c == 9\n    P3_true = _dist_true_eq(c, 9)\n    P3_false = _dist_false_eq(c, 9)\n    # P4: d == 1\n    P4_true = _dist_true_eq(d, 1)\n    P4_false = _dist_false_eq(d, 1)\n\n    # P5: a == b\n    P5_true = _dist_true_eq(a, b)\n    P5_false = _dist_false_eq(a, b)\n    # P6: b == c\n    P6_true = _dist_true_eq(b, c)\n    P6_false = _dist_false_eq(b, c)\n    # P7: c == d\n    P7_true = _dist_true_eq(c, d)\n    P7_false = _dist_false_eq(c, d)\n\n    # P8: a + b + c + d == 20\n    P8_true = _dist_true_eq(a + b + c + d, 20)\n    P8_false = _dist_false_eq(a + b + c + d, 20)\n    # P9: a < b\n    P9_true = _dist_true_lt(a, b)\n    P9_false = _dist_false_lt(a, b)\n    # P10: b < c\n    P10_true = _dist_true_lt(b, c)\n    P10_false = _dist_false_lt(b, c)\n    # P11: c < d\n    P11_true = _dist_true_lt(c, d)\n    P11_false = _dist_false_lt(c, d)\n\n    # ----- Compound condition distances (normalized) -----\n    # C1: a == 7 and b == 3 and c == 9 and d == 1\n    C1_true_dist = _calc_compound_and_true_dist(P1_true, P2_true, P3_true, P4_true)\n    C1_false_dist = _calc_compound_and_false_dist(P1_false, P2_false, P3_false, P4_false)\n\n    # C2: a == b == c == d (parsed as a==b and b==c and c==d)\n    C2_true_dist = _calc_compound_and_true_dist(P5_true, P6_true, P7_true)\n    C2_false_dist = _calc_compound_and_false_dist(P5_false, P6_false, P7_false)\n\n    # C3: a + b + c + d == 20 and a < b < c < d (parsed as P8 and P9 and P10 and P11)\n    C3_true_dist = _calc_compound_and_true_dist(P8_true, P9_true, P10_true, P11_true)\n    C3_false_dist = _calc_compound_and_false_dist(P8_false, P9_false, P10_false, P11_false)\n\n    # ----- Target fitness calculations based on control flow -----\n    if target == \"secret_pin\":\n        # Target: Execute the first 'if' branch (C1 is true)\n        return C1_true_dist\n    elif target == \"all_same\":\n        # Target: Execute the first 'elif' branch (C1 is false AND C2 is true)\n        return C1_false_dist + C2_true_dist\n    elif target == \"ordered_sum_20\":\n        # Target: Execute the second 'elif' branch (C1 is false AND C2 is false AND C3 is true)\n        return C1_false_dist + C2_false_dist + C3_true_dist\n    elif target == \"other\":\n        # Target: Execute the 'else' branch (C1 is false AND C2 is false AND C3 is false)\n        return C1_false_dist + C2_false_dist + C3_false_dist\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function uses a branch distance approach. For each predicate (e.g., `a == 7`, `a < b`), raw distances are calculated for both its true and false outcomes. These raw distances are then normalized to a range `[0.0, 1.0)` where `0.0` means the condition is perfectly met/not met as required, and values closer to `1.0` mean further from the target. For compound `AND` conditions, the normalized distances are summed for the true outcome, and the minimum of raw false distances (then normalized) is used for the false outcome. The fitness for each target branch is the sum of normalized distances required to traverse the preceding conditions appropriately (false) and the target condition itself (true)."
+}

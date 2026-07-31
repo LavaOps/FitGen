@@ -1,0 +1,69 @@
+```json
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {"type": "int", "min": 1, "max": 100},
+    {"type": "int", "min": 1, "max": 100},
+    {"type": "int", "min": 1, "max": 100}
+  ],
+  "fitness_code": "
+def fitness_triangle_type(chromosome, target):
+    a, b, c = chromosome
+
+    if a <= 0 or b <= 0 or c <= 0:
+        pred = \"invalid_side\"
+    elif a + b <= c or a + c <= b or b + c <= a:
+        pred = \"not_triangle\"
+    elif a == b and b == c:
+        pred = \"equilateral\"
+    elif a == b or a == c or b == c:
+        pred = \"isosceles\"
+    else:
+        pred = \"scalene\"
+
+    if pred == target:
+        return 0
+    elif pred == \"invalid_side\" and target == \"invalid_side\":
+        return max(0, a) + max(0, b) + max(0, c)
+    elif pred == \"not_triangle\" and target == \"not_triangle\":
+        dist = float('inf')
+        dist = min(dist, max(0, a + b - c - 1))
+        dist = min(dist, max(0, a + c - b - 1))
+        dist = min(dist, max(0, b + c - a - 1))
+        return dist
+    elif pred == \"equilateral\" and target == \"equilateral\":
+        return max(0, abs(a - b)) + max(0, abs(b - c))
+    elif pred == \"isosceles\" and target == \"isosceles\":
+        dist = float('inf')
+        if a == b:
+            dist = min(dist, max(0, abs(a - c) - 1))
+        if a == c:
+            dist = min(dist, max(0, abs(a - b) - 1))
+        if b == c:
+            dist = min(dist, max(0, abs(b - a) - 1))
+        return dist
+    elif pred == \"scalene\" and target == \"scalene\":
+        dist = 0
+        if a == b:
+            dist += max(0, abs(a - b) - 1)
+        if a == c:
+            dist += max(0, abs(a - c) - 1)
+        if b == c:
+            dist += max(0, abs(b - c) - 1)
+        return dist
+    else:
+        raise ValueError(\"Unknown target\")
+
+    return 1
+",
+  "notes": ""
+}
+```

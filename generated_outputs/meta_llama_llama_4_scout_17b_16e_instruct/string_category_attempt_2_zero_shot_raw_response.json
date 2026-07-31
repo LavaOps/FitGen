@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 20
+    }
+  ],
+  "fitness_code": "\nTARGETS_string_category = [\n    \"empty\",\n    \"long_palindrome\",\n    \"short_palindrome\",\n    \"long_non_palindrome\",\n    \"other\"\n]\n\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    if len(s) == 0:\n        category = \"empty\"\n    elif s == s[::-1] and len(s) > 3:\n        category = \"long_palindrome\"\n    elif s == s[::-1]:\n        category = \"short_palindrome\"\n    elif len(s) > 5:\n        category = \"long_non_palindrome\"\n    else:\n        category = \"other\"\n    if target == category:\n        return 0\n    elif target == \"empty\" and len(s) != 0:\n        return len(s)\n    elif target == \"long_palindrome\" and (len(s) <= 3 or s != s[::-1]):\n        if len(s) < 4:\n            return max(0, 4 - len(s))\n        else:\n            return 1 if s != s[::-1] else 0\n    elif target == \"short_palindrome\" and (len(s) > 3 or s != s[::-1]):\n        if len(s) > 3:\n            return max(0, len(s) - 3)\n        else:\n            return 1 if s != s[::-1] else 0\n    elif target == \"long_non_palindrome\" and (len(s) <= 5 or s == s[::-1]):\n        if len(s) < 6:\n            return max(0, 6 - len(s))\n        else:\n            return 1 if s == s[::-1] else 0\n    elif target == \"other\" and (len(s) == 0 or (len(s) > 3 and s == s[::-1]) or len(s) > 5):\n        if len(s) == 0 or (len(s) > 3 and s == s[::-1]) or len(s) > 5:\n            return len(s) + 1\n        else:\n            return 0\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": ""
+}

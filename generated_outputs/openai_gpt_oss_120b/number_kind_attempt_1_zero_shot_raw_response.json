@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "zero",
+    "even",
+    "odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "def fitness_number_kind(chromosome, target):\n    x = chromosome[0]\n    if target == \"zero\":\n        return 0 if x == 0 else max(0, abs(x))\n    elif target == \"even\":\n        return 0 if (x != 0 and x % 2 == 0) else 1\n    elif target == \"odd\":\n        return 0 if (x % 2 != 0) else 1\n    else:\n        raise ValueError(\"Unknown target: {}\".format(target))",
+  "notes": "Fitness returns 0 only when the original function would return the corresponding label."
+}

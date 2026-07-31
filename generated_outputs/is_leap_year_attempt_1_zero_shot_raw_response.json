@@ -1,0 +1,19 @@
+{
+  "function_name": "is_leap_year",
+  "fitness_function_name": "fitness_is_leap_year",
+  "targets": [
+    "divisible_by_400",
+    "divisible_by_100_not_400",
+    "divisible_by_4_not_100",
+    "not_leap_year"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "def fitness_is_leap_year(chromosome, target):\n    year = chromosome[0]\n    k = 1 # A small constant for hitting the 'wrong' side of a branch, effectively representing 'true' for a false condition.\n\n    # Branch distance calculation helpers\n    def branch_distance_eq(val, target_val):\n        \"\"\"Calculates distance for 'val == target_val'. Returns 0 if equal, positive otherwise.\"\"\"\n        return abs(val - target_val)\n\n    def branch_distance_ne(val, target_val):\n        \"\"\"Calculates distance for 'val != target_val'. Returns 0 if not equal, k otherwise.\"\"\"\n        return 0 if val != target_val else k\n\n    def normalize_distance(distance):\n        \"\"\"Normalizes a raw branch distance to a value between 0 and 1.\"\"\"\n        return distance / (1.0 + distance)\n\n    # Calculate values for conditions (remainders)\n    mod_400 = year % 400\n    mod_100 = year % 100\n    mod_4 = year % 4\n\n    if target == \"divisible_by_400\":\n        # Target: year % 400 == 0 (True)\n        return branch_distance_eq(mod_400, 0)\n    elif target == \"divisible_by_100_not_400\":\n        # Target: year % 400 != 0 (True) AND year % 100 == 0 (True)\n        dist_400_ne_0 = branch_distance_ne(mod_400, 0)\n        dist_100_eq_0 = branch_distance_eq(mod_100, 0)\n        return normalize_distance(dist_400_ne_0) + normalize_distance(dist_100_eq_0)\n    elif target == \"divisible_by_4_not_100\":\n        # Target: year % 400 != 0 (True) AND year % 100 != 0 (True) AND year % 4 == 0 (True)\n        dist_400_ne_0 = branch_distance_ne(mod_400, 0)\n        dist_100_ne_0 = branch_distance_ne(mod_100, 0)\n        dist_4_eq_0 = branch_distance_eq(mod_4, 0)\n        return normalize_distance(dist_400_ne_0) + normalize_distance(dist_100_ne_0) + normalize_distance(dist_4_eq_0)\n    elif target == \"not_leap_year\":\n        # Target: year % 400 != 0 (True) AND year % 100 != 0 (True) AND year % 4 != 0 (True)\n        dist_400_ne_0 = branch_distance_ne(mod_400, 0)\n        dist_100_ne_0 = branch_distance_ne(mod_100, 0)\n        dist_4_ne_0 = branch_distance_ne(mod_4, 0)\n        return normalize_distance(dist_400_ne_0) + normalize_distance(dist_100_ne_0) + normalize_distance(dist_4_ne_0)\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function calculates branch distances for each condition based on the 'year' input. It uses a standard approach for equality and inequality comparisons (where a small constant 'k' is used if a condition evaluates to the 'wrong' side). Individual branch distances are normalized to values between 0 and 1 before being summed for compound conditions. A value of 0 indicates the target branch is covered."
+}

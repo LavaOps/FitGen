@@ -1,0 +1,5 @@
+model,method,actual_success_rate,total_runs
+openai_gpt_oss_20b,GA_ADAPTIVE,93.03030303030303,330
+openai_gpt_oss_20b,GA_FIXED,90.9090909090909,330
+openai_gpt_oss_20b,HILL_CLIMBING,93.33333333333333,330
+openai_gpt_oss_20b,RANDOM,78.78787878787878,330

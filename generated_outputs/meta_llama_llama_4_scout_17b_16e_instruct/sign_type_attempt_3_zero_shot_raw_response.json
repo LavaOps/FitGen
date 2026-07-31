@@ -1,0 +1,18 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": -1000.0,
+      "max": 1000.0
+    }
+  ],
+  "fitness_code": "\ndef fitness_sign_type(chromosome, target):\n    x = chromosome[0]\n    if target not in ['positive', 'negative', 'zero']:\n        raise ValueError(\"Unknown target\")\n\n    if x > 0:\n        distance_positive = 0\n        distance_negative = x\n        distance_zero = x\n        if target == 'positive':\n            return 0\n        elif target == 'negative':\n            return distance_negative\n        else:\n            return distance_zero\n\n    elif x < 0:\n        distance_positive = -x\n        distance_negative = 0\n        distance_zero = -x\n        if target == 'negative':\n            return 0\n        elif target == 'positive':\n            return distance_positive\n        else:\n            return distance_zero\n\n    else:\n        distance_positive = 0\n        distance_negative = 0\n        distance_zero = 0\n        if target == 'zero':\n            return 0\n        elif target == 'positive':\n            return distance_positive\n        else:\n            return distance_negative\n\n    return 1e6\n",
+  "notes": ""
+}

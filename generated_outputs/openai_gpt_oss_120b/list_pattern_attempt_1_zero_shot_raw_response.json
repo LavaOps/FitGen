@@ -1,0 +1,22 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_unique",
+    "sorted_with_duplicates",
+    "unsorted_unique",
+    "unsorted_with_duplicates"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "def fitness_list_pattern(chromosome, target):\n    nums = chromosome[0]\n    len_n = len(nums)\n    len_dist = max(0, 2 - len_n)\n    # sorted distance: count of adjacent inversions\n    sorted_dist = 0\n    for i in range(len_n - 1):\n        if nums[i] > nums[i + 1]:\n            sorted_dist += 1\n    dup_dist = len_n - len(set(nums))\n    unsorted_cond = max(0, 1 - sorted_dist)\n    duplicate_present = max(0, 1 - dup_dist)\n    if target == \"too_short\":\n        return len_dist\n    elif target == \"sorted_unique\":\n        return len_dist + sorted_dist + dup_dist\n    elif target == \"sorted_with_duplicates\":\n        return len_dist + sorted_dist + duplicate_present\n    elif target == \"unsorted_unique\":\n        return len_dist + unsorted_cond + dup_dist\n    elif target == \"unsorted_with_duplicates\":\n        return len_dist + unsorted_cond + duplicate_present\n    else:\n        raise ValueError(\"Unknown target: \" + str(target))",
+  "notes": "The fitness function computes branch\u2011distance\u2011like values for each possible return label of list_pattern without invoking the original function. All distances are non\u2011negative and become zero exactly when the chromosome would cause the original function to return the selected target."
+}

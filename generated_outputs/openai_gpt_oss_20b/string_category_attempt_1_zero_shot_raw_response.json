@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_string_category = [\n    \"empty\",\n    \"long_palindrome\",\n    \"short_palindrome\",\n    \"long_non_palindrome\",\n    \"other\"\n]\n\n\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    is_pal = s == s[::-1]\n    l = len(s)\n    if target == \"empty\":\n        return max(0, l)\n    elif target == \"long_palindrome\":\n        return max(0, (0 if is_pal else 1) + (0 if l > 3 else 1))\n    elif target == \"short_palindrome\":\n        return max(0, (0 if is_pal else 1) + (0 if 1 <= l <= 3 else 1))\n    elif target == \"long_non_palindrome\":\n        return max(0, (0 if not is_pal else 1) + (0 if l > 5 else 1))\n    elif target == \"other\":\n        return max(0, (0 if not is_pal else 1) + (0 if 1 <= l <= 5 else 1))\n    else:\n        raise ValueError(\"Unknown target\")",
+  "notes": "Fitness function uses simple distance metrics based on palindrome and length conditions."
+}

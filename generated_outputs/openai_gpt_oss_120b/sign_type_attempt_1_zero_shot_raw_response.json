@@ -1,0 +1,18 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_sign_type = [\"positive\", \"negative\", \"zero\"]\n\ndef fitness_sign_type(chromosome, target):\n    x = chromosome[0]\n    eps = 1e-6\n    if target == \"positive\":\n        if x > 0:\n            return 0\n        else:\n            return max(0, -x + eps)\n    elif target == \"negative\":\n        if x < 0:\n            return 0\n        else:\n            return max(0, x + eps)\n    elif target == \"zero\":\n        if x == 0:\n            return 0\n        else:\n            return abs(x)\n    else:\n        raise ValueError(\"Unknown target: {}\".format(target))",
+  "notes": "Fitness function returns 0 only when the original sign_type would return the corresponding label; otherwise it returns a positive branch-distance-like value."
+}

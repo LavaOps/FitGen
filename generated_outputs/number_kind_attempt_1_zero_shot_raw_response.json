@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "zero",
+    "even",
+    "odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_number_kind = [\"zero\", \"even\", \"odd\"]\n\ndef fitness_number_kind(chromosome, target):\n    x = chromosome[0]\n\n    # Helper for a == b. Returns 0 if a==b, positive otherwise.\n    def bd_eq(a, b):\n        return abs(a - b)\n\n    # Helper for a != b. Returns 0 if a!=b, positive otherwise (1.0 if a==b).\n    def bd_ne(a, b):\n        return 0.0 if a != b else 1.0\n\n    if target == \"zero\":\n        # Target: x == 0\n        return bd_eq(x, 0)\n    elif target == \"even\":\n        # Target: x != 0 AND x % 2 == 0\n        # Need to bypass 'x == 0' (i.e., make x != 0)\n        # Need to satisfy 'x % 2 == 0'\n        dist_x_ne_0 = bd_ne(x, 0)\n        dist_x_mod_2_eq_0 = bd_eq(x % 2, 0)\n        return dist_x_ne_0 + dist_x_mod_2_eq_0\n    elif target == \"odd\":\n        # Target: x != 0 AND x % 2 != 0\n        # Need to bypass 'x == 0' (i.e., make x != 0)\n        # Need to bypass 'x % 2 == 0' (i.e., make x % 2 != 0)\n        dist_x_ne_0 = bd_ne(x, 0)\n        dist_x_mod_2_ne_0 = bd_ne(x % 2, 0)\n        return dist_x_ne_0 + dist_x_mod_2_ne_0\n    else:\n        raise ValueError(\"Unknown target: \" + target)\n",
+  "notes": "The fitness function uses branch distance to guide the search. `bd_eq(a, b)` returns `0` if `a == b` and `abs(a - b)` otherwise. `bd_ne(a, b)` returns `0` if `a != b` and `1.0` if `a == b`. For 'even' and 'odd' targets, multiple conditions must be satisfied/bypassed, so their distances are summed."
+}

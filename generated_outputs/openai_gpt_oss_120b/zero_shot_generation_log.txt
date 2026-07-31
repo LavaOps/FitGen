@@ -1,0 +1,69 @@
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.069
+password_strength: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 26 column 2324 [type=json_invalid, input_value='{\n  "function_name": "s...     d_falsify_std +\\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 2 failed JSON parsing: 2 validation errors for FitnessGenerationResult
+fitness_code
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+notes
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+shipping_discount: attempt 3 failed JSON parsing: 2 validation errors for FitnessGenerationResult
+fitness_code
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+notes
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+shipping_discount: FAILED during generation: shipping_discount: failed after 3 generation attempts. Last error: JSON parse failed: 2 validation errors for FitnessGenerationResult
+fitness_code
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+notes
+  Field required [type=missing, input_value={'function_name': 'shippi...000}, {'type': 'bool'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.017
+transaction_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.031
+triangle_type: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.080
+triangle_type: attempt 2 failed JSON parsing: 2 validation errors for FitnessGenerationResult
+fitness_code
+  Field required [type=missing, input_value={'function_name': 'triang...n': -500, 'max': 3000}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+notes
+  Field required [type=missing, input_value={'function_name': 'triang...n': -500, 'max': 3000}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+triangle_type: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 16 column 670 [type=json_invalid, input_value='{\n  "function_name": "t...max(0, a)\\n        d_b', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: FAILED during generation: triangle_type: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 16 column 670 [type=json_invalid, input_value='{\n  "function_name": "t...max(0, a)\\n        d_b', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.004
+bmi_category: accepted attempt 1 without semantic validation
+list_pattern: accepted attempt 1 without semantic validation
+number_kind: accepted attempt 1 without semantic validation
+password_strength: accepted attempt 1 without semantic validation
+pin_pattern: accepted attempt 1 without semantic validation
+shipping_discount: accepted attempt 1 without semantic validation
+sign_type: accepted attempt 1 without semantic validation
+string_category: accepted attempt 1 without semantic validation
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: accepted attempt 1 without semantic validation
+username_category: attempt 1 failed JSON parsing: 2 validation errors for FitnessGenerationResult
+fitness_code
+  Field required [type=missing, input_value={'function_name': 'userna...en': 0, 'max_len': 15}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+notes
+  Field required [type=missing, input_value={'function_name': 'userna...en': 0, 'max_len': 15}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+username_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 19 column 2645 [type=json_invalid, input_value='{\n  "function_name": "u... 0 if len_u >= 5 else (', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: accepted attempt 3 without semantic validation

@@ -1,0 +1,55 @@
+{
+  "provider": "groq",
+  "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "model_slug": "meta_llama_llama_4_maverick_17b_128e_instruct",
+  "max_generation_attempts": 3,
+  "successful_count": 0,
+  "failed_count": 11,
+  "successful_functions": [],
+  "failed_functions": [
+    {
+      "function_name": "bmi_category",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "list_pattern",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "number_kind",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "password_strength",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "pin_pattern",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "shipping_discount",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "sign_type",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "string_category",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "transaction_pattern",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "triangle_type",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    },
+    {
+      "function_name": "username_category",
+      "error": "Error code: 404 - {'error': {'message': 'The model `meta-llama/llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+    }
+  ]
+}

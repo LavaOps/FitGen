@@ -1,0 +1,42 @@
+```json
+{
+    "function_name": "pin_pattern",
+    "fitness_function_name": "fitness_pin_pattern",
+    "targets": [
+        "secret_pin",
+        "all_same",
+        "ordered_sum_20",
+        "other"
+    ],
+    "input_schema": [
+        {"type": "int", "min": -500, "max": 3000},
+        {"type": "int", "min": -500, "max": 3000},
+        {"type": "int", "min": -500, "max": 3000},
+        {"type": "int", "min": -500, "max": 3000}
+    ],
+    "fitness_code": "
+def fitness_pin_pattern(chromosome, target):
+    a, b, c, d = chromosome
+
+    if target == \"secret_pin\":
+        return max(0, abs(a - 7)) + max(0, abs(b - 3)) + max(0, abs(c - 9)) + max(0, abs(d - 1))
+
+    elif target == \"all_same\":
+        return max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(c - d))
+
+    elif target == \"ordered_sum_20\":
+        return max(0, a - b) + max(0, b - c) + max(0, c - d) + max(0, abs(a + b + c + d - 20))
+
+    elif target == \"other\":
+        return min(
+            max(0, abs(a - 7)) + max(0, abs(b - 3)) + max(0, abs(c - 9)) + max(0, abs(d - 1)),
+            max(0, abs(a - b)) + max(0, abs(b - c)) + max(0, abs(c - d)),
+            max(0, a - b) + max(0, b - c) + max(0, c - d) + max(0, abs(a + b + c + d - 20))
+        )
+
+    else:
+        raise ValueError(\"Unknown target\")
+    ",
+    "notes": ""
+}
+```

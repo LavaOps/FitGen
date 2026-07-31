@@ -1,0 +1,145 @@
+bmi_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: FAILED during generation: bmi_category: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: FAILED during generation: list_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.069
+password_strength: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+password_strength: FAILED during generation: password_strength: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 11 column 401 [type=json_invalid, input_value='{\n  "function_name": "p...s(c - 9) + abs(d - 1)\\', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: FAILED during generation: pin_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+shipping_discount: FAILED during generation: shipping_discount: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: FAILED during generation: triangle_type: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+username_category: FAILED during generation: username_category: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+bmi_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+list_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+number_kind: accepted attempt 1 without semantic validation
+password_strength: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+pin_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+shipping_discount: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+sign_type: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+string_category: accepted attempt 1 without semantic validation
+transaction_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+triangle_type: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+username_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+bmi_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+list_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+number_kind: accepted attempt 1 without semantic validation
+password_strength: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+pin_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+shipping_discount: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+sign_type: accepted attempt 1 without semantic validation
+string_category: accepted attempt 1 without semantic validation
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+username_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+bmi_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+list_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 20 column 576 [type=json_invalid, input_value='{\n  "function_name": "l...    if len(nums) != len', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 1 column 1381 [type=json_invalid, input_value='{"function_name":"list_p...if not unique_flag else', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+list_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+number_kind: accepted attempt 1 without semantic validation
+password_strength: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+pin_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing a string at line 11 column 368 [type=json_invalid, input_value='{\n  "function_name": "p...       dist = abs(a - b', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+pin_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+shipping_discount: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+sign_type: accepted attempt 1 without semantic validation
+string_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+username_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+bmi_category: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+list_pattern: FAILED during generation: Empty response from groq:openai/gpt-oss-20b
+number_kind: accepted attempt 1 without semantic validation
+password_strength: FAILED during generation: groq:openai/gpt-oss-20b failed after 5 retries for password_strength
+pin_pattern: FAILED during generation: groq:openai/gpt-oss-20b failed after 5 retries for pin_pattern
+shipping_discount: FAILED during generation: groq:openai/gpt-oss-20b failed after 5 retries for shipping_discount

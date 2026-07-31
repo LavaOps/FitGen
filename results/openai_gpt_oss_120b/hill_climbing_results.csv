@@ -1,0 +1,1231 @@
+model,method,function_name,target,run_id,found,validated,best_chromosome,best_fitness,reached_branch,generation,evaluations,runtime
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,0,True,True,"[2421.314415658075, 0.0]",0.0,invalid_height,110,111,0.0002965830499306321
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,1,True,True,"[1382.963568674873, 0.0]",0.0,invalid_height,555,556,0.0011717920424416661
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,2,True,True,"[232.39533027696012, 0.0]",0.0,invalid_height,456,457,0.0009482080349698663
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,3,True,True,"[2508.797339444712, 0.0]",0.0,invalid_height,227,228,0.0005050000036135316
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,4,True,True,"[1375.202773194734, 0.0]",0.0,invalid_height,293,294,0.000636707991361618
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,5,True,True,"[11.130467905116303, 0.0]",0.0,invalid_height,184,185,0.0003706250572577119
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,6,True,True,"[2574.5366419085294, 0.0]",0.0,invalid_height,205,206,0.00041337497532367706
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,7,True,True,"[2468.1588985674102, 0.0]",0.0,invalid_height,371,372,0.0007278750417754054
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,8,True,True,"[371.5630935464205, 0.0]",0.0,invalid_height,228,229,0.0004617919912561774
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,9,True,True,"[472.3270672459111, 0.0]",0.0,invalid_height,376,377,0.0007367500802502036
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,10,True,True,"[56.97291821955852, 0.0]",0.0,invalid_height,259,260,0.0004882919602096081
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,11,True,True,"[2018.7082579469227, 0.0]",0.0,invalid_height,338,339,0.0006539170863106847
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,12,True,True,"[1041.770257775222, 0.0]",0.0,invalid_height,308,309,0.0006055420963093638
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,13,True,True,"[993.7541410386106, 0.0]",0.0,invalid_height,154,155,0.00034033297561109066
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,14,True,True,"[341.53390144374475, 0.0]",0.0,invalid_height,164,165,0.00032774999272078276
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,15,True,True,"[1801.9264059609525, 0.0]",0.0,invalid_height,269,270,0.0005578330019488931
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,16,True,True,"[2314.007603438625, 0.0]",0.0,invalid_height,248,249,0.0004723750753328204
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,17,True,True,"[2385.3731393074445, 0.0]",0.0,invalid_height,356,357,0.0006307499716058373
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,18,True,True,"[2219.363737522354, 0.0]",0.0,invalid_height,172,173,0.0003179579507559538
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,19,True,True,"[2626.2667541101105, 0.0]",0.0,invalid_height,218,219,0.00041566696017980576
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,20,True,True,"[1911.1232043631521, 0.0]",0.0,invalid_height,403,404,0.0007793339900672436
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,21,True,True,"[1901.5441556014769, 0.0]",0.0,invalid_height,529,530,0.000975125003606081
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,22,True,True,"[1820.4756052191144, 0.0]",0.0,invalid_height,342,343,0.000662459060549736
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,23,True,True,"[88.38599091747906, 0.0]",0.0,invalid_height,81,82,0.0001525840489193797
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,24,True,True,"[1881.3045316289795, 0.0]",0.0,invalid_height,121,122,0.00022737507242709398
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,25,True,True,"[1768.1091429755775, 0.0]",0.0,invalid_height,232,233,0.00044191593769937754
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,26,True,True,"[647.8674288609018, 0.0]",0.0,invalid_height,158,159,0.0003023750614374876
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,27,True,True,"[2287.0201307568673, 0.0]",0.0,invalid_height,108,109,0.0001942500239238143
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,28,True,True,"[1312.5397517562799, 0.0]",0.0,invalid_height,234,235,0.00042066711466759443
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,invalid_height,29,True,True,"[2344.437928482711, 0.0]",0.0,invalid_height,152,153,0.0002662088954821229
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,0,True,True,"[1467.6298205249675, 2458.819968318202]",0.0,underweight,0,1,4.166970029473305e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,1,True,True,"[2351.691122605778, 1264.8630299573697]",0.0,underweight,0,1,3.500026650726795e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,2,True,True,"[1345.499127210288, 1711.0674826424508]",0.0,underweight,0,1,3.2080570235848427e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,3,True,True,"[1282.2576769849318, 2999.996178914648]",0.0,underweight,0,1,2.9579969123005867e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,4,True,True,"[334.99261129729473, 1479.055136970107]",0.0,underweight,0,1,3.00002284348011e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,5,True,True,"[1433.901190068641, 491.6071022530388]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,6,True,True,"[2929.4889273927843, 155.04919525281136]",0.0,underweight,0,1,3.0830269679427147e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,7,True,True,"[617.1863340079906, 1327.1588789344378]",0.0,underweight,0,1,3.00002284348011e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,8,True,True,"[1132.6323220774627, 1385.686255956366]",0.0,underweight,0,1,2.9579969123005867e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,9,True,True,"[2437.939773957212, 2367.4791730857924]",0.0,underweight,0,1,2.9159709811210632e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,10,True,True,"[2453.2618778780848, 272.17149301361786]",0.0,underweight,0,1,4.416098818182945e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,11,True,True,"[1582.3364268150326, 78.45196345315408]",0.0,underweight,0,1,3.125052899122238e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,12,True,True,"[104.28428510607036, 1383.3779642138252]",0.0,underweight,0,1,2.9170187190175056e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,13,True,True,"[111.02736951500746, 772.0003234916734]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,14,True,True,"[717.2962563367525, 1662.0291042681044]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,15,True,True,"[2537.231236507731, 2217.988750656077]",0.0,underweight,0,1,2.834014594554901e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,16,True,True,"[1319.1011257706236, 948.1679590146246]",0.0,underweight,0,1,2.7919886633753777e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,17,True,True,"[1352.0646559702332, 285.0621777138229]",0.0,underweight,0,1,2.749962732195854e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,18,True,True,"[2991.7238827326723, 2787.7860266816488]",0.0,underweight,0,1,2.8329668566584587e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,19,True,True,"[2828.6675212649116, 297.4876262579166]",0.0,underweight,0,1,2.9159709811210632e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,20,True,True,"[2875.0693093861723, 1011.5507388806492]",0.0,underweight,0,1,2.9579969123005867e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,21,True,True,"[1886.4475642541854, 2966.457187869294]",0.0,underweight,0,1,2.834014594554901e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,22,True,True,"[1612.3505766735861, 1466.7140804383882]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,23,True,True,"[2134.640256425348, 1435.3904391527713]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,24,True,True,"[503.62132290080484, 2574.338813885029]",0.0,underweight,0,1,3.125052899122238e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,25,True,True,"[360.8244990124756, 1276.8759501162604]",0.0,underweight,0,1,2.8329668566584587e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,26,True,True,"[220.09463133861863, 2771.466852641245]",0.0,underweight,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,27,True,True,"[2918.459322736, 2006.09875526272]",0.0,underweight,0,1,2.9159709811210632e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,28,True,True,"[81.5986123439313, 1500.9262629141833]",0.0,underweight,0,1,2.8329668566584587e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,underweight,29,True,True,"[129.1506433018752, 40.721046057523246]",0.0,underweight,0,1,2.749962732195854e-06
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,0,True,True,"[2989.046685845835, 12.294795039889546]",0.0,normal,466,467,0.0008219169685617089
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,1,True,True,"[2184.593224707807, 10.710774974667325]",0.0,normal,36,37,8.045800495892763e-05
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,2,True,True,"[2876.6880318135354, 12.3167992790049]",0.0,normal,217,218,0.0004081249935552478
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,3,True,True,"[2978.276701428151, 12.632741234205437]",0.0,normal,199,200,0.00036158296279609203
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,4,True,True,"[2727.5963273378097, 11.244481849623746]",0.0,normal,134,135,0.00023695803247392178
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,5,True,True,"[2991.441717512595, 12.39262256728396]",0.0,normal,329,330,0.0006181669887155294
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,6,True,True,"[2845.112413999868, 11.974014791731856]",0.0,normal,255,256,0.0004592080367729068
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,7,True,True,"[2871.8656398224844, 12.353988879695601]",0.0,normal,543,544,0.0009467919589951634
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,8,True,True,"[2852.1143384470784, 11.963467886023334]",0.0,normal,293,294,0.0005279999459162354
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,9,True,True,"[2779.457266955654, 11.954643340666522]",0.0,normal,50,51,0.0001029579434543848
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,10,True,True,"[2237.047186764647, 10.710820921801368]",0.0,normal,229,230,0.00039950001519173384
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,11,True,True,"[2889.8943903088652, 12.090898336800697]",0.0,normal,481,482,0.0008214999688789248
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,12,True,True,"[2835.324534912299, 11.591667148021363]",0.0,normal,284,285,0.0004937920020893216
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,13,True,True,"[3000.0, 10.969131020221457]",0.0,normal,79,80,0.00014829100109636784
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,14,True,True,"[2948.1213253528567, 11.729702278145403]",0.0,normal,111,112,0.00018133409321308136
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,15,True,True,"[2870.517276823162, 11.882283604846515]",0.0,normal,310,311,0.0005350409774109721
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,16,True,True,"[2843.486658457557, 12.305251541797864]",0.0,normal,182,183,0.00030770793091505766
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,17,True,True,"[2759.8129866633994, 12.009266922743269]",0.0,normal,221,222,0.0003677500644698739
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,18,True,True,"[2935.490576054208, 12.401332349904399]",0.0,normal,142,143,0.00025625003036111593
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,19,True,True,"[2897.451234116389, 12.351940930887807]",0.0,normal,646,647,0.0010506659746170044
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,20,True,True,"[2515.019811491417, 11.276905220015284]",0.0,normal,221,222,0.00037287501618266106
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,21,True,True,"[2852.067577708762, 11.825358595109387]",0.0,normal,181,182,0.0003129170509055257
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,22,True,True,"[1691.9160491071964, 9.123586597771615]",0.0,normal,118,119,0.00020224996842443943
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,23,True,True,"[2921.5782712957966, 11.898254816762039]",0.0,normal,655,656,0.0010631249751895666
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,24,True,True,"[1372.840797709941, 8.359146539390515]",0.0,normal,95,96,0.0001538749784231186
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,25,True,True,"[1896.0170268063812, 9.718083154313327]",0.0,normal,29,30,5.1458016969263554e-05
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,26,True,True,"[2888.298556999975, 11.883010202592441]",0.0,normal,610,611,0.0009714160114526749
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,27,True,True,"[2864.391567078775, 11.44265406746218]",0.0,normal,203,204,0.0003210409777238965
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,28,True,True,"[2958.126646727004, 12.174823683228974]",0.0,normal,231,232,0.00037741707637906075
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,normal,29,True,True,"[2952.7257352737915, 12.156612837224245]",0.0,normal,566,567,0.0009035840630531311
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,0,True,True,"[2977.731664309497, 10.165642231840476]",0.0,overweight,686,687,0.0011125829769298434
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,1,True,True,"[2500.3040126636765, 9.70088227991219]",0.0,overweight,277,278,0.0004750409862026572
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,2,True,True,"[2831.400246353341, 10.439044302346076]",0.0,overweight,169,170,0.0002774579916149378
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,3,True,True,"[2851.4363340128148, 10.59406447961311]",0.0,overweight,396,397,0.0006626670947298408
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,4,True,True,"[2540.367344759382, 9.658594346678209]",0.0,overweight,154,155,0.0002515829401090741
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,5,True,True,"[2990.854479759707, 10.933559394550969]",0.0,overweight,382,383,0.0005981669528409839
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,6,True,True,"[1887.219154736194, 8.372902417809804]",0.0,overweight,75,76,0.00012008403427898884
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,7,True,True,"[1895.6400769969655, 8.302835387522745]",0.0,overweight,33,34,5.825003609061241e-05
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,8,True,True,"[2981.8557999712, 10.535572817811664]",0.0,overweight,204,205,0.00031712499912828207
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,9,True,True,"[2974.0281104606624, 10.5258630320388]",0.0,overweight,593,594,0.0009336250368505716
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,10,True,True,"[2978.502220451753, 10.82933308120931]",0.0,overweight,447,448,0.0007069590501487255
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,11,True,True,"[977.2830970558266, 5.8679864173631255]",0.0,overweight,312,313,0.0004888749681413174
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,12,True,True,"[2931.7993225201108, 9.997473194172484]",0.0,overweight,302,303,0.00047025003004819155
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,13,True,True,"[2962.602580915179, 10.764685312692334]",0.0,overweight,215,216,0.00034791696816682816
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,14,True,True,"[2966.9551882628602, 10.87010533520509]",0.0,overweight,241,242,0.0003446249756962061
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,15,True,True,"[753.2971641937744, 5.226768047591535]",0.0,overweight,245,246,0.0003630829742178321
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,16,True,True,"[2916.09596583635, 10.233863365814312]",0.0,overweight,349,350,0.0005307920509949327
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,17,True,True,"[1202.352772887365, 6.5303842220695305]",0.0,overweight,68,69,0.0001153330085799098
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,18,True,True,"[2976.187711153543, 10.3024028308345]",0.0,overweight,337,338,0.0005170829826965928
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,19,True,True,"[2899.563836187969, 9.901032224592443]",0.0,overweight,294,295,0.0004725409671664238
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,20,True,True,"[2787.6512173203264, 10.503458352627923]",0.0,overweight,610,611,0.0009345420403406024
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,21,True,True,"[2900.774950511448, 9.927391269155873]",0.0,overweight,277,278,0.00044470804277807474
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,22,True,True,"[2990.0645427839827, 10.044771845218609]",0.0,overweight,573,574,0.0009092079708352685
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,23,True,True,"[2518.22784772661, 9.67274938057606]",0.0,overweight,75,76,0.00011674989946186543
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,24,True,True,"[2796.874111190073, 10.33386244238797]",0.0,overweight,481,482,0.0007219999097287655
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,25,True,True,"[514.0054902088224, 4.160259802925558]",0.0,overweight,61,62,0.00010099995415657759
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,26,True,True,"[2985.3749030543386, 10.896169836735108]",0.0,overweight,204,205,0.00032120791729539633
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,27,True,True,"[57.09382659246287, 1.4506809482392033]",0.0,overweight,872,873,0.0010810409439727664
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,28,True,True,"[2991.541707602841, 10.173383672403318]",0.0,overweight,216,217,0.00034799997229129076
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,overweight,29,True,True,"[2856.341691881478, 10.22800460459728]",0.0,overweight,630,631,0.0009612910216674209
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,0,True,True,"[2872.945392600063, 9.302726097817386]",0.0,obese,362,363,0.0005364170065149665
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,1,True,True,"[2812.037873219531, 9.49863796349645]",0.0,obese,401,402,0.0005958339897915721
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,2,True,True,"[2639.2246716533505, 9.018195310544021]",0.0,obese,395,396,0.0005865830462425947
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,3,True,True,"[2989.5975494516324, 9.695557817287677]",0.0,obese,402,403,0.0005890839966014028
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,4,True,True,"[2961.8711829014524, 9.82623169705218]",0.0,obese,212,213,0.00030329206492751837
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,5,True,True,"[2995.062926723399, 9.557242212237586]",0.0,obese,757,758,0.0010843330528587103
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,6,True,True,"[2963.6983180471957, 7.298857262605152]",0.0,obese,227,228,0.00033766706474125385
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,7,True,True,"[2888.5526695347444, 9.808374479835729]",0.0,obese,56,57,0.00010316702537238598
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,8,True,True,"[2802.0861437766416, 5.637314514204572]",0.0,obese,43,44,7.862504571676254e-05
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,9,True,True,"[2904.0048745437, 8.867771623836468]",0.0,obese,315,316,0.00046220794320106506
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,10,True,True,"[2963.314851860646, 9.2741627516773]",0.0,obese,235,236,0.0003403340233489871
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,11,True,True,"[2987.7481055676712, 0.9695401912729329]",0.0,obese,127,128,0.00019599997904151678
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,12,True,True,"[2932.5178205812326, 9.847001414536953]",0.0,obese,453,454,0.0006135839503258467
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,13,True,True,"[2696.2342468255906, 9.362396329258328]",0.0,obese,326,327,0.00046666606795042753
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,14,True,True,"[2495.148383150294, 9.067586125186796]",0.0,obese,130,131,0.00018987501971423626
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,15,True,True,"[2542.0955588592656, 9.041844423888081]",0.0,obese,143,144,0.00022929103579372168
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,16,True,True,"[2516.7563316495416, 9.158276987272732]",0.0,obese,229,230,0.0003388329641893506
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,17,True,True,"[2884.662594286271, 3.7936409392589354]",0.0,obese,61,62,9.737501386553049e-05
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,18,True,True,"[2132.2395760219874, 5.516575721372541]",0.0,obese,78,79,0.0001289999345317483
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,19,True,True,"[2978.9206314283138, 9.921462372613702]",0.0,obese,97,98,0.0001567500876262784
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,20,True,True,"[2937.804493240963, 9.108149156090134]",0.0,obese,399,400,0.0005854159826412797
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,21,True,True,"[2730.949995219522, 8.688355285094266]",0.0,obese,153,154,0.00023629190400242805
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,22,True,True,"[2970.579718911873, 9.851955196061068]",0.0,obese,209,210,0.0003290419699624181
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,23,True,True,"[2936.8769398354298, 9.314523672776593]",0.0,obese,245,246,0.00035258301068097353
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,24,True,True,"[2206.143408568216, 8.212384681196617]",0.0,obese,222,223,0.0003074998967349529
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,25,True,True,"[2982.9592960428536, 9.666831371359235]",0.0,obese,323,324,0.0004520840011537075
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,26,True,True,"[2817.746799976233, 9.174079948197567]",0.0,obese,469,470,0.000682624988257885
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,27,True,True,"[2644.7615497387064, 8.647625295747314]",0.0,obese,119,120,0.00018387497402727604
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,28,True,True,"[2968.309037504649, 6.477447628609245]",0.0,obese,223,224,0.00032158393878489733
+openai_gpt_oss_120b,HILL_CLIMBING,bmi_category,obese,29,True,True,"[2977.3406788235566, 7.098089041775779]",0.0,obese,238,239,0.00034558307379484177
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,0,True,True,[[30]],0.0,too_short,16,17,5.9542013332247734e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,1,True,True,[[-52]],0.0,too_short,0,1,4.749977961182594e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,2,True,True,[[-10]],0.0,too_short,1,2,9.207986295223236e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,3,True,True,[[27]],0.0,too_short,9,10,3.0832947231829166e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,4,True,True,[[-75]],0.0,too_short,4,5,1.77919864654541e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,5,True,True,[[85]],0.0,too_short,5,6,2.145790494978428e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,6,True,True,[[97]],0.0,too_short,3,4,1.2666918337345123e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,7,True,True,[[-59]],0.0,too_short,0,1,3.875000402331352e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,8,True,True,[[84]],0.0,too_short,2,3,1.0040937922894955e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,9,True,True,[[-50]],0.0,too_short,10,11,3.7125078961253166e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,10,True,True,[[-42]],0.0,too_short,19,20,5.695794243365526e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,11,True,True,[[]],0.0,too_short,0,1,3.7919962778687477e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,12,True,True,[[29]],0.0,too_short,4,5,1.666706521064043e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,13,True,True,[[-76]],0.0,too_short,10,11,2.8416048735380173e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,14,True,True,[[]],0.0,too_short,0,1,3.0830269679427147e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,15,True,True,[[85]],0.0,too_short,8,9,2.4957931600511074e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,16,True,True,[[-35]],0.0,too_short,3,4,1.1499971151351929e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,17,True,True,[[15]],0.0,too_short,2,3,1.066701952368021e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,18,True,True,[[]],0.0,too_short,0,1,3.5830307751893997e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,19,True,True,[[92]],0.0,too_short,6,7,2.8792070224881172e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,20,True,True,[[70]],0.0,too_short,0,1,3.7499703466892242e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,21,True,True,[[90]],0.0,too_short,5,6,1.8750084564089775e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,22,True,True,[[-41]],0.0,too_short,6,7,1.8083956092596054e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,23,True,True,[[67]],0.0,too_short,14,15,4.3708947487175465e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,24,True,True,[[71]],0.0,too_short,13,14,4.412501584738493e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,25,True,True,[[-1]],0.0,too_short,5,6,1.4832941815257072e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,26,True,True,[[45]],0.0,too_short,1,2,8.00006091594696e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,27,True,True,[[]],0.0,too_short,0,1,3.0830269679427147e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,28,True,True,[[-52]],0.0,too_short,3,4,1.625006552785635e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,too_short,29,True,True,[[10]],0.0,too_short,10,11,4.0958053432404995e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,0,True,True,"[[85, 91, 91]]",0.0,sorted_with_duplicates,93,94,0.00016370892990380526
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,1,True,True,"[[88, 88]]",0.0,sorted_with_duplicates,65,66,0.00012462504673749208
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,2,True,True,"[[14, 39, 39]]",0.0,sorted_with_duplicates,14,15,3.541703335940838e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,3,True,True,"[[53, 85, 85]]",0.0,sorted_with_duplicates,103,104,0.0001972919562831521
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,4,True,True,"[[-80, 91, 91]]",0.0,sorted_with_duplicates,38,39,7.216702215373516e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,5,True,True,"[[95, 95]]",0.0,sorted_with_duplicates,241,242,0.0004135830095037818
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,6,True,True,"[[100, 100]]",0.0,sorted_with_duplicates,155,156,0.000268207979388535
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,7,True,True,"[[92, 92]]",0.0,sorted_with_duplicates,66,67,0.00011812499724328518
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,8,True,True,"[[86, 86]]",0.0,sorted_with_duplicates,124,125,0.00020141596905887127
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,9,True,True,"[[83, 83]]",0.0,sorted_with_duplicates,669,670,0.0010484169470146298
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,10,True,True,"[[100, 100]]",0.0,sorted_with_duplicates,116,117,0.00019400008022785187
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,11,True,True,"[[65, 93, 93]]",0.0,sorted_with_duplicates,47,48,9.27910441532731e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,12,True,True,"[[10, 91, 91]]",0.0,sorted_with_duplicates,26,27,7.687497418373823e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,13,True,True,"[[32, 32]]",0.0,sorted_with_duplicates,92,93,0.00020633300300687551
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,14,True,True,"[[84, 91, 91]]",0.0,sorted_with_duplicates,210,211,0.00034379190765321255
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,15,True,True,"[[54, 95, 95]]",0.0,sorted_with_duplicates,212,213,0.00036337506026029587
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,16,True,True,"[[10, 10, 17, 59]]",0.0,sorted_with_duplicates,46,47,0.00012683402746915817
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,17,True,True,"[[98, 98]]",0.0,sorted_with_duplicates,186,187,0.0003149170661345124
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,18,True,True,"[[40, 40]]",0.0,sorted_with_duplicates,122,123,0.00021641701459884644
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,19,True,True,"[[-48, -48, 61, 63]]",0.0,sorted_with_duplicates,180,181,0.00042358296923339367
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,20,True,True,"[[87, 87]]",0.0,sorted_with_duplicates,122,123,0.00021974998526275158
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,21,True,True,"[[73, 73]]",0.0,sorted_with_duplicates,74,75,0.00012491701636463404
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,22,True,True,"[[-61, -61, -25, 34]]",0.0,sorted_with_duplicates,50,51,0.00012779200915247202
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,23,True,True,"[[95, 95]]",0.0,sorted_with_duplicates,316,317,0.0005215420387685299
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,24,True,True,"[[99, 99]]",0.0,sorted_with_duplicates,42,43,8.616701234132051e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,25,True,True,"[[86, 86]]",0.0,sorted_with_duplicates,532,533,0.000885708024725318
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,26,True,True,"[[40, 40, 65]]",0.0,sorted_with_duplicates,267,268,0.00048500008415430784
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,27,True,True,"[[10, 10, 39, 42]]",0.0,sorted_with_duplicates,331,332,0.000635666074231267
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,28,True,True,"[[95, 95]]",0.0,sorted_with_duplicates,162,163,0.0002934590447694063
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_with_duplicates,29,True,True,"[[100, 100]]",0.0,sorted_with_duplicates,182,183,0.0003124999348074198
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,0,True,True,"[[-17, 1, 54]]",0.0,sorted_unique,9,10,3.533309791237116e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,1,True,True,"[[-24, 34]]",0.0,sorted_unique,5,6,1.650000922381878e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,2,True,True,"[[-63, 98, 100]]",0.0,sorted_unique,36,37,0.00011112494394183159
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,3,True,True,"[[8, 12]]",0.0,sorted_unique,5,6,1.7249956727027893e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,4,True,True,"[[-95, 58]]",0.0,sorted_unique,27,28,8.13750084489584e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,5,True,True,"[[-37, 88]]",0.0,sorted_unique,6,7,1.9000028260052204e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,6,True,True,"[[-89, 12, 53]]",0.0,sorted_unique,3,4,1.4166929759085178e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,7,True,True,"[[-65, 33]]",0.0,sorted_unique,28,29,5.8750039897859097e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,8,True,True,"[[-73, 69]]",0.0,sorted_unique,2,3,1.0042102076113224e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,9,True,True,"[[12, 55]]",0.0,sorted_unique,16,17,4.895904567092657e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,10,True,True,"[[-27, -7]]",0.0,sorted_unique,3,4,1.0292045772075653e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,11,True,True,"[[-52, 21]]",0.0,sorted_unique,34,35,9.629095438867807e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,12,True,True,"[[-19, 93]]",0.0,sorted_unique,13,14,3.862509038299322e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,13,True,True,"[[-92, -46]]",0.0,sorted_unique,4,5,1.666706521064043e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,14,True,True,"[[-49, 58]]",0.0,sorted_unique,59,60,0.00016475003212690353
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,15,True,True,"[[-42, 42, 81]]",0.0,sorted_unique,5,6,1.9749975763261318e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,16,True,True,"[[-73, 8, 57]]",0.0,sorted_unique,0,1,4.708999767899513e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,17,True,True,"[[-37, 66]]",0.0,sorted_unique,70,71,0.00018370803445577621
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,18,True,True,"[[-68, -57]]",0.0,sorted_unique,17,18,5.066697485744953e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,19,True,True,"[[4, 43]]",0.0,sorted_unique,5,6,1.6749952919781208e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,20,True,True,"[[0, 5, 83]]",0.0,sorted_unique,2,3,1.2582982890307903e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,21,True,True,"[[-87, 24, 95, 97]]",0.0,sorted_unique,4,5,2.1124957129359245e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,22,True,True,"[[-53, -46, 1]]",0.0,sorted_unique,4,5,1.8125050701200962e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,23,True,True,"[[6, 98]]",0.0,sorted_unique,4,5,1.433398574590683e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,24,True,True,"[[-52, 75, 99]]",0.0,sorted_unique,24,25,7.991597522050142e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,25,True,True,"[[-3, 100]]",0.0,sorted_unique,3,4,1.12500274553895e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,26,True,True,"[[10, 72]]",0.0,sorted_unique,4,5,2.120796125382185e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,27,True,True,"[[-71, 19]]",0.0,sorted_unique,2,3,1.1582975275814533e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,28,True,True,"[[-10, 13]]",0.0,sorted_unique,48,49,0.0001377500593662262
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,sorted_unique,29,True,True,"[[-26, 87]]",0.0,sorted_unique,45,46,0.0001289580250158906
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,0,True,True,"[[16, 43, 21, 16]]",0.0,unsorted_with_duplicates,30,31,8.037500083446503e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,1,True,True,"[[-100, 67, -20, -20, -7, -5]]",0.0,unsorted_with_duplicates,99,100,0.0002507090102881193
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,2,True,True,"[[47, 70, 70, -73]]",0.0,unsorted_with_duplicates,0,1,4.207948222756386e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,3,True,True,"[[36, -89, 36, -66, -67, 30]]",0.0,unsorted_with_duplicates,86,87,0.00023849995341151953
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,4,True,True,"[[53, 28, 52, 60, 91, 28]]",0.0,unsorted_with_duplicates,171,172,0.00041566696017980576
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,5,True,True,"[[-62, -9, -12, -65, -12]]",0.0,unsorted_with_duplicates,18,19,5.562498699873686e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,6,True,True,"[[67, -49, 62, 49, 34, 49]]",0.0,unsorted_with_duplicates,40,41,0.00011070806067436934
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,7,True,True,"[[71, 46, 71]]",0.0,unsorted_with_duplicates,29,30,8.754106238484383e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,8,True,True,"[[24, 24, -13, 27, -71, -4]]",0.0,unsorted_with_duplicates,202,203,0.000530333025380969
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,9,True,True,"[[49, -6, 26, 10, 49, 45]]",0.0,unsorted_with_duplicates,137,138,0.000330084003508091
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,10,True,True,"[[63, 24, -30, -17, 24]]",0.0,unsorted_with_duplicates,58,59,0.00011829205323010683
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,11,True,True,"[[-58, -78, -78]]",0.0,unsorted_with_duplicates,78,79,0.0002197501016780734
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,12,True,True,"[[-68, -84, -84]]",0.0,unsorted_with_duplicates,38,39,0.00010295899119228125
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,13,True,True,"[[51, 95, -90, 37, -56, 95]]",0.0,unsorted_with_duplicates,413,414,0.0010533749591559172
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,14,True,True,"[[-80, -90, -71, 53, -90, -85]]",0.0,unsorted_with_duplicates,103,104,0.00026570900809019804
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,15,True,True,"[[-28, 45, -82, 69, 3, -82]]",0.0,unsorted_with_duplicates,73,74,0.00017008406575769186
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,16,True,True,"[[45, -76, 53, -16, -95, -76]]",0.0,unsorted_with_duplicates,31,32,7.687509059906006e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,17,True,True,"[[-82, 69, 67, 70, 67, 91]]",0.0,unsorted_with_duplicates,67,68,0.00019337492994964123
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,18,True,True,"[[19, -99, -99]]",0.0,unsorted_with_duplicates,38,39,8.545804303139448e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,19,True,True,"[[47, -20, 62, 72, -4, 72]]",0.0,unsorted_with_duplicates,56,57,0.00013645796570926905
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,20,True,True,"[[-89, 94, 17, -29, -35, -89]]",0.0,unsorted_with_duplicates,34,35,7.941597141325474e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,21,True,True,"[[93, -84, -36, 49, -40, -84]]",0.0,unsorted_with_duplicates,3,4,1.4165998436510563e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,22,True,True,"[[-70, -47, 74, 74, 48]]",0.0,unsorted_with_duplicates,6,7,2.0666047930717468e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,23,True,True,"[[-38, 92, -73, 34, -9, 92]]",0.0,unsorted_with_duplicates,166,167,0.0003983329515904188
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,24,True,True,"[[-83, 23, 36, 70, -71, 23]]",0.0,unsorted_with_duplicates,112,113,0.00027833401691168547
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,25,True,True,"[[12, 42, -18, 88, -48, -48]]",0.0,unsorted_with_duplicates,31,32,9.729200974106789e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,26,True,True,"[[-19, 58, 9, 37, -19]]",0.0,unsorted_with_duplicates,347,348,0.0009543750202283263
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,27,True,True,"[[-32, 57, -60, -32, 38, 40]]",0.0,unsorted_with_duplicates,235,236,0.000600790954194963
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,28,True,True,"[[47, -99, -26, -26]]",0.0,unsorted_with_duplicates,52,53,0.00014541693963110447
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_with_duplicates,29,True,True,"[[95, -71, -29, -23, 43, -71]]",0.0,unsorted_with_duplicates,62,63,0.00015312491450458765
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,0,True,True,"[[68, 79, 6]]",0.0,unsorted_unique,10,11,3.825000021606684e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,1,True,True,"[[-41, 17, -12, -96, 38, 70]]",0.0,unsorted_unique,0,1,6.66698906570673e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,2,True,True,"[[13, -32, -30]]",0.0,unsorted_unique,0,1,5.00003807246685e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,3,True,True,"[[32, 93, -21, 50, 22]]",0.0,unsorted_unique,0,1,6.209011189639568e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,4,True,True,"[[22, -63, 79, -25]]",0.0,unsorted_unique,0,1,5.207955837249756e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,5,True,True,"[[74, -9]]",0.0,unsorted_unique,0,1,4.58303838968277e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,6,True,True,"[[-83, 18, 94, -68]]",0.0,unsorted_unique,1,2,9.750016033649445e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,7,True,True,"[[-3, 42, -55, -12, 84]]",0.0,unsorted_unique,0,1,5.66698145121336e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,8,True,True,"[[56, -80, -15, -81, -64]]",0.0,unsorted_unique,0,1,5.66698145121336e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,9,True,True,"[[49, 38]]",0.0,unsorted_unique,3,4,1.3541080988943577e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,10,True,True,"[[10, -84]]",0.0,unsorted_unique,4,5,1.4416058547794819e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,11,True,True,"[[37, 48, 7]]",0.0,unsorted_unique,6,7,1.9791070371866226e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,12,True,True,"[[6, -89, -57]]",0.0,unsorted_unique,0,1,4.832982085645199e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,13,True,True,"[[-76, 31, -31]]",0.0,unsorted_unique,3,4,1.208402682095766e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,14,True,True,"[[58, -69, -28, 47]]",0.0,unsorted_unique,0,1,5.417037755250931e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,15,True,True,"[[63, 84, -61]]",0.0,unsorted_unique,1,2,8.624978363513947e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,16,True,True,"[[10, -26]]",0.0,unsorted_unique,1,2,7.958966307342052e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,17,True,True,"[[79, 34, 81]]",0.0,unsorted_unique,0,1,4.66697383671999e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,18,True,True,"[[-83, 72, 39]]",0.0,unsorted_unique,0,1,4.792003892362118e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,19,True,True,"[[22, 87, 5, -99]]",0.0,unsorted_unique,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,20,True,True,"[[36, -48, -58, 19, 14, -53]]",0.0,unsorted_unique,1,2,1.2167030945420265e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,21,True,True,"[[82, -82]]",0.0,unsorted_unique,3,4,1.191697083413601e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,22,True,True,"[[96, 22]]",0.0,unsorted_unique,1,2,7.750000804662704e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,23,True,True,"[[60, 59]]",0.0,unsorted_unique,12,13,3.345799632370472e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,24,True,True,"[[-20, -29]]",0.0,unsorted_unique,4,5,1.4959019608795643e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,25,True,True,"[[61, -40, -49]]",0.0,unsorted_unique,0,1,4.999921657145023e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,26,True,True,"[[-56, 52, 62, -55]]",0.0,unsorted_unique,4,5,1.4625024050474167e-05
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,27,True,True,"[[-100, -9, -77, -17]]",0.0,unsorted_unique,0,1,5.207955837249756e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,28,True,True,"[[-54, 98, -6]]",0.0,unsorted_unique,0,1,4.541943781077862e-06
+openai_gpt_oss_120b,HILL_CLIMBING,list_pattern,unsorted_unique,29,True,True,"[[55, -36, -20, -67, -41]]",0.0,unsorted_unique,0,1,5.499925464391708e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,0,True,True,[0],0.0,zero,121,122,0.0001425000373274088
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,1,True,True,[0],0.0,zero,68,69,7.60830007493496e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,2,True,True,[0],0.0,zero,72,73,9.716697968542576e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,3,True,True,[0],0.0,zero,127,128,0.00014625000767409801
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,4,True,True,[0],0.0,zero,175,176,0.00019204209093004465
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,5,True,True,[0],0.0,zero,25,26,4.099996294826269e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,6,True,True,[0],0.0,zero,55,56,7.708300836384296e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,7,True,True,[0],0.0,zero,126,127,0.00014679098967462778
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,8,True,True,[0],0.0,zero,59,60,7.808301597833633e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,9,True,True,[0],0.0,zero,74,75,8.070806507021189e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,10,True,True,[0],0.0,zero,58,59,7.866707164794207e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,11,True,True,[0],0.0,zero,83,84,9.900005534291267e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,12,True,True,[0],0.0,zero,109,110,0.00012049998622387648
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,13,True,True,[0],0.0,zero,89,90,9.587500244379044e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,14,True,True,[0],0.0,zero,120,121,0.00013241695705801249
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,15,True,True,[0],0.0,zero,60,61,7.145805284380913e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,16,True,True,[0],0.0,zero,60,61,7.987499702721834e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,17,True,True,[0],0.0,zero,97,98,0.0001044590026140213
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,18,True,True,[0],0.0,zero,170,171,0.00017725001089274883
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,19,True,True,[0],0.0,zero,71,72,9.45419305935502e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,20,True,True,[0],0.0,zero,37,38,4.4665997847914696e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,21,True,True,[0],0.0,zero,28,29,3.2125040888786316e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,22,True,True,[0],0.0,zero,108,109,0.0001276250695809722
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,23,True,True,[0],0.0,zero,40,41,5.804200191050768e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,24,True,True,[0],0.0,zero,69,70,7.858301978558302e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,25,True,True,[0],0.0,zero,39,40,4.2749918065965176e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,26,True,True,[0],0.0,zero,76,77,9.162502828985453e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,27,True,True,[0],0.0,zero,53,54,6.454205140471458e-05
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,28,True,True,[0],0.0,zero,117,118,0.00014045799616724253
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,zero,29,True,True,[0],0.0,zero,106,107,0.00012020906433463097
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,0,True,True,[2016],0.0,even,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,1,True,True,[2818],0.0,even,0,1,2.7080532163381577e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,2,True,True,[2202],0.0,even,1,2,5.041947588324547e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,3,True,True,[1404],0.0,even,0,1,2.5830231606960297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,4,True,True,[2376],0.0,even,0,1,2.5830231606960297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,5,True,True,[1642],0.0,even,1,2,5.124951712787151e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,6,True,True,[942],0.0,even,0,1,2.499902620911598e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,7,True,True,[942],0.0,even,0,1,2.540997229516506e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,8,True,True,[2226],0.0,even,1,2,4.332978278398514e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,9,True,True,[724],0.0,even,0,1,2.124928869307041e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,10,True,True,[1140],0.0,even,0,1,2.5830231606960297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,11,True,True,[2370],0.0,even,1,2,4.708999767899513e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,12,True,True,[1910],0.0,even,1,2,4.749977961182594e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,13,True,True,[-372],0.0,even,0,1,2.5420449674129486e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,14,True,True,[-422],0.0,even,0,1,2.2079329937696457e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,15,True,True,[218],0.0,even,0,1,2.125045284628868e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,16,True,True,[-426],0.0,even,2,3,8.207978680729866e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,17,True,True,[2284],0.0,even,0,1,2.6670750230550766e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,18,True,True,[2194],0.0,even,0,1,2.749962732195854e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,19,True,True,[2436],0.0,even,1,2,5.209003575146198e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,20,True,True,[120],0.0,even,1,2,5.166977643966675e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,21,True,True,[2262],0.0,even,0,1,2.00001522898674e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,22,True,True,[-90],0.0,even,1,2,4.792003892362118e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,23,True,True,[2626],0.0,even,0,1,2.5830231606960297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,24,True,True,[1910],0.0,even,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,25,True,True,[2994],0.0,even,2,3,6.417045369744301e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,26,True,True,[2326],0.0,even,0,1,2.333894371986389e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,27,True,True,[2594],0.0,even,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,28,True,True,[1866],0.0,even,1,2,4.749977961182594e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,even,29,True,True,[874],0.0,even,0,1,2.5419285520911217e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,0,True,True,[1775],0.0,odd,1,2,5.249981768429279e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,1,True,True,[1503],0.0,odd,0,1,2.5419285520911217e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,2,True,True,[2229],0.0,odd,0,1,2.5419285520911217e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,3,True,True,[1443],0.0,odd,0,1,2.583954483270645e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,4,True,True,[1863],0.0,odd,0,1,2.625049091875553e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,5,True,True,[2587],0.0,odd,0,1,2.8329668566584587e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,6,True,True,[1485],0.0,odd,1,2,4.166970029473305e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,7,True,True,[167],0.0,odd,0,1,2.540997229516506e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,8,True,True,[1241],0.0,odd,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,9,True,True,[841],0.0,odd,1,2,4.792003892362118e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,10,True,True,[211],0.0,odd,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,11,True,True,[1535],0.0,odd,3,4,8.00006091594696e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,12,True,True,[1137],0.0,odd,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,13,True,True,[1991],0.0,odd,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,14,True,True,[2501],0.0,odd,2,3,6.417045369744301e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,15,True,True,[-135],0.0,odd,2,3,6.375019438564777e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,16,True,True,[1785],0.0,odd,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,17,True,True,[901],0.0,odd,0,1,2.4168984964489937e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,18,True,True,[2013],0.0,odd,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,19,True,True,[-347],0.0,odd,0,1,2.499902620911598e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,20,True,True,[2285],0.0,odd,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,21,True,True,[2145],0.0,odd,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,22,True,True,[317],0.0,odd,0,1,2.5420449674129486e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,23,True,True,[1899],0.0,odd,0,1,2.499902620911598e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,24,True,True,[743],0.0,odd,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,25,True,True,[2481],0.0,odd,0,1,2.458924427628517e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,26,True,True,[-39],0.0,odd,2,3,6.417045369744301e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,27,True,True,[2975],0.0,odd,2,3,6.249989382922649e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,28,True,True,[831],0.0,odd,0,1,2.2080494090914726e-06
+openai_gpt_oss_120b,HILL_CLIMBING,number_kind,odd,29,True,True,[2539],0.0,odd,1,2,4.750094376504421e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,0,True,True,['ddJJu'],0.0,weak_short,28,29,8.604198228567839e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,1,True,True,['F3425'],0.0,weak_short,13,14,3.7375022657215595e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,2,True,True,['cGgUE'],0.0,weak_short,16,17,4.499999340623617e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,3,True,True,['AOjok'],0.0,weak_short,11,12,2.962502185255289e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,4,True,True,['tl1Eg'],0.0,weak_short,19,20,4.812504630535841e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,5,True,True,['2hytN'],0.0,weak_short,19,20,4.991702735424042e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,6,True,True,['5fQSB'],0.0,weak_short,19,20,4.499999340623617e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,7,True,True,['vTOZB'],0.0,weak_short,30,31,6.991601549088955e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,8,True,True,['PbNsR'],0.0,weak_short,19,20,4.98330919072032e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,9,True,True,['q5qbf'],0.0,weak_short,17,18,4.733400419354439e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,10,True,True,['BuNKi'],0.0,weak_short,9,10,2.54589831456542e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,11,True,True,['J4D81'],0.0,weak_short,11,12,3.1250063329935074e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,12,True,True,['hD'],0.0,weak_short,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,13,True,True,['MoR6L'],0.0,weak_short,3,4,1.2125005014240742e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,14,True,True,['33'],0.0,weak_short,0,1,3.834022209048271e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,15,True,True,['m4DG'],0.0,weak_short,0,1,4.041939973831177e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,16,True,True,['pLGh'],0.0,weak_short,0,1,3.7079444155097008e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,17,True,True,['1RD4'],0.0,weak_short,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,18,True,True,['VrBya'],0.0,weak_short,13,14,3.63329891115427e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,19,True,True,['GLvmA'],0.0,weak_short,2,3,8.95792618393898e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,20,True,True,['sXP5o'],0.0,weak_short,20,21,5.379202775657177e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,21,True,True,['AclPx'],0.0,weak_short,5,6,1.562491524964571e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,22,True,True,['ndAp1'],0.0,weak_short,17,18,4.4291955418884754e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,23,True,True,['W'],0.0,weak_short,0,1,3.1669624149799347e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,24,True,True,['n9z3e'],0.0,weak_short,0,1,4.209112375974655e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,25,True,True,['rdp'],0.0,weak_short,0,1,3.7919962778687477e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,26,True,True,[''],0.0,weak_short,0,1,3.5410048440098763e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,27,True,True,[''],0.0,weak_short,0,1,3.08395829051733e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,28,True,True,['Teh9O'],0.0,weak_short,23,24,6.17919722571969e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_short,29,True,True,['hy8y4'],0.0,weak_short,0,1,3.7499703466892242e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,0,True,True,['3lrHrYlAOO'],0.0,strong,26,27,6.458302959799767e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,1,True,True,['1jfVtN0V8RPRSKz'],0.0,strong,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,2,True,True,['CLtqDDAAQ2'],0.0,strong,13,14,3.8375030271708965e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,3,True,True,['J1S2Jp3rUk'],0.0,strong,0,1,4.792003892362118e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,4,True,True,['ZBX82d7tVZkQEs2'],0.0,strong,0,1,5.792011506855488e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,5,True,True,['ZTKcEC6xFm'],0.0,strong,34,35,7.62909185141325e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,6,True,True,['o3RjucEeBQ'],0.0,strong,20,21,4.75000124424696e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,7,True,True,['QZKDU6Mq6h'],0.0,strong,3,4,1.2665987014770508e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,8,True,True,['dfc2444A0RkAU'],0.0,strong,0,1,5.624955520033836e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,9,True,True,['1CxCYvCSXE'],0.0,strong,18,19,4.291697405278683e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,10,True,True,['7wYqoyKDjO'],0.0,strong,11,12,2.962502185255289e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,11,True,True,['JPtE9o9oCO'],0.0,strong,12,13,3.195903263986111e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,12,True,True,['Z9PL42jLH0'],0.0,strong,4,5,1.0624993592500687e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,13,True,True,['5lNG4Q5Sm9'],0.0,strong,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,14,True,True,['47KtHlN1Ks'],0.0,strong,13,14,3.3250078558921814e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,15,True,True,['oVSkQp0wCON'],0.0,strong,33,34,7.683399599045515e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,16,True,True,['jWBXDtdx6BObhlK'],0.0,strong,0,1,4.915986210107803e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,17,True,True,['sliB9LBTq4'],0.0,strong,11,12,3.27499583363533e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,18,True,True,['n2aRMnHefJ'],0.0,strong,32,33,7.154105696827173e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,19,True,True,['4GSGHUNUgu'],0.0,strong,8,9,2.2249994799494743e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,20,True,True,['9k2kTyOg6b'],0.0,strong,4,5,1.5832949429750443e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,21,True,True,['X87iXlhdwRisgw'],0.0,strong,0,1,5.750101990997791e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,22,True,True,['sYhPmMWqZt4'],0.0,strong,21,22,5.541602149605751e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,23,True,True,['w7Mo6Nfn26'],0.0,strong,22,23,5.637493450194597e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,24,True,True,['8f8lnpTpmV'],0.0,strong,11,12,2.9333983547985554e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,25,True,True,['yfYV5xVkJV'],0.0,strong,3,4,1.4040968380868435e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,26,True,True,['NuT3oFx4Yr'],0.0,strong,31,32,7.095909677445889e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,27,True,True,['2MozsJ2gbrV'],0.0,strong,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,28,True,True,['P57dvY0bqF'],0.0,strong,2,3,9.66701190918684e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,strong,29,True,True,['2JosZ2KG5F'],0.0,strong,29,30,6.158300675451756e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,0,True,True,['vleFPwtrTAWNE'],0.0,medium,3,4,1.3167038559913635e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,1,True,True,['4UumRj'],0.0,medium,5,6,1.6542035154998302e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,2,True,True,['CK1maJWye'],0.0,medium,3,4,1.3666925951838493e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,3,True,True,['fuOIYa'],0.0,medium,13,14,3.362505231052637e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,4,True,True,['glrAI9'],0.0,medium,13,14,3.2832962460815907e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,5,True,True,['rVESHu'],0.0,medium,1,2,7.3750270530581474e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,6,True,True,['n0gc0PgfW'],0.0,medium,19,20,5.483301356434822e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,7,True,True,['pzHOV2'],0.0,medium,7,8,2.2249994799494743e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,8,True,True,['rPqWGimqv'],0.0,medium,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,9,True,True,['8rmmtD'],0.0,medium,2,3,9.833951480686665e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,10,True,True,['RM67czgLF'],0.0,medium,66,67,0.00014029094018042088
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,11,True,True,['OmHAgD'],0.0,medium,2,3,7.3750270530581474e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,12,True,True,['sYVZWskQ7'],0.0,medium,0,1,5.00003807246685e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,13,True,True,['sIBfPF'],0.0,medium,6,7,1.8457998521625996e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,14,True,True,['W3yTJsh'],0.0,medium,0,1,4.542060196399689e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,15,True,True,['Rfghhz'],0.0,medium,4,5,1.4416989870369434e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,16,True,True,['dEuOAV'],0.0,medium,3,4,1.2625008821487427e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,17,True,True,['6sQqGvKhj'],0.0,medium,3,4,1.2791948392987251e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,18,True,True,['kFgxwlrmUrDx'],0.0,medium,13,14,4.100007936358452e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,19,True,True,['TJdpgZYhmyPHpiL'],0.0,medium,67,68,0.00015137495938688517
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,20,True,True,['TFQDjM'],0.0,medium,8,9,2.2833002731204033e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,21,True,True,['Y4fOZRErw'],0.0,medium,16,17,4.241708666086197e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,22,True,True,['BloXwtzOwnpM'],0.0,medium,16,17,4.479195922613144e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,23,True,True,['MG33Cc'],0.0,medium,6,7,1.8166028894484043e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,24,True,True,['1QAN2I5G4'],0.0,medium,0,1,4.750094376504421e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,25,True,True,['c3hDBs'],0.0,medium,15,16,4.004104994237423e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,26,True,True,['3GOwDc'],0.0,medium,0,1,3.7919962778687477e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,27,True,True,['nQc62J6nG'],0.0,medium,0,1,4.915986210107803e-06
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,28,True,True,['K1LL8d'],0.0,medium,14,15,3.954197745770216e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,medium,29,True,True,['SpwjHlUV7'],0.0,medium,77,78,0.00016245897859334946
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,0,True,True,['aknqep'],0.0,weak_no_digit_upper,3965,3966,0.007648000027984381
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,1,True,True,['xidhpjj'],0.0,weak_no_digit_upper,4087,4088,0.008083291002549231
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,2,True,True,['igznoi'],0.0,weak_no_digit_upper,4349,4350,0.008843292016535997
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,3,True,True,['uxbozse'],0.0,weak_no_digit_upper,4137,4138,0.008327500079758465
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,4,True,True,['qcjocie'],0.0,weak_no_digit_upper,3348,3349,0.006658834055997431
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,5,True,True,['isbcuxc'],0.0,weak_no_digit_upper,6120,6121,0.012273957952857018
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,6,True,True,['uvwdjwg'],0.0,weak_no_digit_upper,1255,1256,0.0025115410098806024
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,7,True,True,['ajswnp'],0.0,weak_no_digit_upper,3437,3438,0.00695674994494766
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,8,True,True,['dpbogl'],0.0,weak_no_digit_upper,1079,1080,0.0021579170133918524
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,9,True,True,['tugpwb'],0.0,weak_no_digit_upper,19,20,4.1624996811151505e-05
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,10,True,True,['khicrq'],0.0,weak_no_digit_upper,1226,1227,0.0024680420756340027
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,11,True,True,['mkwubmn'],0.0,weak_no_digit_upper,1156,1157,0.0022705410374328494
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,12,True,True,['kryebc'],0.0,weak_no_digit_upper,7890,7891,0.01578733406495303
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,13,True,True,['mnxmye'],0.0,weak_no_digit_upper,1782,1783,0.0036016670055687428
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,14,True,True,['ymlbgx'],0.0,weak_no_digit_upper,277,278,0.0005584579193964601
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,15,True,True,['arijna'],0.0,weak_no_digit_upper,393,394,0.0008228750666603446
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,16,True,True,['vuizgapw'],0.0,weak_no_digit_upper,4577,4578,0.00937479198910296
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,17,True,True,['zncctr'],0.0,weak_no_digit_upper,132,133,0.00026050000451505184
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,18,True,True,['jortwxo'],0.0,weak_no_digit_upper,1691,1692,0.003128583077341318
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,19,True,True,['mlaqhc'],0.0,weak_no_digit_upper,4123,4124,0.007875042036175728
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,20,True,True,['lzrgba'],0.0,weak_no_digit_upper,407,408,0.000773124978877604
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,21,True,True,['ldicvd'],0.0,weak_no_digit_upper,903,904,0.0018095000414177775
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,22,True,True,['gbaowrcqt'],0.0,weak_no_digit_upper,5011,5012,0.009917416027747095
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,23,True,True,['sgtsxnb'],0.0,weak_no_digit_upper,1665,1666,0.003351958002895117
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,24,True,True,['lgblka'],0.0,weak_no_digit_upper,953,954,0.001902082934975624
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,25,True,True,['yzvqjtllmy'],0.0,weak_no_digit_upper,46,47,0.00010716600809246302
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,26,True,True,['jiwvliw'],0.0,weak_no_digit_upper,134,135,0.0002760420320555568
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,27,True,True,['dhlscc'],0.0,weak_no_digit_upper,2591,2592,0.005155833903700113
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,28,False,False,['xOXlrN'],1.0,,6,8081,0.016113624908030033
+openai_gpt_oss_120b,HILL_CLIMBING,password_strength,weak_no_digit_upper,29,True,True,['lndgdk'],0.0,weak_no_digit_upper,678,679,0.0013880839105695486
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,0,False,False,"[8, 4, 11, 1]",4.0,,760,8094,0.020121667068451643
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,1,False,False,"[6, 0, 10, 1]",5.0,,1006,8093,0.01995404192712158
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,2,False,False,"[8, 0, 9, 1]",4.0,,4929,8093,0.020019249990582466
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,3,False,False,"[8, 3, 8, 1]",2.0,,627,8094,0.019971749978139997
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,4,False,False,"[7, 3, 8, 2]",2.0,,2585,8093,0.020092083024792373
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,5,False,False,"[6, 4, 11, 1]",4.0,,706,8094,0.020056874956935644
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,6,False,False,"[6, 1, 9, 0]",4.0,,3016,8093,0.020031124935485423
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,7,False,False,"[7, 5, 10, 1]",3.0,,3427,8093,0.019958999939262867
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,8,False,False,"[7, 3, 9, -1]",2.0,,691,8094,0.020118166925385594
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,9,False,False,"[6, 3, 8, 1]",2.0,,1535,8094,0.019980457960627973
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,10,False,False,"[7, 2, 10, 1]",2.0,,491,8094,0.02007012499962002
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,11,False,False,"[7, 2, 9, 3]",3.0,,4488,8093,0.019944166066125035
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,12,False,False,"[7, 3, 7, 4]",5.0,,7142,8093,0.019980125012807548
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,13,False,False,"[8, 2, 12, 0]",6.0,,791,8094,0.020024415920488536
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,14,False,False,"[6, 5, 9, 2]",4.0,,929,8094,0.019810541998595
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,15,False,False,"[7, 6, 8, 1]",4.0,,317,8095,0.020008417079225183
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,16,False,False,"[8, 6, 9, 1]",4.0,,390,8094,0.02003458305262029
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,17,False,False,"[7, 2, 11, 1]",3.0,,452,8094,0.020016417023725808
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,18,False,False,"[8, 2, 8, 1]",3.0,,1681,8092,0.019888457958586514
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,19,False,False,"[8, 2, 9, 0]",3.0,,3732,8092,0.01991000003181398
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,20,False,False,"[7, 0, 10, 1]",4.0,,1695,8093,0.019880375009961426
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,21,False,False,"[8, 3, 10, 3]",4.0,,2007,8094,0.020055709057487547
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,22,False,False,"[9, 4, 10, 0]",5.0,,3008,8093,0.020056959008798003
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,23,False,False,"[5, 3, 9, -1]",4.0,,6920,8094,0.020056084031239152
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,24,False,False,"[7, 3, 6, 1]",3.0,,1058,8093,0.020043500000610948
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,25,False,False,"[7, 4, 9, 3]",3.0,,7923,8092,0.020064041018486023
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,26,False,False,"[3, 3, 11, 1]",6.0,,1002,8093,0.0200776249403134
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,27,False,False,"[6, 2, 9, 1]",2.0,,776,8094,0.020053874934092164
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,28,False,False,"[7, 2, 9, 1]",1.0,,3651,8094,0.019885833957232535
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,secret_pin,29,False,False,"[7, 3, 6, 1]",3.0,,2613,8093,0.019987416919320822
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,0,False,False,"[639, 640, 640, 640]",1.0,,1957,8093,0.019754750072024763
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,1,False,False,"[586, 585, 585, 587]",1.0,,3023,8093,0.019822707981802523
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,2,False,False,"[2173, 2172, 2173, 2172]",1.0,,6789,8093,0.019808707991614938
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,3,False,False,"[2122, 2123, 2122, 2122]",1.0,,799,8094,0.01998037495650351
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,4,False,False,"[1081, 1082, 1082, 1080]",1.0,,6954,8093,0.01982199994381517
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,5,False,False,"[1571, 1573, 1571, 1572]",2.0,,1345,8093,0.01981633296236396
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,6,False,False,"[1061, 1060, 1060, 1059]",2.0,,1001,8093,0.019871708005666733
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,7,False,False,"[-195, -197, -194, -194]",2.0,,706,8094,0.01983158302027732
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,8,False,False,"[1773, 1774, 1774, 1772]",1.0,,1679,8093,0.019734542001970112
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,9,False,False,"[43, 45, 43, 43]",2.0,,837,8094,0.019978084019385278
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,10,False,False,"[-379, -380, -381, -378]",2.0,,1085,8093,0.019937749952077866
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,11,False,False,"[1561, 1559, 1563, 1560]",2.0,,953,8093,0.01991616701707244
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,12,True,True,"[1238, 1238, 1238, 1238]",0.0,all_same,3652,3658,0.00900729198474437
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,13,False,False,"[1394, 1394, 1395, 1393]",1.0,,1361,8094,0.019842708948999643
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,14,False,False,"[1084, 1084, 1086, 1082]",2.0,,5264,8094,0.01996058295480907
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,15,False,False,"[284, 285, 284, 284]",1.0,,3380,8092,0.01982262497767806
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,16,False,False,"[595, 594, 597, 593]",2.0,,917,8094,0.01991549995727837
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,17,False,False,"[2047, 2049, 2045, 2048]",2.0,,1070,8093,0.019899750011973083
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,18,False,False,"[1178, 1177, 1177, 1179]",1.0,,610,8094,0.01994162506889552
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,19,False,False,"[2281, 2281, 2282, 2281]",1.0,,5612,8093,0.019861374981701374
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,20,False,False,"[105, 107, 104, 107]",2.0,,603,8094,0.019825374940410256
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,21,False,False,"[769, 769, 767, 767]",2.0,,878,8093,0.01991987496148795
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,22,False,False,"[1240, 1241, 1241, 1240]",1.0,,1723,8093,0.019964582985267043
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,23,False,False,"[2572, 2571, 2570, 2574]",2.0,,697,8094,0.01989724999293685
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,24,False,False,"[1177, 1177, 1176, 1176]",1.0,,2120,8093,0.019709749962203205
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,25,False,False,"[1768, 1768, 1767, 1767]",1.0,,618,8094,0.019875249941833317
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,26,True,True,"[796, 796, 796, 796]",0.0,all_same,6833,6844,0.01677491597365588
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,27,True,True,"[2435, 2435, 2435, 2435]",0.0,all_same,5942,5953,0.01471866702195257
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,28,False,False,"[812, 812, 812, 811]",1.0,,6909,8093,0.01988129096571356
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,all_same,29,True,True,"[602, 602, 602, 602]",0.0,all_same,2635,2639,0.006423917016945779
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,0,True,True,"[-195, -151, -138, 504]",0.0,ordered_sum_20,870,871,0.0022040419280529022
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,1,True,True,"[-8, 0, 10, 18]",0.0,ordered_sum_20,671,672,0.0017100829863920808
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,2,True,True,"[-288, 94, 96, 118]",0.0,ordered_sum_20,672,673,0.0017467919969931245
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,3,True,True,"[-409, -388, 306, 511]",0.0,ordered_sum_20,513,514,0.0013058329932391644
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,4,True,True,"[-411, -401, -44, 876]",0.0,ordered_sum_20,353,354,0.0009787080343812704
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,5,True,True,"[-95, 11, 26, 78]",0.0,ordered_sum_20,283,284,0.0007892500143498182
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,6,True,True,"[-18, -2, 19, 21]",0.0,ordered_sum_20,1716,1717,0.004343540989793837
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,7,True,True,"[-69, -50, -13, 152]",0.0,ordered_sum_20,587,588,0.001504375017248094
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,8,True,True,"[-30, 8, 20, 22]",0.0,ordered_sum_20,546,547,0.001388374948874116
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,9,True,True,"[-320, -243, 143, 440]",0.0,ordered_sum_20,528,529,0.0013567910064011812
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,10,True,True,"[-5, -3, 7, 21]",0.0,ordered_sum_20,1513,1514,0.0038065420230850577
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,11,True,True,"[-422, -51, 30, 463]",0.0,ordered_sum_20,411,412,0.0010629169410094619
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,12,True,True,"[-389, -197, -33, 639]",0.0,ordered_sum_20,170,171,0.00043516606092453003
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,13,True,True,"[-301, -250, -14, 585]",0.0,ordered_sum_20,360,361,0.0009269999573007226
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,14,True,True,"[-408, -394, 335, 487]",0.0,ordered_sum_20,236,237,0.000618874910287559
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,15,True,True,"[-431, -178, -173, 802]",0.0,ordered_sum_20,544,545,0.0014020409435033798
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,16,True,True,"[-378, -351, -331, 1080]",0.0,ordered_sum_20,310,311,0.0008384169777855277
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,17,True,True,"[-466, -170, 164, 492]",0.0,ordered_sum_20,455,456,0.001149625051766634
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,18,True,True,"[-263, -239, -226, 748]",0.0,ordered_sum_20,605,606,0.0016127499984577298
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,19,True,True,"[-378, -359, 182, 575]",0.0,ordered_sum_20,416,417,0.001085874973796308
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,20,True,True,"[-259, -64, 137, 206]",0.0,ordered_sum_20,584,585,0.001478582969866693
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,21,True,True,"[-80, -68, -17, 185]",0.0,ordered_sum_20,240,241,0.0006501250900328159
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,22,True,True,"[-286, -229, -207, 742]",0.0,ordered_sum_20,758,759,0.001983624999411404
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,23,True,True,"[-271, -261, -31, 583]",0.0,ordered_sum_20,381,382,0.0009928330546244979
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,24,True,True,"[-231, -27, 136, 142]",0.0,ordered_sum_20,859,860,0.0021624170476570725
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,25,True,True,"[-426, -397, -308, 1151]",0.0,ordered_sum_20,354,355,0.0009011670481413603
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,26,True,True,"[-123, 32, 54, 57]",0.0,ordered_sum_20,399,400,0.0010429170215502381
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,27,True,True,"[-474, -439, -231, 1164]",0.0,ordered_sum_20,625,626,0.00155608297791332
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,28,True,True,"[-183, 9, 29, 165]",0.0,ordered_sum_20,1044,1046,0.0026213749079033732
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,ordered_sum_20,29,True,True,"[-184, -132, 17, 319]",0.0,ordered_sum_20,492,493,0.0012506659841164947
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,0,True,True,"[454, 998, 2707, 1125]",0.0,other,0,1,6.207963451743126e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,1,True,True,"[1835, 706, 2073, 1228]",0.0,other,0,1,6.00004568696022e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,2,True,True,"[2112, 547, 3000, -345]",0.0,other,0,1,6.042071618139744e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,3,True,True,"[153, 2641, 2571, 1157]",0.0,other,0,1,5.167094059288502e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,4,True,True,"[850, 626, 874, 1975]",0.0,other,0,1,7.041962817311287e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,5,True,True,"[379, 274, -275, 383]",0.0,other,0,1,5.959067493677139e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,6,True,True,"[190, 2589, 2302, 2131]",0.0,other,0,1,6.042071618139744e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,7,True,True,"[13, 911, 1877, 2695]",0.0,other,0,1,5.875015631318092e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,8,True,True,"[-451, 1880, 142, 2472]",0.0,other,0,1,6.082933396100998e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,9,True,True,"[1729, 789, 2419, 486]",0.0,other,0,1,5.707959644496441e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,10,True,True,"[762, -465, 1336, 389]",0.0,other,0,1,6.00004568696022e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,11,True,True,"[2267, 328, 2192, 1738]",0.0,other,0,1,5.624955520033836e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,12,True,True,"[-238, 2132, 2840, -123]",0.0,other,0,1,5.875015631318092e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,13,True,True,"[576, 1593, 2722, 1314]",0.0,other,0,1,7.416936568915844e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,14,True,True,"[147, 467, 1056, 2411]",0.0,other,0,1,5.832989700138569e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,15,True,True,"[1021, 1433, 2953, -485]",0.0,other,0,1,5.749985575675964e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,16,True,True,"[2848, 1927, 2062, 2154]",0.0,other,0,1,5.791895091533661e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,17,True,True,"[2308, 1942, 944, 451]",0.0,other,0,1,6.66698906570673e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,18,True,True,"[-1, 2366, 274, 698]",0.0,other,0,1,5.999929271638393e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,19,True,True,"[301, 1801, -426, 1362]",0.0,other,0,1,5.790963768959045e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,20,True,True,"[1345, 1910, 1616, 1819]",0.0,other,0,1,5.583977326750755e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,21,True,True,"[1894, 1997, 1580, 856]",0.0,other,0,1,5.66698145121336e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,22,True,True,"[1785, 390, 2534, 919]",0.0,other,0,1,5.249981768429279e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,23,True,True,"[2385, 2611, 1515, 978]",0.0,other,0,1,5.707959644496441e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,24,True,True,"[1458, 1065, 1235, -240]",0.0,other,0,1,5.958019755780697e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,25,True,True,"[951, -160, 1384, 472]",0.0,other,0,1,5.709007382392883e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,26,True,True,"[2498, 1993, 253, 2637]",0.0,other,0,1,5.958019755780697e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,27,True,True,"[48, 832, 693, -252]",0.0,other,0,1,5.749985575675964e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,28,True,True,"[-197, 1024, 343, -207]",0.0,other,0,1,5.958951078355312e-06
+openai_gpt_oss_120b,HILL_CLIMBING,pin_pattern,other,29,True,True,"[218, 1448, 1438, 692]",0.0,other,0,1,5.791080184280872e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,0,True,True,[1690],0.0,positive,0,1,3.832974471151829e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,1,True,True,[1683],0.0,positive,0,1,3.3339019864797592e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,2,True,True,[2487],0.0,positive,1,2,6.832997314631939e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,3,True,True,[1250],0.0,positive,0,1,2.749962732195854e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,4,True,True,[1533],0.0,positive,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,5,True,True,[427],0.0,positive,0,1,2.5420449674129486e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,6,True,True,[1380],0.0,positive,0,1,3.7919962778687477e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,7,True,True,[1108],0.0,positive,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,8,True,True,[2741],0.0,positive,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,9,True,True,[1084],0.0,positive,0,1,2.584070898592472e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,10,True,True,[528],0.0,positive,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,11,True,True,[84],0.0,positive,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,12,True,True,[2837],0.0,positive,0,1,2.4579931050539017e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,13,True,True,[1261],0.0,positive,0,1,2.3329630494117737e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,14,True,True,[394],0.0,positive,0,1,2.7909409254789352e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,15,True,True,[1485],0.0,positive,1,2,5.375011824071407e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,16,True,True,[1798],0.0,positive,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,17,True,True,[2460],0.0,positive,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,18,True,True,[584],0.0,positive,0,1,2.3330794647336006e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,19,True,True,[1057],0.0,positive,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,20,True,True,[999],0.0,positive,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,21,True,True,[2999],0.0,positive,1,2,5.041947588324547e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,22,True,True,[892],0.0,positive,0,1,2.625049091875553e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,23,True,True,[2172],0.0,positive,0,1,2.3329630494117737e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,24,True,True,[61],0.0,positive,0,1,2.334010787308216e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,25,True,True,[415],0.0,positive,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,26,True,True,[316],0.0,positive,0,1,2.0419247448444366e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,27,True,True,[701],0.0,positive,0,1,2.2919848561286926e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,28,True,True,[2758],0.0,positive,0,1,4.124944098293781e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,positive,29,True,True,[2775],0.0,positive,0,1,2.6669586077332497e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,0,True,True,[-164],0.0,negative,33,34,4.770804662257433e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,1,True,True,[-320],0.0,negative,12,13,2.2332998923957348e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,2,True,True,[-337],0.0,negative,2,3,6.959075108170509e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,3,True,True,[-320],0.0,negative,42,43,5.8333040215075016e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,4,True,True,[-54],0.0,negative,0,1,2.415967173874378e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,5,True,True,[-412],0.0,negative,10,11,1.879094634205103e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,6,True,True,[-461],0.0,negative,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,7,True,True,[-186],0.0,negative,0,1,2.625049091875553e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,8,True,True,[-60],0.0,negative,0,1,2.4168984964489937e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,9,True,True,[-277],0.0,negative,23,24,3.6084093153476715e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,10,True,True,[-275],0.0,negative,12,13,1.7874990589916706e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,11,True,True,[-426],0.0,negative,0,1,2.7079368010163307e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,12,True,True,[-10],0.0,negative,31,32,4.537496715784073e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,13,True,True,[-234],0.0,negative,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,14,True,True,[-23],0.0,negative,7,8,1.3750046491622925e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,15,True,True,[-354],0.0,negative,18,19,2.4916953407227993e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,16,True,True,[-467],0.0,negative,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,17,True,True,[-3],0.0,negative,6,7,1.2499978765845299e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,18,True,True,[-248],0.0,negative,17,18,2.5333021767437458e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,19,True,True,[-121],0.0,negative,5,6,1.0707997716963291e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,20,True,True,[-114],0.0,negative,15,16,2.7959002181887627e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,21,True,True,[-440],0.0,negative,86,87,0.00011083402205258608
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,22,True,True,[-370],0.0,negative,48,49,6.845803000032902e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,23,True,True,[-174],0.0,negative,4,5,1.0792049579322338e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,24,True,True,[-267],0.0,negative,40,41,4.558393266052008e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,25,True,True,[-262],0.0,negative,14,15,2.3499946109950542e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,26,True,True,[-198],0.0,negative,25,26,3.995909355580807e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,27,True,True,[-439],0.0,negative,37,38,5.962501745671034e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,28,True,True,[-139],0.0,negative,17,18,2.958404365926981e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,negative,29,True,True,[-107],0.0,negative,11,12,1.5874975360929966e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,0,True,True,[0],0.0,zero,14,15,2.26249685510993e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,1,True,True,[0],0.0,zero,99,100,0.00011799996718764305
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,2,True,True,[0],0.0,zero,56,57,7.333396933972836e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,3,True,True,[0],0.0,zero,83,84,9.170908015221357e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,4,True,True,[0],0.0,zero,38,39,5.3459079936146736e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,5,True,True,[0],0.0,zero,84,85,9.312503971159458e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,6,True,True,[0],0.0,zero,34,35,3.499991726130247e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,7,True,True,[0],0.0,zero,24,25,3.374996595084667e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,8,True,True,[0],0.0,zero,56,57,6.079091690480709e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,9,True,True,[0],0.0,zero,76,77,9.437499102205038e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,10,True,True,[0],0.0,zero,156,157,0.0001664169831201434
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,11,True,True,[0],0.0,zero,85,86,0.00010025000665336847
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,12,True,True,[0],0.0,zero,67,68,7.449998520314693e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,13,True,True,[0],0.0,zero,124,125,0.00013879197649657726
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,14,True,True,[0],0.0,zero,28,29,2.975005190819502e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,15,True,True,[0],0.0,zero,110,111,0.00011150003410875797
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,16,True,True,[0],0.0,zero,71,72,8.92499228939414e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,17,True,True,[0],0.0,zero,104,105,0.00012541702017188072
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,18,True,True,[0],0.0,zero,184,185,0.00020329200197011232
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,19,True,True,[0],0.0,zero,125,126,0.00014045904390513897
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,20,True,True,[0],0.0,zero,94,95,9.204191155731678e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,21,True,True,[0],0.0,zero,87,88,0.00010412500705569983
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,22,True,True,[0],0.0,zero,70,71,7.391697727143764e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,23,True,True,[0],0.0,zero,30,31,3.454193938523531e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,24,True,True,[0],0.0,zero,83,84,9.400001727044582e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,25,True,True,[0],0.0,zero,48,49,5.512498319149017e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,26,True,True,[0],0.0,zero,141,142,0.000161041971296072
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,27,True,True,[0],0.0,zero,62,63,7.262500002980232e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,28,True,True,[0],0.0,zero,92,93,9.587500244379044e-05
+openai_gpt_oss_120b,HILL_CLIMBING,sign_type,zero,29,True,True,[0],0.0,zero,122,123,0.00014925003051757812
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,0,True,True,[''],0.0,empty,42,43,9.162502828985453e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,1,True,True,[''],0.0,empty,13,14,3.416696563363075e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,2,True,True,[''],0.0,empty,37,38,6.533297710120678e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,3,True,True,[''],0.0,empty,42,43,7.754098623991013e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,4,True,True,[''],0.0,empty,17,18,3.2125040888786316e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,5,True,True,[''],0.0,empty,15,16,3.337510861456394e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,6,True,True,[''],0.0,empty,14,15,2.8833048418164253e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,7,True,True,[''],0.0,empty,27,28,4.616600926965475e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,8,True,True,[''],0.0,empty,44,45,7.387506775557995e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,9,True,True,[''],0.0,empty,37,38,6.65830448269844e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,10,True,True,[''],0.0,empty,16,17,3.433297388255596e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,11,True,True,[''],0.0,empty,9,10,1.837499439716339e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,12,True,True,[''],0.0,empty,24,25,4.9166963435709476e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,13,True,True,[''],0.0,empty,3,4,1.0040937922894955e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,14,True,True,[''],0.0,empty,23,24,3.899994771927595e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,15,True,True,[''],0.0,empty,19,20,4.02920413762331e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,16,True,True,[''],0.0,empty,37,38,6.833299994468689e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,17,True,True,[''],0.0,empty,0,1,3.459048457443714e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,18,True,True,[''],0.0,empty,6,7,1.2834090739488602e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,19,True,True,[''],0.0,empty,0,1,2.6669586077332497e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,20,True,True,[''],0.0,empty,22,23,4.520895890891552e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,21,True,True,[''],0.0,empty,18,19,3.7375022657215595e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,22,True,True,[''],0.0,empty,24,25,4.791701212525368e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,23,True,True,[''],0.0,empty,0,1,2.834014594554901e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,24,True,True,[''],0.0,empty,43,44,7.583294063806534e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,25,True,True,[''],0.0,empty,0,1,2.8329668566584587e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,26,True,True,[''],0.0,empty,17,18,3.116601146757603e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,27,True,True,[''],0.0,empty,23,24,4.3584033846855164e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,28,True,True,[''],0.0,empty,16,17,3.629201091825962e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,empty,29,True,True,[''],0.0,empty,24,25,4.883401561528444e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,0,False,False,['2LicrM'],1.0,,0,8081,0.012359124957583845
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,1,False,False,['pC3PyggaiZ'],1.0,,0,8081,0.01240458304528147
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,2,False,False,['kwNc1Qz'],1.0,,0,8081,0.012306457967497408
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,3,False,False,['ad9b'],1.0,,0,8081,0.012374709011055529
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,4,False,False,['iT'],1.0,,0,8081,0.012358000036329031
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,5,True,True,['fnXnf'],0.0,long_palindrome,2160,2161,0.003357000066898763
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,6,True,True,['zkrkz'],0.0,long_palindrome,1202,1203,0.002017625025473535
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,7,True,True,['fwwf'],0.0,long_palindrome,1281,1282,0.0020868750289082527
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,8,False,False,['gu79'],1.0,,0,8081,0.013326290994882584
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,9,True,True,['0j3j0'],0.0,long_palindrome,1128,1129,0.0017412499291822314
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,10,False,False,['zQZFeBpuj'],1.0,,0,8081,0.013332290924154222
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,11,True,True,['kyvyk'],0.0,long_palindrome,1637,1638,0.002548541990108788
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,12,False,False,['TSIxSujmPWogUTR'],1.0,,0,8081,0.014368333970196545
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,13,False,False,['DAYyGK96Yb'],1.0,,0,8081,0.013262833002954721
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,14,False,False,['W9zuas4km1Lu'],1.0,,0,8081,0.01250362501014024
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,15,False,False,['KRnHC9J'],1.0,,0,8081,0.01229237497318536
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,16,False,False,['Em'],1.0,,2,8081,0.012230125023052096
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,17,False,False,['zeHHOQTLz2Z7j6'],1.0,,0,8081,0.012319665984250605
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,18,False,False,['bKt6tgbNmOH1J'],1.0,,0,8081,0.012290916056372225
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,19,False,False,['vWdFdO'],1.0,,0,8081,0.01244454097468406
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,20,False,False,['No'],1.0,,3,8081,0.012672209064476192
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,21,False,False,['MaHtZ6ktWKSHk'],1.0,,0,8081,0.01231704093515873
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,22,False,False,['8u6Ki27i4qbsUN'],1.0,,0,8081,0.01231133402325213
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,23,True,True,['1991'],0.0,long_palindrome,2121,2122,0.0031951669370755553
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,24,False,False,['tBNNcUldMBtj'],1.0,,0,8081,0.012171000009402633
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,25,False,False,['FlmBQhdRD'],1.0,,0,8081,0.012304625008255243
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,26,False,False,['cUp'],1.0,,0,8081,0.012193165952339768
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,27,False,False,['Xv2F2tMWAaS6E'],1.0,,0,8081,0.012190792011097074
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,28,False,False,['XkX'],1.0,,0,8081,0.01225600007455796
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_palindrome,29,False,False,['fjNV2j'],1.0,,0,8081,0.012294125044718385
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,0,True,True,['n'],0.0,short_palindrome,80,81,0.00013504200614988804
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,1,True,True,['L'],0.0,short_palindrome,148,149,0.00023329106625169516
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,2,True,True,[''],0.0,short_palindrome,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,3,True,True,['1'],0.0,short_palindrome,971,972,0.0014969169860705733
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,4,True,True,['u'],0.0,short_palindrome,27,28,5.1875016652047634e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,5,True,True,['1'],0.0,short_palindrome,278,279,0.0004353750264272094
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,6,True,True,['j'],0.0,short_palindrome,217,218,0.0003446249756962061
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,7,True,True,['z'],0.0,short_palindrome,95,96,0.00015374994836747646
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,8,True,True,['Z'],0.0,short_palindrome,419,420,0.0006558330496773124
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,9,True,True,['X'],0.0,short_palindrome,4,5,1.1416035704314709e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,10,True,True,['s'],0.0,short_palindrome,5,6,1.366704236716032e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,11,True,True,['n'],0.0,short_palindrome,28,29,5.15420688316226e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,12,True,True,['Q'],0.0,short_palindrome,32,33,5.8582983911037445e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,13,True,True,['d'],0.0,short_palindrome,300,301,0.00047400000039488077
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,14,True,True,['M'],0.0,short_palindrome,15,16,3.074994310736656e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,15,True,True,['N0N'],0.0,short_palindrome,481,482,0.0007371669635176659
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,16,True,True,['S'],0.0,short_palindrome,645,646,0.0009955000132322311
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,17,True,True,['9u9'],0.0,short_palindrome,8,9,1.8583028577268124e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,18,True,True,['F'],0.0,short_palindrome,460,461,0.0007148749427869916
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,19,True,True,['ZZ'],0.0,short_palindrome,239,240,0.0003798749530687928
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,20,True,True,['G'],0.0,short_palindrome,223,224,0.00035174994263798
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,21,True,True,['G'],0.0,short_palindrome,71,72,0.0001248749904334545
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,22,True,True,['g'],0.0,short_palindrome,54,55,9.366695303469896e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,23,True,True,['N'],0.0,short_palindrome,26,27,5.095801316201687e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,24,True,True,['n'],0.0,short_palindrome,297,298,0.0004619159735739231
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,25,True,True,['B'],0.0,short_palindrome,124,125,0.0001990830060094595
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,26,True,True,['y'],0.0,short_palindrome,225,226,0.00035495893098413944
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,27,True,True,['L'],0.0,short_palindrome,340,341,0.0005251660477370024
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,28,True,True,['s'],0.0,short_palindrome,46,47,8.166593033820391e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,short_palindrome,29,True,True,['Q'],0.0,short_palindrome,488,489,0.000753207947127521
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,0,True,True,['pvMUQfrXep0l'],0.0,long_non_palindrome,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,1,True,True,['HmPfTIwnHf'],0.0,long_non_palindrome,0,1,4.667090252041817e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,2,True,True,['jnwIWMCNSfCB'],0.0,long_non_palindrome,3928,3931,0.005350333987735212
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,3,True,True,['C2LDHS'],0.0,long_non_palindrome,10,11,2.5250017642974854e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,4,True,True,['EhHnq9Q'],0.0,long_non_palindrome,0,1,4.375004209578037e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,5,True,True,['G8R6YN'],0.0,long_non_palindrome,2,3,8.792034350335598e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,6,True,True,['i96Ep7QRiAnrNi'],0.0,long_non_palindrome,0,1,4.999921657145023e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,7,True,True,['XIttIi'],0.0,long_non_palindrome,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,8,True,True,['xzb1GUlX'],0.0,long_non_palindrome,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,9,True,True,['ncqhuH'],0.0,long_non_palindrome,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,10,True,True,['IPgW4ZrtJJnKUk'],0.0,long_non_palindrome,0,1,4.708999767899513e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,11,True,True,['fWTmif'],0.0,long_non_palindrome,0,1,3.6669662222266197e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,12,True,True,['rbXKUr2H'],0.0,long_non_palindrome,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,13,True,True,['zdxVhLAF3sS'],0.0,long_non_palindrome,0,1,3.917026333510876e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,14,True,True,['WkoIAXu5n'],0.0,long_non_palindrome,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,15,True,True,['XzH2QtE971kSZ'],0.0,long_non_palindrome,0,1,4.041008651256561e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,16,True,True,['YdP9CVn0w'],0.0,long_non_palindrome,0,1,4.042056389153004e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,17,True,True,['Jun4X0'],0.0,long_non_palindrome,0,1,3.875000402331352e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,18,True,True,['oyAUsqLXN'],0.0,long_non_palindrome,0,1,4.0839659050107e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,19,True,True,['iBQEm53'],0.0,long_non_palindrome,1984,1986,0.0027484159218147397
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,20,True,True,['F1ghSVt6pfLNnJB'],0.0,long_non_palindrome,0,1,5.083042196929455e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,21,True,True,['EwBO7y'],0.0,long_non_palindrome,0,1,3.625056706368923e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,22,True,True,['UI85ae0ZJbCMMz'],0.0,long_non_palindrome,0,1,5.207955837249756e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,23,True,True,['B7aRqwN'],0.0,long_non_palindrome,0,1,3.7910649552941322e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,24,True,True,['okEJo367Gmah'],0.0,long_non_palindrome,0,1,4.625064320862293e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,25,True,True,['dbAjsPqOsaqC6m'],0.0,long_non_palindrome,0,1,4.708068445324898e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,26,True,True,['nRIzXI'],0.0,long_non_palindrome,0,1,3.500026650726795e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,27,True,True,['fGMTRCMIfXWA'],0.0,long_non_palindrome,0,1,4.708068445324898e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,28,True,True,['uZQxI4'],0.0,long_non_palindrome,2072,2074,0.0028756250394508243
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,long_non_palindrome,29,True,True,['eToeMvaW9'],0.0,long_non_palindrome,0,1,4.500034265220165e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,0,True,True,['oWUHX'],0.0,other,5,6,1.291697844862938e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,1,True,True,['asQ59'],0.0,other,15,16,2.962502185255289e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,2,True,True,['orryM'],0.0,other,30,31,5.429098382592201e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,3,True,True,['AMgp7'],0.0,other,6,7,1.3999990187585354e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,4,True,True,['Qa'],0.0,other,8,9,1.4374963939189911e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,5,True,True,['mc5Dp'],0.0,other,4,5,1.1499971151351929e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,6,True,True,['mF'],0.0,other,2,3,6.875023245811462e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,7,True,True,['VrN'],0.0,other,0,1,3.00002284348011e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,8,True,True,['3Sxc'],0.0,other,0,1,3.4169061109423637e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,9,True,True,['u3w'],0.0,other,0,1,2.9999064281582832e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,10,True,True,['zKcqG'],0.0,other,7,8,1.4999997802078724e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,11,True,True,['0g4cy'],0.0,other,18,19,3.333389759063721e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,12,True,True,['CL'],0.0,other,3,4,8.124974556267262e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,13,True,True,['GYS'],0.0,other,0,1,2.834014594554901e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,14,True,True,['chtkR'],0.0,other,3,4,9.750016033649445e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,15,True,True,['A75i5'],0.0,other,17,18,3.3958000130951405e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,16,True,True,['Ebowy'],0.0,other,27,28,4.6958099119365215e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,17,True,True,['z0UY'],0.0,other,0,1,2.9170187190175056e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,18,True,True,['z0rff'],0.0,other,6,7,1.770805101841688e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,19,True,True,['SO'],0.0,other,3,4,8.042086847126484e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,20,True,True,['swcop'],0.0,other,28,29,5.03340270370245e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,21,True,True,['F8'],0.0,other,2,3,6.625079549849033e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,22,True,True,['zQoXJ'],0.0,other,4,5,1.3125012628734112e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,23,True,True,['qJuJe'],0.0,other,24,25,4.983297549188137e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,24,True,True,['9rU'],0.0,other,0,1,3.4159747883677483e-06
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,25,True,True,['cVFLt'],0.0,other,21,22,4.3375068344175816e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,26,True,True,['boNsT'],0.0,other,14,15,3.166694659739733e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,27,True,True,['mx'],0.0,other,6,7,1.3249926269054413e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,28,True,True,['NZyj6'],0.0,other,19,20,3.975001163780689e-05
+openai_gpt_oss_120b,HILL_CLIMBING,string_category,other,29,True,True,['Xy84s'],0.0,other,22,23,4.7166948206722736e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,0,True,True,[[]],0.0,empty,3,4,2.733292058110237e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,1,True,True,[[]],0.0,empty,1,2,9.582960046827793e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,2,True,True,[[]],0.0,empty,5,6,2.491706982254982e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,3,True,True,[[]],0.0,empty,0,1,3.2919924706220627e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,4,True,True,[[]],0.0,empty,38,39,0.0001099579967558384
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,5,True,True,[[]],0.0,empty,2,3,1.025001984089613e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,6,True,True,[[]],0.0,empty,14,15,4.654203075915575e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,7,True,True,[[]],0.0,empty,9,10,2.26249685510993e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,8,True,True,[[]],0.0,empty,6,7,2.6667024940252304e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,9,True,True,[[]],0.0,empty,12,13,4.429207183420658e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,10,True,True,[[]],0.0,empty,14,15,3.724999260157347e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,11,True,True,[[]],0.0,empty,0,1,3.5830307751893997e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,12,True,True,[[]],0.0,empty,6,7,2.7333036996424198e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,13,True,True,[[]],0.0,empty,12,13,3.5499921068549156e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,14,True,True,[[]],0.0,empty,15,16,5.024997517466545e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,15,True,True,[[]],0.0,empty,6,7,2.320797648280859e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,16,True,True,[[]],0.0,empty,0,1,3.334018401801586e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,17,True,True,[[]],0.0,empty,8,9,2.9875081963837147e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,18,True,True,[[]],0.0,empty,6,7,1.7749960534274578e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,19,True,True,[[]],0.0,empty,2,3,1.091696321964264e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,20,True,True,[[]],0.0,empty,2,3,8.833012543618679e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,21,True,True,[[]],0.0,empty,23,24,6.66249543428421e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,22,True,True,[[]],0.0,empty,0,1,3.5410048440098763e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,23,True,True,[[]],0.0,empty,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,24,True,True,[[]],0.0,empty,6,7,2.6333029381930828e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,25,True,True,[[]],0.0,empty,0,1,3.0829105526208878e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,26,True,True,[[]],0.0,empty,19,20,6.487499922513962e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,27,True,True,[[]],0.0,empty,13,14,4.370801616460085e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,28,True,True,[[]],0.0,empty,1,2,6.959075108170509e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,empty,29,True,True,[[]],0.0,empty,4,5,1.7375103197991848e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,0,True,True,[[0]],0.0,contains_zero,102,103,0.0002650419482961297
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,1,True,True,"[[-73, -88, -59, 61, 49, 0]]",0.0,contains_zero,740,741,0.001976875006221235
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,2,True,True,"[[62, 9, 42, 94, 37, 0]]",0.0,contains_zero,160,161,0.00045979104470461607
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,3,True,True,"[[-77, 0, -78, 28]]",0.0,contains_zero,172,173,0.0004871250130236149
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,4,True,True,"[[-79, 82, 22, 0]]",0.0,contains_zero,387,388,0.001047625089995563
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,5,True,True,"[[39, 87, 0]]",0.0,contains_zero,116,117,0.0003144999500364065
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,6,True,True,"[[-97, 94, -47, -90, 0]]",0.0,contains_zero,84,85,0.00022770802024751902
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,7,True,True,"[[-16, 25, -88, 14, 0]]",0.0,contains_zero,420,421,0.0011141669237986207
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,8,True,True,[[0]],0.0,contains_zero,341,342,0.0008619170403108001
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,9,True,True,"[[-85, 0]]",0.0,contains_zero,739,740,0.0019600000232458115
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,10,True,True,"[[-92, 32, 0]]",0.0,contains_zero,102,103,0.0002749999985098839
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,11,True,True,[[0]],0.0,contains_zero,271,272,0.0007207909366115928
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,12,True,True,"[[93, 24, -15, 0]]",0.0,contains_zero,83,84,0.00024291709996759892
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,13,True,True,"[[11, -26, 10, 59, 0]]",0.0,contains_zero,994,995,0.002637999947182834
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,14,True,True,"[[55, -43, 25, -33, 13, 0]]",0.0,contains_zero,30,31,9.483390022069216e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,15,True,True,"[[85, 94, -8, 53, 0]]",0.0,contains_zero,665,666,0.001821334008127451
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,16,True,True,"[[0, -51, 56, 99]]",0.0,contains_zero,450,451,0.001226582913659513
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,17,True,True,"[[87, 74, 0]]",0.0,contains_zero,248,249,0.0006409159395843744
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,18,True,True,"[[-100, -14, 66, 0, 65, -32]]",0.0,contains_zero,143,144,0.00039083301089704037
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,19,True,True,"[[-4, -30, 0, -44, 61]]",0.0,contains_zero,245,246,0.000665334053337574
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,20,True,True,"[[12, 0, 97]]",0.0,contains_zero,417,418,0.0011167079210281372
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,21,True,True,"[[40, 35, -27, 0, -23, -95]]",0.0,contains_zero,1,2,1.1999974958598614e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,22,True,True,"[[0, 30, -71]]",0.0,contains_zero,0,1,5.459063686430454e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,23,True,True,"[[2, 0]]",0.0,contains_zero,479,480,0.001271375105716288
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,24,True,True,"[[-43, -5, 0, -67]]",0.0,contains_zero,520,521,0.0014112499775364995
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,25,True,True,"[[-31, -63, 94, 40, 0]]",0.0,contains_zero,396,397,0.001063041971065104
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,26,True,True,"[[-34, 0, -16, -26]]",0.0,contains_zero,534,535,0.0013914580922573805
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,27,True,True,"[[-43, -95, 0]]",0.0,contains_zero,487,488,0.0012480419827625155
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,28,True,True,[[0]],0.0,contains_zero,113,114,0.00030879094265401363
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,contains_zero,29,True,True,"[[3, 76, 17, 66, 0]]",0.0,contains_zero,99,100,0.000252624973654747
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,0,True,True,"[[33, 72, 100]]",0.0,many_large_deposits,36,37,0.00012250000145286322
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,1,True,True,"[[88, 7, 6, 27]]",0.0,many_large_deposits,21,22,7.974996697157621e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,2,True,True,"[[99, 83, 18]]",0.0,many_large_deposits,9,10,4.454201553016901e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,3,True,True,"[[23, 39, 88, 52]]",0.0,many_large_deposits,45,46,0.00013816705904901028
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,4,True,True,"[[62, 77, 12]]",0.0,many_large_deposits,43,44,0.00014287501107901335
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,5,True,True,"[[63, 6, 67]]",0.0,many_large_deposits,17,18,5.112495273351669e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,6,True,True,"[[100, 99, 96]]",0.0,many_large_deposits,15,16,6.479199510067701e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,7,True,True,"[[18, 77, 9, 95]]",0.0,many_large_deposits,32,33,0.00011670798994600773
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,8,True,True,"[[85, 43, 8]]",0.0,many_large_deposits,7,8,3.575009759515524e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,9,True,True,"[[100, 14, 23]]",0.0,many_large_deposits,16,17,4.7332956455647945e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,10,True,True,"[[16, 51, 21, 73, 10]]",0.0,many_large_deposits,66,67,0.0001938329078257084
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,11,True,True,"[[29, 55, 37, 8]]",0.0,many_large_deposits,6,7,2.583395689725876e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,12,True,True,"[[46, 24, 75, 94]]",0.0,many_large_deposits,19,20,6.545893847942352e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,13,True,True,"[[15, 22, 63, 97]]",0.0,many_large_deposits,23,24,8.962489664554596e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,14,True,True,"[[100, 100, 1]]",0.0,many_large_deposits,39,40,0.000101707992143929
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,15,True,True,"[[53, 59, 72]]",0.0,many_large_deposits,9,10,3.233295865356922e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,16,True,True,"[[29, 39, 91]]",0.0,many_large_deposits,5,6,1.770805101841688e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,17,True,True,"[[100, 34, 10]]",0.0,many_large_deposits,14,15,4.591699689626694e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,18,True,True,"[[37, 33, 76]]",0.0,many_large_deposits,17,18,4.945893306285143e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,19,True,True,"[[98, 87, 6, 27]]",0.0,many_large_deposits,21,22,7.558299694210291e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,20,True,True,"[[35, 14, 78]]",0.0,many_large_deposits,5,6,2.0832987502217293e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,21,True,True,"[[5, 71, 67]]",0.0,many_large_deposits,5,6,1.950003206729889e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,22,True,True,"[[62, 42, 13, 10]]",0.0,many_large_deposits,14,15,5.11660473421216e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,23,True,True,"[[95, 69, 95]]",0.0,many_large_deposits,22,23,5.7709054090082645e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,24,True,True,"[[10, 63, 50]]",0.0,many_large_deposits,11,12,3.900006413459778e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,25,True,True,"[[29, 64, 83]]",0.0,many_large_deposits,18,19,6.224995013326406e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,26,True,True,"[[28, 73, 96]]",0.0,many_large_deposits,19,20,5.604198668152094e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,27,True,True,"[[66, 40, 97]]",0.0,many_large_deposits,13,14,3.766699228435755e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,28,True,True,"[[76, 80, 52, 68, 100]]",0.0,many_large_deposits,34,35,0.00010629091411828995
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_deposits,29,True,True,"[[61, 67, 46]]",0.0,many_large_deposits,8,9,2.9540969990193844e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,0,True,True,"[[-94, -1]]",0.0,many_large_withdrawals,3,4,1.3709068298339844e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,1,True,True,"[[4, -79, -11]]",0.0,many_large_withdrawals,6,7,2.9416056349873543e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,2,True,True,"[[-54, -60, -78, 1]]",0.0,many_large_withdrawals,0,1,5.709007382392883e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,3,True,True,"[[-16, -41]]",0.0,many_large_withdrawals,2,3,1.233397051692009e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,4,True,True,"[[-38, -6, -61]]",0.0,many_large_withdrawals,7,8,2.237502485513687e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,5,True,True,"[[67, -60, -14, -70]]",0.0,many_large_withdrawals,20,21,5.2999937906861305e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,6,True,True,"[[23, -97, -80, -35, 21, 51]]",0.0,many_large_withdrawals,0,1,6.207963451743126e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,7,True,True,"[[-21, -77, 22, -67]]",0.0,many_large_withdrawals,0,1,5.832989700138569e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,8,True,True,"[[20, -88, -69, 78, -15]]",0.0,many_large_withdrawals,0,1,5.709007382392883e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,9,True,True,"[[-98, -59, 90, -83, -22]]",0.0,many_large_withdrawals,0,1,5.875015631318092e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,10,True,True,"[[-64, -9]]",0.0,many_large_withdrawals,4,5,1.550000160932541e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,11,True,True,"[[-45, -94]]",0.0,many_large_withdrawals,20,21,4.1334074921905994e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,12,True,True,"[[-60, -19]]",0.0,many_large_withdrawals,25,26,6.137497257441282e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,13,True,True,"[[-82, 3, -7]]",0.0,many_large_withdrawals,11,12,3.074994310736656e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,14,True,True,"[[-41, -9, -38]]",0.0,many_large_withdrawals,7,8,2.2290972992777824e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,15,True,True,"[[-35, 28, -90, 54, -33]]",0.0,many_large_withdrawals,1,2,1.083302777260542e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,16,True,True,"[[-94, -2]]",0.0,many_large_withdrawals,10,11,3.8958038203418255e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,17,True,True,"[[-33, 83, -99, 0, -67]]",0.0,many_large_withdrawals,0,1,5.749985575675964e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,18,True,True,"[[59, -22, -94]]",0.0,many_large_withdrawals,2,3,1.2416974641382694e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,19,True,True,"[[-36, 0, -36]]",0.0,many_large_withdrawals,8,9,3.4374999813735485e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,20,True,True,"[[-57, 85, -17, -34, -66]]",0.0,many_large_withdrawals,0,1,5.875015631318092e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,21,True,True,"[[-38, -58]]",0.0,many_large_withdrawals,3,4,1.4082994312047958e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,22,True,True,"[[-16, -22, -1, -88]]",0.0,many_large_withdrawals,11,12,3.6792014725506306e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,23,True,True,"[[65, -15, -97, 14, -28]]",0.0,many_large_withdrawals,15,16,6.683403626084328e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,24,True,True,"[[64, -67, -26, -67]]",0.0,many_large_withdrawals,0,1,5.207955837249756e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,25,True,True,"[[-52, -89]]",0.0,many_large_withdrawals,40,41,8.050003089010715e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,26,True,True,"[[-52, -11, -17]]",0.0,many_large_withdrawals,0,1,5.040899850428104e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,27,True,True,"[[-88, -14]]",0.0,many_large_withdrawals,0,1,4.58303838968277e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,28,True,True,"[[-81, -41]]",0.0,many_large_withdrawals,1,2,8.292030543088913e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,many_large_withdrawals,29,True,True,"[[-36, -53]]",0.0,many_large_withdrawals,8,9,2.9375078156590462e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,0,True,True,"[[32, -51, -75, -67, 47]]",0.0,mixed_transactions,0,1,6.375019438564777e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,1,True,True,"[[93, -43, 83, 31, 42, -64]]",0.0,mixed_transactions,0,1,6.375019438564777e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,2,True,True,"[[68, 14, 48, -15]]",0.0,mixed_transactions,5,6,2.13750172406435e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,3,True,True,"[[9, -44, -27]]",0.0,mixed_transactions,0,1,4.999921657145023e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,4,True,True,"[[-94, -30, -69, -63, -5, 87]]",0.0,mixed_transactions,4,5,2.320797648280859e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,5,True,True,"[[45, 38, -48, 1, 38, -44]]",0.0,mixed_transactions,0,1,5.749985575675964e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,6,True,True,"[[100, 40, -49]]",0.0,mixed_transactions,5,6,2.1124957129359245e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,7,True,True,"[[-71, -79, 51]]",0.0,mixed_transactions,8,9,2.7333036996424198e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,8,True,True,"[[-75, 16]]",0.0,mixed_transactions,12,13,3.0291033908724785e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,9,True,True,"[[73, 12, -51]]",0.0,mixed_transactions,2,3,1.2332922779023647e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,10,True,True,"[[-85, 39]]",0.0,mixed_transactions,21,22,6.495893467217684e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,11,True,True,"[[-42, 62, 38]]",0.0,mixed_transactions,0,1,5.208072252571583e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,12,True,True,"[[77, 1, -34]]",0.0,mixed_transactions,4,5,1.77919864654541e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,13,True,True,"[[-50, 5, 97]]",0.0,mixed_transactions,0,1,5.082925781607628e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,14,True,True,"[[55, 98, -21]]",0.0,mixed_transactions,4,5,1.8708989955484867e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,15,True,True,"[[1, -34, -65]]",0.0,mixed_transactions,0,1,4.37488779425621e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,16,True,True,"[[-18, 33]]",0.0,mixed_transactions,28,29,7.637497037649155e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,17,True,True,"[[-80, 14, -73, -75, -93, -3]]",0.0,mixed_transactions,0,1,6.124959327280521e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,18,True,True,"[[-17, 27]]",0.0,mixed_transactions,2,3,1.1082971468567848e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,19,True,True,"[[-19, -77, 21]]",0.0,mixed_transactions,0,1,4.792003892362118e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,20,True,True,"[[-93, -80, 48, 33, 40, -44]]",0.0,mixed_transactions,0,1,6.249989382922649e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,21,True,True,"[[-82, 79, 64, 3, -4]]",0.0,mixed_transactions,0,1,5.375011824071407e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,22,True,True,"[[-10, 63, 70]]",0.0,mixed_transactions,0,1,4.708999767899513e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,23,True,True,"[[-79, 72]]",0.0,mixed_transactions,27,28,6.0542020946741104e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,24,True,True,"[[-33, -68, -68, -32, 71]]",0.0,mixed_transactions,1,2,1.0499963536858559e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,25,True,True,"[[-16, -62, 36]]",0.0,mixed_transactions,6,7,1.979200169444084e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,26,True,True,"[[-43, -66, -24, 14]]",0.0,mixed_transactions,2,3,1.395796425640583e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,27,True,True,"[[60, 76, 67, -96, 69, -72]]",0.0,mixed_transactions,0,1,6.166053935885429e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,28,True,True,"[[49, -24]]",0.0,mixed_transactions,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,mixed_transactions,29,True,True,"[[-80, 89, 97, -15]]",0.0,mixed_transactions,0,1,5.417037755250931e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,0,True,True,[[-77]],0.0,simple_pattern,0,1,3.916909918189049e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,1,True,True,[[68]],0.0,simple_pattern,0,1,4.542060196399689e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,2,True,True,"[[74, 40]]",0.0,simple_pattern,17,18,6.391701754182577e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,3,True,True,[[80]],0.0,simple_pattern,0,1,4.542060196399689e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,4,True,True,"[[-19, -1, -30]]",0.0,simple_pattern,22,23,7.804203778505325e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,5,True,True,[[46]],0.0,simple_pattern,1,2,8.209026418626308e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,6,True,True,"[[1, 45, 19]]",0.0,simple_pattern,71,72,0.0002188748912885785
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,7,True,True,[[-30]],0.0,simple_pattern,48,49,0.00015404203440994024
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,8,True,True,[[-57]],0.0,simple_pattern,2,3,1.129100564867258e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,9,True,True,[[57]],0.0,simple_pattern,0,1,4.208995960652828e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,10,True,True,"[[55, 99]]",0.0,simple_pattern,18,19,6.49159774184227e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,11,True,True,[[-38]],0.0,simple_pattern,47,48,0.00014579202979803085
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,12,True,True,"[[63, 64]]",0.0,simple_pattern,11,12,4.3917098082602024e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,13,True,True,[[5]],0.0,simple_pattern,2,3,1.0292045772075653e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,14,True,True,[[-24]],0.0,simple_pattern,36,37,0.0001207499299198389
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,15,True,True,[[-26]],0.0,simple_pattern,2,3,1.2042000889778137e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,16,True,True,[[52]],0.0,simple_pattern,0,1,4.541012458503246e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,17,True,True,[[39]],0.0,simple_pattern,3,4,1.6625039279460907e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,18,True,True,[[-40]],0.0,simple_pattern,3,4,1.4458084478974342e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,19,True,True,[[-72]],0.0,simple_pattern,8,9,3.012490924447775e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,20,True,True,[[-87]],0.0,simple_pattern,4,5,1.7666025087237358e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,21,True,True,[[81]],0.0,simple_pattern,3,4,1.4042016118764877e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,22,True,True,"[[-2, -42]]",0.0,simple_pattern,4,5,1.7583020962774754e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,23,True,True,[[-6]],0.0,simple_pattern,5,6,1.9541941583156586e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,24,True,True,"[[100, 64]]",0.0,simple_pattern,14,15,5.012506153434515e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,25,True,True,"[[34, 76]]",0.0,simple_pattern,55,56,0.00018737500067800283
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,26,True,True,[[89]],0.0,simple_pattern,32,33,0.00010883400682359934
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,27,True,True,[[28]],0.0,simple_pattern,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,28,True,True,[[-75]],0.0,simple_pattern,11,12,3.9874925278127193e-05
+openai_gpt_oss_120b,HILL_CLIMBING,transaction_pattern,simple_pattern,29,True,True,[[-43]],0.0,simple_pattern,1,2,7.4999406933784485e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,0,True,True,[''],0.0,empty,34,35,9.39579913392663e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,1,True,True,[''],0.0,empty,19,20,5.449994932860136e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,2,True,True,[''],0.0,empty,29,30,6.754102651029825e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,3,True,True,[''],0.0,empty,27,28,7.299997378140688e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,4,True,True,[''],0.0,empty,9,10,2.775003667920828e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,5,True,True,[''],0.0,empty,25,26,5.783303640782833e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,6,True,True,[''],0.0,empty,36,37,9.50830290094018e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,7,True,True,[''],0.0,empty,32,33,8.441705722361803e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,8,True,True,[''],0.0,empty,13,14,3.6375015042722225e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,9,True,True,[''],0.0,empty,23,24,6.108393426984549e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,10,True,True,[''],0.0,empty,29,30,7.929198909550905e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,11,True,True,[''],0.0,empty,8,9,2.7499976567924023e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,12,True,True,[''],0.0,empty,34,35,8.579203858971596e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,13,True,True,[''],0.0,empty,38,39,9.445799514651299e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,14,True,True,[''],0.0,empty,0,1,3.2499665394425392e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,15,True,True,[''],0.0,empty,20,21,5.579204298555851e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,16,True,True,[''],0.0,empty,21,22,6.220804061740637e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,17,True,True,[''],0.0,empty,51,52,0.00012866698671132326
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,18,True,True,[''],0.0,empty,19,20,4.3625012040138245e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,19,True,True,[''],0.0,empty,56,57,0.00013354199472814798
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,20,True,True,[''],0.0,empty,32,33,7.408298552036285e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,21,True,True,[''],0.0,empty,29,30,7.60830007493496e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,22,True,True,[''],0.0,empty,3,4,1.1167023330926895e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,23,True,True,[''],0.0,empty,21,22,5.2625080570578575e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,24,True,True,[''],0.0,empty,22,23,6.095797289162874e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,25,True,True,[''],0.0,empty,33,34,8.308305405080318e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,26,True,True,[''],0.0,empty,6,7,1.6750069335103035e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,27,True,True,[''],0.0,empty,8,9,2.53340695053339e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,28,True,True,[''],0.0,empty,2,3,9.00006853044033e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,empty,29,True,True,[''],0.0,empty,6,7,1.954101026058197e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,0,True,True,['raMg'],0.0,too_short,27,28,7.62909185141325e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,1,True,True,['Hj17'],0.0,too_short,11,12,3.516697324812412e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,2,True,True,['ZQY4'],0.0,too_short,18,19,5.5875047110021114e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,3,True,True,['B'],0.0,too_short,0,1,3.7080608308315277e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,4,True,True,['XWuI'],0.0,too_short,29,30,7.945799734443426e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,5,True,True,['O1'],0.0,too_short,0,1,3.875000402331352e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,6,True,True,['CscJ'],0.0,too_short,33,34,9.616697207093239e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,7,True,True,['hwsA'],0.0,too_short,3,4,1.4082994312047958e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,8,True,True,['rVc9'],0.0,too_short,10,11,2.920802216976881e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,9,True,True,['1'],0.0,too_short,0,1,3.6670826375484467e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,10,True,True,['G4nr'],0.0,too_short,29,30,7.366598583757877e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,11,True,True,['Snu'],0.0,too_short,0,1,3.999914042651653e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,12,True,True,['n9'],0.0,too_short,0,1,3.2499665394425392e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,13,True,True,['Y7iX'],0.0,too_short,5,6,1.550000160932541e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,14,True,True,['YaqB'],0.0,too_short,24,25,7.062498480081558e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,15,True,True,['kHlm'],0.0,too_short,10,11,5.450006574392319e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,16,True,True,['wlAc'],0.0,too_short,32,33,8.754106238484383e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,17,True,True,['7IMU'],0.0,too_short,33,34,8.983304724097252e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,18,True,True,['Cr8y'],0.0,too_short,28,29,7.72910425439477e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,19,True,True,['j0uP'],0.0,too_short,11,12,3.483297768980265e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,20,True,True,['H'],0.0,too_short,1,2,6.332993507385254e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,21,True,True,['0QnA'],0.0,too_short,0,1,4.207948222756386e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,22,True,True,['2UG1'],0.0,too_short,3,4,1.2459000572562218e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,23,True,True,['dblA'],0.0,too_short,0,1,4.292000085115433e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,24,True,True,['Xnt2'],0.0,too_short,18,19,5.40000619366765e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,25,True,True,['z'],0.0,too_short,1,2,6.291083991527557e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,26,True,True,['OM'],0.0,too_short,0,1,3.7499703466892242e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,27,True,True,['7Ip1'],0.0,too_short,3,4,1.2290896847844124e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,28,True,True,['aACV'],0.0,too_short,24,25,6.625009700655937e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,too_short,29,True,True,['6v'],0.0,too_short,0,1,3.625056706368923e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,0,True,True,['7Vb'],0.0,starts_with_digit,0,1,4.041939973831177e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,1,True,True,['7'],0.0,starts_with_digit,40,41,9.229104034602642e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,2,True,True,['69dAipc'],0.0,starts_with_digit,71,72,0.00017108407337218523
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,3,True,True,['6CGbRnnKo049'],0.0,starts_with_digit,70,71,0.000177249894477427
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,4,True,True,['8PGu'],0.0,starts_with_digit,13,14,4.0375045500695705e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,5,True,True,['043K1vbC'],0.0,starts_with_digit,113,114,0.00027300009969621897
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,6,True,True,['6yZN6HX'],0.0,starts_with_digit,200,201,0.0004479589406400919
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,7,True,True,['0HQThn'],0.0,starts_with_digit,0,1,4.500034265220165e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,8,True,True,['4'],0.0,starts_with_digit,196,197,0.0004776250571012497
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,9,True,True,['4'],0.0,starts_with_digit,22,23,5.3333002142608166e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,10,True,True,['8D'],0.0,starts_with_digit,173,174,0.00040558306500315666
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,11,True,True,['6t'],0.0,starts_with_digit,146,147,0.0003391670761629939
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,12,True,True,['67i1kvxckK0ehO'],0.0,starts_with_digit,55,56,0.00014762498904019594
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,13,True,True,['2'],0.0,starts_with_digit,11,12,2.9624905437231064e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,14,True,True,['8'],0.0,starts_with_digit,5,6,1.6040983609855175e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,15,True,True,['9a3nuMlC7E7'],0.0,starts_with_digit,51,52,0.0001361669274047017
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,16,True,True,['2DmVJcDtnQX7aV'],0.0,starts_with_digit,48,49,0.0001284159952774644
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,17,True,True,['75e8UQ4JfU3uwQ1'],0.0,starts_with_digit,38,39,0.00010095792822539806
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,18,True,True,['44P7aBK'],0.0,starts_with_digit,49,50,0.00013412500265985727
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,19,True,True,['8'],0.0,starts_with_digit,1,2,6.166985258460045e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,20,True,True,['0MJywPTsfG'],0.0,starts_with_digit,21,22,6.208405829966068e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,21,True,True,['1hV0s8YBS5C'],0.0,starts_with_digit,20,21,6.0290913097560406e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,22,True,True,['5er8R8C'],0.0,starts_with_digit,20,21,5.7833967730402946e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,23,True,True,['50sZ'],0.0,starts_with_digit,0,1,4.292000085115433e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,24,True,True,['4F0elfw3ez5qenY'],0.0,starts_with_digit,1,2,9.874929673969746e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,25,True,True,['0'],0.0,starts_with_digit,0,1,3.7499703466892242e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,26,True,True,['88i'],0.0,starts_with_digit,18,19,5.233404226601124e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,27,True,True,['1Y1mLHMtXrOTFih'],0.0,starts_with_digit,99,100,0.00024570804089307785
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,28,True,True,['8'],0.0,starts_with_digit,129,130,0.0002975000534206629
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,starts_with_digit,29,True,True,['0jDlmSNoAmQ'],0.0,starts_with_digit,289,290,0.0006949579110369086
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,0,False,False,['J6L6sZNfs9'],1.0,,23,8082,0.019947332912124693
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,1,False,False,['PPY08Pv7Qy'],1.0,,27,8082,0.020013417000882328
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,2,False,False,['sd20T9dfuBl'],1.0,,17,8082,0.01986649993341416
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,3,False,False,['YHSzSX2bBI'],1.0,,30,8082,0.019892791053280234
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,4,False,False,['NSA9dcGfDg'],1.0,,16,8082,0.01980437501333654
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,5,False,False,['zCa5PtA6Zij'],1.0,,3,8082,0.019837375031784177
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,6,False,False,['qOwj2hKD9i9e'],1.0,,0,8082,0.01980683289002627
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,7,False,False,['r5R1uJMnu5'],1.0,,7,8082,0.019891457981429994
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,8,False,False,['HnahHohDWdQ2'],1.0,,20,8082,0.01985962491016835
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,9,False,False,['YHJrqeFit4'],1.0,,35,8082,0.01983912498690188
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,10,False,False,['l3arKLMSXz'],1.0,,34,8082,0.0198089579353109
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,11,False,False,['jvNPgw1nvp'],1.0,,14,8082,0.019873791025020182
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,12,False,False,['US2pBF9LYsXnfHD'],1.0,,0,8082,0.019761124975048006
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,13,False,False,['iK4ohIP3OIHp4q'],1.0,,0,8082,0.019902999978512526
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,14,False,False,['pK3zS67HKXDkT9'],1.0,,0,8082,0.019715792033821344
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,15,False,False,['usYrP1aOp9'],1.0,,16,8082,0.01986579201184213
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,16,False,False,['PV0THx4Tvk'],1.0,,6,8082,0.01975870900787413
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,17,False,False,['vyHmmtf4psUja'],1.0,,35,8082,0.019976667012088
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,18,False,False,['i10fsVDRyI'],1.0,,30,8082,0.019764792057685554
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,19,False,False,['lcmuh8DFPp'],1.0,,2,8082,0.01979074999690056
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,20,False,False,['whLyOBruyL8'],1.0,,9,8082,0.020198124926537275
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,21,False,False,['ifTQizCH7qLb'],1.0,,0,8082,0.020072125014849007
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,22,False,False,['y7E2EmA3Me'],1.0,,21,8082,0.020314124994911253
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,23,False,False,['RJW9b7Zjry'],1.0,,1,8082,0.02016279101371765
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,24,False,False,['Dsy6u7Cruu'],1.0,,17,8082,0.020038166898302734
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,25,False,False,['nLLmR2QQXVM'],1.0,,4,8082,0.020096124964766204
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,26,False,False,['F8QkqnGc0b'],1.0,,15,8082,0.019966957974247634
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,27,False,False,['pCmhEkkB8C'],1.0,,6,8082,0.01998783298768103
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,28,False,False,['ilus8yyQXF5C'],1.0,,10,8082,0.019946875050663948
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,strong_username,29,False,False,['aYKhaE3g2y'],1.0,,5,8082,0.01994133403059095
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,0,True,True,['YYsLty0'],0.0,medium_username,17,18,5.6582968682050705e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,1,True,True,['u65JTgn'],0.0,medium_username,0,1,5.042064003646374e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,2,True,True,['pTZ5y'],0.0,medium_username,15,16,4.3749925680458546e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,3,True,True,['NPmO0yn8'],0.0,medium_username,0,1,4.58303838968277e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,4,True,True,['tXjcqM3'],0.0,medium_username,32,33,8.120795246213675e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,5,True,True,['Jm4NI'],0.0,medium_username,11,12,3.0375085771083832e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,6,True,True,['q4pyuWaaIwX1'],0.0,medium_username,0,1,6.083049811422825e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,7,True,True,['HJQtyV4'],0.0,medium_username,3,4,1.2666918337345123e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,8,True,True,['smBQVnL5bSfJC'],0.0,medium_username,0,1,6.166985258460045e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,9,True,True,['REr29'],0.0,medium_username,0,1,4.582921974360943e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,10,True,True,['EK6TX'],0.0,medium_username,4,5,1.4791963621973991e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,11,True,True,['g4LRvR3D7dhcRp'],0.0,medium_username,2,3,1.2791948392987251e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,12,True,True,['hCG4k'],0.0,medium_username,35,36,8.804106619209051e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,13,True,True,['i5D3ARlL'],0.0,medium_username,49,50,0.00012445903848856688
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,14,True,True,['LhCZ6SEfmfD'],0.0,medium_username,36,37,9.68339154496789e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,15,True,True,['NYALG8'],0.0,medium_username,26,27,6.37079356238246e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,16,True,True,['yD0HgAxvhC1s'],0.0,medium_username,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,17,True,True,['JMs93GsF'],0.0,medium_username,0,1,5.042064003646374e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,18,True,True,['HqgWB1rek'],0.0,medium_username,5,6,2.350006252527237e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,19,True,True,['jWbSWOf3'],0.0,medium_username,12,13,3.658304922282696e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,20,True,True,['YM3khlKIPqarO'],0.0,medium_username,13,14,4.312500823289156e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,21,True,True,['QkaNPMdoQBh7'],0.0,medium_username,15,16,4.4915941543877125e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,22,True,True,['BD8plw'],0.0,medium_username,57,58,0.00012354191858321428
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,23,True,True,['WW3JtUC'],0.0,medium_username,24,25,6.862496957182884e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,24,True,True,['TG5yZeEDQxX'],0.0,medium_username,6,7,2.1707965061068535e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,25,True,True,['XPjXEcZ3kMJ5B'],0.0,medium_username,0,1,5.958019755780697e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,26,True,True,['g17LRlfNyXOr'],0.0,medium_username,22,23,6.945803761482239e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,27,True,True,['w29lbF7'],0.0,medium_username,0,1,4.790956154465675e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,28,True,True,['Z1Bru'],0.0,medium_username,26,27,6.204203236848116e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,medium_username,29,True,True,['GDQ4mhPBXp'],0.0,medium_username,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,0,True,True,['hoAHrnDtnagS'],0.0,weak_username,16,17,5.1208073273301125e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,1,True,True,['STszos'],0.0,weak_username,61,62,0.00013212498743087053
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,2,True,True,['NcWRE'],0.0,weak_username,59,60,0.00012195797171443701
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,3,True,True,['RiItB'],0.0,weak_username,26,27,6.599992047995329e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,4,True,True,['yQHLB'],0.0,weak_username,42,43,9.845790918916464e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,5,True,True,['HrHdaUOhrItrt'],0.0,weak_username,0,1,5.125068128108978e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,6,True,True,['czETF'],0.0,weak_username,127,128,0.00027533399406820536
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,7,True,True,['qGOIwMrFqTV'],0.0,weak_username,10,11,3.3125048503279686e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,8,True,True,['UMzgcNzQN'],0.0,weak_username,17,18,4.849990364164114e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,9,True,True,['VwihzYSV'],0.0,weak_username,94,95,0.00023004203103482723
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,10,True,True,['LATrUAaxlXaXww'],0.0,weak_username,300,301,0.000631249975413084
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,11,True,True,['JSvyc'],0.0,weak_username,72,73,0.00016179203521460295
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,12,True,True,['gDGnBuwZZ'],0.0,weak_username,123,124,0.00030454201623797417
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,13,True,True,['j4o9c'],0.0,weak_username,37,38,8.566596079617739e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,14,True,True,['WxxiCeJbNYLy'],0.0,weak_username,179,180,0.0004294589161872864
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,15,True,True,['fNqLeBv'],0.0,weak_username,7,8,2.3707980290055275e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,16,True,True,['vvxRC'],0.0,weak_username,12,13,3.583298530429602e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,17,True,True,['kOYWQDLYYVFBzj'],0.0,weak_username,4,5,1.9000028260052204e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,18,True,True,['QjaqkATpwH'],0.0,weak_username,47,48,0.00012229196727275848
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,19,True,True,['xJxGy'],0.0,weak_username,20,21,5.395791959017515e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,20,True,True,['QwIEgoR'],0.0,weak_username,24,25,6.033293902873993e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,21,True,True,['qhdf5yn2'],0.0,weak_username,19,20,5.891697946935892e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,22,True,True,['kNOCH'],0.0,weak_username,35,36,7.904204539954662e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,23,True,True,['HyKaFitHz'],0.0,weak_username,0,1,5.125068128108978e-06
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,24,True,True,['QcYWqbEUB'],0.0,weak_username,115,116,0.000287041999399662
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,25,True,True,['SetUhnV'],0.0,weak_username,16,17,4.449998959898949e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,26,True,True,['OUvwJINVyV'],0.0,weak_username,25,26,6.979203317314386e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,27,True,True,['xUsMFhg'],0.0,weak_username,165,166,0.00041387497913092375
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,28,True,True,['SpTLNXn'],0.0,weak_username,33,34,9.158393368124962e-05
+openai_gpt_oss_120b,HILL_CLIMBING,username_category,weak_username,29,True,True,['zHKblLTqU'],0.0,weak_username,0,1,5.209003575146198e-06

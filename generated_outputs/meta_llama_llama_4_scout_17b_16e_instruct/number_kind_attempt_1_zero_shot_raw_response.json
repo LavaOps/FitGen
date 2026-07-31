@@ -1,0 +1,38 @@
+```json
+{
+    "function_name": "number_kind",
+    "fitness_function_name": "fitness_number_kind",
+    "targets": [
+        "zero",
+        "even",
+        "odd"
+    ],
+    "input_schema": [
+        {"type": "int", "min": -500, "max": 3000}
+    ],
+    "fitness_code": "
+def fitness_number_kind(chromosome, target):
+    x = chromosome[0]
+    if target == \"zero\":
+        if x == 0:
+            return 0
+        else:
+            return max(0, abs(x))
+    elif target == \"even\":
+        if x % 2 == 0:
+            return 0
+        else:
+            return max(0, abs(x % 2 - 0))
+    elif target == \"odd\":
+        if x % 2 != 0:
+            return 0
+        else:
+            return max(0, abs(x % 2 - 1))
+    else:
+        raise ValueError(\"Unknown target\")
+
+    return max(0, distance)
+",
+    "notes": ""
+}
+```

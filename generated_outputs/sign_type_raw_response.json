@@ -1,0 +1,11 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "fitness_code": "def fitness_sign_type(chromosome, target):\n    x = chromosome[0]\n    if target == \"positive\":\n        if x > 0:\n            return 0\n        else:\n            return 1 - x\n    elif target == \"negative\":\n        if x < 0:\n            return 0\n        else:\n            return 1 + x\n    elif target == \"zero\":\n        if x == 0:\n            return 0\n        else:\n            return abs(x)\n    else:\n        raise ValueError(\"Unknown target branch\")",
+  "notes": "The fitness function aims to achieve branch coverage for 'positive', 'negative', and 'zero' outcomes. For 'positive' (x > 0), fitness is 0 if x is positive, otherwise it's (1 - x). For 'negative' (x < 0), fitness is 0 if x is negative, otherwise it's (1 + x). For 'zero' (x == 0), fitness is 0 if x is zero, otherwise it's abs(x)."
+}

@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_string_category = [\"empty\", \"long_palindrome\", \"short_palindrome\", \"long_non_palindrome\", \"other\"]\n\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    s_len = len(s)\n    is_palindrome = (s == s[::-1])\n\n    # Distances to make conditions true\n    # Condition: len(s) == 0\n    dist_len_eq_0 = abs(s_len - 0)\n    # Condition: len(s) != 0 (penalty if len(s) is 0)\n    dist_len_ne_0 = 1 if s_len == 0 else 0\n\n    # Condition: s == s[::-1]\n    dist_is_palindrome = 0 if is_palindrome else 1\n    # Condition: s != s[::-1]\n    dist_not_is_palindrome = 1 if is_palindrome else 0\n\n    # Condition: len(s) > 3\n    dist_len_gt_3 = max(0, 3 - s_len + 1)\n    # Condition: len(s) <= 3\n    dist_len_le_3 = max(0, s_len - 3)\n\n    # Condition: len(s) > 5\n    dist_len_gt_5 = max(0, 5 - s_len + 1)\n    # Condition: len(s) <= 5\n    dist_len_le_5 = max(0, s_len - 5)\n\n    if target == \"empty\":\n        # Path: len(s) == 0\n        return dist_len_eq_0\n    elif target == \"long_palindrome\":\n        # Path: len(s) != 0 AND s == s[::-1] AND len(s) > 3\n        return dist_len_ne_0 + dist_is_palindrome + dist_len_gt_3\n    elif target == \"short_palindrome\":\n        # Path: len(s) != 0 AND s == s[::-1] AND NOT (len(s) > 3) (i.e., len(s) <= 3)\n        return dist_len_ne_0 + dist_is_palindrome + dist_len_le_3\n    elif target == \"long_non_palindrome\":\n        # Path: len(s) != 0 AND NOT (s == s[::-1]) AND len(s) > 5\n        return dist_len_ne_0 + dist_not_is_palindrome + dist_len_gt_5\n    elif target == \"other\":\n        # Path: len(s) != 0 AND NOT (s == s[::-1]) AND NOT (len(s) > 5) (i.e., len(s) <= 5)\n        return dist_len_ne_0 + dist_not_is_palindrome + dist_len_le_5\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function calculates the branch distance for each condition in the if/elif/else chain. It sums up the distances required to satisfy the conditions for a specific target path. For string equality/inequality, a distance of 0 is returned if the condition is met, and 1 otherwise. For numeric comparisons, standard branch distance calculation `max(0, B - A + 1)` or `max(0, A - B)` is used. An implicit condition `len(s) != 0` is added to branches following the initial `if len(s) == 0:`."
+}

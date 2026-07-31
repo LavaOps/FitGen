@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "zero",
+    "even",
+    "odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "def fitness_number_kind(chromosome, target):\n    x = chromosome[0]\n\n    # Helper for branch distance: a == b (to make it True)\n    def branch_eq_true(a, b):\n        return abs(a - b)\n\n    # Helper for branch distance: a == b (to make it False, i.e., a != b)\n    def branch_eq_false(a, b):\n        return 0.0 if a != b else 1.0\n\n    # Helper for branch distance: a % b == c (to make it True)\n    def branch_mod_eq_true(a, b, c):\n        return abs((a % b) - c)\n\n    # Helper for branch distance: a % b == c (to make it False, i.e., a % b != c)\n    def branch_mod_eq_false(a, b, c):\n        return 0.0 if (a % b) != c else 1.0\n\n    if target == \"zero\":\n        # Target: x == 0\n        return branch_eq_true(x, 0)\n    elif target == \"even\":\n        # Target: x != 0 AND x % 2 == 0\n        # Path: if x == 0 (false) -> elif x % 2 == 0 (true)\n        return branch_eq_false(x, 0) + branch_mod_eq_true(x, 2, 0)\n    elif target == \"odd\":\n        # Target: x != 0 AND x % 2 != 0\n        # Path: if x == 0 (false) -> elif x % 2 == 0 (false) -> else\n        return branch_eq_false(x, 0) + branch_mod_eq_false(x, 2, 0)\n    else:\n        raise ValueError(\"Unknown target: \" + target)\n",
+  "notes": "The fitness function guides the search by calculating branch distances. For the 'zero' target, it minimizes the absolute difference of x from 0. For 'even' and 'odd' targets, it sums two distances: one for satisfying x != 0 (which is 0 if true, 1 if false) and another for the modulo condition (absolute difference for true modulo conditions, and 0/1 for false modulo conditions to indicate satisfaction or non-satisfaction)."
+}

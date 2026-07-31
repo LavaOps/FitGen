@@ -1,0 +1,21 @@
+{
+  "function_name": "transaction_pattern",
+  "fitness_function_name": "fitness_transaction_pattern",
+  "targets": [
+    "empty",
+    "contains_zero",
+    "many_large_deposits",
+    "many_large_withdrawals",
+    "mixed_transactions",
+    "simple_pattern"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 8
+    }
+  ],
+  "fitness_code": "def fitness_transaction_pattern(chromosome, target):\n    amounts = chromosome[0]\n\n    def br_dist_eq(left, right):\n        return abs(left - right)\n\n    def br_dist_ne(left, right):\n        return 0 if left != right else 1\n\n    def br_dist_gt(left, right):\n        return max(0, right - left + 1)\n\n    def br_dist_ge(left, right):\n        return max(0, right - left)\n\n    def br_dist_lt(left, right):\n        return max(0, left - right + 1)\n\n    def br_dist_le(left, right):\n        return max(0, left - right)\n\n    def br_dist_any_eq_zero(lst):\n        if not lst:\n            return 1\n        if 0 in lst:\n            return 0\n        return min(abs(x) for x in lst)\n\n    def check_any_eq_zero(lst):\n        if not lst:\n            return False\n        return 0 in lst\n\n    # --- Simulate original function's control flow --- \n    \n    # Branch 1: len(amounts) == 0\n    cond1_len_eq_0 = (len(amounts) == 0)\n    if target == \"empty\":\n        return br_dist_eq(len(amounts), 0)\n    elif cond1_len_eq_0:\n        return br_dist_eq(len(amounts), 0) + 1000\n\n    # Branch 2: any(x == 0 for x in amounts)\n    cond2_any_eq_0 = check_any_eq_zero(amounts)\n    if target == \"contains_zero\":\n        return br_dist_any_eq_zero(amounts)\n    elif cond2_any_eq_0:\n        return br_dist_any_eq_zero(amounts) + 1000\n\n    # Calculate common values for remaining branches\n    positives = sum(1 for x in amounts if x > 0)\n    negatives = sum(1 for x in amounts if x < 0)\n    total = sum(amounts)\n\n    # Branch 3: positives >= 3 and negatives == 0 and total > 100\n    cond3_mld = (positives >= 3 and negatives == 0 and total > 100)\n    if target == \"many_large_deposits\":\n        return (br_dist_ge(positives, 3) +\n                br_dist_eq(negatives, 0) +\n                br_dist_gt(total, 100))\n    elif cond3_mld:\n        return (br_dist_ge(positives, 3) +\n                br_dist_eq(negatives, 0) +\n                br_dist_gt(total, 100)) + 1000\n\n    # Branch 4: negatives >= 2 and total < -50\n    cond4_mlw = (negatives >= 2 and total < -50)\n    if target == \"many_large_withdrawals\":\n        return (br_dist_ge(negatives, 2) +\n                br_dist_lt(total, -50))\n    elif cond4_mlw:\n        return (br_dist_ge(negatives, 2) +\n                br_dist_lt(total, -50)) + 1000\n\n    # Branch 5: positives > 0 and negatives > 0\n    cond5_mixed = (positives > 0 and negatives > 0)\n    if target == \"mixed_transactions\":\n        return (br_dist_gt(positives, 0) +\n                br_dist_gt(negatives, 0))\n    elif cond5_mixed:\n        return (br_dist_gt(positives, 0) +\n                br_dist_gt(negatives, 0)) + 1000\n\n    # Branch 6: \"simple_pattern\" (default return)\n    if target == \"simple_pattern\":\n        return 0\n    else:\n        return 1000\n\n    raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function simulates the control flow of the original 'transaction_pattern' function. For each target, it returns 0 if the input chromosome satisfies the conditions to reach that target. If a different branch is taken, a large penalty (1000) is added to ensure it does not return 0 for a non-target path. Otherwise, it calculates branch distances for the conditions leading to the specific target."
+}

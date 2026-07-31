@@ -1,0 +1,25 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height",
+    "underweight",
+    "normal",
+    "overweight",
+    "obese"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.1,
+      "max": 500.0
+    },
+    {
+      "type": "float",
+      "min": -1.0,
+      "max": 3.0
+    }
+  ],
+  "fitness_code": "TARGETS_bmi_category = [\n    \"invalid_height\",\n    \"underweight\",\n    \"normal\",\n    \"overweight\",\n    \"obese\"\n]\n\ndef fitness_bmi_category(chromosome, target):\n    weight, height = chromosome\n\n    if target == \"invalid_height\":\n        # Target: height <= 0\n        if height <= 0:\n            return 0.0\n        else:\n            # Distance to make height <= 0. If height = 1.0, dist = 1.0 + 1.0 = 2.0.\n            return height + 1.0\n    else:\n        # For any other target, height must be > 0\n        if height <= 0:\n            # High penalty for not satisfying height > 0\n            # Distance to make height positive. If height=0, dist=0.0 + 100.0 = 100.0.\n            # If height=-1, dist=1.0 + 100.0 = 101.0.\n            return (0.0 - height) + 100.0\n\n        # Calculate BMI if height is valid\n        bmi = weight / (height * height)\n\n        if target == \"underweight\":\n            # Target: bmi < 18.5\n            if bmi < 18.5:\n                return 0.0\n            else:\n                # Distance to make bmi < 18.5. If bmi = 18.5, dist = 0.0 + 1.0 = 1.0.\n                # If bmi = 20.0, dist = 1.5 + 1.0 = 2.5.\n                return (bmi - 18.5) + 1.0\n        elif target == \"normal\":\n            # Target: 18.5 <= bmi < 25\n            # Distance to satisfy bmi >= 18.5 (false for bmi < 18.5)\n            bd1 = max(0, 18.5 - bmi)\n            # Distance to satisfy bmi < 25 (false for bmi >= 25)\n            bd2 = max(0, bmi - 25)\n            \n            if 18.5 <= bmi < 25:\n                return 0.0\n            else:\n                # Sum of individual branch distances plus a constant offset if not covered\n                return bd1 + bd2 + 1.0\n        elif target == \"overweight\":\n            # Target: 25 <= bmi < 30\n            # Distance to satisfy bmi >= 25 (false for bmi < 25)\n            bd1 = max(0, 25 - bmi)\n            # Distance to satisfy bmi < 30 (false for bmi >= 30)\n            bd2 = max(0, bmi - 30)\n\n            if 25 <= bmi < 30:\n                return 0.0\n            else:\n                # Sum of individual branch distances plus a constant offset if not covered\n                return bd1 + bd2 + 1.0\n        elif target == \"obese\":\n            # Target: bmi >= 30\n            if bmi >= 30:\n                return 0.0\n            else:\n                # Distance to make bmi >= 30. If bmi = 29.9, dist = 0.1 + 1.0 = 1.1.\n                return (30.0 - bmi) + 1.0\n        else:\n            raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function calculates branch distances based on the conditions in the original bmi_category function. It returns 0 when the exact target branch is covered by the chromosome and a positive value otherwise, indicating the 'distance' to cover the target. A constant offset (1.0) is added to ensure positive fitness values when the target is not covered, making 0 achievable only when the target is precisely met."
+}

@@ -1,0 +1,26 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height",
+    "underweight",
+    "normal",
+    "overweight",
+    "obese"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 20.0,
+      "max": 200.0
+    },
+    {
+      "type": "float",
+      "min": 0.5,
+      "max": 3.0
+    }
+  ],
+  "fitness_code": "",
+  "\ndef fitness_bmi_category(chromosome, target):\n    if target not in TARGETS_bmi_category:\n        raise ValueError(\"Unknown target\")\n\n    weight, height = chromosome\n\n    if height <= 0:\n        if target == \"invalid_height\":\n            return 0\n        else:\n            return max(0, height)\n\n    bmi = weight / (height * height)\n\n    if target == \"underweight\" and bmi >= 18.5:\n        return max(0, 18.5 - bmi)\n    elif target == \"normal\" and bmi < 18.5:\n        return max(0, bmi - 18.5)\n    elif target == \"normal\" and bmi >= 25:\n        return max(0, bmi - 25)\n    elif target == \"overweight\" and bmi < 25:\n        return max(0, 25 - bmi)\n    elif target == \"overweight\" and bmi >= 30:\n        return max(0, bmi - 30)\n    elif target == \"obese\" and bmi < 30:\n        return max(0, 30 - bmi)\n\n    if target == \"underweight\":\n        return max(0, bmi - 18.5)\n    elif target == \"normal\":\n        return max(0, max(bmi - 18.5, 25 - bmi))\n    elif target == \"overweight\":\n        return max(0, max(25 - bmi, bmi - 30))\n    elif target == \"obese\":\n        return max(0, 30 - bmi)\n    elif target == \"invalid_height\":\n        return max(0, height)\n\n    return 1\n\nTARGETS_bmi_category = [\n    \"invalid_height\",\n    \"underweight\",\n    \"normal\",\n    \"overweight\",\n    \"obese\"\n]\n": "",
+  "notes": ""
+}

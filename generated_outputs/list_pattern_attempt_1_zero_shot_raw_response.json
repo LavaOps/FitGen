@@ -1,0 +1,20 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_with_duplicates",
+    "sorted_unique",
+    "unsorted_with_duplicates",
+    "unsorted_unique"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 8
+    }
+  ],
+  "fitness_code": "TARGETS_list_pattern = [\n    \"too_short\",\n    \"sorted_with_duplicates\",\n    \"sorted_unique\",\n    \"unsorted_with_duplicates\",\n    \"unsorted_unique\"\n]\n\ndef fitness_list_pattern(chromosome, target):\n    nums = chromosome[0]\n    len_nums = len(nums)\n\n    # Branch distance for len(nums) < 2\n    # To make len(nums) < 2 True: max(0, actual - threshold + 1) for (actual >= threshold)\n    # Here, actual = len_nums, threshold = 2. So len_nums < 2 is equivalent to len_nums <= 1.\n    # The condition is effectively len_nums >= 2 (false) or len_nums < 2 (true)\n    # Distance for len_nums < 2 to be True:\n    #   0 if len_nums is 0 or 1\n    #   (len_nums - 2 + 1) if len_nums >= 2 (e.g., 1 for len_nums=2)\n    bd_len_lt_2_true = max(0, len_nums - 1)\n\n    # Distance for len(nums) < 2 to be False (i.e., len(nums) >= 2)\n    # To make len_nums >= 2 True: max(0, threshold - actual) for (actual >= threshold)\n    #   0 if len_nums >= 2\n    #   (2 - len_nums) if len_nums < 2 (e.g., 2 for len_nums=0, 1 for len_nums=1)\n    bd_len_lt_2_false = max(0, 2 - len_nums)\n\n    # Branch distance for nums == sorted(nums)\n    # Sum of absolute differences for list equality\n    bd_nums_eq_sorted_true = 0.0\n    if len_nums > 0:\n        sorted_nums = sorted(nums)\n        for i in range(len_nums):\n            bd_nums_eq_sorted_true += abs(nums[i] - sorted_nums[i])\n\n    # Distance for nums != sorted(nums) (False branch of nums == sorted(nums))\n    # If nums is already not sorted (bd_nums_eq_sorted_true > 0), distance is 0.\n    # If sorted (bd_nums_eq_sorted_true == 0), distance is 1.0 (to make it not sorted).\n    bd_nums_eq_sorted_false = 0.0 if bd_nums_eq_sorted_true > 0 else 1.0\n\n    # Branch distance for len(nums) != len(set(nums)) (i.e., has duplicates)\n    len_unique_nums = len(set(nums))\n    is_distinct = (len_nums == len_unique_nums)\n\n    # Distance for len(nums) != len(set(nums)) to be True (has duplicates)\n    # If it has duplicates (!is_distinct), distance is 0. If distinct (is_distinct), distance is 1.0.\n    bd_has_duplicates_true = 1.0 if is_distinct else 0.0\n\n    # Distance for len(nums) == len(set(nums)) to be True (is unique/distinct)\n    # If it is distinct (is_distinct), distance is 0. If has duplicates (!is_distinct), distance is 1.0.\n    bd_has_duplicates_false = 1.0 if not is_distinct else 0.0\n\n    if target == \"too_short\":\n        return float(bd_len_lt_2_true)\n    elif target == \"sorted_with_duplicates\":\n        return float(bd_len_lt_2_false + bd_nums_eq_sorted_true + bd_has_duplicates_true)\n    elif target == \"sorted_unique\":\n        return float(bd_len_lt_2_false + bd_nums_eq_sorted_true + bd_has_duplicates_false)\n    elif target == \"unsorted_with_duplicates\":\n        return float(bd_len_lt_2_false + bd_nums_eq_sorted_false + bd_has_duplicates_true)\n    elif target == \"unsorted_unique\":\n        return float(bd_len_lt_2_false + bd_nums_eq_sorted_false + bd_has_duplicates_false)\n    else:\n        raise ValueError(\"Unknown target: \" + target)\n",
+  "notes": "The fitness function calculates branch distances for each condition in the original function's control flow. It sums distances for reaching the specific path leading to each target. Distances are calculated for list length being less than 2, the list being sorted, and the list containing duplicate elements. Numeric distances are used for 'less than' and 'equality' comparisons, while boolean conditions use 0 or 1."
+}

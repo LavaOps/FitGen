@@ -1,0 +1,23 @@
+You are helping with a Search-Based Software Testing project.
+
+    Given the following Python function, generate a fitness function for branch/path coverage.
+
+    The generated fitness function must:
+    1. Be named exactly fitness_<function_name>(chromosome, target).
+    2. Treat chromosome as a list of argument values in the same order as the function signature.
+    3. Use the target parameter to select which branch/path should be covered.
+    4. Return 0 when the chromosome covers the selected target branch/path.
+    5. Return a positive numeric value when the chromosome does not cover the selected target.
+    6. Use branch-distance style logic where possible.
+    7. Not call the original target function inside the fitness function.
+    8. Not import any package.
+    9. Not use random numbers.
+    10. Not print anything.
+    11. Return only executable Python code inside the fitness_code field.
+    12. Do not include markdown code fences inside fitness_code.
+
+    Python function name:
+    <function_name>
+
+    Python source code:
+    <function_source>

@@ -1,0 +1,25 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height_path",
+    "underweight_path",
+    "normal_path",
+    "overweight_path",
+    "obese_path"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 3.0
+    }
+  ],
+  "fitness_code": "K_BD = 1.0\n\ndef _branch_distance(actual, op, target):\n    if op == \":\n        return 0.0 if actual < target else (actual - target) + K_BD\n    if op == \":\n        return 0.0 if actual <= target else (actual - target) + K_BD\n    if op == \">\":\n        return 0.0 if actual > target else (target - actual) + K_BD\n    if op == \">=\":\n        return 0.0 if actual >= target else (target - actual) + K_BD\n    if op == \"==\":\n        return 0.0 if actual == target else abs(actual - target) + K_BD\n    if op == \"!=\":\n        return 0.0 if actual != target else K_BD\n    raise ValueError(f\"Unknown operator {op}\")\n\ndef _normalize(dist):\n    return dist / (1.0 + dist) if dist >= 0.0 else 0.0\n\ndef fitness_bmi_category(chromosome, target):\n    weight, height = chromosome\n    fitness = 0.0\n\n    if target == \"invalid_height_path\":\n        return _normalize(_branch_distance(height, \"<=\", 0.0))\n\n    height_pos_bd = _branch_distance(height, \">\", 0.0)\n    fitness += _normalize(height_pos_bd)\n    \n    if height <= 0.0:\n        return fitness\n\n    bmi = weight / (height * height)\n\n    if target == \"underweight_path\":\n        fitness += _normalize(_branch_distance(bmi, \"<\", 18.5))\n        return fitness\n\n    fitness += _normalize(_branch_distance(bmi, \">=\", 18.5))\n\n    if target == \"normal_path\":\n        fitness += _normalize(_branch_distance(bmi, \"<\", 25.0))\n        return fitness\n\n    fitness += _normalize(_branch_distance(bmi, \">=\", 25.0))\n\n    if target == \"overweight_path\":\n        fitness += _normalize(_branch_distance(bmi, \"<\", 30.0))\n        return fitness\n\n    fitness += _normalize(_branch_distance(bmi, \">=\", 30.0))\n\n    if target == \"obese_path\":\n        return fitness\n\n    raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function uses a branch distance approach. For each target, it accumulates normalized branch distances for conditions that must be met to reach that target. `K_BD` is a small constant used to ensure branch distances are strictly positive when a condition is not met. A check for `height <= 0` is added to prevent `ZeroDivisionError` during BMI calculation, returning the accumulated fitness if `height` is not positive and the target is not `invalid_height_path`."
+}

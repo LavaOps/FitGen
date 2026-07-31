@@ -1,0 +1,12 @@
+{
+  "function_name": "loan_eligibility",
+  "fitness_function_name": "fitness_loan_eligibility",
+  "targets": [
+    "reject_underage",
+    "approve",
+    "review",
+    "reject_low_income"
+  ],
+  "fitness_code": "def fitness_loan_eligibility(chromosome, target):\n    age, income, employed = chromosome\n\n    dist_age_lt_18 = max(0, age - 18 + 1)\n    dist_age_ge_18 = max(0, 18 - age)\n\n    dist_income_ge_50000 = max(0, 50000 - income)\n    dist_income_lt_50000 = max(0, income - 50000 + 1)\n\n    dist_income_ge_30000 = max(0, 30000 - income)\n    dist_income_lt_30000 = max(0, income - 30000 + 1)\n\n    dist_employed_true = 0 if employed else 1\n    dist_employed_false = 0 if not employed else 1\n\n    if target == \"reject_underage\":\n        return dist_age_lt_18\n\n    if target == \"approve\":\n        return dist_age_ge_18 + dist_income_ge_50000 + dist_employed_true\n\n    if target == \"review\":\n        fitness_preconditions = dist_age_ge_18\n        fitness_avoid_approve = min(dist_income_lt_50000, dist_employed_false)\n        fitness_condition = dist_income_ge_30000\n        return fitness_preconditions + fitness_avoid_approve + fitness_condition\n\n    if target == \"reject_low_income\":\n        fitness_preconditions = dist_age_ge_18\n        fitness_avoid_approve = min(dist_income_lt_50000, dist_employed_false)\n        fitness_avoid_review = dist_income_lt_30000\n        return fitness_preconditions + fitness_avoid_approve + fitness_avoid_review\n\n    return float('inf')",
+  "notes": "Generates a fitness function that calculates the branch distance to cover specific return paths in the loan_eligibility function. It uses arithmetic distances for numeric comparisons and 0/1 for boolean conditions, summing these to provide an overall fitness score. The 'min' function is used for 'OR' conditions in path constraints."
+}

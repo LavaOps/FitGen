@@ -1,0 +1,20 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_with_duplicates",
+    "sorted_unique",
+    "unsorted_with_duplicates",
+    "unsorted_unique"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "def fitness_list_pattern(chromosome, target):\n    # Extract the list argument from the chromosome\n    if not chromosome:\n        nums = []\n    else:\n        nums = chromosome[0]\n\n    # Determine the label that the original function would return\n    if len(nums) < 2:\n        label = \"too_short\"\n    else:\n        if nums == sorted(nums):\n            if len(nums) != len(set(nums)):\n                label = \"sorted_with_duplicates\"\n            else:\n                label = \"sorted_unique\"\n        else:\n            if len(nums) != len

@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "zero",
+    "even",
+    "odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_number_kind = [\"zero\", \"even\", \"odd\"]\n\ndef fitness_number_kind(chromosome, target):\n    if target not in TARGETS_number_kind:\n        raise ValueError(f\"Unknown target: {target}\")\n    x = chromosome[0]\n    if target == \"zero\":\n        distance = abs(x)\n    elif target == \"even\":\n        if x == 0:\n            distance = 1\n        elif x % 2 == 0:\n            distance = 0\n        else:\n            distance = 1\n    elif target == \"odd\":\n        if x % 2 == 1:\n            distance = 0\n        else:\n            distance = 1\n    return max(0, distance)",
+  "notes": ""
+}

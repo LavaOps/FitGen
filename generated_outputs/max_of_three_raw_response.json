@@ -1,0 +1,11 @@
+{
+  "function_name": "max_of_three",
+  "fitness_function_name": "fitness_max_of_three",
+  "targets": [
+    "a_is_max",
+    "b_is_max",
+    "c_is_max"
+  ],
+  "fitness_code": "def fitness_max_of_three(chromosome, target):\n    a, b, c = chromosome\n\n    def dist_ge(val1, val2):\n        if val1 >= val2:\n            return 0\n        else:\n            return val2 - val1 + 1\n\n    def dist_lt(val1, val2):\n        if val1 < val2:\n            return 0\n        else:\n            return val1 - val2 + 1\n\n    if target == \"a_is_max\":\n        # Target: a >= b AND a >= c\n        fitness = dist_ge(a, b) + dist_ge(a, c)\n        return fitness\n\n    elif target == \"b_is_max\":\n        # Target: NOT (a >= b AND a >= c) AND (b >= a AND b >= c)\n        # Which simplifies to: (a < b OR a < c) AND (b >= a AND b >= c)\n\n        # Fitness for failing the first 'if' condition (a < b OR a < c)\n        fail_first_if_fitness = min(dist_lt(a, b), dist_lt(a, c))\n\n        # Fitness for satisfying the 'elif' condition (b >= a AND b >= c)\n        satisfy_elif_fitness = dist_ge(b, a) + dist_ge(b, c)\n\n        fitness = fail_first_if_fitness + satisfy_elif_fitness\n        return fitness\n\n    elif target == \"c_is_max\":\n        # Target: NOT (a >= b AND a >= c) AND NOT (b >= a AND b >= c)\n        # Which simplifies to: (a < b OR a < c) AND (b < a OR b < c)\n\n        # Fitness for failing the first 'if' condition (a < b OR a < c)\n        fail_first_if_fitness = min(dist_lt(a, b), dist_lt(a, c))\n\n        # Fitness for failing the 'elif' condition (b < a OR b < c)\n        fail_elif_fitness = min(dist_lt(b, a), dist_lt(b, c))\n\n        fitness = fail_first_if_fitness + fail_elif_fitness\n        return fitness\n    \n    return float('inf')",
+  "notes": "The fitness function uses an approach level strategy, calculating the sum or minimum of distances for each predicate to be true or false as required for a specific branch. 'dist_ge' calculates the distance for a 'greater than or equal to' condition to be met, and 'dist_lt' for a 'less than' condition. A distance of 0 indicates the condition is met, while positive values indicate how far it is from being met."
+}

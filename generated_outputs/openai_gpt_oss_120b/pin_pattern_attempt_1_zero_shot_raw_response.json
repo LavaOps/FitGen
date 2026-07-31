@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin",
+    "all_same",
+    "ordered_sum_20",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\"secret_pin\", \"all_same\", \"ordered_sum_20\", \"other\"]\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n    # distance to secret_pin condition\n    dist_secret = max(0, abs(a - 7) + abs(b - 3) + abs(c - 9) + abs(d - 1))\n    # distance to all_same condition\n    diff_ab = abs(a - b)\n    diff_ac = abs(a - c)\n    diff_ad = abs(a - d)\n    dist_all_same = max(diff_ab, diff_ac, diff_ad)\n    # distance to ordered_sum_20 condition\n    sum_dist = abs((a + b + c + d) - 20)\n    order_dist = 0\n    if a >= b:\n        order_dist += (a - b + 1)\n    if b >= c:\n        order_dist += (b - c + 1)\n    if c >= d:\n        order_dist += (c - d + 1)\n    dist_ordered = sum_dist + order_dist\n    # distance to other condition (true when none of the above are satisfied)\n    other_condition = (dist_secret == 0) or (dist_all_same == 0) or (dist_ordered == 0)\n    dist_other = 1 if other_condition else 0\n    if target == \"secret_pin\":\n        return dist_secret\n    elif target == \"all_same\":\n        return dist_all_same\n    elif target == \"ordered_sum_20\":\n        return dist_ordered\n    elif target == \"other\":\n        return dist_other\n    else:\n        raise ValueError(\"Unknown target: \" + str(target))",
+  "notes": "The fitness function computes a non\u2011negative branch\u2011distance for each possible return label of pin_pattern. It returns 0 exactly when the chromosome would cause the original function to return the selected target."
+}

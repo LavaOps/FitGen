@@ -1,0 +1,23 @@
+{
+  "function_name": "transaction_pattern",
+  "fitness_function_name": "fitness_transaction_pattern",
+  "targets": [
+    "empty",
+    "contains_zero",
+    "many_large_deposits",
+    "many_large_withdrawals",
+    "mixed_transactions",
+    "simple_pattern"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "\ndef fitness_transaction_pattern(chromosome, target):\n    amounts = chromosome[0]\n    if target == \"empty\":\n        if len(amounts) == 0:\n            return 0\n        else:\n            return len(amounts)\n    elif target == \"contains_zero\":\n        if any(x == 0 for x in amounts):\n            return 0\n        elif len(amounts) == 0:\n            return 1\n        else:\n            return min(1, sum(1 for x in amounts if x != 0))\n    elif target == \"many_large_deposits\":\n        positives = sum(1 for x in amounts if x > 0)\n        negatives = sum(1 for x in amounts if x < 0)\n        total = sum(amounts)\n        if positives >= 3 and negatives == 0 and total > 100:\n            return 0\n        else:\n            distance = 0\n            if positives < 3:\n                distance += max(0, 3 - positives)\n            if negatives > 0:\n                distance += negatives\n            if total <= 100:\n                distance += max(0, (100 - total) / 100)\n            return distance\n    elif target == \"many_large_withdrawals\":\n        negatives = sum(1 for x in amounts if x < 0)\n        total = sum(amounts)\n        if negatives >= 2 and total < -50:\n            return 0\n        else:\n            distance = 0\n            if negatives < 2:\n                distance += max(0, 2 - negatives)\n            if total >= -50:\n                distance += max(0, (total + 50) / 50)\n            return distance\n    elif target == \"mixed_transactions\":\n        positives = sum(1 for x in amounts if x > 0)\n        negatives = sum(1 for x in amounts if x < 0)\n        if positives > 0 and negatives > 0:\n            return 0\n        else:\n            distance = 0\n            if positives == 0:\n                distance += 1\n            if negatives == 0:\n                distance += 1\n            return distance\n    elif target == \"simple_pattern\":\n        positives = sum(1 for x in amounts if x > 0)\n        negatives = sum(1 for x in amounts if x < 0)\n        total = sum(amounts)\n        if not (positives >= 3 and negatives == 0 and total > 100) and not (negatives >= 2 and total < -50) and not (positives > 0 and negatives > 0):\n            return 0\n        else:\n            distance = 0\n            if positives >= 3 and negatives == 0 and total > 100:\n                distance += 1\n            if negatives >= 2 and total < -50:\n                distance += 1\n            if positives > 0 and negatives > 0:\n                distance += 1\n            return distance\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": ""
+}

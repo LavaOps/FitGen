@@ -1,0 +1,20 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_with_duplicates",
+    "sorted_unique",
+    "unsorted_with_duplicates",
+    "unsorted_unique"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 8
+    }
+  ],
+  "fitness_code": "def fitness_list_pattern(chromosome, target):\n    nums = chromosome[0]\n\n    # Calculate branch distances for individual conditions\n\n    # Condition: len(nums) < 2\n    # Distance for len(nums) < 2 to be TRUE\n    dist_len_lt_2_true = max(0, len(nums) - 1)\n    # Distance for len(nums) < 2 to be FALSE (i.e., len(nums) >= 2)\n    dist_len_lt_2_false = max(0, 2 - len(nums))\n\n    # Condition: nums == sorted(nums)\n    sorted_nums = sorted(nums)\n\n    # Distance for nums == sorted(nums) to be TRUE\n    dist_nums_eq_sorted_true = 0\n    if len(nums) == len(sorted_nums):\n        for i in range(len(nums)):\n            dist_nums_eq_sorted_true += abs(nums[i] - sorted_nums[i])\n\n    # Distance for nums == sorted(nums) to be FALSE (i.e., nums != sorted(nums))\n    dist_nums_eq_sorted_false = 1 if nums == sorted_nums else 0\n\n    # Condition: len(nums) != len(set(nums)) (i.e., has duplicates)\n    has_duplicates_cond = (len(nums) != len(set(nums)))\n\n    # Distance for has_duplicates_cond to be TRUE (i.e., has duplicates)\n    dist_has_duplicates_true = 0\n    if not has_duplicates_cond:\n        dist_has_duplicates_true = 1 # Need to introduce at least one duplicate\n\n    # Distance for has_duplicates_cond to be FALSE (i.e., no duplicates)\n    dist_has_duplicates_false = 0\n    if has_duplicates_cond:\n        dist_has_duplicates_false = len(nums) - len(set(nums)) # Number of duplicate instances\n\n    # Combine distances based on the target\n    if target == \"too_short\":\n        return dist_len_lt_2_true\n\n    # All other targets require len(nums) >= 2\n    # We add dist_len_lt_2_false to ensure this path is taken\n    base_dist = dist_len_lt_2_false\n\n    if target == \"sorted_with_duplicates\":\n        return base_dist + dist_nums_eq_sorted_true + dist_has_duplicates_true\n\n    if target == \"sorted_unique\":\n        return base_dist + dist_nums_eq_sorted_true + dist_has_duplicates_false\n\n    if target == \"unsorted_with_duplicates\":\n        return base_dist + dist_nums_eq_sorted_false + dist_has_duplicates_true\n\n    if target == \"unsorted_unique\":\n        return base_dist + dist_nums_eq_sorted_false + dist_has_duplicates_false\n\n    raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function calculates branch distances for `len(nums) < 2`, `nums == sorted(nums)`, and `len(nums) != len(set(nums))` conditions. These individual distances are then combined additively based on the logical path to reach each specific target. For list equality, the sum of absolute differences between `nums` and `sorted(nums)` is used. For duplicate checks, the difference in length between the list and its set is used, or a small constant if a duplicate needs to be introduced."
+}

@@ -1,0 +1,14 @@
+{
+  "function_name": "grade_category",
+  "fitness_function_name": "fitness_grade_category",
+  "targets": [
+    "invalid",
+    "A",
+    "B",
+    "C",
+    "D",
+    "F"
+  ],
+  "fitness_code": "def fitness_grade_category(chromosome, target):\n    score = chromosome[0]\n\n    def bd_gt(a, b):\n        return 0 if a > b else b - a + 1\n\n    def bd_ge(a, b):\n        return 0 if a >= b else b - a + 1\n\n    def bd_lt(a, b):\n        return 0 if a < b else a - b + 1\n\n    def bd_le(a, b):\n        return 0 if a <= b else a - b + 1\n\n    if target == \"invalid\":\n        fitness_lt_0 = bd_lt(score, 0)\n        fitness_gt_100 = bd_gt(score, 100)\n        return min(fitness_lt_0, fitness_gt_100)\n\n    pre_fitness_valid_range = bd_ge(score, 0) + bd_le(score, 100)\n\n    if target == \"A\":\n        return pre_fitness_valid_range + bd_ge(score, 90)\n\n    pre_fitness_lt_90 = bd_lt(score, 90)\n    pre_fitness_A_false = pre_fitness_valid_range + pre_fitness_lt_90\n\n    if target == \"B\":\n        return pre_fitness_A_false + bd_ge(score, 80)\n\n    pre_fitness_lt_80 = bd_lt(score, 80)\n    pre_fitness_B_false = pre_fitness_A_false + pre_fitness_lt_80\n\n    if target == \"C\":\n        return pre_fitness_B_false + bd_ge(score, 70)\n\n    pre_fitness_lt_70 = bd_lt(score, 70)\n    pre_fitness_C_false = pre_fitness_B_false + pre_fitness_lt_70\n\n    if target == \"D\":\n        return pre_fitness_C_false + bd_ge(score, 60)\n\n    pre_fitness_lt_60 = bd_lt(score, 60)\n    pre_fitness_D_false = pre_fitness_C_false + pre_fitness_lt_60\n\n    if target == \"F\":\n        return pre_fitness_D_false\n    \n    return float('inf')",
+  "notes": "The fitness function uses branch distance (calculated with helper functions bd_gt, bd_ge, bd_lt, bd_le) for each condition. For 'OR' conditions, it takes the minimum of individual branch distances. For 'AND' conditions and sequentially evaluated 'elif' branches, it sums the branch distances of all required conditions and their preceding negations. A constant of 1 is added to the branch distance if a condition is not met, ensuring a positive fitness value when the target is not covered and a zero value when covered. Each subsequent 'elif' target adds the branch distance for making the preceding conditions false to its overall fitness calculation."
+}

@@ -1,0 +1,21 @@
+{
+  "function_name": "grade_category",
+  "fitness_function_name": "fitness_grade_category",
+  "targets": [
+    "invalid_score_range",
+    "grade_A",
+    "grade_B",
+    "grade_C",
+    "grade_D",
+    "grade_F"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -100,
+      "max": 200
+    }
+  ],
+  "fitness_code": "TARGETS_grade_category = [\n    \"invalid_score_range\",\n    \"grade_A\",\n    \"grade_B\",\n    \"grade_C\",\n    \"grade_D\",\n    \"grade_F\"\n]\n\ndef bd_lt(val, target):\n    \"\"\"Branch distance for val < target.\"\"\"\n    return 0.0 if val < target else float(val - target + 1)\n\ndef bd_gt(val, target):\n    \"\"\"Branch distance for val > target.\"\"\"\n    return 0.0 if val > target else float(target - val + 1)\n\ndef bd_ge(val, target):\n    \"\"\"Branch distance for val >= target.\"\"\"\n    return 0.0 if val >= target else float(target - val + 1)\n\ndef bd_not_lt(val, target):\n    \"\"\"Branch distance for NOT (val < target), i.e., val >= target.\"\"\"\n    return bd_ge(val, target)\n\ndef bd_not_gt(val, target):\n    \"\"\"Branch distance for NOT (val > target), i.e., val <= target.\"\"\"\n    return bd_lt(val, target) # This implicitly means val <= target for these comparisons.\n\ndef bd_not_ge(val, target):\n    \"\"\"Branch distance for NOT (val >= target), i.e., val < target.\"\"\"\n    return bd_lt(val, target)\n\ndef fitness_grade_category(chromosome, target):\n    score = chromosome[0]\n\n    if target == \"invalid_score_range\":\n        # Target: score < 0 or score > 100\n        f_lt_0 = bd_lt(score, 0)\n        f_gt_100 = bd_gt(score, 100)\n        return min(f_lt_0, f_gt_100)\n\n    # Preconditions for all grade targets (A, B, C, D, F):\n    # NOT (score < 0 or score > 100)  =>  (score >= 0 and score <= 100)\n    precond_valid_range = bd_not_lt(score, 0) + bd_not_gt(score, 100)\n\n    # Preconditions for skipping previous elif blocks\n    precond_not_A = bd_not_ge(score, 90) # score < 90\n    precond_not_B = bd_not_ge(score, 80) # score < 80\n    precond_not_C = bd_not_ge(score, 70) # score < 70\n    precond_not_D = bd_not_ge(score, 60) # score < 60\n\n    if target == \"grade_A\":\n        # Target: score >= 90\n        return precond_valid_range + bd_ge(score, 90)\n    elif target == \"grade_B\":\n        # Target: score >= 80 (after grade_A failed)\n        return precond_valid_range + precond_not_A + bd_ge(score, 80)\n    elif target == \"grade_C\":\n        # Target: score >= 70 (after grade_B failed)\n        return precond_valid_range + precond_not_A + precond_not_B + bd_ge(score, 70)\n    elif target == \"grade_D\":\n        # Target: score >= 60 (after grade_C failed)\n        return precond_valid_range + precond_not_A + precond_not_B + precond_not_C + bd_ge(score, 60)\n    elif target == \"grade_F\":\n        # Target: score < 60 (after grade_D failed)\n        return precond_valid_range + precond_not_A + precond_not_B + precond_not_C + precond_not_D\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function `fitness_grade_category` uses a branch-distance-like approach. It defines helper functions (`bd_lt`, `bd_gt`, `bd_ge`, and their negations) to calculate the distance to satisfy or falsify a condition. For 'or' conditions, the minimum of the branch distances is used, and for 'and' conditions (and sequential 'elif' blocks), the sum of branch distances is used. Each target corresponds to a specific branch in the original `grade_category` function. The 'invalid_score_range' target aims for `score < 0` or `score > 100`. The grade targets (A, B, C, D, F) include preconditions to ensure that earlier 'if'/'elif' conditions are not met, mimicking the control flow of the original function."
+}

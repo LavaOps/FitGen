@@ -1,0 +1,20 @@
+{
+  "function_name": "list_pattern",
+  "fitness_function_name": "fitness_list_pattern",
+  "targets": [
+    "too_short",
+    "sorted_with_duplicates",
+    "sorted_unique",
+    "unsorted_with_duplicates",
+    "unsorted_unique"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6
+    }
+  ],
+  "fitness_code": "def fitness_list_pattern(chromosome, target):\n    nums = chromosome[0]\n    K = 1.0\n\n    len_nums = len(nums)\n    \n    sorted_nums = sorted(nums)\n    list_diff_sum = 0\n    if len_nums > 0:\n        for i in range(len_nums):\n            list_diff_sum += abs(nums[i] - sorted_nums[i])\n\n    len_unique_nums = len(set(nums))\n    num_duplicates_delta = len_nums - len_unique_nums\n\n    # Branch Distance for 'len(nums) < 2'\n    # True path: len(nums) < 2\n    bd_len_lt_2_true = max(0.0, len_nums - 2 + K)\n    # False path: len(nums) >= 2\n    bd_len_lt_2_false = max(0.0, 2 - len_nums)\n\n    # Branch Distance for 'nums == sorted(nums)'\n    # True path: nums == sorted(nums) (list is sorted)\n    bd_nums_eq_sorted_true = float(list_diff_sum)\n    # False path: nums != sorted(nums) (list is not sorted)\n    # This is fixed to be 0 when list is actually unsorted, and K otherwise.\n    bd_nums_eq_sorted_false = (K if list_diff_sum == 0 else 0.0)\n\n    # Branch Distance for 'len(nums) != len(set(nums))' (has duplicates)\n    # True path: len(nums) != len(set(nums)) (list has duplicates)\n    bd_duplicates_true = max(0.0, K - num_duplicates_delta)\n    # False path: len(nums) == len(set(nums)) (list has no duplicates)\n    bd_duplicates_false = float(num_duplicates_delta)\n\n    # Combine branch distances for each target\n    if target == \"too_short\":\n        return bd_len_lt_2_true\n    elif target == \"sorted_with_duplicates\":\n        return bd_len_lt_2_false + bd_nums_eq_sorted_true + bd_duplicates_true\n    elif target == \"sorted_unique\":\n        return bd_len_lt_2_false + bd_nums_eq_sorted_true + bd_duplicates_false\n    elif target == \"unsorted_with_duplicates\":\n        return bd_len_lt_2_false + bd_nums_eq_sorted_false + bd_duplicates_true\n    elif target == \"unsorted_unique\":\n        return bd_len_lt_2_false + bd_nums_eq_sorted_false + bd_duplicates_false\n    else:\n        raise ValueError(\"Unknown target\")",
+  "notes": "The fitness function was corrected for the 'unsorted' branches. Specifically, 'bd_nums_eq_sorted_false' was adjusted to return 0 when the list is actually unsorted (list_diff_sum > 0) and K when it is sorted (list_diff_sum == 0). This ensures a fitness of 0 exactly when the 'nums != sorted(nums)' condition is met, addressing the previous semantic mismatch."
+}

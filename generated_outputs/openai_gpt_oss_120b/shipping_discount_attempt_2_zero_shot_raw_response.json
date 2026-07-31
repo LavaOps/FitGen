@@ -1,0 +1,26 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "def fitness_shipping_discount(chromosome, target):\n    order_total, distance, is_member = chromosome\n    \n    if target not in [\n        'invalid',\n        'free_express_shipping',\n        'standard_discount',\n        'small_discount',\n        'no_discount'\n    ]:\n        raise ValueError(\"Unknown target\")\n    \n    fitness = 1\n    \n    if order_total < 0 or distance < 0:\n        fitness = 0 if target == 'invalid' else max(0, order_total) + max(0, distance)\n    else:\n        if target == 'invalid':\n            fitness = 1\n        \n        if target == 'free_express_shipping':\n            free_express_shipping_distance = max(0, 200 - order_total) + max(0, distance - 50) + max(0, 1 - is_member)\n            fitness = free_express_shipping_distance if order_total >= 200 and distance <= 50 and is_member else 1\n        \n        if target == 'standard_discount':\n            if order_total >= 200 and distance <= 50 and is_member:\n                fitness = 1\n            else:\n                standard_discount_distance = max(0, 100 - order_total) + max(0, distance - 100)\n                fitness = min(fitness, standard_discount_distance if order_total >= 100 and distance <= 100 else 1)\n        \n        if target == 'small_discount':\n            if order_total >= 200 and distance <= 50 and is_member:\n                fitness = 1\n            elif order_total >= 100 and distance <= 100:\n                fitness = 1\n            else:\n                small_discount_distance = max(0, 50 - order_total) + max(0, int(is_member) - 1)\n                fitness = min(fitness, small_discount_distance if order_total >= 50 or is_member else 1)\n        \n        if target == 'no_discount':\n            if order_total >= 200 and distance <= 50 and is_member:\n                fitness = 1\n            elif order_total >= 100 and distance <= 100:\n                fitness = 1\n            elif order_total >= 50 or is_member:\n                fitness = 1\n            else:\n                fitness = 0\n    \n    return fitness",
+  "notes": ""
+}

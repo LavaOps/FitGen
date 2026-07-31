@@ -1,0 +1,7 @@
+model,model_slug,total_functions,accepted_functions,failed_functions_count,accepted_rate,avg_attempts_per_function,failed_functions
+Gemini 2.5 Flash,gemini_2_5_flash,11,11,0,100.0,4.769230769230769,
+Qwen3-32B,qwen_qwen3_32b,11,4,7,36.36363636363637,14.615384615384615,"bmi_category, pin_pattern, shipping_discount, sign_type, string_category, transaction_pattern, triangle_type"
+GPT-OSS-120B,openai_gpt_oss_120b,11,11,0,100.0,4.214285714285714,
+GPT-OSS-20B,openai_gpt_oss_20b,11,3,8,27.27272727272727,11.153846153846153,"bmi_category, list_pattern, password_strength, pin_pattern, shipping_discount, string_category, triangle_type, username_category"
+Llama 3.3 70B,llama_3_3_70b_versatile,11,11,0,100.0,3.3076923076923075,
+Llama 4 Scout,meta_llama_llama_4_scout_17b_16e_instruct,11,11,0,100.0,8.384615384615385,

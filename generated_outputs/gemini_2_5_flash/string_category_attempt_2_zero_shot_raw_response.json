@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_string_category = [\"empty\", \"long_palindrome\", \"short_palindrome\", \"long_non_palindrome\", \"other\"]\n\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    s_rev = s[::-1]\n    len_s = len(s)\n\n    # Helper functions for branch distance calculations\n    def eq_dist(val, target_val):\n        return abs(val - target_val)\n\n    def gt_dist(val, threshold):\n        # Distance to satisfy val > threshold (i.e., val >= threshold + 1)\n        return max(0, (threshold + 1) - val)\n\n    def ge_dist(val, threshold):\n        # Distance to satisfy val >= threshold\n        return max(0, threshold - val)\n\n    def lt_dist(val, threshold):\n        # Distance to satisfy val < threshold (i.e., val <= threshold - 1)\n        return max(0, val - (threshold - 1))\n\n    def le_dist(val, threshold):\n        # Distance to satisfy val <= threshold\n        return max(0, val - threshold)\n\n    def str_pal_dist(s_actual, s_reversed):\n        # Distance to satisfy s_actual == s_reversed\n        if s_actual == s_reversed:\n            return 0\n        mismatches = 0\n        # s_actual and s_reversed always have the same length\n        for i in range(len(s_actual)):\n            if s_actual[i] != s_reversed[i]:\n                mismatches += 1\n        return mismatches if mismatches > 0 else 1\n\n    # Branch distances for conditions and their negations\n    dist_len_s_eq_0_true = eq_dist(len_s, 0)\n    dist_len_s_ne_0_true = gt_dist(len_s, 0) # equivalent to len_s > 0 or len_s >= 1\n\n    dist_s_is_palindrome_true = str_pal_dist(s, s_rev)\n    dist_s_is_not_palindrome_true = 0 if s != s_rev else 1 # 0 if s is not a palindrome, 1 if it is\n\n    dist_len_s_gt_3_true = gt_dist(len_s, 3) # len(s) > 3 means len(s) >= 4\n    dist_len_s_le_3_true = le_dist(len_s, 3) # len(s) <= 3\n\n    dist_len_s_gt_5_true = gt_dist(len_s, 5) # len(s) > 5 means len(s) >= 6\n    dist_len_s_le_5_true = le_dist(len_s, 5) # len(s) <= 5\n\n    if target == \"empty\":\n        # Path: len(s) == 0\n        return dist_len_s_eq_0_true\n    elif target == \"long_palindrome\":\n        # Path: len(s) != 0 AND s == s[::-1] AND len(s) > 3\n        return dist_len_s_ne_0_true + dist_s_is_palindrome_true + dist_len_s_gt_3_true\n    elif target == \"short_palindrome\":\n        # Path: len(s) != 0 AND s == s[::-1] AND NOT (len(s) > 3) --> len(s) <= 3\n        return dist_len_s_ne_0_true + dist_s_is_palindrome_true + dist_len_s_le_3_true\n    elif target == \"long_non_palindrome\":\n        # Path: len(s) != 0 AND s != s[::-1] AND len(s) > 5\n        return dist_len_s_ne_0_true + dist_s_is_not_palindrome_true + dist_len_s_gt_5_true\n    elif target == \"other\":\n        # Path: len(s) != 0 AND s != s[::-1] AND NOT (len(s) > 5) --> len(s) <= 5\n        return dist_len_s_ne_0_true + dist_s_is_not_palindrome_true + dist_len_s_le_5_true\n    else:\n        raise ValueError(\"Unknown target\")",
+  "notes": "Corrected the branch distance calculations for 'less than or equal to' conditions (e.g., len(s) <= 3 and len(s) <= 5) by introducing 'le_dist' helper function. Previously, the negation of 'greater than' was incorrectly using 'ge_dist' with inverted logic, leading to semantic mismatches."
+}

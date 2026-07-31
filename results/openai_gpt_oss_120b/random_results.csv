@@ -1,0 +1,1231 @@
+model,method,function_name,target,run_id,found,validated,best_chromosome,best_fitness,reached_branch,generation,evaluations,runtime
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,0,False,False,"[993.0294615572111, 8.399088729839077]",8.399088729839077,,0,1000,0.0007895409362390637
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,1,False,False,"[2078.4605054333715, 7.828319933114725]",7.828319933114725,,0,1000,0.0007698750123381615
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,2,False,False,"[2276.431513045696, 1.4260543567798933]",1.4260543567798933,,0,1000,0.0007610000902786851
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,3,False,False,"[239.34893439283744, 1.488576901045091]",1.488576901045091,,0,1000,0.0007719580316916108
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,4,False,False,"[2740.7842828293888, 0.6895683668849406]",0.6895683668849406,,0,1000,0.0007761659799143672
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,5,False,False,"[2579.096863350956, 3.8166972347111194]",3.8166972347111194,,0,1000,0.0007591670146211982
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,6,False,False,"[439.39295075617855, 0.874188128072384]",0.874188128072384,,0,1000,0.0007477910257875919
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,7,False,False,"[551.5170342368086, 0.27586675902468993]",0.27586675902468993,,0,1000,0.0007089170394465327
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,8,False,False,"[2105.275729123387, 0.4636737988308326]",0.4636737988308326,,0,1000,0.000709792017005384
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,9,False,False,"[2144.386919378535, 6.626837874950997]",6.626837874950997,,0,1000,0.0007117919158190489
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,10,False,False,"[804.5419107448377, 0.93210497890861]",0.93210497890861,,0,1000,0.0007089170394465327
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,11,False,False,"[1038.0099072646847, 0.7462416932271232]",0.7462416932271232,,0,1000,0.0007047080434858799
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,12,False,False,"[1739.264517469287, 1.3869806766244608]",1.3869806766244608,,0,1000,0.0007219159742817283
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,13,False,False,"[2485.125753743027, 4.619737747043939]",4.619737747043939,,0,1000,0.000716750044375658
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,14,False,False,"[2666.490615110154, 3.29125890237425]",3.29125890237425,,0,1000,0.0007151250028982759
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,15,False,False,"[67.12415195731137, 0.8126795072264104]",0.8126795072264104,,0,1000,0.0006761670811101794
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,16,False,False,"[2558.8397497228584, 3.1076313347864204]",3.1076313347864204,,0,1000,0.0006724169943481684
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,17,False,False,"[2031.3092585733234, 6.08566383248188]",6.08566383248188,,0,1000,0.0006637090118601918
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,18,False,False,"[2204.3010741729745, 1.1780693188581104]",1.1780693188581104,,0,1000,0.0006644170498475432
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,19,False,False,"[2020.938974827511, 7.600668584113235]",7.600668584113235,,0,1000,0.0006656249752268195
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,20,False,False,"[851.5443075946027, 3.990997893443038]",3.990997893443038,,0,1000,0.00066791707649827
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,21,False,False,"[2550.5604185316156, 1.5297564152476628]",1.5297564152476628,,0,1000,0.0006681249942630529
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,22,False,False,"[32.96979008880208, 6.415745940795525]",6.415745940795525,,0,1000,0.0006628750124946237
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,23,False,False,"[1603.1618898715503, 12.679294386285678]",12.679294386285678,,0,1000,0.0006654580356553197
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,24,False,False,"[692.7935765560466, 0.16436385320384161]",0.16436385320384161,,0,1000,0.0006322499830275774
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,25,False,False,"[2598.2985570821365, 0.5324811542575247]",0.5324811542575247,,0,1000,0.0006393339717760682
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,26,False,False,"[42.09763017673707, 0.6419074065309172]",0.6419074065309172,,0,1000,0.0006357920356094837
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,27,False,False,"[1015.5526878423874, 1.5932069342425859]",1.5932069342425859,,0,1000,0.0006432499503716826
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,28,False,False,"[1066.7936174565789, 1.6674750133994776]",1.6674750133994776,,0,1000,0.0006493749096989632
+openai_gpt_oss_120b,RANDOM,bmi_category,invalid_height,29,False,False,"[1821.0349261816248, 1.2858834351241466]",1.2858834351241466,,0,1000,0.0006336249643936753
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,0,True,True,"[2292.063414164853, 1407.6111304147278]",0.0,underweight,0,1,3.4999102354049683e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,1,True,True,"[2163.786826299906, 2957.1743242622765]",0.0,underweight,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,2,True,True,"[901.3088130039106, 1502.8895236963244]",0.0,underweight,0,1,2.334010787308216e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,3,True,True,"[2334.0924176583517, 1527.8765409515688]",0.0,underweight,0,1,2.1670712158083916e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,4,True,True,"[549.9401880290536, 613.8902862113059]",0.0,underweight,0,1,2.125045284628868e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,5,True,True,"[438.42741707536806, 2748.8609796534033]",0.0,underweight,0,1,2.0419247448444366e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,6,True,True,"[1144.4968137720678, 1755.690862833504]",0.0,underweight,0,1,2.124928869307041e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,7,True,True,"[2326.738984091813, 2046.443988431896]",0.0,underweight,0,1,2.250075340270996e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,8,True,True,"[2367.6481669900054, 2438.5933187543465]",0.0,underweight,0,1,2.0830193534493446e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,9,True,True,"[1186.8968578184592, 1306.1010609431141]",0.0,underweight,0,1,2.0419247448444366e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,10,True,True,"[340.79953790915016, 1486.0017944097813]",0.0,underweight,0,1,2.0420411601662636e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,11,True,True,"[1041.4254178570523, 1122.0481170502583]",0.0,underweight,0,1,2.125045284628868e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,12,True,True,"[281.6787710769588, 1488.4723190590955]",0.0,underweight,0,1,2.0420411601662636e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,13,True,True,"[32.92110390424685, 785.2999648879032]",0.0,underweight,0,1,2.0830193534493446e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,14,True,True,"[2976.404098594315, 654.5285954861581]",0.0,underweight,0,1,2.040993422269821e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,15,True,True,"[1061.3370889569862, 1038.6114003624439]",0.0,underweight,0,1,1.9581057131290436e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,16,True,True,"[1712.613504016607, 1957.7141886921777]",0.0,underweight,0,1,2.00001522898674e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,17,True,True,"[574.6100055575931, 1338.6950153235189]",0.0,underweight,0,1,2.0830193534493446e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,18,True,True,"[1289.2875022133367, 1904.001469604021]",0.0,underweight,0,1,2.1670712158083916e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,19,True,True,"[528.9481766971254, 836.1053594236461]",0.0,underweight,0,1,2.08395067602396e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,20,True,True,"[2845.482086489548, 2969.077917309934]",0.0,underweight,0,1,2.084067091345787e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,21,True,True,"[2686.1523355382355, 105.58738776167364]",0.0,underweight,0,1,2.2080494090914726e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,22,True,True,"[1173.930260712478, 1336.212335027485]",0.0,underweight,0,1,2.040993422269821e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,23,True,True,"[2112.4174016796205, 1239.1779459312393]",0.0,underweight,0,1,1.9170111045241356e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,24,True,True,"[27.0720284944006, 2711.012225317928]",0.0,underweight,0,1,2.1669548004865646e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,25,True,True,"[939.8016676694899, 2308.049431882718]",0.0,underweight,0,1,2.00001522898674e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,26,True,True,"[744.9679545810454, 2898.5612583129578]",0.0,underweight,0,1,2.0829029381275177e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,27,True,True,"[369.1440799316498, 1707.7498445613112]",0.0,underweight,0,1,2.124928869307041e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,28,True,True,"[350.48698345825755, 1168.5155265176359]",0.0,underweight,0,1,1.959037035703659e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,underweight,29,True,True,"[464.30735624595485, 861.0195983448558]",0.0,underweight,0,1,1.959037035703659e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,0,True,True,"[1446.6184274628558, 8.18747566615341]",0.0,normal,0,415,0.00033133302349597216
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,1,True,True,"[710.850300145578, 5.659481952125511]",0.0,normal,0,923,0.0007336670532822609
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,2,False,False,"[469.68492378209015, 7.6351698338140706]",10.443076935118267,,0,1000,0.0007824579952284694
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,3,False,False,"[2327.017835739762, 14.346074419206323]",7.193360294934225,,0,1000,0.0007589999586343765
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,4,False,False,"[2281.774714386707, 13.970665176846865]",6.809351729596182,,0,1000,0.0007583749247714877
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,5,False,False,"[1931.3929021358433, 11.034297750658006]",2.637149421213886,,0,1000,0.0007560419617220759
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,6,False,False,"[2189.105108870093, 15.05340376265407]",8.839553635105073,,0,1000,0.0007587500149384141
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,7,False,False,"[1226.7712815295833, 8.804064833333292]",2.6730534170661926,,0,1000,0.0007594999624416232
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,8,False,False,"[2717.2984254346, 12.26475045774822]",0.4357512728611219,,0,1000,0.0007585000712424517
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,9,True,True,"[2786.724537467502, 11.117923860153534]",0.0,normal,0,33,2.6875059120357037e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,10,False,False,"[2668.3665693955236, 14.34325378018464]",5.52969688157248,,0,1000,0.0007564580300822854
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,11,False,False,"[1610.337337491103, 11.65149548440203]",6.638120162161133,,0,1000,0.000738083035685122
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,12,False,False,"[1565.74734381229, 10.2106962814551]",3.482039173885786,,0,1000,0.0007288750493898988
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,13,False,False,"[2197.101535217482, 13.176157378642639]",5.844696043227787,,0,1000,0.0007365000201389194
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,14,True,True,"[26.93132694963807, 1.1452661121081897]",0.0,normal,0,458,0.0003346250159665942
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,15,False,False,"[2541.742551693868, 13.824680839814363]",5.200928165170831,,0,1000,0.0007224580040201545
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,16,False,False,"[2135.274587037612, 10.88622039571019]",0.4822944088729777,,0,1000,0.0007326670456677675
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,17,True,True,"[2869.287570422315, 11.607551973565556]",0.0,normal,0,638,0.0004677909892052412
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,18,True,True,"[1430.8193452593673, 8.476226919495566]",0.0,normal,0,591,0.0004308329662308097
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,19,True,True,"[335.83705482418367, 3.895139090613231]",0.0,normal,0,158,0.00011745898518711329
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,20,True,True,"[2565.4516284838473, 10.719906749095621]",0.0,normal,0,928,0.0006789170438423753
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,21,False,False,"[1195.9771698041484, 9.995939992783143]",6.530511032650306,,0,1000,0.0007184169953688979
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,22,True,True,"[455.29751125137, 4.418184015852256]",0.0,normal,0,226,0.00015937502030283213
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,23,True,True,"[1169.8296597831782, 7.626777226128256]",0.0,normal,0,19,1.5625031664967537e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,24,True,True,"[2182.030794807928, 10.36569148829225]",0.0,normal,0,27,2.0834035240113735e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,25,True,True,"[411.64516023008645, 4.198816678522732]",0.0,normal,0,34,2.5875051505863667e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,26,True,True,"[1458.1601739603252, 8.790482490646067]",0.0,normal,0,857,0.0006027910858392715
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,27,False,False,"[516.480204672688, 5.709482353064788]",2.6561686511865403,,0,1000,0.0007006250089034438
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,28,False,False,"[2878.3535499350814, 16.462088927944208]",7.878783763073772,,0,1000,0.0007017080206423998
+openai_gpt_oss_120b,RANDOM,bmi_category,normal,29,False,False,"[652.0427718312959, 6.202055709021326]",1.5486317274873649,,0,1000,0.0007164999842643738
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,0,False,False,"[2343.7797736592966, 8.8272849559623]",0.07893874601545647,,0,1000,0.0007089159917086363
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,1,False,False,"[881.2675601805346, 11.802199679799674]",18.67323260834116,,0,1000,0.0006943340413272381
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,2,True,True,"[1069.49538835694, 6.006751364411533]",0.0,overweight,0,341,0.0002370000584051013
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,3,True,True,"[2827.316793128117, 9.715663425059251]",0.0,overweight,0,127,8.825003169476986e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,4,False,False,"[2488.9827387475398, 11.243852276171417]",5.312452339368704,,0,1000,0.0006860420107841492
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,5,True,True,"[1850.452152615364, 8.507626328051465]",0.0,overweight,0,554,0.0003827499458566308
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,6,False,False,"[1668.9125864232103, 10.370047127914228]",9.480699952168493,,0,1000,0.0006896250415593386
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,7,False,False,"[2526.4594470934317, 13.664224984715979]",11.46861274454016,,0,1000,0.0006888749776408076
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,8,False,False,"[1190.810946251915, 8.316871072486464]",7.784371598041112,,0,1000,0.0006937910802662373
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,9,False,False,"[1903.7709867268682, 9.963423365304202]",5.822255229275569,,0,1000,0.0006895000115036964
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,10,False,False,"[1541.0977005010332, 9.257967619934139]",7.019620351509946,,0,1000,0.0006873330567032099
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,11,False,False,"[2472.7900771886902, 10.710152694853647]",3.442622639821778,,0,1000,0.0006805409211665392
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,12,False,False,"[2535.25380647808, 7.784812027747945]",11.83359449546338,,0,1000,0.0006796669913455844
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,13,False,False,"[1328.62976255493, 14.285458697517296]",18.489481203918345,,0,1000,0.0006782920099794865
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,14,False,False,"[781.3540716113932, 5.590580984387583]",0.00034625191113235587,,0,1000,0.0006794999353587627
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,15,False,False,"[2394.614202943488, 11.331758601317187]",6.351627930138257,,0,1000,0.000680917059071362
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,16,False,False,"[2121.3948920534363, 7.876704399253698]",4.192623489384019,,0,1000,0.0006760000251233578
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,17,False,False,"[1403.4723266266988, 7.593801508157028]",0.6619728309587174,,0,1000,0.0006682500243186951
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,18,False,False,"[1189.0801967356242, 12.955129311451486]",17.915199234010014,,0,1000,0.0006757089868187904
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,19,False,False,"[609.4946733130463, 5.217754986389878]",2.612657120239426,,0,1000,0.0006896250415593386
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,20,True,True,"[1304.3154349326771, 7.109633514376434]",0.0,overweight,0,634,0.00043766607996076345
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,21,False,False,"[2898.3987687519875, 13.196737197669894]",8.357253419578623,,0,1000,0.000686999992467463
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,22,True,True,"[1849.1000943448971, 8.579546338860933]",0.0,overweight,0,927,0.0006231659790500998
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,23,False,False,"[2818.8187106145465, 14.95680515735165]",12.399450832277537,,0,1000,0.0006538330344483256
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,24,True,True,"[114.37098656279466, 1.9798527869915317]",0.0,overweight,0,878,0.0005769999697804451
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,25,True,True,"[2946.69527021909, 10.845670977007394]",0.0,overweight,0,731,0.000490040984004736
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,26,False,False,"[1361.9256843292267, 8.61182631279178]",6.636185976932971,,0,1000,0.0006647079717367887
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,27,True,True,"[221.69634403339245, 2.876057505175278]",0.0,overweight,0,750,0.0005016250070184469
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,28,False,False,"[2826.2233603148184, 13.171903267632512]",8.710437645693013,,0,1000,0.0006719580851495266
+openai_gpt_oss_120b,RANDOM,bmi_category,overweight,29,False,False,"[1733.9290140085768, 20.67781277728564]",20.944708137467074,,0,1000,0.0006656249752268195
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,0,True,True,"[2619.003333990445, 5.771470846855142]",0.0,obese,0,58,4.424992948770523e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,1,True,True,"[276.8411630342377, 0.22326103970304878]",0.0,obese,0,547,0.0003506659995764494
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,2,True,True,"[2688.1259645616424, 1.2475326978476087]",0.0,obese,0,195,0.0001319999573752284
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,3,True,True,"[2923.798843713293, 7.258453025458134]",0.0,obese,0,215,0.00014170899521559477
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,4,True,True,"[2600.4980631917156, 2.2451044077345106]",0.0,obese,0,566,0.00036479090340435505
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,5,True,True,"[1370.1832440309413, 2.216273475877606]",0.0,obese,0,143,9.841704741120338e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,6,True,True,"[2224.666388640337, 2.2721400546000803]",0.0,obese,0,75,5.508295726031065e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,7,False,False,"[891.7598325936364, 6.330140369218085]",7.745326576299231,,0,1000,0.0006317920051515102
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,8,True,True,"[417.2826581625549, 2.103946734260509]",0.0,obese,0,12,1.037493348121643e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,9,False,False,"[2418.7328241219047, 11.991052863581263]",13.17816909238923,,0,1000,0.0006370419869199395
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,10,False,False,"[1254.8156803114923, 14.683205753316386]",24.179796523808296,,0,1000,0.0006447919877246022
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,11,True,True,"[750.0101434182377, 4.938531946712454]",0.0,obese,0,679,0.0004383339546620846
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,12,True,True,"[1295.176900092048, 3.733621868986514]",0.0,obese,0,929,0.0006033749086782336
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,13,True,True,"[2296.348463617004, 0.7991536775537877]",0.0,obese,0,584,0.0003767500165849924
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,14,True,True,"[481.29013316219147, 0.024905841379929683]",0.0,obese,0,663,0.0004479170311242342
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,15,True,True,"[2552.966271991083, 8.791416963845888]",0.0,obese,0,33,2.458400558680296e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,16,True,True,"[490.46257937949235, 2.8737660669734266]",0.0,obese,0,474,0.00030216597951948643
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,17,True,True,"[1062.8711859806467, 2.7759173888480815]",0.0,obese,0,63,4.8083020374178886e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,18,True,True,"[918.5594729344263, 4.518029126232115]",0.0,obese,0,402,0.0002547500189393759
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,19,True,True,"[1383.2056778509773, 5.540564057531339]",0.0,obese,0,728,0.00046270794700831175
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,20,True,True,"[2961.76095730622, 4.886893366032319]",0.0,obese,0,35,2.733292058110237e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,21,True,True,"[2649.932032487792, 3.158850193264229]",0.0,obese,0,207,0.0001372910337522626
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,22,False,False,"[804.1103960818022, 10.913633599314633]",23.248862729871632,,0,1000,0.0006330830510705709
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,23,True,True,"[2070.5406946211688, 6.527588634434922]",0.0,obese,0,341,0.0002227500081062317
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,24,True,True,"[890.4799707769071, 3.414036364291162]",0.0,obese,0,1,2.125045284628868e-06
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,25,True,True,"[2814.9502651544713, 0.7506212395863576]",0.0,obese,0,402,0.0002574169775471091
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,26,False,False,"[945.9980754372796, 9.016169382530581]",18.362863490022878,,0,1000,0.0006327499868348241
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,27,True,True,"[2070.1274013277684, 5.785975644107766]",0.0,obese,0,194,0.0001312500098720193
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,28,True,True,"[2577.551231049816, 8.198077367104872]",0.0,obese,0,73,5.604198668152094e-05
+openai_gpt_oss_120b,RANDOM,bmi_category,obese,29,True,True,"[2659.652883135696, 4.81759753475719]",0.0,obese,0,176,0.00012025004252791405
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,0,True,True,[[-85]],0.0,too_short,0,2,2.487492747604847e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,1,True,True,[[-20]],0.0,too_short,0,1,5.1875016652047634e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,2,True,True,[[73]],0.0,too_short,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,3,True,True,[[-48]],0.0,too_short,0,2,5.707959644496441e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,4,True,True,[[]],0.0,too_short,0,1,3.374996595084667e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,5,True,True,[[]],0.0,too_short,0,2,8.66700429469347e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,6,True,True,[[]],0.0,too_short,0,12,2.9582995921373367e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,7,True,True,[[-14]],0.0,too_short,0,4,9.958981536328793e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,8,True,True,[[-99]],0.0,too_short,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,9,True,True,[[-38]],0.0,too_short,0,3,7.4999406933784485e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,10,True,True,[[35]],0.0,too_short,0,10,2.4417066015303135e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,11,True,True,[[]],0.0,too_short,0,2,5.29095996171236e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,12,True,True,[[-9]],0.0,too_short,0,8,1.9208062440156937e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,13,True,True,[[]],0.0,too_short,0,12,2.6499968953430653e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,14,True,True,[[]],0.0,too_short,0,1,2.0830193534493446e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,15,True,True,[[42]],0.0,too_short,0,4,8.624978363513947e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,16,True,True,[[]],0.0,too_short,0,3,5.792011506855488e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,17,True,True,[[-25]],0.0,too_short,0,1,2.7080532163381577e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,18,True,True,[[]],0.0,too_short,0,4,9.207986295223236e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,19,True,True,[[]],0.0,too_short,0,1,2.5420449674129486e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,20,True,True,[[39]],0.0,too_short,0,2,4.792003892362118e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,21,True,True,[[]],0.0,too_short,0,2,4.292000085115433e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,22,True,True,[[]],0.0,too_short,0,5,1.1665979400277138e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,23,True,True,[[]],0.0,too_short,0,1,2.3329630494117737e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,24,True,True,[[-1]],0.0,too_short,0,2,5.208072252571583e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,25,True,True,[[74]],0.0,too_short,0,3,6.417045369744301e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,26,True,True,[[3]],0.0,too_short,0,1,2.7909409254789352e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,27,True,True,[[55]],0.0,too_short,0,2,5.292007699608803e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,28,True,True,[[80]],0.0,too_short,0,6,1.2917094863951206e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,too_short,29,True,True,[[26]],0.0,too_short,0,4,9.124982170760632e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,0,True,True,"[[-68, -68, 39, 78]]",0.0,sorted_with_duplicates,0,745,0.0012178330216556787
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,1,True,True,"[[-42, 8, 48, 48]]",0.0,sorted_with_duplicates,0,108,0.00019229203462600708
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,2,True,True,"[[-4, -4, 33]]",0.0,sorted_with_duplicates,0,302,0.00048687495291233063
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,3,True,True,"[[-56, -56, -37, 13, 99]]",0.0,sorted_with_duplicates,0,92,0.00015979097224771976
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,4,False,False,"[[-81, -17]]",1.0,,0,1000,0.0016561249503865838
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,5,True,True,"[[-90, -90, 57]]",0.0,sorted_with_duplicates,0,123,0.0002257919404655695
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,6,False,False,"[[-59, -26, 50]]",1.0,,0,1000,0.0016559159848839045
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,7,True,True,"[[-55, 82, 82, 83]]",0.0,sorted_with_duplicates,0,154,0.00026074994821101427
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,8,True,True,"[[-11, 15, 15]]",0.0,sorted_with_duplicates,0,40,7.849989924579859e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,9,True,True,"[[69, 69]]",0.0,sorted_with_duplicates,0,686,0.0011104160221293569
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,10,True,True,"[[-63, -63, -62, 16]]",0.0,sorted_with_duplicates,0,247,0.00040125008672475815
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,11,True,True,"[[26, 26, 44, 50]]",0.0,sorted_with_duplicates,0,66,0.0001188330352306366
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,12,True,True,"[[-69, -58, -32, -32]]",0.0,sorted_with_duplicates,0,251,0.0004128749715164304
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,13,True,True,"[[-8, -8]]",0.0,sorted_with_duplicates,0,620,0.0010170420864596963
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,14,True,True,"[[-71, -2, -2, 48]]",0.0,sorted_with_duplicates,0,434,0.0007037919713184237
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,15,True,True,"[[-66, -66, -9, 97]]",0.0,sorted_with_duplicates,0,499,0.0008258330635726452
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,16,True,True,"[[71, 71]]",0.0,sorted_with_duplicates,0,75,0.00013866601511836052
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,17,True,True,"[[-88, 77, 77]]",0.0,sorted_with_duplicates,0,27,5.1166978664696217e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,18,False,False,"[[-97, 99]]",1.0,,0,1000,0.0016263750148937106
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,19,True,True,"[[-85, -39, -39, 33]]",0.0,sorted_with_duplicates,0,942,0.001509708003140986
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,20,True,True,"[[-75, -75]]",0.0,sorted_with_duplicates,0,388,0.0006392499199137092
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,21,True,True,"[[87, 87]]",0.0,sorted_with_duplicates,0,532,0.0008793330052867532
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,22,True,True,"[[-56, 89, 89]]",0.0,sorted_with_duplicates,0,68,0.0001235000090673566
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,23,True,True,"[[-53, -53]]",0.0,sorted_with_duplicates,0,61,0.00011054100468754768
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,24,True,True,"[[-46, -46, 69]]",0.0,sorted_with_duplicates,0,634,0.0010260409908369184
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,25,True,True,"[[-96, -94, -55, -55, 0]]",0.0,sorted_with_duplicates,0,912,0.001485500019043684
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,26,True,True,"[[-76, 59, 59]]",0.0,sorted_with_duplicates,0,569,0.0009332500630989671
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,27,True,True,"[[-42, -42]]",0.0,sorted_with_duplicates,0,321,0.0005282079800963402
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,28,False,False,"[[-28, -15, 82]]",1.0,,0,1000,0.001639583962969482
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_with_duplicates,29,True,True,"[[-37, -33, -33, 48, 93]]",0.0,sorted_with_duplicates,0,212,0.00035191699862480164
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,0,True,True,"[[-77, -70, -37, 31, 51]]",0.0,sorted_unique,0,6,1.3042008504271507e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,1,True,True,"[[15, 67]]",0.0,sorted_unique,0,13,2.575002145022154e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,2,True,True,"[[-26, -17]]",0.0,sorted_unique,0,17,3.166694659739733e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,3,True,True,"[[36, 86]]",0.0,sorted_unique,0,33,5.804200191050768e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,4,True,True,"[[-81, -16, 18]]",0.0,sorted_unique,0,2,5.375011824071407e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,5,True,True,"[[-79, -78]]",0.0,sorted_unique,0,6,1.2333039194345474e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,6,True,True,"[[-55, 15]]",0.0,sorted_unique,0,6,1.4666002243757248e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,7,True,True,"[[-45, -40]]",0.0,sorted_unique,0,1,2.874992787837982e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,8,True,True,"[[-5, 56, 68]]",0.0,sorted_unique,0,4,8.750008419156075e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,9,True,True,"[[-26, 42]]",0.0,sorted_unique,0,7,1.5584053471684456e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,10,True,True,"[[-49, 28]]",0.0,sorted_unique,0,10,2.437504008412361e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,11,True,True,"[[-39, 64]]",0.0,sorted_unique,0,6,1.0999967344105244e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,12,True,True,"[[-32, -25]]",0.0,sorted_unique,0,1,3.0410010367631912e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,13,True,True,"[[-57, -8, 15, 46]]",0.0,sorted_unique,0,14,2.9082992114126682e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,14,True,True,"[[2, 75]]",0.0,sorted_unique,0,7,1.4542019926011562e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,15,True,True,"[[-16, 34, 62]]",0.0,sorted_unique,0,16,3.254192415624857e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,16,True,True,"[[-43, -26, 72]]",0.0,sorted_unique,0,16,3.10409814119339e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,17,True,True,"[[-88, -58, 94]]",0.0,sorted_unique,0,15,3.083306364715099e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,18,True,True,"[[-72, 68]]",0.0,sorted_unique,0,4,7.6669966802001e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,19,True,True,"[[-95, 11, 28, 57]]",0.0,sorted_unique,0,11,2.5290995836257935e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,20,True,True,"[[0, 95]]",0.0,sorted_unique,0,17,3.2250070944428444e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,21,True,True,"[[-69, 52]]",0.0,sorted_unique,0,18,3.400002606213093e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,22,True,True,"[[-14, 71]]",0.0,sorted_unique,0,1,3.00002284348011e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,23,True,True,"[[-58, -34, -18, 51]]",0.0,sorted_unique,0,4,9.95793379843235e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,24,True,True,"[[62, 84]]",0.0,sorted_unique,0,4,8.958042599260807e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,25,True,True,"[[-91, 0, 30, 99]]",0.0,sorted_unique,0,6,1.395796425640583e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,26,True,True,"[[-84, -77]]",0.0,sorted_unique,0,11,2.1124957129359245e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,27,True,True,"[[-87, -45, 35, 55, 57]]",0.0,sorted_unique,0,7,1.2916047126054764e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,28,True,True,"[[-51, 36, 61]]",0.0,sorted_unique,0,27,5.2042072638869286e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,sorted_unique,29,True,True,"[[-31, -16]]",0.0,sorted_unique,0,14,2.883397974073887e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,0,True,True,"[[-47, 51, -61, -47]]",0.0,unsorted_with_duplicates,0,89,0.0001421249471604824
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,1,True,True,"[[-88, -88, -54, -98, -41]]",0.0,unsorted_with_duplicates,0,12,2.4250010028481483e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,2,True,True,"[[-46, 72, -46, -40, 92]]",0.0,unsorted_with_duplicates,0,17,3.250001464039087e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,3,True,True,"[[94, 80, -8, 94, -75, -46]]",0.0,unsorted_with_duplicates,0,55,0.00010020809713751078
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,4,True,True,"[[89, -53, -42, 99, 17, -53]]",0.0,unsorted_with_duplicates,0,49,8.51659569889307e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,5,True,True,"[[0, -28, -28]]",0.0,unsorted_with_duplicates,0,161,0.0002716250019147992
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,6,True,True,"[[98, 37, -57, -97, -65, -65]]",0.0,unsorted_with_duplicates,0,29,6.137497257441282e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,7,True,True,"[[16, -8, 53, -81, -81]]",0.0,unsorted_with_duplicates,0,66,0.000112291076220572
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,8,True,True,"[[-68, -68, -100]]",0.0,unsorted_with_duplicates,0,14,2.8999987989664078e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,9,True,True,"[[-1, 96, -1]]",0.0,unsorted_with_duplicates,0,44,7.629196625202894e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,10,True,True,"[[-74, 77, 77, 4, 19, -67]]",0.0,unsorted_with_duplicates,0,59,0.0001045420067384839
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,11,True,True,"[[2, 10, 13, 10]]",0.0,unsorted_with_duplicates,0,30,5.64999645575881e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,12,True,True,"[[89, 89, 35, 69, 32]]",0.0,unsorted_with_duplicates,0,10,2.0749983377754688e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,13,True,True,"[[-21, 0, -86, 4, 0]]",0.0,unsorted_with_duplicates,0,59,0.00010179204400628805
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,14,True,True,"[[-13, 79, 74, 51, -54, 51]]",0.0,unsorted_with_duplicates,0,16,3.516708966344595e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,15,True,True,"[[-18, -47, -19, -47, 46, 4]]",0.0,unsorted_with_duplicates,0,91,0.0001545419218018651
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,16,True,True,"[[-31, -1, -44, -48, -48, 8]]",0.0,unsorted_with_duplicates,0,111,0.0001873329747468233
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,17,True,True,"[[-17, 68, 94, -17, 43, -10]]",0.0,unsorted_with_duplicates,0,3,8.209026418626308e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,18,True,True,"[[45, -49, 57, 66, 45]]",0.0,unsorted_with_duplicates,0,10,1.895800232887268e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,19,True,True,"[[-24, 55, -68, -24, 93]]",0.0,unsorted_with_duplicates,0,58,9.55839641392231e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,20,True,True,"[[-46, -37, 10, 10, -62, 83]]",0.0,unsorted_with_duplicates,0,32,6.0999998822808266e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,21,True,True,"[[-32, 68, -16, 81, 29, 81]]",0.0,unsorted_with_duplicates,0,15,3.187498077750206e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,22,True,True,"[[45, -63, -8, -8, -57, -65]]",0.0,unsorted_with_duplicates,0,36,6.320804823189974e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,23,True,True,"[[-18, -11, 85, 28, 85, -10]]",0.0,unsorted_with_duplicates,0,29,6.137497257441282e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,24,True,True,"[[-19, -11, -82, -51, -51]]",0.0,unsorted_with_duplicates,0,116,0.00021249998826533556
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,25,True,True,"[[-19, 84, 65, -19]]",0.0,unsorted_with_duplicates,0,16,2.808310091495514e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,26,True,True,"[[-33, 18, -46, -25, -33]]",0.0,unsorted_with_duplicates,0,3,7.292022928595543e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,27,True,True,"[[-61, -89, -83, 86, -89]]",0.0,unsorted_with_duplicates,0,5,1.0417075827717781e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,28,True,True,"[[64, -75, -31, 90, 64, 90]]",0.0,unsorted_with_duplicates,0,3,8.58306884765625e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_with_duplicates,29,True,True,"[[-88, -35, 57, 0, -35, 35]]",0.0,unsorted_with_duplicates,0,2,5.666050128638744e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,0,True,True,"[[-28, 92, -84, 49, 25, 3]]",0.0,unsorted_unique,0,1,4.415982402861118e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,1,True,True,"[[-18, -46, -84, -8, 59]]",0.0,unsorted_unique,0,2,5.207955837249756e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,2,True,True,"[[47, -42, 62, 43]]",0.0,unsorted_unique,0,1,3.374996595084667e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,3,True,True,"[[-73, 31, -97, -8, 90, -100]]",0.0,unsorted_unique,0,1,4.124944098293781e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,4,True,True,"[[86, -6, -25, -78, -22]]",0.0,unsorted_unique,0,1,3.7499703466892242e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,5,True,True,"[[-57, 96, 88, -84, -58]]",0.0,unsorted_unique,0,1,3.832974471151829e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,6,True,True,"[[89, 50]]",0.0,unsorted_unique,0,2,4.166970029473305e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,7,True,True,"[[-37, -85, -51, -61]]",0.0,unsorted_unique,0,1,3.5410048440098763e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,8,True,True,"[[-3, -7, -90, 37, -99]]",0.0,unsorted_unique,0,1,3.7919962778687477e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,9,True,True,"[[-42, 57, 6, 51, 74]]",0.0,unsorted_unique,0,1,3.2499665394425392e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,10,True,True,"[[-73, -67, 16, -30, 56, -36]]",0.0,unsorted_unique,0,5,1.0375049896538258e-05
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,11,True,True,"[[74, 7, -34]]",0.0,unsorted_unique,0,1,3.1670788303017616e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,12,True,True,"[[99, -89, -57, -2, -31, 38]]",0.0,unsorted_unique,0,1,3.875000402331352e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,13,True,True,"[[2, 98, 30, -40, -100, 53]]",0.0,unsorted_unique,0,3,7.707974873483181e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,14,True,True,"[[94, 70, 45, 57, 33]]",0.0,unsorted_unique,0,1,3.4159747883677483e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,15,True,True,"[[-54, 62, 99, 39]]",0.0,unsorted_unique,0,2,6.749993190169334e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,16,True,True,"[[-41, -74, -50]]",0.0,unsorted_unique,0,1,2.749962732195854e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,17,True,True,"[[-79, 21, -98, -11, 90, -85]]",0.0,unsorted_unique,0,1,3.875000402331352e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,18,True,True,"[[-99, 25, 13, 90]]",0.0,unsorted_unique,0,4,8.25000461190939e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,19,True,True,"[[-69, 41, -68]]",0.0,unsorted_unique,0,3,4.915986210107803e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,20,True,True,"[[14, -96, -17, -46, 8]]",0.0,unsorted_unique,0,1,3.5830307751893997e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,21,True,True,"[[46, -42, 62]]",0.0,unsorted_unique,0,2,4.66697383671999e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,22,True,True,"[[-84, 95, 77, -12]]",0.0,unsorted_unique,0,2,4.041939973831177e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,23,True,True,"[[64, 79, 59, 93, -100, -1]]",0.0,unsorted_unique,0,1,3.7909485399723053e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,24,True,True,"[[56, 6, -92]]",0.0,unsorted_unique,0,1,3.458932042121887e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,25,True,True,"[[-34, 15, 90, 28, -19]]",0.0,unsorted_unique,0,1,3.7079444155097008e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,26,True,True,"[[10, 59, 67, -34, -91]]",0.0,unsorted_unique,0,1,3.6670826375484467e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,27,True,True,"[[-91, -47, -92, -16]]",0.0,unsorted_unique,0,1,3.5419361665844917e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,28,True,True,"[[84, -91]]",0.0,unsorted_unique,0,4,7.0409150794148445e-06
+openai_gpt_oss_120b,RANDOM,list_pattern,unsorted_unique,29,True,True,"[[56, -41]]",0.0,unsorted_unique,0,2,4.707952030003071e-06
+openai_gpt_oss_120b,RANDOM,number_kind,zero,0,True,True,[0],0.0,zero,0,58,4.554202314466238e-05
+openai_gpt_oss_120b,RANDOM,number_kind,zero,1,True,True,[0],0.0,zero,0,383,0.0002181249437853694
+openai_gpt_oss_120b,RANDOM,number_kind,zero,2,False,False,[3],3.0,,0,1000,0.000567292096093297
+openai_gpt_oss_120b,RANDOM,number_kind,zero,3,False,False,[-3],3.0,,0,1000,0.0005595000693574548
+openai_gpt_oss_120b,RANDOM,number_kind,zero,4,True,True,[0],0.0,zero,0,953,0.0005380000220611691
+openai_gpt_oss_120b,RANDOM,number_kind,zero,5,True,True,[0],0.0,zero,0,122,7.512501906603575e-05
+openai_gpt_oss_120b,RANDOM,number_kind,zero,6,False,False,[3],3.0,,0,1000,0.0005611249944195151
+openai_gpt_oss_120b,RANDOM,number_kind,zero,7,True,True,[0],0.0,zero,0,260,0.00015312503091990948
+openai_gpt_oss_120b,RANDOM,number_kind,zero,8,False,False,[2],2.0,,0,1000,0.0005665409844368696
+openai_gpt_oss_120b,RANDOM,number_kind,zero,9,False,False,[-2],2.0,,0,1000,0.0005607500206679106
+openai_gpt_oss_120b,RANDOM,number_kind,zero,10,True,True,[0],0.0,zero,0,363,0.00021008402109146118
+openai_gpt_oss_120b,RANDOM,number_kind,zero,11,True,True,[0],0.0,zero,0,582,0.0003345420118421316
+openai_gpt_oss_120b,RANDOM,number_kind,zero,12,True,True,[0],0.0,zero,0,603,0.000343959080055356
+openai_gpt_oss_120b,RANDOM,number_kind,zero,13,True,True,[0],0.0,zero,0,759,0.00043166696559637785
+openai_gpt_oss_120b,RANDOM,number_kind,zero,14,False,False,[3],3.0,,0,1000,0.0005627910140901804
+openai_gpt_oss_120b,RANDOM,number_kind,zero,15,False,False,[-1],1.0,,0,1000,0.0005673329578712583
+openai_gpt_oss_120b,RANDOM,number_kind,zero,16,True,True,[0],0.0,zero,0,730,0.0004093330353498459
+openai_gpt_oss_120b,RANDOM,number_kind,zero,17,False,False,[-2],2.0,,0,1000,0.0005662919720634818
+openai_gpt_oss_120b,RANDOM,number_kind,zero,18,True,True,[0],0.0,zero,0,501,0.0002859160304069519
+openai_gpt_oss_120b,RANDOM,number_kind,zero,19,False,False,[1],1.0,,0,1000,0.0005645420169457793
+openai_gpt_oss_120b,RANDOM,number_kind,zero,20,True,True,[0],0.0,zero,0,168,9.987503290176392e-05
+openai_gpt_oss_120b,RANDOM,number_kind,zero,21,False,False,[-1],1.0,,0,1000,0.0005657090805470943
+openai_gpt_oss_120b,RANDOM,number_kind,zero,22,False,False,[-1],1.0,,0,1000,0.0005594579270109534
+openai_gpt_oss_120b,RANDOM,number_kind,zero,23,False,False,[-3],3.0,,0,1000,0.0005610838998109102
+openai_gpt_oss_120b,RANDOM,number_kind,zero,24,False,False,[-1],1.0,,0,1000,0.0005658329464495182
+openai_gpt_oss_120b,RANDOM,number_kind,zero,25,False,False,[-1],1.0,,0,1000,0.0005642090691253543
+openai_gpt_oss_120b,RANDOM,number_kind,zero,26,False,False,[-1],1.0,,0,1000,0.0005697919987142086
+openai_gpt_oss_120b,RANDOM,number_kind,zero,27,False,False,[-3],3.0,,0,1000,0.0005874589551240206
+openai_gpt_oss_120b,RANDOM,number_kind,zero,28,False,False,[-4],4.0,,0,1000,0.0005664170021191239
+openai_gpt_oss_120b,RANDOM,number_kind,zero,29,True,True,[0],0.0,zero,0,961,0.0005454580532386899
+openai_gpt_oss_120b,RANDOM,number_kind,even,0,True,True,[2604],0.0,even,0,6,6.582937203347683e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,1,True,True,[2710],0.0,even,0,1,1.8749851733446121e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,2,True,True,[1836],0.0,even,0,2,2.7919886633753777e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,3,True,True,[1250],0.0,even,0,1,1.834006980061531e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,4,True,True,[1004],0.0,even,0,5,4.416913725435734e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,5,True,True,[1320],0.0,even,0,4,4.292000085115433e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,6,True,True,[-452],0.0,even,0,1,1.7499551177024841e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,7,True,True,[342],0.0,even,0,1,1.583946868777275e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,8,True,True,[1046],0.0,even,0,1,1.750071533024311e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,9,True,True,[2828],0.0,even,0,1,1.834006980061531e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,10,True,True,[1436],0.0,even,0,4,4.0839659050107e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,11,True,True,[1660],0.0,even,0,1,1.7909333109855652e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,12,True,True,[-358],0.0,even,0,1,1.9170111045241356e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,13,True,True,[1250],0.0,even,0,2,2.5830231606960297e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,14,True,True,[2696],0.0,even,0,5,4.208995960652828e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,15,True,True,[2964],0.0,even,0,1,1.7909333109855652e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,16,True,True,[1006],0.0,even,0,2,2.374988980591297e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,17,True,True,[1346],0.0,even,0,1,1.5830155462026596e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,18,True,True,[1754],0.0,even,0,2,2.6659108698368073e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,19,True,True,[-94],0.0,even,0,2,2.6669586077332497e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,20,True,True,[1614],0.0,even,0,1,1.7919810488820076e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,21,True,True,[954],0.0,even,0,2,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,22,True,True,[2422],0.0,even,0,2,2.6670750230550766e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,23,True,True,[2414],0.0,even,0,1,1.708976924419403e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,24,True,True,[1864],0.0,even,0,2,2.2919848561286926e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,25,True,True,[-8],0.0,even,0,1,1.750071533024311e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,26,True,True,[-200],0.0,even,0,1,1.8329592421650887e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,27,True,True,[2992],0.0,even,0,1,1.834006980061531e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,28,True,True,[734],0.0,even,0,4,4.167086444795132e-06
+openai_gpt_oss_120b,RANDOM,number_kind,even,29,True,True,[-324],0.0,even,0,1,1.8749851733446121e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,0,True,True,[1813],0.0,odd,0,1,3.208988346159458e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,1,True,True,[1985],0.0,odd,0,2,3.00002284348011e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,2,True,True,[2739],0.0,odd,0,2,2.8329668566584587e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,3,True,True,[1643],0.0,odd,0,2,2.459040842950344e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,4,True,True,[529],0.0,odd,0,4,4.207948222756386e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,5,True,True,[2827],0.0,odd,0,1,2.040993422269821e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,6,True,True,[1645],0.0,odd,0,1,1.7499551177024841e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,7,True,True,[2135],0.0,odd,0,1,1.750071533024311e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,8,True,True,[2413],0.0,odd,0,1,1.7910497263073921e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,9,True,True,[127],0.0,odd,0,1,1.834006980061531e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,10,True,True,[2529],0.0,odd,0,1,1.7919810488820076e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,11,True,True,[-391],0.0,odd,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,12,True,True,[681],0.0,odd,0,2,2.4579931050539017e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,13,True,True,[1917],0.0,odd,0,1,1.7499551177024841e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,14,True,True,[1465],0.0,odd,0,2,2.791057340800762e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,15,True,True,[2543],0.0,odd,0,1,1.7909333109855652e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,16,True,True,[1979],0.0,odd,0,1,1.5830155462026596e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,17,True,True,[1763],0.0,odd,0,1,1.8749851733446121e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,18,True,True,[123],0.0,odd,0,1,1.9170111045241356e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,19,True,True,[2729],0.0,odd,0,2,2.500019036233425e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,20,True,True,[413],0.0,odd,0,3,3.2919924706220627e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,21,True,True,[-183],0.0,odd,0,3,3.500026650726795e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,22,True,True,[749],0.0,odd,0,5,4.790956154465675e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,23,True,True,[115],0.0,odd,0,6,5.666050128638744e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,24,True,True,[2349],0.0,odd,0,1,1.6669509932398796e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,25,True,True,[2809],0.0,odd,0,2,2.124928869307041e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,26,True,True,[925],0.0,odd,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,27,True,True,[783],0.0,odd,0,2,2.7919886633753777e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,28,True,True,[287],0.0,odd,0,2,2.500019036233425e-06
+openai_gpt_oss_120b,RANDOM,number_kind,odd,29,True,True,[1089],0.0,odd,0,2,2.500019036233425e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,0,True,True,['i'],0.0,weak_short,0,2,2.0792009308934212e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,1,True,True,['3'],0.0,weak_short,0,4,1.4374963939189911e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,2,True,True,['Jg'],0.0,weak_short,0,1,3.3329706639051437e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,3,True,True,['g9'],0.0,weak_short,0,3,1.0041054338216782e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,4,True,True,['JnH'],0.0,weak_short,0,1,3.2919924706220627e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,5,True,True,['U20o'],0.0,weak_short,0,1,2.750079147517681e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,6,True,True,[''],0.0,weak_short,0,2,9.584007784724236e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,7,True,True,['NG'],0.0,weak_short,0,2,6.459071300923824e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,8,True,True,['1zQ'],0.0,weak_short,0,1,3.0420487746596336e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,9,True,True,['TAcFR'],0.0,weak_short,0,7,2.2707972675561905e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,10,True,True,['K3R'],0.0,weak_short,0,3,9.041978046298027e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,11,True,True,['of8'],0.0,weak_short,0,4,1.0750023648142815e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,12,True,True,['TzTu'],0.0,weak_short,0,2,6.542075425386429e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,13,True,True,['3'],0.0,weak_short,0,1,2.666027285158634e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,14,True,True,['31Oe'],0.0,weak_short,0,1,3.2499665394425392e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,15,True,True,['EBWB'],0.0,weak_short,0,3,9.499955922365189e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,16,True,True,['n6'],0.0,weak_short,0,1,2.9159709811210632e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,17,True,True,['vUI'],0.0,weak_short,0,2,4.833913408219814e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,18,True,True,['shkN'],0.0,weak_short,0,2,6.041955202817917e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,19,True,True,['LMBTb'],0.0,weak_short,0,5,1.4709075912833214e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,20,True,True,['XREQ0'],0.0,weak_short,0,3,9.541050530970097e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,21,True,True,['X'],0.0,weak_short,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,22,True,True,[''],0.0,weak_short,0,6,1.6249949112534523e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,23,True,True,['J'],0.0,weak_short,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,24,True,True,['Yg'],0.0,weak_short,0,3,1.0499963536858559e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,25,True,True,['i'],0.0,weak_short,0,1,2.5420449674129486e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,26,True,True,['R0'],0.0,weak_short,0,4,1.1792057193815708e-05
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,27,True,True,['IVME'],0.0,weak_short,0,2,5.792011506855488e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,28,True,True,['jM'],0.0,weak_short,0,3,6.7909713834524155e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_short,29,True,True,['o'],0.0,weak_short,0,3,8.25000461190939e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,0,True,True,['VBXKnz6SmVvsNJW'],0.0,strong,0,1,5.124951712787151e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,1,True,True,['7wKxxWX4If2b'],0.0,strong,0,1,4.500034265220165e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,2,True,True,['2xtCntcacrZ'],0.0,strong,0,1,4.542060196399689e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,3,True,True,['iBzhGhv3gO6U3E'],0.0,strong,0,3,3.229198046028614e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,4,True,True,['fFWX6uZyxUzI'],0.0,strong,0,1,3.959052264690399e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,5,True,True,['kwSiZOI9NgNJ0ei'],0.0,strong,0,3,1.0874937288463116e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,6,True,True,['ixzHqXzmi5HeM8J'],0.0,strong,0,2,8.00006091594696e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,7,True,True,['pX2ETGARq2r'],0.0,strong,0,3,8.25000461190939e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,8,True,True,['EB6W5ovD5yA'],0.0,strong,0,2,6.541959010064602e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,9,True,True,['fduy4B3jRMsW'],0.0,strong,0,2,6.334041245281696e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,10,True,True,['jMgnsyUvvuqIF4V'],0.0,strong,0,2,8.040922693908215e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,11,True,True,['njgUQ6SyZiylGia'],0.0,strong,0,4,1.0958057828247547e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,12,True,True,['octOMw4l2Y6IAl'],0.0,strong,0,1,4.707952030003071e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,13,True,True,['ddCuGNJkzFM8HB'],0.0,strong,0,4,1.225003506988287e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,14,True,True,['Edx1NANgXjGI0lk'],0.0,strong,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,15,True,True,['7wQUwFE3vI'],0.0,strong,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,16,True,True,['eDulA8c4mJqLHMK'],0.0,strong,0,2,6.66698906570673e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,17,True,True,['7zM3gxmmkTj'],0.0,strong,0,1,3.5420525819063187e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,18,True,True,['9j3gTu98ON4'],0.0,strong,0,2,6.58305361866951e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,19,True,True,['KvdCMUz5hPWIo93'],0.0,strong,0,8,2.26249685510993e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,20,True,True,['ANmKF464xa7L'],0.0,strong,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,21,True,True,['1v9Yz67vqwNAtl'],0.0,strong,0,1,4.541943781077862e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,22,True,True,['urZQv85OOX'],0.0,strong,0,2,7.166992872953415e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,23,True,True,['IbIxCcPuMW2Ea3'],0.0,strong,0,5,1.4125020243227482e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,24,True,True,['iEN03Ll6OHK'],0.0,strong,0,1,4.458008334040642e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,25,True,True,['H1Zl3bfEyTBM'],0.0,strong,0,4,1.0541989468038082e-05
+openai_gpt_oss_120b,RANDOM,password_strength,strong,26,True,True,['zZOrClxt1bYh'],0.0,strong,0,3,8.874922059476376e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,27,True,True,['i09YAFYLo7ZtJS'],0.0,strong,0,3,9.58307646214962e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,28,True,True,['yRINjQRtY3cxyp'],0.0,strong,0,3,9.499955922365189e-06
+openai_gpt_oss_120b,RANDOM,password_strength,strong,29,True,True,['6cZtCrBQ2d99'],0.0,strong,0,1,4.416098818182945e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,0,True,True,['oRUg8Tsrq'],0.0,medium,0,17,4.079192876815796e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,1,True,True,['m2ujy1'],0.0,medium,0,1,3.08395829051733e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,2,True,True,['wtdG5rwTn'],0.0,medium,0,1,4.0839659050107e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,3,True,True,['LcKirsV3K'],0.0,medium,0,3,8.958973921835423e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,4,True,True,['bwBlFTn'],0.0,medium,0,5,1.237494871020317e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,5,True,True,['bSOV4XcD'],0.0,medium,0,3,8.582952432334423e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,6,True,True,['blQ7Vqq'],0.0,medium,0,3,9.499955922365189e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,7,True,True,['qe7HBJJ'],0.0,medium,0,5,1.6208039596676826e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,8,True,True,['8UyPvLZRZ'],0.0,medium,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,9,True,True,['Xmsqo8'],0.0,medium,0,1,3.1249364838004112e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,10,True,True,['0sKwRRi'],0.0,medium,0,3,9.33394767343998e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,11,True,True,['BIsgWntQ'],0.0,medium,0,2,5.375011824071407e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,12,True,True,['GZUNbUksEAHcp'],0.0,medium,0,1,4.125060513615608e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,13,True,True,['oDOgLuIL'],0.0,medium,0,2,5.083042196929455e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,14,True,True,['44Vpcm'],0.0,medium,0,2,5.458015948534012e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,15,True,True,['st7r5l'],0.0,medium,0,3,1.0124989785254002e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,16,True,True,['chtwvn64'],0.0,medium,0,2,7.750000804662704e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,17,True,True,['ZwqWmHx'],0.0,medium,0,4,1.0082963854074478e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,18,True,True,['DDuzezS'],0.0,medium,0,5,1.420790795236826e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,19,True,True,['B2AWWOqY'],0.0,medium,0,1,3.7909485399723053e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,20,True,True,['pfAh3i2y'],0.0,medium,0,3,6.584101356565952e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,21,True,True,['uGRiYpyG'],0.0,medium,0,5,1.7415964975953102e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,22,True,True,['THWd8MzWk'],0.0,medium,0,4,1.1790893040597439e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,23,True,True,['yemWNVfT'],0.0,medium,0,4,1.2416043318808079e-05
+openai_gpt_oss_120b,RANDOM,password_strength,medium,24,True,True,['2kXZdgG'],0.0,medium,0,1,3.291061148047447e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,25,True,True,['MIccAhT'],0.0,medium,0,2,6.00004568696022e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,26,True,True,['4KotZqBR'],0.0,medium,0,1,3.6659184843301773e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,27,True,True,['emfbmD0Ru'],0.0,medium,0,3,9.541981853544712e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,28,True,True,['smk0fz'],0.0,medium,0,1,3.6249402910470963e-06
+openai_gpt_oss_120b,RANDOM,password_strength,medium,29,True,True,['50MyBxJ1'],0.0,medium,0,1,3.500026650726795e-06
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,0,False,False,['IH4mYVp'],1.0,,0,1000,0.002264208043925464
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,1,True,True,['jwzlva'],0.0,weak_no_digit_upper,0,95,0.0002264169743284583
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,2,True,True,['syhsty'],0.0,weak_no_digit_upper,0,528,0.0011832090094685555
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,3,True,True,['tbhytf'],0.0,weak_no_digit_upper,0,909,0.002069166977889836
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,4,False,False,['ghIl6sl7WXXe'],1.0,,0,1000,0.002192834042944014
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,5,True,True,['oxrozch'],0.0,weak_no_digit_upper,0,218,0.0004889999981969595
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,6,False,False,['llE2XxMPYtM'],1.0,,0,1000,0.002248374978080392
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,7,False,False,['p1jJRFO'],1.0,,0,1000,0.002199042006395757
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,8,False,False,['lxe98XckXYvY'],1.0,,0,1000,0.002162792021408677
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,9,False,False,['eD1c9uae'],1.0,,0,1000,0.002190624945797026
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,10,False,False,['o3THkF'],1.0,,0,1000,0.002203292096965015
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,11,False,False,['np4TNobdWGnlRbr'],1.0,,0,1000,0.002194875036366284
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,12,True,True,['gaieed'],0.0,weak_no_digit_upper,0,949,0.0020770829869434237
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,13,False,False,['psHWrISfobI7UhJ'],1.0,,0,1000,0.002225833013653755
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,14,False,False,['eEoO0JWec'],1.0,,0,1000,0.002238334040157497
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,15,False,False,['tEqBivlqYz'],1.0,,0,1000,0.002268000040203333
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,16,True,True,['jvuyjoi'],0.0,weak_no_digit_upper,0,302,0.0006934170378372073
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,17,False,False,['GoxQhMcqW'],1.0,,0,1000,0.0022292090579867363
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,18,False,False,['kFdy7a1'],1.0,,0,1000,0.002240707981400192
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,19,False,False,['APcxce'],1.0,,0,1000,0.002222459064796567
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,20,False,False,['DxhxgFOJw8j1'],1.0,,0,1000,0.0022287910105660558
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,21,True,True,['lwnsut'],0.0,weak_no_digit_upper,0,260,0.0005854159826412797
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,22,False,False,['hlAIpc5'],1.0,,0,1000,0.0021902499720454216
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,23,False,False,['1lIIH6Lt85AC4BS'],1.0,,0,1000,0.0022142500383779407
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,24,True,True,['vqkaga'],0.0,weak_no_digit_upper,0,574,0.0012914999388158321
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,25,False,False,['f5Ec0B82kq5c'],1.0,,0,1000,0.002258791937492788
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,26,False,False,['v8udGmy'],1.0,,0,1000,0.002204167074523866
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,27,False,False,['NGew7VStQLv'],1.0,,0,1000,0.002198499976657331
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,28,True,True,['kiacpoan'],0.0,weak_no_digit_upper,0,286,0.0006458329735323787
+openai_gpt_oss_120b,RANDOM,password_strength,weak_no_digit_upper,29,True,True,['btdspivlwz'],0.0,weak_no_digit_upper,0,958,0.0021530420053750277
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,0,False,False,"[-76, 255, 172, -87]",586.0,,0,1000,0.0019402910256758332
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,1,False,False,"[26, 43, -387, 3]",457.0,,0,1000,0.0019252500496804714
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,2,False,False,"[91, -107, -244, -374]",822.0,,0,1000,0.0019271249184384942
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,3,False,False,"[6, 98, -130, 613]",847.0,,0,1000,0.0019287500763311982
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,4,False,False,"[298, -222, 66, -113]",687.0,,0,1000,0.001964416936971247
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,5,False,False,"[165, 253, -12, 153]",581.0,,0,1000,0.0019402919569984078
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,6,False,False,"[-125, -167, 62, 76]",430.0,,0,1000,0.0019225410651415586
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,7,False,False,"[191, 351, 23, 267]",812.0,,0,1000,0.0019395829876884818
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,8,False,False,"[125, 259, 7, -270]",647.0,,0,1000,0.0019239999819546938
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,9,False,False,"[-32, -255, 175, 301]",763.0,,0,1000,0.001927458099089563
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,10,False,False,"[105, 57, -313, -355]",830.0,,0,1000,0.0019306669710204005
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,11,False,False,"[-1, 288, -422, 51]",774.0,,0,1000,0.001925957971252501
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,12,False,False,"[67, 311, 50, -62]",472.0,,0,1000,0.0019216249929741025
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,13,False,False,"[-365, -94, -34, 222]",733.0,,0,1000,0.0019303750013932586
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,14,False,False,"[-140, -85, -129, 4]",376.0,,0,1000,0.0019367920467630029
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,15,False,False,"[216, -119, -402, -41]",784.0,,0,1000,0.0019215409411117435
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,16,False,False,"[-39, -273, 146, 33]",491.0,,0,1000,0.0019178340444341302
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,17,False,False,"[-61, 78, -356, 135]",642.0,,0,1000,0.0019161669770255685
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,18,False,False,"[237, -223, 60, -131]",639.0,,0,1000,0.0019254999933764338
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,19,False,False,"[151, -289, -167, -38]",651.0,,0,1000,0.0019340000580996275
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,20,False,False,"[21, -350, -60, -170]",607.0,,0,1000,0.0019522919319570065
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,21,False,False,"[281, -129, 11, -92]",501.0,,0,1000,0.001926374970935285
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,22,False,False,"[20, -170, 154, 284]",614.0,,0,1000,0.0019402500474825501
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,23,False,False,"[-70, 49, -67, 106]",304.0,,0,1000,0.001926374970935285
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,24,False,False,"[134, -127, -113, 45]",423.0,,0,1000,0.0019273749785497785
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,25,False,False,"[45, 219, -355, 113]",730.0,,0,1000,0.0019175830530002713
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,26,False,False,"[172, -110, -95, -43]",426.0,,0,1000,0.001962917041964829
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,27,False,False,"[481, 80, 182, -72]",797.0,,0,1000,0.001964292023330927
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,28,False,False,"[471, -342, -2, 6]",825.0,,0,1000,0.0019714999943971634
+openai_gpt_oss_120b,RANDOM,pin_pattern,secret_pin,29,False,False,"[456, 155, -91, -20]",722.0,,0,1000,0.0020078750094398856
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,0,False,False,"[-107, 189, -55, -431]",324.0,,0,1000,0.001944500021636486
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,1,False,False,"[-124, -248, -40, -161]",124.0,,0,1000,0.0019311249488964677
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,2,False,False,"[1832, 1903, 1799, 2032]",200.0,,0,1000,0.0019373329123482108
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,3,False,False,"[1086, 986, 1140, 1016]",100.0,,0,1000,0.0019337909761816263
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,4,False,False,"[722, 507, 584, 556]",215.0,,0,1000,0.0019389999797567725
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,5,False,False,"[610, 405, 723, 795]",205.0,,0,1000,0.001942333998158574
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,6,False,False,"[1461, 1504, 1548, 1537]",87.0,,0,1000,0.0019320410210639238
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,7,False,False,"[1462, 1607, 1689, 1408]",227.0,,0,1000,0.0019258749671280384
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,8,False,False,"[1856, 1944, 1645, 1899]",211.0,,0,1000,0.0019337079720571637
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,9,False,False,"[1574, 1613, 1356, 1597]",218.0,,0,1000,0.0019281660206615925
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,10,False,False,"[1762, 1803, 1760, 1858]",96.0,,0,1000,0.0019875409780070186
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,11,False,False,"[1501, 1594, 1605, 1371]",130.0,,0,1000,0.0019287080504000187
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,12,False,False,"[1901, 1981, 1851, 1811]",90.0,,0,1000,0.0019252499332651496
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,13,False,False,"[1455, 1303, 1616, 1406]",161.0,,0,1000,0.0019316659308969975
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,14,False,False,"[2649, 2761, 2668, 2692]",112.0,,0,1000,0.0019364169565960765
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,15,False,False,"[-312, -268, -438, -349]",126.0,,0,1000,0.0019387910142540932
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,16,False,False,"[789, 827, 641, 667]",148.0,,0,1000,0.0019265830051153898
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,17,False,False,"[1072, 1169, 1297, 1126]",225.0,,0,1000,0.0019294159719720483
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,18,False,False,"[571, 488, 618, 520]",83.0,,0,1000,0.0019361659651622176
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,19,False,False,"[2486, 2567, 2584, 2376]",110.0,,0,1000,0.0019388749497011304
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,20,False,False,"[919, 762, 757, 1052]",162.0,,0,1000,0.0019399169832468033
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,21,False,False,"[2394, 2444, 2269, 2197]",197.0,,0,1000,0.0019337080884724855
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,22,False,False,"[1106, 1026, 1179, 1167]",80.0,,0,1000,0.00193891697563231
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,23,False,False,"[2217, 2073, 2289, 2061]",156.0,,0,1000,0.001944208052009344
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,24,False,False,"[810, 1020, 871, 754]",210.0,,0,1000,0.001940332935191691
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,25,False,False,"[-158, -91, -369, -129]",211.0,,0,1000,0.0019338340498507023
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,26,False,False,"[750, 603, 703, 648]",147.0,,0,1000,0.001925916993059218
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,27,False,False,"[-310, -325, -319, -292]",18.0,,0,1000,0.0019361249869689345
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,28,False,False,"[-19, -269, -250, -275]",256.0,,0,1000,0.0019690420012921095
+openai_gpt_oss_120b,RANDOM,pin_pattern,all_same,29,False,False,"[251, 339, 347, 271]",96.0,,0,1000,0.0019271660130470991
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,0,False,False,"[-355, -243, 507, 182]",397.0,,0,1000,0.001934874919243157
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,1,False,False,"[-463, -459, -459, 1188]",214.0,,0,1000,0.001929541933350265
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,2,False,False,"[-406, -325, 66, 294]",391.0,,0,1000,0.0019374999683350325
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,3,False,False,"[-238, -391, -244, 1013]",274.0,,0,1000,0.0019298329716548324
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,4,False,False,"[-59, -182, -94, 526]",295.0,,0,1000,0.0019350420916453004
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,5,False,False,"[-178, 109, 345, 36]",602.0,,0,1000,0.0019578339997678995
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,6,False,False,"[-123, -141, -143, 744]",339.0,,0,1000,0.0019439579918980598
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,7,False,False,"[-444, -56, 50, 123]",347.0,,0,1000,0.0019431250402703881
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,8,False,False,"[-357, -23, -103, 340]",244.0,,0,1000,0.0019313340308144689
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,9,False,False,"[-271, -432, 39, 465]",381.0,,0,1000,0.0019325829343870282
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,10,False,False,"[-92, 5, 136, 126]",166.0,,0,1000,0.0019250409677624702
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,11,False,False,"[-268, -497, -386, 601]",800.0,,0,1000,0.001937582972459495
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,12,False,False,"[-275, -150, 140, 142]",163.0,,0,1000,0.0019544169772416353
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,13,False,False,"[-499, -281, 415, 479]",94.0,,0,1000,0.00193108303938061
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,14,False,False,"[-485, -35, 186, 375]",21.0,,0,1000,0.0019340829458087683
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,15,False,False,"[-481, 43, 404, 52]",355.0,,0,1000,0.0019652500050142407
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,16,False,False,"[-230, -375, -90, 542]",319.0,,0,1000,0.0019467079546302557
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,17,False,False,"[-226, -132, -243, 705]",196.0,,0,1000,0.001935665961354971
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,18,False,False,"[-373, 46, 9, 212]",164.0,,0,1000,0.001936041982844472
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,19,False,False,"[-332, 285, 50, 113]",332.0,,0,1000,0.001953541999682784
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,20,False,False,"[-44, -189, 296, 409]",598.0,,0,1000,0.0020032089669257402
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,21,False,False,"[-371, 175, -105, 418]",378.0,,0,1000,0.001939666923135519
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,22,False,False,"[-25, -177, 111, 236]",278.0,,0,1000,0.0019425420323386788
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,23,False,False,"[-414, -470, -459, 1644]",338.0,,0,1000,0.0019642499973997474
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,24,False,False,"[-485, -429, 186, 1355]",607.0,,0,1000,0.0019305419409647584
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,25,False,False,"[194, 77, -57, -281]",565.0,,0,1000,0.0019374999683350325
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,26,False,False,"[-413, -227, 488, 692]",520.0,,0,1000,0.0019406250212341547
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,27,False,False,"[-451, 70, -414, 734]",566.0,,0,1000,0.0019321250729262829
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,28,False,False,"[-361, -262, 310, 901]",568.0,,0,1000,0.0019480420742183924
+openai_gpt_oss_120b,RANDOM,pin_pattern,ordered_sum_20,29,False,False,"[-26, -64, -87, 91]",169.0,,0,1000,0.0019418330630287528
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,0,True,True,"[1179, 1211, 1399, 2404]",0.0,other,0,1,5.00003807246685e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,1,True,True,"[1201, 2220, 62, 1245]",0.0,other,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,2,True,True,"[2133, 2339, 1229, 1413]",0.0,other,0,1,5.083042196929455e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,3,True,True,"[2293, 488, 2839, 447]",0.0,other,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,4,True,True,"[1448, 2329, 953, 1547]",0.0,other,0,1,4.541943781077862e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,5,True,True,"[2323, 2565, 452, 2369]",0.0,other,0,1,4.915986210107803e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,6,True,True,"[1554, 423, 2806, 2308]",0.0,other,0,1,4.292000085115433e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,7,True,True,"[266, 643, 12, 153]",0.0,other,0,1,4.749977961182594e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,8,True,True,"[1640, -42, 2413, 594]",0.0,other,0,1,4.165922291576862e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,9,True,True,"[1304, -396, -500, 2930]",0.0,other,0,1,4.625064320862293e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,10,True,True,"[2536, 27, 565, 1596]",0.0,other,0,1,4.332978278398514e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,11,True,True,"[-307, 1156, 2109, 13]",0.0,other,0,1,4.042056389153004e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,12,True,True,"[2604, 192, 1875, 2760]",0.0,other,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,13,True,True,"[2581, 2825, 2302, -364]",0.0,other,0,1,5.041947588324547e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,14,True,True,"[2991, 1948, 1102, 2017]",0.0,other,0,1,4.625064320862293e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,15,True,True,"[1958, 1378, 748, -434]",0.0,other,0,1,4.58303838968277e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,16,True,True,"[418, 791, 162, 1904]",0.0,other,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,17,True,True,"[857, 2605, 1028, 2684]",0.0,other,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,18,True,True,"[1069, -188, 1733, 1087]",0.0,other,0,1,4.707952030003071e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,19,True,True,"[589, 2083, 2644, 1327]",0.0,other,0,1,6.083049811422825e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,20,True,True,"[338, 2372, 336, 2262]",0.0,other,0,1,4.708999767899513e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,21,True,True,"[-411, 2461, 959, 2674]",0.0,other,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,22,True,True,"[982, -80, 649, 1161]",0.0,other,0,1,4.500034265220165e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,23,True,True,"[1340, 1351, -477, -115]",0.0,other,0,1,4.166038706898689e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,24,True,True,"[920, 2442, -358, 1091]",0.0,other,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,25,True,True,"[22, 732, 2049, 1495]",0.0,other,0,1,4.499917849898338e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,26,True,True,"[-341, 2378, 1040, 798]",0.0,other,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,27,True,True,"[-405, 1781, 89, 1862]",0.0,other,0,1,4.66697383671999e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,28,True,True,"[2426, 634, 1429, 2886]",0.0,other,0,1,4.792003892362118e-06
+openai_gpt_oss_120b,RANDOM,pin_pattern,other,29,True,True,"[2936, 1202, 1590, 2331]",0.0,other,0,1,3.915978595614433e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,0,True,True,[2016],0.0,positive,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,1,True,True,[2818],0.0,positive,0,1,2.1670712158083916e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,2,True,True,[2197],0.0,positive,0,1,1.7079291865229607e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,3,True,True,[1404],0.0,positive,0,1,1.875101588666439e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,4,True,True,[2376],0.0,positive,0,1,1.91607978194952e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,5,True,True,[1647],0.0,positive,0,1,1.5830155462026596e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,6,True,True,[942],0.0,positive,0,1,1.7499551177024841e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,7,True,True,[942],0.0,positive,0,1,2.3329630494117737e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,8,True,True,[2227],0.0,positive,0,1,1.7079291865229607e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,9,True,True,[724],0.0,positive,0,1,1.708976924419403e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,10,True,True,[1140],0.0,positive,0,1,1.750071533024311e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,11,True,True,[2369],0.0,positive,0,1,1.500011421740055e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,12,True,True,[1909],0.0,positive,0,1,1.500011421740055e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,13,True,True,[1903],0.0,positive,0,2,3.2919924706220627e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,14,True,True,[2536],0.0,positive,0,2,2.5419285520911217e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,15,True,True,[218],0.0,positive,0,1,1.5828991308808327e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,16,True,True,[443],0.0,positive,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,17,True,True,[2284],0.0,positive,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,18,True,True,[2194],0.0,positive,0,1,1.584063284099102e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,19,True,True,[829],0.0,positive,0,2,2.5830231606960297e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,20,True,True,[125],0.0,positive,0,1,1.7079291865229607e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,21,True,True,[2262],0.0,positive,0,1,1.70909333974123e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,22,True,True,[1943],0.0,positive,0,2,2.4579931050539017e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,23,True,True,[2626],0.0,positive,0,1,1.7919810488820076e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,24,True,True,[1910],0.0,positive,0,1,1.625041477382183e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,25,True,True,[2985],0.0,positive,0,1,1.4998950064182281e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,26,True,True,[2326],0.0,positive,0,1,1.625041477382183e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,27,True,True,[2594],0.0,positive,0,1,1.708976924419403e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,28,True,True,[1867],0.0,positive,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,sign_type,positive,29,True,True,[874],0.0,positive,0,1,1.7910497263073921e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,0,True,True,[-276],0.0,negative,0,4,4.58303838968277e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,1,True,True,[-428],0.0,negative,0,12,9.875046089291573e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,2,True,True,[-149],0.0,negative,0,22,1.5874975360929966e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,3,True,True,[-210],0.0,negative,0,11,9.00006853044033e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,4,True,True,[-71],0.0,negative,0,5,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,5,True,True,[-50],0.0,negative,0,2,2.5419285520911217e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,6,True,True,[-309],0.0,negative,0,12,9.66701190918684e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,7,True,True,[-327],0.0,negative,0,8,6.917049176990986e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,8,True,True,[-398],0.0,negative,0,32,2.2875028662383556e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,9,True,True,[-412],0.0,negative,0,2,2.500019036233425e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,10,True,True,[-267],0.0,negative,0,8,6.58305361866951e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,11,True,True,[-314],0.0,negative,0,2,2.4579931050539017e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,12,True,True,[-497],0.0,negative,0,5,4.625064320862293e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,13,True,True,[-135],0.0,negative,0,3,3.2919924706220627e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,14,True,True,[-458],0.0,negative,0,3,2.874992787837982e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,15,True,True,[-257],0.0,negative,0,6,5.332985892891884e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,16,True,True,[-117],0.0,negative,0,14,1.0124989785254002e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,17,True,True,[-18],0.0,negative,0,16,1.225003506988287e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,18,True,True,[-112],0.0,negative,0,7,5.416921339929104e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,19,True,True,[-347],0.0,negative,0,1,1.7080456018447876e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,20,True,True,[-84],0.0,negative,0,13,1.054094173014164e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,21,True,True,[-177],0.0,negative,0,2,2.6669586077332497e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,22,True,True,[-443],0.0,negative,0,2,2.625049091875553e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,23,True,True,[-435],0.0,negative,0,22,1.591700129210949e-05
+openai_gpt_oss_120b,RANDOM,sign_type,negative,24,True,True,[-417],0.0,negative,0,11,9.041046723723412e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,25,True,True,[-9],0.0,negative,0,11,8.58306884765625e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,26,True,True,[-38],0.0,negative,0,5,4.833098500967026e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,27,True,True,[-32],0.0,negative,0,9,7.333001121878624e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,28,True,True,[-475],0.0,negative,0,11,8.95792618393898e-06
+openai_gpt_oss_120b,RANDOM,sign_type,negative,29,True,True,[-307],0.0,negative,0,2,2.499902620911598e-06
+openai_gpt_oss_120b,RANDOM,sign_type,zero,0,False,False,[-3],3.0,,0,1000,0.0005498330574482679
+openai_gpt_oss_120b,RANDOM,sign_type,zero,1,False,False,[3],3.0,,0,1000,0.000543624977581203
+openai_gpt_oss_120b,RANDOM,sign_type,zero,2,False,False,[-1],1.0,,0,1000,0.0005445840070024133
+openai_gpt_oss_120b,RANDOM,sign_type,zero,3,True,True,[0],0.0,zero,0,501,0.00028541695792227983
+openai_gpt_oss_120b,RANDOM,sign_type,zero,4,False,False,[2],2.0,,0,1000,0.0005426249699667096
+openai_gpt_oss_120b,RANDOM,sign_type,zero,5,True,True,[0],0.0,zero,0,657,0.00036258401814848185
+openai_gpt_oss_120b,RANDOM,sign_type,zero,6,False,False,[1],1.0,,0,1000,0.000558875035494566
+openai_gpt_oss_120b,RANDOM,sign_type,zero,7,True,True,[0],0.0,zero,0,365,0.00020283297635614872
+openai_gpt_oss_120b,RANDOM,sign_type,zero,8,False,False,[-1],1.0,,0,1000,0.0005420000525191426
+openai_gpt_oss_120b,RANDOM,sign_type,zero,9,True,True,[0],0.0,zero,0,909,0.0004939170321449637
+openai_gpt_oss_120b,RANDOM,sign_type,zero,10,False,False,[1],1.0,,0,1000,0.0005366670666262507
+openai_gpt_oss_120b,RANDOM,sign_type,zero,11,True,True,[0],0.0,zero,0,662,0.00035854196175932884
+openai_gpt_oss_120b,RANDOM,sign_type,zero,12,False,False,[-2],2.0,,0,1000,0.0005377499619498849
+openai_gpt_oss_120b,RANDOM,sign_type,zero,13,False,False,[2],2.0,,0,1000,0.0005330829881131649
+openai_gpt_oss_120b,RANDOM,sign_type,zero,14,False,False,[1],1.0,,0,1000,0.0005391250597313046
+openai_gpt_oss_120b,RANDOM,sign_type,zero,15,False,False,[1],1.0,,0,1000,0.0005527080502361059
+openai_gpt_oss_120b,RANDOM,sign_type,zero,16,True,True,[0],0.0,zero,0,310,0.00016912503633648157
+openai_gpt_oss_120b,RANDOM,sign_type,zero,17,False,False,[1],1.0,,0,1000,0.0005443749250844121
+openai_gpt_oss_120b,RANDOM,sign_type,zero,18,False,False,[3],3.0,,0,1000,0.000542541965842247
+openai_gpt_oss_120b,RANDOM,sign_type,zero,19,True,True,[0],0.0,zero,0,356,0.00019720790442079306
+openai_gpt_oss_120b,RANDOM,sign_type,zero,20,True,True,[0],0.0,zero,0,200,0.00011550006456673145
+openai_gpt_oss_120b,RANDOM,sign_type,zero,21,False,False,[1],1.0,,0,1000,0.0005352080333977938
+openai_gpt_oss_120b,RANDOM,sign_type,zero,22,False,False,[2],2.0,,0,1000,0.0005352080333977938
+openai_gpt_oss_120b,RANDOM,sign_type,zero,23,True,True,[0],0.0,zero,0,331,0.0001829999964684248
+openai_gpt_oss_120b,RANDOM,sign_type,zero,24,False,False,[7],7.0,,0,1000,0.000553040998056531
+openai_gpt_oss_120b,RANDOM,sign_type,zero,25,False,False,[-1],1.0,,0,1000,0.000553749967366457
+openai_gpt_oss_120b,RANDOM,sign_type,zero,26,False,False,[-1],1.0,,0,1000,0.0005406669806689024
+openai_gpt_oss_120b,RANDOM,sign_type,zero,27,False,False,[6],6.0,,0,1000,0.0005384579999372363
+openai_gpt_oss_120b,RANDOM,sign_type,zero,28,True,True,[0],0.0,zero,0,306,0.00017504196148365736
+openai_gpt_oss_120b,RANDOM,sign_type,zero,29,True,True,[0],0.0,zero,0,899,0.0004913330776616931
+openai_gpt_oss_120b,RANDOM,string_category,empty,0,True,True,[''],0.0,empty,0,1,4.875008016824722e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,1,True,True,[''],0.0,empty,0,40,8.974992670118809e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,2,True,True,[''],0.0,empty,0,2,4.249974153935909e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,3,True,True,[''],0.0,empty,0,17,3.1540985219180584e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,4,True,True,[''],0.0,empty,0,5,1.0500079952180386e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,5,True,True,[''],0.0,empty,0,1,1.8749851733446121e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,6,True,True,[''],0.0,empty,0,36,6.616697646677494e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,7,True,True,[''],0.0,empty,0,13,2.5250017642974854e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,8,True,True,[''],0.0,empty,0,6,1.195794902741909e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,9,True,True,[''],0.0,empty,0,5,9.16607677936554e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,10,True,True,[''],0.0,empty,0,5,1.0041985660791397e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,11,True,True,[''],0.0,empty,0,4,6.917049176990986e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,12,True,True,[''],0.0,empty,0,44,8.929194882512093e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,13,True,True,[''],0.0,empty,0,28,5.641707684844732e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,14,True,True,[''],0.0,empty,0,5,9.542098268866539e-06
+openai_gpt_oss_120b,RANDOM,string_category,empty,15,True,True,[''],0.0,empty,0,6,1.1999974958598614e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,16,True,True,[''],0.0,empty,0,6,1.4666933566331863e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,17,True,True,[''],0.0,empty,0,7,1.2708012945950031e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,18,True,True,[''],0.0,empty,0,12,6.849993951618671e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,19,True,True,[''],0.0,empty,0,6,2.037500962615013e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,20,True,True,[''],0.0,empty,0,8,1.8124934285879135e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,21,True,True,[''],0.0,empty,0,4,1.0665971785783768e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,22,True,True,[''],0.0,empty,0,18,3.9375037886202335e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,23,True,True,[''],0.0,empty,0,33,7.56249064579606e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,24,True,True,[''],0.0,empty,0,18,4.254095256328583e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,25,True,True,[''],0.0,empty,0,8,1.7125043086707592e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,26,True,True,[''],0.0,empty,0,19,3.98330157622695e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,27,True,True,[''],0.0,empty,0,11,2.1957908757030964e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,28,True,True,[''],0.0,empty,0,6,1.5874975360929966e-05
+openai_gpt_oss_120b,RANDOM,string_category,empty,29,True,True,[''],0.0,empty,0,4,7.207971066236496e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,0,False,False,['57vneFPwtrTAWNE'],1.0,,0,1000,0.0018379590474069118
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,1,False,False,['4UZm'],1.0,,0,1000,0.0018070000223815441
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,2,False,False,['CK1maJW2yJea'],1.0,,0,1000,0.0018590419786050916
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,3,False,False,['dlfQ9218l'],1.0,,0,1000,0.001802208018489182
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,4,False,False,['RPF'],1.0,,0,1000,0.0018322920659556985
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,5,False,False,['rVESH'],1.0,,0,1000,0.0018502919701859355
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,6,False,False,['nSZtggn00g'],1.0,,0,1000,0.0018264170503243804
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,7,False,False,['7z'],1.0,,0,1000,0.001842500059865415
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,8,False,False,['rPqWGimqv'],1.0,,0,1000,0.0018678749911487103
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,9,False,False,['8rmms'],1.0,,0,1000,0.001849625026807189
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,10,False,False,['Kl7SOEIg4M'],1.0,,0,1000,0.0018834579968824983
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,11,False,False,['OmHAg'],1.0,,0,1000,0.0018777920631691813
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,12,False,False,['sYVZWskQ7'],1.0,,0,1000,0.001840833923779428
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,13,True,True,['I3m3I'],0.0,long_palindrome,0,285,0.000524416915141046
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,14,False,False,['W3yTJsh'],1.0,,0,1000,0.0018287500133737922
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,15,False,False,['Rfgv'],1.0,,0,1000,0.0018776250071823597
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,16,False,False,['dEuo'],1.0,,0,1000,0.0018355828942731023
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,17,False,False,['61sQqbGvKej'],1.0,,0,1000,0.0018403329886496067
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,18,False,False,['k7gXwlrbJbmur'],1.0,,0,1000,0.001900249975733459
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,19,False,False,['7gDVYKjrLP4wGq'],1.0,,0,1000,0.0022729579359292984
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,20,True,True,['B7U7B'],0.0,long_palindrome,0,407,0.0007425419753417373
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,21,False,False,['N4E5P1VpZR5'],1.0,,0,1000,0.0018407499883323908
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,22,False,False,['BlPAXVtw6z'],1.0,,0,1000,0.0018577079754322767
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,23,False,False,['XG3'],1.0,,0,1000,0.0018422499997541308
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,24,False,False,['1QAN2I5G4'],1.0,,0,1000,0.0018541669705882668
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,25,False,False,['n8rWf'],1.0,,0,1000,0.001875000074505806
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,26,False,False,['3GOwDc'],1.0,,0,1000,0.0018400000408291817
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,27,False,False,['nQc62J6nG'],1.0,,0,1000,0.0018350000027567148
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,28,False,False,['pDiMq8NUM'],1.0,,0,1000,0.0018146249931305647
+openai_gpt_oss_120b,RANDOM,string_category,long_palindrome,29,False,False,['KkJsQ77exh'],1.0,,0,1000,0.0018621250055730343
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,0,True,True,[''],0.0,short_palindrome,0,4,9.082956239581108e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,1,True,True,['m'],0.0,short_palindrome,0,15,3.5624951124191284e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,2,True,True,['j'],0.0,short_palindrome,0,1,2.583954483270645e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,3,True,True,['B'],0.0,short_palindrome,0,1,2.2080494090914726e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,4,True,True,['w'],0.0,short_palindrome,0,1,2.4170149117708206e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,5,True,True,['m'],0.0,short_palindrome,0,17,3.7291087210178375e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,6,True,True,[''],0.0,short_palindrome,0,7,1.6832957044243813e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,7,True,True,[''],0.0,short_palindrome,0,4,8.25000461190939e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,8,True,True,[''],0.0,short_palindrome,0,2,5.709007382392883e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,9,True,True,['s'],0.0,short_palindrome,0,4,8.624978363513947e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,10,True,True,[''],0.0,short_palindrome,0,5,1.3707904145121574e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,11,True,True,['x'],0.0,short_palindrome,0,15,2.9125018045306206e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,12,True,True,[''],0.0,short_palindrome,0,2,5.125068128108978e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,13,True,True,['v'],0.0,short_palindrome,0,1,2.334010787308216e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,14,True,True,['J'],0.0,short_palindrome,0,24,5.625002086162567e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,15,True,True,['m'],0.0,short_palindrome,0,8,1.8749968148767948e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,16,True,True,[''],0.0,short_palindrome,0,18,3.3958000130951405e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,17,True,True,['w'],0.0,short_palindrome,0,14,2.8999987989664078e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,18,True,True,[''],0.0,short_palindrome,0,9,2.070888876914978e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,19,True,True,[''],0.0,short_palindrome,0,3,6.9160014390945435e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,20,True,True,[''],0.0,short_palindrome,0,24,5.220796447247267e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,21,True,True,[''],0.0,short_palindrome,0,2,6.249989382922649e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,22,True,True,['DD'],0.0,short_palindrome,0,1,2.666027285158634e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,23,True,True,[''],0.0,short_palindrome,0,5,1.0292045772075653e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,24,True,True,[''],0.0,short_palindrome,0,9,2.13750172406435e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,25,True,True,['p'],0.0,short_palindrome,0,3,8.709030225872993e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,26,True,True,[''],0.0,short_palindrome,0,6,1.40840420499444e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,27,True,True,[''],0.0,short_palindrome,0,7,1.491699367761612e-05
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,28,True,True,['1'],0.0,short_palindrome,0,3,5.749985575675964e-06
+openai_gpt_oss_120b,RANDOM,string_category,short_palindrome,29,True,True,['B'],0.0,short_palindrome,0,6,1.3292068615555763e-05
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,0,True,True,['WjeSqFRiVozp'],0.0,long_non_palindrome,0,2,5.709007382392883e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,1,True,True,['svw82BolWYyt'],0.0,long_non_palindrome,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,2,True,True,['fXLZCSOropdEy'],0.0,long_non_palindrome,0,1,3.625056706368923e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,3,True,True,['I2NNwmFk3Qwc'],0.0,long_non_palindrome,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,4,True,True,['f2w2iPbSZBM0'],0.0,long_non_palindrome,0,1,4.041939973831177e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,5,True,True,['USXKFbke'],0.0,long_non_palindrome,0,1,3.125052899122238e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,6,True,True,['1mPwd5U8ZUyyG'],0.0,long_non_palindrome,0,1,3.958004526793957e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,7,True,True,['cpaMhIz'],0.0,long_non_palindrome,0,2,3.875000402331352e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,8,True,True,['y0HQBTxIMGy'],0.0,long_non_palindrome,0,1,3.6669662222266197e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,9,True,True,['6Pqr094it6M'],0.0,long_non_palindrome,0,3,7.082941010594368e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,10,True,True,['02U2N5Z8nxhGaOJ'],0.0,long_non_palindrome,0,2,4.916917532682419e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,11,True,True,['7vQZXdtbBtS'],0.0,long_non_palindrome,0,3,6.916932761669159e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,12,True,True,['QcxKxiCRER3uPhx'],0.0,long_non_palindrome,0,1,3.833090886473656e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,13,True,True,['rp7M8Op'],0.0,long_non_palindrome,0,2,4.9578957259655e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,14,True,True,['74VmFpi5NRCF'],0.0,long_non_palindrome,0,2,5.332985892891884e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,15,True,True,['7SsGpY0p'],0.0,long_non_palindrome,0,2,4.834029823541641e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,16,True,True,['MRnQQlyE'],0.0,long_non_palindrome,0,1,3.208988346159458e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,17,True,True,['O7MuIJ9bgRPAPGs'],0.0,long_non_palindrome,0,1,3.958935849368572e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,18,True,True,['0egTLx4dB0qCv8'],0.0,long_non_palindrome,0,4,7.6249707490205765e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,19,True,True,['eQfDjD9g'],0.0,long_non_palindrome,0,1,3.5420525819063187e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,20,True,True,['kGdjGLkdYKLdtOP'],0.0,long_non_palindrome,0,3,6.500049494206905e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,21,True,True,['JkLtvTfVxcb'],0.0,long_non_palindrome,0,1,3.750086762011051e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,22,True,True,['OuLeUn9bjpZ'],0.0,long_non_palindrome,0,3,6.541959010064602e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,23,True,True,['FUrt5bmr'],0.0,long_non_palindrome,0,1,2.9579969123005867e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,24,True,True,['sqY5uP'],0.0,long_non_palindrome,0,1,2.625049091875553e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,25,True,True,['KUmjZWZmhPh'],0.0,long_non_palindrome,0,1,3.7909485399723053e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,26,True,True,['HXeoPGBoy'],0.0,long_non_palindrome,0,1,3.3329706639051437e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,27,True,True,['3A5CQUFEMmSc'],0.0,long_non_palindrome,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,28,True,True,['1klMCrBLS553'],0.0,long_non_palindrome,0,3,7.207971066236496e-06
+openai_gpt_oss_120b,RANDOM,string_category,long_non_palindrome,29,True,True,['JkQBcHBS99bX1'],0.0,long_non_palindrome,0,2,5.500041879713535e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,0,True,True,['n7kw'],0.0,other,0,2,6.457907147705555e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,1,True,True,['AHu'],0.0,other,0,2,5.08397351950407e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,2,True,True,['CSCmK'],0.0,other,0,2,3.959052264690399e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,3,True,True,['8z'],0.0,other,0,3,7.999944500625134e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,4,True,True,['z0'],0.0,other,0,1,2.5419285520911217e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,5,True,True,['2uc'],0.0,other,0,1,2.708984538912773e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,6,True,True,['MVOVr'],0.0,other,0,3,7.541966624557972e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,7,True,True,['CLoz4'],0.0,other,0,1,3.1249364838004112e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,8,True,True,['PxU'],0.0,other,0,5,1.1709053069353104e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,9,True,True,['fPQ'],0.0,other,0,2,5.207955837249756e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,10,True,True,['4qkZo'],0.0,other,0,6,1.6583013348281384e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,11,True,True,['q9sg'],0.0,other,0,10,2.26249685510993e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,12,True,True,['EOOdI'],0.0,other,0,3,7.792026735842228e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,13,True,True,['jc'],0.0,other,0,6,1.6165897250175476e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,14,True,True,['PWtEw'],0.0,other,0,4,7.457914762198925e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,15,True,True,['AkX'],0.0,other,0,3,8.37491825222969e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,16,True,True,['kuHF'],0.0,other,0,4,1.0416959412395954e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,17,True,True,['Y9Za'],0.0,other,0,2,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,18,True,True,['8AX'],0.0,other,0,9,2.575002145022154e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,19,True,True,['iJ'],0.0,other,0,2,5.541951395571232e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,20,True,True,['RgS'],0.0,other,0,1,2.5829067453742027e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,21,True,True,['hrfcA'],0.0,other,0,2,6.291898898780346e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,22,True,True,['pS'],0.0,other,0,6,1.6750069335103035e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,23,True,True,['Gjh'],0.0,other,0,1,2.7080532163381577e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,24,True,True,['61'],0.0,other,0,3,6.749993190169334e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,25,True,True,['fHN'],0.0,other,0,2,5.832989700138569e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,26,True,True,['lX3'],0.0,other,0,5,1.3458076864480972e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,27,True,True,['77o'],0.0,other,0,3,5.5409036576747894e-06
+openai_gpt_oss_120b,RANDOM,string_category,other,28,True,True,['nL6'],0.0,other,0,4,1.0792049579322338e-05
+openai_gpt_oss_120b,RANDOM,string_category,other,29,True,True,['mvj'],0.0,other,0,2,3.5830307751893997e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,0,True,True,[[]],0.0,empty,0,4,1.84160890057683e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,1,True,True,[[]],0.0,empty,0,5,1.7709098756313324e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,2,True,True,[[]],0.0,empty,0,1,2.750079147517681e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,3,True,True,[[]],0.0,empty,0,4,9.833020158112049e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,4,True,True,[[]],0.0,empty,0,5,1.3874960131943226e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,5,True,True,[[]],0.0,empty,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,6,True,True,[[]],0.0,empty,0,13,3.329198807477951e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,7,True,True,[[]],0.0,empty,0,2,5.624955520033836e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,8,True,True,[[]],0.0,empty,0,12,3.2791984267532825e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,9,True,True,[[]],0.0,empty,0,6,1.5083001926541328e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,10,True,True,[[]],0.0,empty,0,1,2.500019036233425e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,11,True,True,[[]],0.0,empty,0,2,5.083042196929455e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,12,True,True,[[]],0.0,empty,0,1,2.583954483270645e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,13,True,True,[[]],0.0,empty,0,3,7.083057425916195e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,14,True,True,[[]],0.0,empty,0,8,1.741608139127493e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,15,True,True,[[]],0.0,empty,0,6,1.4750054106116295e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,16,True,True,[[]],0.0,empty,0,9,2.1875021047890186e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,17,True,True,[[]],0.0,empty,0,21,4.7291978262364864e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,18,True,True,[[]],0.0,empty,0,13,3.516697324812412e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,19,True,True,[[]],0.0,empty,0,4,9.333016350865364e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,20,True,True,[[]],0.0,empty,0,5,1.0416959412395954e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,21,True,True,[[]],0.0,empty,0,5,1.1334079317748547e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,22,True,True,[[]],0.0,empty,0,3,7.875030860304832e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,23,True,True,[[]],0.0,empty,0,5,1.0582967661321163e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,24,True,True,[[]],0.0,empty,0,11,2.116698306053877e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,25,True,True,[[]],0.0,empty,0,1,2.625049091875553e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,26,True,True,[[]],0.0,empty,0,4,9.292038157582283e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,27,True,True,[[]],0.0,empty,0,1,2.624932676553726e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,28,True,True,[[]],0.0,empty,0,4,1.0999967344105244e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,empty,29,True,True,[[]],0.0,empty,0,4,1.091696321964264e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,0,True,True,[[0]],0.0,contains_zero,0,16,3.733299672603607e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,1,True,True,"[[1, -88, 0]]",0.0,contains_zero,0,5,1.2459000572562218e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,2,True,True,"[[0, -4]]",0.0,contains_zero,0,156,0.00028308306355029345
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,3,True,True,"[[9, 0, -48, -66, -80, 30]]",0.0,contains_zero,0,143,0.00027650000993162394
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,4,True,True,"[[-34, 0, 23, -19, -4, -45]]",0.0,contains_zero,0,59,0.00011199992150068283
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,5,True,True,"[[0, 43, 84, 5]]",0.0,contains_zero,0,110,0.0002074999501928687
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,6,True,True,"[[-26, 0, -13, -75, -46]]",0.0,contains_zero,0,40,8.73330282047391e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,7,True,True,"[[-66, 81, 53, 54, 0]]",0.0,contains_zero,0,103,0.00020516698714345694
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,8,True,True,"[[-55, 0, 3, 13, 14, -7]]",0.0,contains_zero,0,81,0.00015708303544670343
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,9,True,True,"[[0, -6]]",0.0,contains_zero,0,41,8.370797149837017e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,10,True,True,"[[-32, 0, -15, -75, -31]]",0.0,contains_zero,0,15,3.4041935577988625e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,11,True,True,"[[0, 1, -88]]",0.0,contains_zero,0,19,4.075001925230026e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,12,True,True,"[[-30, 0, -74, -95, -82, -88]]",0.0,contains_zero,0,21,4.591699689626694e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,13,True,True,"[[-25, -18, 0, 71, 88, 96]]",0.0,contains_zero,0,130,0.00024416600354015827
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,14,True,True,"[[68, 0, -74, -23, -10, 22]]",0.0,contains_zero,0,12,2.5916029699146748e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,15,True,True,"[[-60, 0, 32, 63]]",0.0,contains_zero,0,30,6.408302579075098e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,16,True,True,"[[-3, 12, 0, 90, 83, 7]]",0.0,contains_zero,0,26,6.091594696044922e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,17,True,True,"[[-91, 0, -32]]",0.0,contains_zero,0,118,0.0002240829635411501
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,18,True,True,"[[-37, -72, 0, -64, -45]]",0.0,contains_zero,0,134,0.00025566702242940664
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,19,True,True,"[[-5, -13, 0, 77, 42, 43]]",0.0,contains_zero,0,43,8.937495294958353e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,20,True,True,"[[-3, 0, -52, -14, 32]]",0.0,contains_zero,0,6,1.4542019926011562e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,21,True,True,"[[-56, 0, -24, 9, 67]]",0.0,contains_zero,0,23,5.0416914746165276e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,22,True,True,"[[56, -52, 76, 0]]",0.0,contains_zero,0,28,5.77080063521862e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,23,True,True,"[[0, 4, 69, 20, -28]]",0.0,contains_zero,0,20,4.837499000132084e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,24,True,True,"[[48, -82, 76, -7, 0, 65]]",0.0,contains_zero,0,19,3.587501123547554e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,25,True,True,"[[43, 0, -77, 68, -52, -20]]",0.0,contains_zero,0,78,0.00014495791401714087
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,26,True,True,"[[-64, 0, -74, 49]]",0.0,contains_zero,0,38,7.929198909550905e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,27,True,True,[[0]],0.0,contains_zero,0,13,2.829195000231266e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,28,True,True,"[[-68, 92, -67, 76, 0, -32]]",0.0,contains_zero,0,258,0.0004771249368786812
+openai_gpt_oss_120b,RANDOM,transaction_pattern,contains_zero,29,True,True,"[[-100, 0]]",0.0,contains_zero,0,107,0.000199749949388206
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,0,True,True,"[[31, 71, 13, 78]]",0.0,many_large_deposits,0,11,2.5792047381401062e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,1,True,True,"[[34, 35, 96]]",0.0,many_large_deposits,0,5,1.550000160932541e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,2,True,True,"[[49, 53, 26, 35]]",0.0,many_large_deposits,0,9,2.025009598582983e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,3,True,True,"[[88, 86, 75, 38, 22, 89]]",0.0,many_large_deposits,0,63,0.0001248749904334545
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,4,True,True,"[[92, 52, 82]]",0.0,many_large_deposits,0,27,6.0999998822808266e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,5,True,True,"[[27, 15, 89, 19]]",0.0,many_large_deposits,0,26,5.76250022277236e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,6,True,True,"[[69, 42, 83]]",0.0,many_large_deposits,0,13,3.3917021937668324e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,7,True,True,"[[76, 6, 45, 51]]",0.0,many_large_deposits,0,13,3.645801916718483e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,8,True,True,"[[78, 79, 21]]",0.0,many_large_deposits,0,30,7.508299313485622e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,9,True,True,"[[36, 66, 100, 52, 64]]",0.0,many_large_deposits,0,42,9.679107461124659e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,10,True,True,"[[84, 79, 3]]",0.0,many_large_deposits,0,10,2.687494270503521e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,11,True,True,"[[56, 91, 19]]",0.0,many_large_deposits,0,51,0.0001070419093593955
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,12,True,True,"[[42, 77, 84, 86, 28]]",0.0,many_large_deposits,0,72,0.00015783298294991255
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,13,True,True,"[[81, 17, 77, 12]]",0.0,many_large_deposits,0,3,8.833943866193295e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,14,True,True,"[[75, 38, 52]]",0.0,many_large_deposits,0,101,0.00022133300080895424
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,15,True,True,"[[65, 96, 51]]",0.0,many_large_deposits,0,34,7.441709749400616e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,16,True,True,"[[33, 71, 63]]",0.0,many_large_deposits,0,92,0.0001881670905277133
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,17,True,True,"[[42, 52, 83]]",0.0,many_large_deposits,0,12,2.8582988306879997e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,18,True,True,"[[21, 52, 66, 55]]",0.0,many_large_deposits,0,3,8.624978363513947e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,19,True,True,"[[12, 57, 61, 50]]",0.0,many_large_deposits,0,55,0.00012187508400529623
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,20,True,True,"[[61, 10, 90, 89]]",0.0,many_large_deposits,0,5,1.308403443545103e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,21,True,True,"[[51, 5, 59, 33]]",0.0,many_large_deposits,0,42,8.68749339133501e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,22,True,True,"[[95, 21, 82]]",0.0,many_large_deposits,0,43,9.308301378041506e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,23,True,True,"[[30, 22, 48, 74]]",0.0,many_large_deposits,0,35,7.545901462435722e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,24,True,True,"[[50, 27, 78, 78, 51]]",0.0,many_large_deposits,0,40,9.358301758766174e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,25,True,True,"[[35, 35, 78]]",0.0,many_large_deposits,0,124,0.0002527909819036722
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,26,True,True,"[[68, 17, 89]]",0.0,many_large_deposits,0,7,1.716695260256529e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,27,True,True,"[[61, 99, 58]]",0.0,many_large_deposits,0,9,2.1290965378284454e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,28,True,True,"[[9, 93, 61, 56]]",0.0,many_large_deposits,0,17,3.958400338888168e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_deposits,29,True,True,"[[93, 49, 69, 16]]",0.0,many_large_deposits,0,4,1.1584023013710976e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,0,True,True,"[[-94, 34, -40]]",0.0,many_large_withdrawals,0,2,7.1249669417738914e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,1,True,True,"[[-40, -15, -8, -87, -45]]",0.0,many_large_withdrawals,0,3,7.874914444983006e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,2,True,True,"[[59, 31, 5, -5, -65, -90]]",0.0,many_large_withdrawals,0,1,4.749977961182594e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,3,True,True,"[[-45, -56, -68, -11]]",0.0,many_large_withdrawals,0,7,1.8915976397693157e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,4,True,True,"[[-54, -86, 48, -47]]",0.0,many_large_withdrawals,0,3,7.6249707490205765e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,5,True,True,"[[-91, -98, 33, 98]]",0.0,many_large_withdrawals,0,1,3.834022209048271e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,6,True,True,"[[-85, -78, -81, 56, 63]]",0.0,many_large_withdrawals,0,3,6.834045052528381e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,7,True,True,"[[-53, -32, -50, 18, 72, -79]]",0.0,many_large_withdrawals,0,7,1.7125043086707592e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,8,True,True,"[[-49, -15, 25, -1, -93, -49]]",0.0,many_large_withdrawals,0,2,5.916925147175789e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,9,True,True,"[[-97, -70, 9]]",0.0,many_large_withdrawals,0,4,9.124982170760632e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,10,True,True,"[[-94, -71, 24, -78, 62]]",0.0,many_large_withdrawals,0,8,2.0042061805725098e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,11,True,True,"[[91, 18, -90, -71, -70, -33]]",0.0,many_large_withdrawals,0,2,5.875015631318092e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,12,True,True,"[[-87, 48, -79, -79]]",0.0,many_large_withdrawals,0,8,1.950003206729889e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,13,True,True,"[[-78, -30, -49]]",0.0,many_large_withdrawals,0,18,3.366696182638407e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,14,True,True,"[[-13, -57, -57, 100, -49, -2]]",0.0,many_large_withdrawals,0,1,4.500034265220165e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,15,True,True,"[[-82, -19, -34, -83, -71]]",0.0,many_large_withdrawals,0,1,3.999914042651653e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,16,True,True,"[[-44, -79, -24, 18]]",0.0,many_large_withdrawals,0,13,2.7416972443461418e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,17,True,True,"[[-2, -2, -65, -97]]",0.0,many_large_withdrawals,0,3,1.0209041647613049e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,18,True,True,"[[-59, -60, -66, 34]]",0.0,many_large_withdrawals,0,7,1.4625024050474167e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,19,True,True,"[[-27, 11, -82, 29, -49]]",0.0,many_large_withdrawals,0,4,1.129100564867258e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,20,True,True,"[[-67, 62, 55, -99, -14]]",0.0,many_large_withdrawals,0,3,9.33394767343998e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,21,True,True,"[[-66, -49]]",0.0,many_large_withdrawals,0,13,2.787495031952858e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,22,True,True,"[[-15, -52, -66]]",0.0,many_large_withdrawals,0,1,3.6669662222266197e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,23,True,True,"[[-73, 92, -87, -11]]",0.0,many_large_withdrawals,0,2,5.666050128638744e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,24,True,True,"[[-87, -23, -25, 13, -8, 39]]",0.0,many_large_withdrawals,0,15,3.329198807477951e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,25,True,True,"[[-41, 1, -82, 3, 51]]",0.0,many_large_withdrawals,0,14,2.8333044610917568e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,26,True,True,"[[-26, -81, -79, -78]]",0.0,many_large_withdrawals,0,4,1.0541989468038082e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,27,True,True,"[[35, -77, -62, -52]]",0.0,many_large_withdrawals,0,2,6.249989382922649e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,28,True,True,"[[-65, -68, 26, -90, 51, 44]]",0.0,many_large_withdrawals,0,2,7.458031177520752e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,many_large_withdrawals,29,True,True,"[[-53, -24, -90, -26, 31]]",0.0,many_large_withdrawals,0,1,4.0839659050107e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,0,True,True,"[[46, -26, 35, 6, -35, -75]]",0.0,mixed_transactions,0,2,6.458023563027382e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,1,True,True,"[[68, -79, 21]]",0.0,mixed_transactions,0,1,3.5420525819063187e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,2,True,True,"[[21, 81, -68, 64, -30]]",0.0,mixed_transactions,0,2,7.00005330145359e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,3,True,True,"[[25, -35]]",0.0,mixed_transactions,0,1,2.9579969123005867e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,4,True,True,"[[-99, 5, 69, 80, -2]]",0.0,mixed_transactions,0,1,4.124944098293781e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,5,True,True,"[[-4, -32, -45, -31, 54, 67]]",0.0,mixed_transactions,0,1,4.125060513615608e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,6,True,True,"[[71, -92, -29, -57, 7]]",0.0,mixed_transactions,0,4,8.499948307871819e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,7,True,True,"[[-15, -31, -56, 4, 87]]",0.0,mixed_transactions,0,1,4.334026016294956e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,8,True,True,"[[13, -18, 35, -38]]",0.0,mixed_transactions,0,2,4.915986210107803e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,9,True,True,"[[6, -29, 67]]",0.0,mixed_transactions,0,2,5.625071935355663e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,10,True,True,"[[-97, 92, 42]]",0.0,mixed_transactions,0,1,3.5410048440098763e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,11,True,True,"[[59, -84, 11, -71, 95]]",0.0,mixed_transactions,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,12,True,True,"[[-51, -3, -23, -25, 28]]",0.0,mixed_transactions,0,3,9.458977729082108e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,13,True,True,"[[0, 33, 94, 66, 18, -2]]",0.0,mixed_transactions,0,1,4.375004209578037e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,14,True,True,"[[-39, 7, 21, -3, 8, -89]]",0.0,mixed_transactions,0,1,4.459056071937084e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,15,True,True,"[[7, 12, -97, -67, -10, -71]]",0.0,mixed_transactions,0,1,4.542060196399689e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,16,True,True,"[[-72, -49, 75]]",0.0,mixed_transactions,0,1,3.2919924706220627e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,17,True,True,"[[-72, -71, 56, -95]]",0.0,mixed_transactions,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,18,True,True,"[[-93, 55, 55, -20]]",0.0,mixed_transactions,0,1,3.584078513085842e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,19,True,True,"[[70, 98, -18]]",0.0,mixed_transactions,0,1,3.500026650726795e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,20,True,True,"[[92, -73, -58, 46]]",0.0,mixed_transactions,0,1,4.083034582436085e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,21,True,True,"[[-66, 54]]",0.0,mixed_transactions,0,3,6.792019121348858e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,22,True,True,"[[84, 54, 81, -28]]",0.0,mixed_transactions,0,2,5.165929906070232e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,23,True,True,"[[-66, 24, 2, 86, -63]]",0.0,mixed_transactions,0,1,3.708992153406143e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,24,True,True,"[[-58, 96, 63, -91, -21]]",0.0,mixed_transactions,0,2,5.875015631318092e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,25,True,True,"[[32, -34, 62, 36, -91]]",0.0,mixed_transactions,0,1,4.249974153935909e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,26,True,True,"[[-3, -30, -77, 88, -27, 40]]",0.0,mixed_transactions,0,2,5.915993824601173e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,27,True,True,"[[73, -97, -63]]",0.0,mixed_transactions,0,2,5.791080184280872e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,28,True,True,"[[-88, 5, 79, -46, 35]]",0.0,mixed_transactions,0,1,4.332978278398514e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,mixed_transactions,29,True,True,"[[62, -25, 20, -100, -76, 87]]",0.0,mixed_transactions,0,1,4.332978278398514e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,0,True,True,[[89]],0.0,simple_pattern,0,2,6.4999330788850784e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,1,True,True,[[-1]],0.0,simple_pattern,0,1,2.791057340800762e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,2,True,True,[[-83]],0.0,simple_pattern,0,9,2.4957931600511074e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,3,True,True,"[[5, 87]]",0.0,simple_pattern,0,8,1.9749975763261318e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,4,True,True,[[68]],0.0,simple_pattern,0,8,2.0332983694970608e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,5,True,True,[[-46]],0.0,simple_pattern,0,13,3.3125048503279686e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,6,True,True,[[48]],0.0,simple_pattern,0,1,2.6669586077332497e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,7,True,True,[[99]],0.0,simple_pattern,0,8,1.8125050701200962e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,8,True,True,[[-63]],0.0,simple_pattern,0,2,5.958019755780697e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,9,True,True,[[-88]],0.0,simple_pattern,0,6,1.5290919691324234e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,10,True,True,[[-77]],0.0,simple_pattern,0,4,1.2458069249987602e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,11,True,True,"[[12, 65]]",0.0,simple_pattern,0,2,4.208995960652828e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,12,True,True,[[-82]],0.0,simple_pattern,0,6,1.5042023733258247e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,13,True,True,"[[100, 68]]",0.0,simple_pattern,0,8,1.7874990589916706e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,14,True,True,"[[47, 50]]",0.0,simple_pattern,0,10,4.7749956138432026e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,15,True,True,[[-28]],0.0,simple_pattern,0,1,3.334018401801586e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,16,True,True,"[[-8, -16]]",0.0,simple_pattern,0,10,2.8791953809559345e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,17,True,True,[[35]],0.0,simple_pattern,0,13,3.066600766032934e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,18,True,True,[[68]],0.0,simple_pattern,0,3,7.2499969974160194e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,19,True,True,[[74]],0.0,simple_pattern,0,3,7.00005330145359e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,20,True,True,[[37]],0.0,simple_pattern,0,8,1.8834020011126995e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,21,True,True,[[-51]],0.0,simple_pattern,0,1,3.0420487746596336e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,22,True,True,"[[95, 73]]",0.0,simple_pattern,0,2,5.334033630788326e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,23,True,True,[[-81]],0.0,simple_pattern,0,15,3.324996214359999e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,24,True,True,"[[97, 60]]",0.0,simple_pattern,0,2,5.999929271638393e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,25,True,True,[[-35]],0.0,simple_pattern,0,5,1.1333031579852104e-05
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,26,True,True,[[15]],0.0,simple_pattern,0,1,3.0419323593378067e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,27,True,True,[[-3]],0.0,simple_pattern,0,3,8.334056474268436e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,28,True,True,[[-85]],0.0,simple_pattern,0,2,5.749985575675964e-06
+openai_gpt_oss_120b,RANDOM,transaction_pattern,simple_pattern,29,True,True,"[[34, 23]]",0.0,simple_pattern,0,7,2.1124957129359245e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,0,True,True,[''],0.0,empty,0,49,0.0001385000068694353
+openai_gpt_oss_120b,RANDOM,username_category,empty,1,True,True,[''],0.0,empty,0,35,0.00010016700252890587
+openai_gpt_oss_120b,RANDOM,username_category,empty,2,True,True,[''],0.0,empty,0,5,1.4750054106116295e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,3,True,True,[''],0.0,empty,0,52,0.00014033401384949684
+openai_gpt_oss_120b,RANDOM,username_category,empty,4,True,True,[''],0.0,empty,0,20,6.491702515631914e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,5,True,True,[''],0.0,empty,0,54,0.00015333294868469238
+openai_gpt_oss_120b,RANDOM,username_category,empty,6,True,True,[''],0.0,empty,0,2,4.292000085115433e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,7,True,True,[''],0.0,empty,0,13,3.570795524865389e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,8,True,True,[''],0.0,empty,0,11,2.970790956169367e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,9,True,True,[''],0.0,empty,0,54,0.00014791707508265972
+openai_gpt_oss_120b,RANDOM,username_category,empty,10,True,True,[''],0.0,empty,0,29,8.729205001145601e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,11,True,True,[''],0.0,empty,0,1,2.374988980591297e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,12,True,True,[''],0.0,empty,0,31,9.416602551937103e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,13,True,True,[''],0.0,empty,0,3,9.499955922365189e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,14,True,True,[''],0.0,empty,0,2,6.249989382922649e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,15,True,True,[''],0.0,empty,0,5,1.40840420499444e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,16,True,True,[''],0.0,empty,0,23,7.941701915115118e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,17,True,True,[''],0.0,empty,0,20,5.88330440223217e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,18,True,True,[''],0.0,empty,0,2,6.4999330788850784e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,19,True,True,[''],0.0,empty,0,3,9.167008101940155e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,20,True,True,[''],0.0,empty,0,8,2.216699067503214e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,21,True,True,[''],0.0,empty,0,18,5.212496034801006e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,22,True,True,[''],0.0,empty,0,9,3.408303018659353e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,23,True,True,[''],0.0,empty,0,27,7.562502287328243e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,24,True,True,[''],0.0,empty,0,16,4.700000863522291e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,25,True,True,[''],0.0,empty,0,6,1.7333077266812325e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,26,True,True,[''],0.0,empty,0,3,7.292022928595543e-06
+openai_gpt_oss_120b,RANDOM,username_category,empty,27,True,True,[''],0.0,empty,0,41,0.00011562497820705175
+openai_gpt_oss_120b,RANDOM,username_category,empty,28,True,True,[''],0.0,empty,0,10,2.1999934688210487e-05
+openai_gpt_oss_120b,RANDOM,username_category,empty,29,True,True,[''],0.0,empty,0,23,6.120791658759117e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,0,True,True,['fzRp'],0.0,too_short,0,4,1.2625008821487427e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,1,True,True,['3'],0.0,too_short,0,3,8.167000487446785e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,2,True,True,['6YsB'],0.0,too_short,0,7,1.7417012713849545e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,3,True,True,['B9'],0.0,too_short,0,4,1.2875068932771683e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,4,True,True,['cz6'],0.0,too_short,0,10,3.2334006391465664e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,5,True,True,['PbK'],0.0,too_short,0,1,3.2079406082630157e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,6,True,True,['cn0'],0.0,too_short,0,8,2.8333975933492184e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,7,True,True,['uHEh'],0.0,too_short,0,3,9.707990102469921e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,8,True,True,['qz1'],0.0,too_short,0,2,7.2499969974160194e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,9,True,True,['ln'],0.0,too_short,0,11,3.470899537205696e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,10,True,True,['lsvv'],0.0,too_short,0,1,3.5410048440098763e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,11,True,True,['vqUF'],0.0,too_short,0,4,1.4375080354511738e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,12,True,True,['Q'],0.0,too_short,0,2,5.832989700138569e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,13,True,True,['L7k'],0.0,too_short,0,2,6.958958692848682e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,14,True,True,['jEG'],0.0,too_short,0,1,3.2080570235848427e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,15,True,True,['oGB5'],0.0,too_short,0,6,2.1709012798964977e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,16,True,True,['875'],0.0,too_short,0,4,1.4625024050474167e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,17,True,True,['iaIw'],0.0,too_short,0,1,3.374996595084667e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,18,True,True,['zv'],0.0,too_short,0,5,1.695798709988594e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,19,True,True,['UY9'],0.0,too_short,0,2,6.624963134527206e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,20,True,True,['fO'],0.0,too_short,0,5,1.5040975995361805e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,21,True,True,['MtLX'],0.0,too_short,0,3,1.0624993592500687e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,22,True,True,['tr'],0.0,too_short,0,5,1.2082979083061218e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,23,True,True,['JZEn'],0.0,too_short,0,1,3.458932042121887e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,24,True,True,['5Z'],0.0,too_short,0,2,6.541959010064602e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,25,True,True,['r'],0.0,too_short,0,2,6.500049494206905e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,26,True,True,['82'],0.0,too_short,0,2,7.542083039879799e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,27,True,True,['9g'],0.0,too_short,0,3,9.29099041968584e-06
+openai_gpt_oss_120b,RANDOM,username_category,too_short,28,True,True,['Y'],0.0,too_short,0,3,1.0541989468038082e-05
+openai_gpt_oss_120b,RANDOM,username_category,too_short,29,True,True,['v'],0.0,too_short,0,17,4.9166963435709476e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,0,True,True,['40w'],0.0,starts_with_digit,0,2,7.4160052463412285e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,1,True,True,['8ddsYCojhfNKTJ'],0.0,starts_with_digit,0,3,1.3165990822017193e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,2,True,True,['1OrQPsPSbVexSwX'],0.0,starts_with_digit,0,25,6.629200652241707e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,3,True,True,['7o9gmugl'],0.0,starts_with_digit,0,12,3.729097079485655e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,4,True,True,['1xAEQ'],0.0,starts_with_digit,0,11,3.1041912734508514e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,5,True,True,['4Y'],0.0,starts_with_digit,0,15,3.2374984584748745e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,6,True,True,['10fAQj'],0.0,starts_with_digit,0,5,1.3625016435980797e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,7,True,True,['8s41vSoPzpat'],0.0,starts_with_digit,0,2,7.708091288805008e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,8,True,True,['2HlRJ6c5'],0.0,starts_with_digit,0,10,3.0249939300119877e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,9,True,True,['1Nwwim'],0.0,starts_with_digit,0,4,1.095794141292572e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,10,True,True,['3r4JEjk1J'],0.0,starts_with_digit,0,15,4.2750034481287e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,11,True,True,['291YCreeueIN'],0.0,starts_with_digit,0,2,7.459078915417194e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,12,True,True,['9PKVQJ2MLYKbg1'],0.0,starts_with_digit,0,2,8.25000461190939e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,13,True,True,['3'],0.0,starts_with_digit,0,4,1.0707997716963291e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,14,True,True,['3xWnQpwj6aX'],0.0,starts_with_digit,0,13,3.979192115366459e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,15,True,True,['6g4RTlAKThjnz'],0.0,starts_with_digit,0,4,1.5542027540504932e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,16,True,True,['2R0Aiptt15'],0.0,starts_with_digit,0,9,3.254192415624857e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,17,True,True,['1IySxm60oG'],0.0,starts_with_digit,0,2,7.08398874849081e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,18,True,True,['6JQRVclNvONAyHY'],0.0,starts_with_digit,0,4,1.3292068615555763e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,19,True,True,['5JovBjes6tpZ1'],0.0,starts_with_digit,0,12,3.845791798084974e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,20,True,True,['9qjvIQl'],0.0,starts_with_digit,0,2,8.207978680729866e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,21,True,True,['1lapPDSNGy'],0.0,starts_with_digit,0,6,1.9208993762731552e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,22,True,True,['7UE'],0.0,starts_with_digit,0,2,6.458954885601997e-06
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,23,True,True,['18o8R'],0.0,starts_with_digit,0,3,1.0416959412395954e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,24,True,True,['4'],0.0,starts_with_digit,0,5,1.3125012628734112e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,25,True,True,['430GJ'],0.0,starts_with_digit,0,12,3.38749960064888e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,26,True,True,['4fOyy7spiRg4GGt'],0.0,starts_with_digit,0,3,1.133396290242672e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,27,True,True,['4jp'],0.0,starts_with_digit,0,11,2.8916983865201473e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,28,True,True,['0SeU'],0.0,starts_with_digit,0,7,1.7124926671385765e-05
+openai_gpt_oss_120b,RANDOM,username_category,starts_with_digit,29,True,True,['49nS'],0.0,starts_with_digit,0,9,2.3083994165062904e-05
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,0,False,False,['GL57vglIWrp'],1.0,,0,1000,0.002560792025178671
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,1,False,False,['TOEsYfXd9MX'],1.0,,0,1000,0.002610458992421627
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,2,False,False,['jkdkQEV6uF4f'],1.0,,0,1000,0.0025977499317377806
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,3,False,False,['I2Fvo5s7oorvUMz'],1.0,,0,1000,0.002621541963890195
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,4,False,False,['VxF3bpYujM'],1.0,,0,1000,0.002603416913188994
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,5,False,False,['mfpa2kM2Pc6Ij'],1.0,,0,1000,0.0026106670266017318
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,6,False,False,['LzmMMnFcB4'],1.0,,0,1000,0.0025863329647108912
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,7,False,False,['hmspllVDMsU9Zk'],1.0,,0,1000,0.002612208016216755
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,8,False,False,['IaKcwdU6ub'],1.0,,0,1000,0.0026074580382555723
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,9,False,False,['SOfHcR1Mhu97'],1.0,,0,1000,0.0025710000190883875
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,10,False,False,['YjP0Vq8rvu'],1.0,,0,1000,0.0026323749916628003
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,11,False,False,['KVQFu9FU6P6'],1.0,,0,1000,0.0026075829518958926
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,12,False,False,['Ff9NNy2wrdf7m'],1.0,,0,1000,0.0026403330266475677
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,13,False,False,['LQOnt4Bk7dLDM'],1.0,,0,1000,0.0026522499974817038
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,14,False,False,['qL9N4LcdTp'],1.0,,0,1000,0.002589208073914051
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,15,False,False,['AdX05fiIhvU5'],1.0,,0,1000,0.002590542077086866
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,16,False,False,['wQ3UZrDNaHywG'],1.0,,0,1000,0.0026032079476863146
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,17,False,False,['mCFdNsNMWi2'],1.0,,0,1000,0.0025983749656006694
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,18,False,False,['i7ZofQuP66w'],1.0,,0,1000,0.002598457969725132
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,19,False,False,['ICdXT5sBe4i9'],1.0,,0,1000,0.0026039999211207032
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,20,False,False,['hYK35OpTmWt'],1.0,,0,1000,0.0025976250180974603
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,21,False,False,['KxnD0m8s34YtQhs'],1.0,,0,1000,0.0025932081043720245
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,22,False,False,['dCU8tld7Yz'],1.0,,0,1000,0.002622084110043943
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,23,False,False,['Ma6MmiD3puOeD'],1.0,,0,1000,0.0026395830791443586
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,24,False,False,['BDb4sTxZBi1'],1.0,,0,1000,0.002625291934236884
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,25,False,False,['d0Qu5QgBFQOFrd1'],1.0,,0,1000,0.002601207932457328
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,26,False,False,['G2nEO1yZ4Nniz'],1.0,,0,1000,0.0026038340292871
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,27,False,False,['LNX5SeR5LmSY4zm'],1.0,,0,1000,0.0026166250463575125
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,28,False,False,['jXgtZJyQ81AiG'],1.0,,0,1000,0.002605415997095406
+openai_gpt_oss_120b,RANDOM,username_category,strong_username,29,False,False,['bwJSkC8OuFWBN'],1.0,,0,1000,0.002607207978144288
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,0,True,True,['mAr2su4XqyACci'],0.0,medium_username,0,1,5.66698145121336e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,1,True,True,['trSy5Xa7'],0.0,medium_username,0,3,1.0999967344105244e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,2,True,True,['ogXPl7D0GJ'],0.0,medium_username,0,1,4.749977961182594e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,3,True,True,['aYjZPah4c'],0.0,medium_username,0,11,2.6250025257468224e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,4,True,True,['J4XnvUA5UCMRAN'],0.0,medium_username,0,5,1.3958080671727657e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,5,True,True,['hGIKcVpm3'],0.0,medium_username,0,7,2.020795363932848e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,6,True,True,['aAatPTdOehc1pid'],0.0,medium_username,0,6,1.916696783155203e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,7,True,True,['sb6Zf'],0.0,medium_username,0,1,3.2079406082630157e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,8,True,True,['Qequpc4My'],0.0,medium_username,0,2,6.457907147705555e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,9,True,True,['n4bDTN1U9WHwF'],0.0,medium_username,0,2,7.4999406933784485e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,10,True,True,['Zw3aEvJE6ME'],0.0,medium_username,0,1,4.624947905540466e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,11,True,True,['xZy4gA5LXPug'],0.0,medium_username,0,2,7.417052984237671e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,12,True,True,['Sd7Zs8fNjfiC0W'],0.0,medium_username,0,1,4.416913725435734e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,13,True,True,['cp6Y1Mz3KXbbYI2'],0.0,medium_username,0,3,1.3707904145121574e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,14,True,True,['yS0H8Dgrw3H'],0.0,medium_username,0,8,1.933402381837368e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,15,True,True,['qKkW5P2VXZj'],0.0,medium_username,0,1,4.625064320862293e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,16,True,True,['n1GoBtE'],0.0,medium_username,0,2,6.250105798244476e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,17,True,True,['tt4YdF404I5DEk'],0.0,medium_username,0,1,4.958012141287327e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,18,True,True,['bWNvU7NSEWxga'],0.0,medium_username,0,5,1.6083940863609314e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,19,True,True,['zpJ4IJaCD'],0.0,medium_username,0,2,7.1659451350569725e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,20,True,True,['MPzC5D'],0.0,medium_username,0,2,6.458954885601997e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,21,True,True,['N6TV93c1tILHh69'],0.0,medium_username,0,1,5.332985892891884e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,22,True,True,['eJnMkthPw92rpGd'],0.0,medium_username,0,2,7.3749106377363205e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,23,True,True,['ZIqo0kl4Q'],0.0,medium_username,0,2,5.458947271108627e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,24,True,True,['Ydv9GigyC'],0.0,medium_username,0,5,1.5208031982183456e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,25,True,True,['Ta3QUO'],0.0,medium_username,0,6,1.4582998119294643e-05
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,26,True,True,['SPBM3fpvbZXjcxP'],0.0,medium_username,0,2,9.58307646214962e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,27,True,True,['uOy5nUHpIqSqE9'],0.0,medium_username,0,1,4.666042514145374e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,28,True,True,['NUCbUNAr0qCk'],0.0,medium_username,0,2,7.457914762198925e-06
+openai_gpt_oss_120b,RANDOM,username_category,medium_username,29,True,True,['cvsQ6JKaP'],0.0,medium_username,0,1,4.707952030003071e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,0,True,True,['rkUlu'],0.0,weak_username,0,1,3.7080608308315277e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,1,True,True,['NBAPDqCNVGS'],0.0,weak_username,0,4,1.537497155368328e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,2,True,True,['GGGVpnlXeFns'],0.0,weak_username,0,10,3.191595897078514e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,3,True,True,['RruOl'],0.0,weak_username,0,12,3.2125040888786316e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,4,True,True,['vGNMXHz'],0.0,weak_username,0,18,5.137501284480095e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,5,True,True,['scEcD'],0.0,weak_username,0,13,4.270905628800392e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,6,True,True,['RtCMyQrDI'],0.0,weak_username,0,12,3.433390520513058e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,7,True,True,['NrSQclDBt'],0.0,weak_username,0,10,2.7791946195065975e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,8,True,True,['FwrOlqo'],0.0,weak_username,0,1,4.00003045797348e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,9,True,True,['jRGNR'],0.0,weak_username,0,2,6.416928954422474e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,10,True,True,['KyoAhJZ'],0.0,weak_username,0,4,1.537497155368328e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,11,True,True,['JlJgFds'],0.0,weak_username,0,3,9.37492586672306e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,12,True,True,['YJwhNBmZlkN'],0.0,weak_username,0,6,2.1249987185001373e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,13,True,True,['YjLEiiI'],0.0,weak_username,0,4,1.3125012628734112e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,14,True,True,['tDCIrO'],0.0,weak_username,0,3,8.417060598731041e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,15,True,True,['GXMOTuGu'],0.0,weak_username,0,3,7.875030860304832e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,16,True,True,['fLldr'],0.0,weak_username,0,9,2.487492747604847e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,17,True,True,['ntCPsdMqkYYw'],0.0,weak_username,0,20,6.341608241200447e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,18,True,True,['HoEmVX'],0.0,weak_username,0,21,6.508303340524435e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,19,True,True,['CrKKygoqnZVwi'],0.0,weak_username,0,11,3.358302637934685e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,20,True,True,['UkHZj'],0.0,weak_username,0,1,3.1660310924053192e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,21,True,True,['ETpEwH'],0.0,weak_username,0,9,2.458400558680296e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,22,True,True,['qQWJw'],0.0,weak_username,0,2,7.6669966802001e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,23,True,True,['mjdzFFWToGDl'],0.0,weak_username,0,3,1.1999974958598614e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,24,True,True,['JkWzykjoltPjFMB'],0.0,weak_username,0,6,2.295803278684616e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,25,True,True,['AbmCbN'],0.0,weak_username,0,15,4.4625019654631615e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,26,True,True,['bYofXbFNvW'],0.0,weak_username,0,1,4.499917849898338e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,27,True,True,['VcDfvzoaI'],0.0,weak_username,0,4,1.2541073374450207e-05
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,28,True,True,['qmCtR'],0.0,weak_username,0,1,3.625056706368923e-06
+openai_gpt_oss_120b,RANDOM,username_category,weak_username,29,True,True,['AMUqZa'],0.0,weak_username,0,7,2.0542065612971783e-05

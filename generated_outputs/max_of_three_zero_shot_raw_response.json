@@ -1,0 +1,28 @@
+{
+  "function_name": "max_of_three",
+  "fitness_function_name": "fitness_max_of_three",
+  "targets": [
+    "a_is_max",
+    "b_is_max",
+    "c_is_max"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -1000,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": -1000,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": -1000,
+      "max": 1000
+    }
+  ],
+  "fitness_code": "TARGETS_max_of_three = [\n    \"a_is_max\",\n    \"b_is_max\",\n    \"c_is_max\"\n]\n\ndef fitness_max_of_three(chromosome, target):\n    a, b, c = chromosome\n    k = 1.0 # Small constant to ensure distance is positive if not satisfied\n\n    # Helper functions for branch distance calculation\n    # These return 0.0 if the condition is met, positive otherwise.\n    def bd_ge_true(val1, val2): # Distance for 'val1 >= val2' to be true\n        return 0.0 if val1 >= val2 else (val2 - val1) + k\n\n    def bd_ge_false(val1, val2): # Distance for 'val1 >= val2' to be false (i.e., 'val1 < val2' to be true)\n        return 0.0 if val1 < val2 else (val1 - val2) + k\n\n    if target == \"a_is_max\":\n        # Target: if a >= b and a >= c\n        # We need both conditions to be true\n        fitness = bd_ge_true(a, b) + bd_ge_true(a, c)\n        return fitness\n\n    elif target == \"b_is_max\":\n        # Target: elif b >= a and b >= c\n        # This means the first 'if' (a >= b and a >= c) was false\n        # AND (b >= a and b >= c) is true.\n\n        # Distance for 'if' condition (a >= b and a >= c) to be FALSE:\n        # This is equivalent to 'a < b or a < c' being true.\n        # For 'OR' conditions, take the minimum of the distances to satisfy either part.\n        dist_a_lt_b = bd_ge_false(a, b)\n        dist_a_lt_c = bd_ge_false(a, c)\n        dist_if_false = min(dist_a_lt_b, dist_a_lt_c)\n\n        # Distance for 'elif' condition (b >= a and b >= c) to be TRUE:\n        # For 'AND' conditions, sum the distances.\n        dist_b_ge_a = bd_ge_true(b, a)\n        dist_b_ge_c = bd_ge_true(b, c)\n        dist_elif_true = dist_b_ge_a + dist_b_ge_c\n\n        fitness = dist_if_false + dist_elif_true\n        return fitness\n\n    elif target == \"c_is_max\":\n        # Target: else (c_is_max)\n        # This means the first 'if' (a >= b and a >= c) was false\n        # AND the 'elif' (b >= a and b >= c) was also false.\n\n        # Distance for 'if' condition (a >= b and a >= c) to be FALSE:\n        dist_a_lt_b = bd_ge_false(a, b)\n        dist_a_lt_c = bd_ge_false(a, c)\n        dist_if_false = min(dist_a_lt_b, dist_a_lt_c)\n\n        # Distance for 'elif' condition (b >= a and b >= c) to be FALSE:\n        # This is equivalent to 'b < a or b < c' being true.\n        dist_b_lt_a = bd_ge_false(b, a)\n        dist_b_lt_c = bd_ge_false(b, c)\n        dist_elif_false = min(dist_b_lt_a, dist_b_lt_c)\n\n        fitness = dist_if_false + dist_elif_false\n        return fitness\n\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "Generated fitness function for 'max_of_three' covering three main execution paths: 'a_is_max', 'b_is_max', and 'c_is_max'. The fitness calculation uses branch distance principles, where 'k=1.0' ensures positive distances when a condition is not met."
+}

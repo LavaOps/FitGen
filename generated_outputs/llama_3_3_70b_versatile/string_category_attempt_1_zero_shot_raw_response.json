@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "\ndef fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    if target == \"empty\":\n        return max(0, len(s))\n    elif target == \"long_palindrome\":\n        return max(0, 4 - len(s)) if s == s[::-1] else max(0, len(s) - 4) + 1 if s == s[::-1] else 2\n    elif target == \"short_palindrome\":\n        return max(0, len(s) - 4) if s == s[::-1] else 1\n    elif target == \"long_non_palindrome\":\n        return max(0, len(s) - 6) if s != s[::-1] else 1\n    elif target == \"other\":\n        return max(0, len(s) - 6) if s != s[::-1] and len(s) <= 5 else 1 if s == s[::-1] else 0\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": ""
+}

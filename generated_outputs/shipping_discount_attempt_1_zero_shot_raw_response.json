@@ -1,0 +1,28 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 150.0
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "def _dist_lt(a, b): # Distance to make a < b true\n    if a < b: return 0.0\n    return float(a - b + 1)\n\ndef _dist_le(a, b): # Distance to make a <= b true\n    if a <= b: return 0.0\n    return float(a - b + 1)\n\ndef _dist_gt(a, b): # Distance to make a > b true\n    if a > b: return 0.0\n    return float(b - a + 1)\n\ndef _dist_ge(a, b): # Distance to make a >= b true\n    if a >= b: return 0.0\n    return float(b - a + 1)\n\ndef _dist_bool_true(val): # Distance to make val true\n    return 0.0 if val else 1.0\n\ndef _dist_bool_false(val): # Distance to make val false\n    return 0.0 if not val else 1.0\n\ndef fitness_shipping_discount(chromosome, target):\n    order_total, distance, is_member = chromosome\n\n    # Evaluate original function's branches to return 0 if target is met\n    # This part ensures that if target is reached, fitness is exactly 0.\n    if order_total < 0 or distance < 0:\n        if target == \"invalid\": return 0.0\n    elif order_total >= 200 and distance <= 50 and is_member:\n        if target == \"free_express_shipping\": return 0.0\n    elif order_total >= 100 and distance <= 100:\n        if target == \"standard_discount\": return 0.0\n    elif order_total >= 50 or is_member:\n        if target == \"small_discount\": return 0.0\n    else: # Covers \"no_discount\"\n        if target == \"no_discount\": return 0.0\n\n    # If target not met, calculate branch distance\n\n    # C1: order_total < 0 or distance < 0\n    dist_c1_true = min(_dist_lt(order_total, 0), _dist_lt(distance, 0))\n    # Need to make (order_total >= 0 AND distance >= 0) true\n    dist_c1_false = _dist_ge(order_total, 0) + _dist_ge(distance, 0)\n\n    # C2: order_total >= 200 and distance <= 50 and is_member\n    dist_c2_true = _dist_ge(order_total, 200) + _dist_le(distance, 50) + _dist_bool_true(is_member)\n    # Need to make (order_total < 200 OR distance > 50 OR not is_member) true\n    dist_c2_false = min(_dist_lt(order_total, 200), _dist_gt(distance, 50), _dist_bool_false(is_member))\n\n    # C3: order_total >= 100 and distance <= 100\n    dist_c3_true = _dist_ge(order_total, 100) + _dist_le(distance, 100)\n    # Need to make (order_total < 100 OR distance > 100) true\n    dist_c3_false = min(_dist_lt(order_total, 100), _dist_gt(distance, 100))\n\n    # C4: order_total >= 50 or is_member\n    dist_c4_true = min(_dist_ge(order_total, 50), _dist_bool_true(is_member))\n    # Need to make (order_total < 50 AND not is_member) true\n    dist_c4_false = _dist_lt(order_total, 50) + _dist_bool_false(is_member)\n\n    if target == \"invalid\":\n        return dist_c1_true\n\n    elif target == \"free_express_shipping\":\n        return dist_c1_false + dist_c2_true\n\n    elif target == \"standard_discount\":\n        return dist_c1_false + dist_c2_false + dist_c3_true\n\n    elif target == \"small_discount\":\n        return dist_c1_false + dist_c2_false + dist_c3_false + dist_c4_true\n\n    elif target == \"no_discount\":\n        return dist_c1_false + dist_c2_false + dist_c3_false + dist_c4_false\n\n    else:\n        raise ValueError(\"Unknown target: \" + target)",
+  "notes": "The fitness function uses branch distance to guide the search towards the target return statements. It first checks if the target is already achieved, returning 0.0 if so. Otherwise, it calculates the sum of distances required to falsify all preceding conditions in the control flow and then satisfy the specific condition leading to the target return. Helper functions are used to calculate distances for various comparison operators and boolean values, ensuring positive non-zero distances when a condition is not met."
+}

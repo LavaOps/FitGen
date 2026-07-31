@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "zero",
+    "even",
+    "odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "\ndef fitness_number_kind(chromosome, target):\n    x = chromosome[0]\n    if target == \"zero\":\n        return max(0, abs(x))\n    elif target == \"even\":\n        if x == 0:\n            return 1\n        elif x % 2 == 0:\n            return 0\n        else:\n            return 1\n    elif target == \"odd\":\n        if x == 0:\n            return 1\n        elif x % 2 != 0:\n            return 0\n        else:\n            return 1\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": "The fitness function calculates the distance to the target based on the input value."
+}

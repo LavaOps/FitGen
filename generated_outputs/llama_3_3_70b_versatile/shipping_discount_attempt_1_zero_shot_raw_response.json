@@ -1,0 +1,28 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 1000.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 1000.0
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "\n       def fitness_shipping_discount(chromosome, target):\n           order_total, distance, is_member = chromosome\n\n           if target == \"invalid\":\n               if order_total < 0 or distance < 0:\n                   return 0\n               else:\n                   return 1\n\n           if target == \"free_express_shipping\":\n               if order_total >= 200 and distance <= 50 and is_member:\n                   return 0\n               else:\n                   distance_to_target = max(0, 200 - order_total) + max(0, distance - 50) + (0 if is_member else 1)\n                   return distance_to_target\n\n           if target == \"standard_discount\":\n               if order_total >= 100 and distance <= 100:\n                   return 0\n               else:\n                   distance_to_target = max(0, 100 - order_total) + max(0, distance - 100)\n                   return distance_to_target\n\n           if target == \"small_discount\":\n               if order_total >= 50 or is_member:\n                   return 0\n               else:\n                   distance_to_target = max(0, 50 - order_total) + (0 if is_member else 1)\n                   return distance_to_target\n\n           if target == \"no_discount\":\n               if order_total < 50 and not is_member:\n                   return 0\n               else:\n                   distance_to_target = max(0, order_total - 50) + (0 if not is_member else 1)\n                   return distance_to_target\n\n           raise ValueError(\"Unknown target\")\n   ",
+  "notes": "The fitness function calculates the distance to each target based on the conditions in the original function."
+}

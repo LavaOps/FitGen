@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin",
+    "all_same",
+    "ordered_sum_20",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\"secret_pin\", \"all_same\", \"ordered_sum_20\", \"other\"]\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n\n    def dist_equals(val, target_val):\n        return abs(val - target_val)\n\n    def dist_not_equals(val, target_val):\n        # Returns 0 if 'val != target_val' is true, 1 if false (i.e., val == target_val).\n        return 0 if val != target_val else 1\n\n    def dist_less(val, target_val):\n        # For 'val < target_val' to be true\n        return max(0, val - target_val + 1)\n\n    def dist_greater_or_equal(val, target_val):\n        # For 'val >= target_val' to be true (i.e., to falsify 'val < target_val')\n        return max(0, target_val - val)\n\n    sum_val = a + b + c + d\n\n    # Elementary conditions for C1: a == 7 and b == 3 and c == 9 and d == 1\n    dist_C1a_true = dist_equals(a, 7)\n    dist_C1b_true = dist_equals(b, 3)\n    dist_C1c_true = dist_equals(c, 9)\n    dist_C1d_true = dist_equals(d, 1)\n    dist_C1a_false = dist_not_equals(a, 7)\n    dist_C1b_false = dist_not_equals(b, 3)\n    dist_C1c_false = dist_not_equals(c, 9)\n    dist_C1d_false = dist_not_equals(d, 1)\n\n    # Compound distance for C1 (AND condition)\n    dist_true_C1 = dist_C1a_true + dist_C1b_true + dist_C1c_true + dist_C1d_true\n    # Distance to falsify C1 (NOT C1 = NOT A OR NOT B OR NOT C OR NOT D)\n    dist_false_C1 = min(dist_C1a_false, dist_C1b_false, dist_C1c_false, dist_C1d_false)\n\n    # Elementary conditions for C2: a == b == c == d\n    dist_C2ab_true = dist_equals(a, b)\n    dist_C2bc_true = dist_equals(b, c)\n    dist_C2cd_true = dist_equals(c, d)\n    dist_C2ab_false = dist_not_equals(a, b)\n    dist_C2bc_false = dist_not_equals(b, c)\n    dist_C2cd_false = dist_not_equals(c, d)\n\n    # Compound distance for C2 (AND condition)\n    dist_true_C2 = dist_C2ab_true + dist_C2bc_true + dist_C2cd_true\n    # Distance to falsify C2\n    dist_false_C2 = min(dist_C2ab_false, dist_C2bc_false, dist_C2cd_false)\n\n    # Elementary conditions for C3: sum == 20 and a < b and b < c and c < d\n    dist_C3sum_true = dist_equals(sum_val, 20)\n    dist_C3ab_true = dist_less(a, b)\n    dist_C3bc_true = dist_less(b, c)\n    dist_C3cd_true = dist_less(c, d)\n    dist_C3sum_false = dist_not_equals(sum_val, 20)\n    dist_C3ab_false = dist_greater_or_equal(a, b)\n    dist_C3bc_false = dist_greater_or_equal(b, c)\n    dist_C3cd_false = dist_greater_or_equal(c, d)\n\n    # Compound distance for C3 (AND condition)\n    dist_true_C3 = dist_C3sum_true + dist_C3ab_true + dist_C3bc_true + dist_C3cd_true\n    # Distance to falsify C3\n    dist_false_C3 = min(dist_C3sum_false, dist_C3ab_false, dist_C3bc_false, dist_C3cd_false)\n\n    if target == \"secret_pin\":\n        # Path: C1 is true\n        return dist_true_C1\n    elif target == \"all_same\":\n        # Path: C1 is false AND C2 is true\n        return dist_false_C1 + dist_true_C2\n    elif target == \"ordered_sum_20\":\n        # Path: C1 is false AND C2 is false AND C3 is true\n        return dist_false_C1 + dist_false_C2 + dist_true_C3\n    elif target == \"other\":\n        # Path: C1 is false AND C2 is false AND C3 is false\n        return dist_false_C1 + dist_false_C2 + dist_false_C3\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function was corrected to accurately calculate the distance to falsify compound AND conditions. Previously, it summed distances to falsify individual components, which corresponds to satisfying an AND of NOTs. The corrected version uses `min` for `dist_false_C1`, `dist_false_C2`, and `dist_false_C3` to correctly represent the negation of an AND condition (i.e., an OR condition). This ensures that the fitness for `NOT C1` is 0 if at least one part of C1 is false, etc. The input schema uses standard integer ranges for the arguments."
+}

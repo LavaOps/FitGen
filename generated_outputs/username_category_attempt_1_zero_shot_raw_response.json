@@ -1,0 +1,21 @@
+{
+  "function_name": "username_category",
+  "fitness_function_name": "fitness_username_category",
+  "targets": [
+    "empty",
+    "too_short",
+    "starts_with_digit",
+    "strong_username",
+    "medium_username",
+    "weak_username"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "TARGETS_username_category = [\"empty\", \"too_short\", \"starts_with_digit\", \"strong_username\", \"medium_username\", \"weak_username\"]\n\ndef fitness_username_category(chromosome, target):\n    username = chromosome[0]\n    len_username = len(username)\n\n    def _dist_true_eq(a, b): return abs(a - b)\n    def _dist_false_eq(a, b): return 0 if a != b else 1\n    def _dist_true_lt(a, b): return max(0, a - b + 1)\n    def _dist_false_lt(a, b): return max(0, b - a)\n    def _dist_true_ge(a, b): return max(0, b - a)\n    def _dist_false_ge(a, b): return max(0, a - b + 1)\n    def _dist_true_bool(b_val): return 0 if b_val else 1\n    def _dist_false_bool(b_val): return 0 if not b_val else 1\n\n    has_digit = any(ch.isdigit() for ch in username)\n    has_upper = any(ch.isupper() for ch in username)\n    has_special = any(not ch.isalnum() for ch in username)\n\n    fitness = 0\n\n    if target == \"empty\":\n        fitness += _dist_true_eq(len_username, 0)\n        return fitness\n\n    fitness += _dist_false_eq(len_username, 0)\n\n    if target == \"too_short\":\n        fitness += _dist_true_lt(len_username, 5)\n        return fitness\n\n    fitness += _dist_false_lt(len_username, 5)\n\n    if target == \"starts_with_digit\":\n        p3_is_digit = False\n        if len_username > 0:\n            p3_is_digit = username[0].isdigit()\n        fitness += _dist_true_bool(p3_is_digit)\n        return fitness\n\n    p3_is_digit = False\n    if len_username > 0:\n        p3_is_digit = username[0].isdigit()\n    fitness += _dist_false_bool(p3_is_digit)\n\n    if target == \"strong_username\":\n        fitness += _dist_true_ge(len_username, 10)\n        fitness += _dist_true_bool(has_digit)\n        fitness += _dist_true_bool(has_upper)\n        fitness += _dist_true_bool(has_special)\n        return fitness\n\n    dist_false_p4_len = _dist_false_ge(len_username, 10)\n    dist_false_p4_digit = _dist_false_bool(has_digit)\n    dist_false_p4_upper = _dist_false_bool(has_upper)\n    dist_false_p4_special = _dist_false_bool(has_special)\n    fitness += min(dist_false_p4_len, dist_false_p4_digit, dist_false_p4_upper, dist_false_p4_special)\n\n    if target == \"medium_username\":\n        fitness += _dist_true_bool(has_digit)\n        fitness += _dist_true_bool(has_upper)\n        return fitness\n\n    dist_false_p5_digit = _dist_false_bool(has_digit)\n    dist_false_p5_upper = _dist_false_bool(has_upper)\n    fitness += min(dist_false_p5_digit, dist_false_p5_upper)\n\n    if target == \"weak_username\":\n        return fitness\n\n    raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "This fitness function calculates branch distances for each return path. It accumulates distances from conditions that must be false to reach a target and adds distances for conditions that must be true for the target itself. For compound conditions (AND), to make the condition true, distances for each sub-condition are summed. To make an AND condition false, the minimum distance to make any one of its sub-conditions false is used. Helper functions are used for common comparison types and boolean conditions."
+}

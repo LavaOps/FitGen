@@ -1,0 +1,631 @@
+model,method,function_name,target,run_id,found,validated,best_chromosome,best_fitness,reached_branch,generation,evaluations,runtime
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,0,False,False,"[993.0294615572111, 0.10811911910551111]",0.10811911910551111,,0,1000,0.0007913750596344471
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,1,False,False,"[2078.4605054333715, 0.10756737593534424]",0.10756737593534424,,0,1000,0.0007523330859839916
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,2,False,False,"[2276.431513045696, 0.1013785192115539]",0.1013785192115539,,0,1000,0.0007529170252382755
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,3,False,False,"[239.34893439283744, 0.10143895767101026]",0.10143895767101026,,0,1000,0.0007629160536453128
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,4,False,False,"[2740.7842828293888, 0.10066658275465545]",0.10066658275465545,,0,1000,0.0007625839207321405
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,5,False,False,"[2579.096863350956, 0.10368947399355409]",0.10368947399355409,,0,1000,0.000727499951608479
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,6,False,False,"[439.39295075617855, 0.10084504852380331]",0.10084504852380331,,0,1000,0.0006994160357862711
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,7,False,False,"[551.5170342368086, 0.10026667120039054]",0.10026667120039054,,0,1000,0.0007132079917937517
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,8,False,False,"[2105.275729123387, 0.10044821800553648]",0.10044821800553648,,0,1000,0.0007168339798226953
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,9,False,False,"[2144.386919378535, 0.1064059432791193]",0.1064059432791193,,0,1000,0.0007141669047996402
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,10,False,False,"[804.5419107448377, 0.10090103481294499]",0.10090103481294499,,0,1000,0.0007037499453872442
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,11,False,False,"[1038.0099072646847, 0.10072136697011956]",0.10072136697011956,,0,1000,0.0007056250469759107
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,12,False,False,"[1739.264517469287, 0.10134074798740365]",0.10134074798740365,,0,1000,0.0006977920420467854
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,13,False,False,"[2485.125753743027, 0.10446574648880914]",0.10446574648880914,,0,1000,0.00069379189517349
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,14,False,False,"[2666.490615110154, 0.10318155027229511]",0.10318155027229511,,0,1000,0.000655542011372745
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,15,False,False,"[67.12415195731137, 0.10078559019031887]",0.10078559019031887,,0,1000,0.0006627090042456985
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,16,False,False,"[2558.8397497228584, 0.10300404362362688]",0.10300404362362688,,0,1000,0.0006572919664904475
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,17,False,False,"[2031.3092585733234, 0.10588280837139916]",0.10588280837139916,,0,1000,0.0006539169698953629
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,18,False,False,"[2204.3010741729745, 0.10113880034156285]",0.10113880034156285,,0,1000,0.0006625410169363022
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,19,False,False,"[2020.938974827511, 0.1073473129646428]",0.1073473129646428,,0,1000,0.0006615000311285257
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,20,False,False,"[851.5443075946027, 0.10385796463032827]",0.10385796463032827,,0,1000,0.0006542080081999302
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,21,False,False,"[2550.5604185316156, 0.10147876453473942]",0.10147876453473942,,0,1000,0.0006550840334966779
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,22,False,False,"[32.96979008880208, 0.10620188774276901]",0.10620188774276901,,0,1000,0.0006489580264315009
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,23,False,False,"[1603.1618898715503, 0.11225665124007617]",0.11225665124007617,,0,1000,0.0006292079342529178
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,24,False,False,"[692.7935765560466, 0.10015888505809706]",0.10015888505809706,,0,1000,0.0006292080506682396
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,25,False,False,"[2598.2985570821365, 0.10051473178244895]",0.10051473178244895,,0,1000,0.0006207919213920832
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,26,False,False,"[42.09763017673707, 0.10062051049297989]",0.10062051049297989,,0,1000,0.0006227919366210699
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,27,False,False,"[1015.5526878423874, 0.1015401000364345]",0.1015401000364345,,0,1000,0.0006309580057859421
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,28,False,False,"[1066.7936174565789, 0.10161189251295283]",0.10161189251295283,,0,1000,0.0006269169971346855
+qwen_qwen3_32b,RANDOM,bmi_category,invalid_height,29,False,False,"[1821.0349261816248, 0.10124302065395335]",0.10124302065395335,,0,1000,0.0006230840226635337
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,0,True,True,"[8.358810718358644, 1.2715233845900609]",0.0,underweight,0,36,2.675002906471491e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,1,True,True,"[20.87150956781658, 2.5929392363233226]",0.0,underweight,0,57,3.8917060010135174e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,2,True,True,"[120.62019118922595, 2.8448046866918033]",0.0,underweight,0,56,3.787502646446228e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,3,True,True,"[28.079331539468512, 2.3141623931283815]",0.0,underweight,0,48,3.329198807477951e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,4,True,True,"[36.3622031482872, 2.9626668721742795]",0.0,underweight,0,7,6.166985258460045e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,5,True,True,"[7.271834334004357, 2.9193388776400253]",0.0,underweight,0,14,1.0750023648142815e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,6,True,True,"[101.092588853956, 2.802094938119087]",0.0,underweight,0,141,9.483401663601398e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,7,True,True,"[14.924695010666067, 1.4383708498718895]",0.0,underweight,0,44,3.058300353586674e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,8,True,True,"[101.11667154014458, 2.8895735785240633]",0.0,underweight,0,66,4.4874963350594044e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,9,True,True,"[36.004556784286265, 1.5036325064778968]",0.0,underweight,0,12,9.541981853544712e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,10,True,True,"[14.475968947569084, 2.0345316370337865]",0.0,underweight,0,25,1.7874990589916706e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,11,True,True,"[19.838586403354675, 1.7652245834798463]",0.0,underweight,0,4,4.041939973831177e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,12,True,True,"[71.9402929817482, 2.1230795203596435]",0.0,underweight,0,24,1.695798709988594e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,13,True,True,"[2.2972110662181633, 0.9646515256173889]",0.0,underweight,0,8,6.66698906570673e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,14,True,True,"[0.3733759649386936, 0.6484015730523979]",0.0,underweight,0,26,1.8333084881305695e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,15,True,True,"[14.076628273857693, 2.96125434601582]",0.0,underweight,0,225,0.0001479169586673379
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,16,True,True,"[10.417125566967389, 0.850450611045841]",0.0,underweight,0,28,1.995800994336605e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,17,True,True,"[25.56104906752543, 1.3068716826184632]",0.0,underweight,0,38,2.6250025257468224e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,18,True,True,"[23.313978322599848, 1.7684871426006916]",0.0,underweight,0,3,3.3329706639051437e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,19,True,True,"[125.28629141188652, 2.8687117480400626]",0.0,underweight,0,57,3.91670037060976e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,20,True,True,"[12.963197266618764, 2.273640087279733]",0.0,underweight,0,34,2.3916014470160007e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,21,True,True,"[126.37927656821147, 2.893990335260924]",0.0,underweight,0,18,1.3459008187055588e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,22,True,True,"[1.6655702105733416, 2.282955889479005]",0.0,underweight,0,30,2.120796125382185e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,23,True,True,"[33.96503941136086, 2.385776050947181]",0.0,underweight,0,120,7.837498560547829e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,24,True,True,"[27.0720284944006, 2.7206451511406637]",0.0,underweight,0,1,2.2080494090914726e-06
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,25,True,True,"[82.71210240060023, 2.8093382182510283]",0.0,underweight,0,28,1.983309630304575e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,26,True,True,"[34.88012755721248, 2.4370708748125445]",0.0,underweight,0,116,7.637508679181337e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,27,True,True,"[68.74714405356374, 2.127433215223409]",0.0,underweight,0,64,4.3166917748749256e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,28,True,True,"[1.5589481954457751, 2.3514721102458838]",0.0,underweight,0,96,6.320804823189974e-05
+qwen_qwen3_32b,RANDOM,bmi_category,underweight,29,True,True,"[59.51404847893693, 2.4484491458002045]",0.0,underweight,0,38,2.62079993262887e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,0,True,True,"[68.84080860762253, 1.7893117658577258]",0.0,normal,0,104,7.287506014108658e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,1,True,True,"[122.22526406388545, 2.50202742136638]",0.0,normal,0,45,3.170792479068041e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,2,True,True,"[83.30097344587206, 1.9429978112497395]",0.0,normal,0,405,0.0002726250095292926
+qwen_qwen3_32b,RANDOM,bmi_category,normal,3,True,True,"[110.26572605074414, 2.3134579674225577]",0.0,normal,0,33,2.3833010345697403e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,4,True,True,"[160.36014882606054, 2.921440518328366]",0.0,normal,0,191,0.00013033300638198853
+qwen_qwen3_32b,RANDOM,bmi_category,normal,5,True,True,"[44.43243549478115, 1.4815500909890644]",0.0,normal,0,134,9.14169941097498e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,6,True,True,"[128.64533752529118, 2.5964232358706285]",0.0,normal,0,117,8.154194802045822e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,7,True,True,"[167.79897380310672, 2.898739192600238]",0.0,normal,0,46,3.291608300060034e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,8,True,True,"[49.16549954183091, 1.4185540316411422]",0.0,normal,0,2,2.7080532163381577e-06
+qwen_qwen3_32b,RANDOM,bmi_category,normal,9,True,True,"[184.08461849910407, 2.8313714404596486]",0.0,normal,0,364,0.0002472919877618551
+qwen_qwen3_32b,RANDOM,bmi_category,normal,10,True,True,"[158.71458596911236, 2.5655326655990236]",0.0,normal,0,97,6.754195783287287e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,11,True,True,"[154.27686286757336, 2.5240217719051397]",0.0,normal,0,110,7.583305705338717e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,12,True,True,"[104.25559462322087, 2.15658839787735]",0.0,normal,0,84,5.7958997786045074e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,13,True,True,"[160.16218326425246, 2.7754055383719636]",0.0,normal,0,157,0.0001090840669348836
+qwen_qwen3_32b,RANDOM,bmi_category,normal,14,True,True,"[96.0834403952, 2.0459165947391065]",0.0,normal,0,216,0.0001458328915759921
+qwen_qwen3_32b,RANDOM,bmi_category,normal,15,True,True,"[169.45231822761454, 2.7158421241154653]",0.0,normal,0,13,1.0584015399217606e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,16,True,True,"[182.94054434376616, 2.8567514688347058]",0.0,normal,0,83,5.691696424037218e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,17,True,True,"[65.66882632543935, 1.630205707948012]",0.0,normal,0,109,7.433304563164711e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,18,True,True,"[117.42420816962628, 2.197447890824058]",0.0,normal,0,9,7.457914762198925e-06
+qwen_qwen3_32b,RANDOM,bmi_category,normal,19,True,True,"[45.150766052662995, 1.3746727206745262]",0.0,normal,0,123,8.420797530561686e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,20,True,True,"[141.8658897305567, 2.679474197604783]",0.0,normal,0,49,3.433297388255596e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,21,True,True,"[52.15699131243057, 1.4750476959647418]",0.0,normal,0,55,3.85830644518137e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,22,True,True,"[204.53151609063568, 2.948228132765014]",0.0,normal,0,2,2.625049091875553e-06
+qwen_qwen3_32b,RANDOM,bmi_category,normal,23,True,True,"[147.41962115470275, 2.7652278581029512]",0.0,normal,0,186,0.0001247910549864173
+qwen_qwen3_32b,RANDOM,bmi_category,normal,24,True,True,"[199.54009868633636, 2.965924144238239]",0.0,normal,0,102,6.933300755918026e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,25,True,True,"[165.5626850087628, 2.764240440136013]",0.0,normal,0,54,3.770797047764063e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,26,True,True,"[29.09880585439206, 1.1262671727975235]",0.0,normal,0,12,9.37492586672306e-06
+qwen_qwen3_32b,RANDOM,bmi_category,normal,27,True,True,"[128.28521863827024, 2.4927695255086926]",0.0,normal,0,75,5.1458016969263554e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,28,True,True,"[189.84920855707088, 2.9783440930754423]",0.0,normal,0,34,2.4875043891370296e-05
+qwen_qwen3_32b,RANDOM,bmi_category,normal,29,True,True,"[124.60444072300491, 2.576830877925915]",0.0,normal,0,240,0.00016195792704820633
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,0,True,True,"[233.93547260955293, 2.8414536470126732]",0.0,overweight,0,2,2.9170187190175056e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,1,True,True,"[27.385993564810974, 0.9844576326525807]",0.0,overweight,0,81,5.670893006026745e-05
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,2,True,True,"[216.1547987286686, 2.882628963473466]",0.0,overweight,0,110,7.562502287328243e-05
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,3,True,True,"[104.96839825453696, 1.9366415973173228]",0.0,overweight,0,6,5.541951395571232e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,4,True,True,"[204.56187622042054, 2.837278573956982]",0.0,overweight,0,3,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,5,True,True,"[78.33067607453626, 1.7071240198426438]",0.0,overweight,0,343,0.00023395789321511984
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,6,True,True,"[233.35960071722218, 2.8002514191588173]",0.0,overweight,0,248,0.00016933295410126448
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,7,True,True,"[158.56201283325234, 2.4125086676805925]",0.0,overweight,0,472,0.00032304099295288324
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,8,True,True,"[210.12655178901196, 2.8850549273288126]",0.0,overweight,0,126,8.67919297888875e-05
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,9,True,True,"[240.2830038145022, 2.9255883590844363]",0.0,overweight,0,279,0.00018920807633548975
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,10,True,True,"[120.37408120215775, 2.0261649756663203]",0.0,overweight,0,625,0.00042937498074024916
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,11,True,True,"[210.8715468394471, 2.7367381648219813]",0.0,overweight,0,268,0.00018170801922678947
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,12,True,True,"[110.05971970454576, 1.9435289077176745]",0.0,overweight,0,7,6.1659375205636024e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,13,True,True,"[165.79978041028565, 2.471539552574025]",0.0,overweight,0,160,0.00011008302681148052
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,14,True,True,"[139.6264258758838, 2.3145214022651386]",0.0,overweight,0,539,0.00036912504583597183
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,15,True,True,"[92.86092722806949, 1.8408213931621897]",0.0,overweight,0,170,0.00011700007598847151
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,16,True,True,"[162.40609433313523, 2.447430078369536]",0.0,overweight,0,251,0.0001698340056464076
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,17,True,True,"[123.58281100661905, 2.1071777148187505]",0.0,overweight,0,8,6.8749068304896355e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,18,True,True,"[222.40704290383061, 2.7360552815991506]",0.0,overweight,0,2,2.625049091875553e-06
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,19,True,True,"[69.53361767612287, 1.5319903154838592]",0.0,overweight,0,123,8.587504271417856e-05
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,20,True,True,"[52.44725370396064, 1.3786841333094961]",0.0,overweight,0,224,0.00015404191799461842
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,21,True,True,"[166.84754732848006, 2.508617640116261]",0.0,overweight,0,177,0.00012075004633516073
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,22,True,True,"[208.85196791268578, 2.7383951098996726]",0.0,overweight,0,630,0.0004254999803379178
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,23,True,True,"[134.32267497579886, 2.174433587730677]",0.0,overweight,0,245,0.00016079191118478775
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,24,True,True,"[252.65984283543054, 2.9899029751063186]",0.0,overweight,0,169,0.00011087500024586916
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,25,True,True,"[226.89260783521138, 2.993679776879077]",0.0,overweight,0,493,0.0003222499508410692
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,26,True,True,"[147.1912912351775, 2.3824750148720604]",0.0,overweight,0,224,0.0001474169548600912
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,27,True,True,"[189.46915314023693, 2.658425410567425]",0.0,overweight,0,184,0.00012108299415558577
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,28,True,True,"[218.96112762621433, 2.852110737536052]",0.0,overweight,0,207,0.0001354999840259552
+qwen_qwen3_32b,RANDOM,bmi_category,overweight,29,True,True,"[189.36812691201555, 2.651368378643961]",0.0,overweight,0,144,9.708304423838854e-05
+qwen_qwen3_32b,RANDOM,bmi_category,obese,0,True,True,"[192.46246845371596, 1.5379755135377833]",0.0,obese,0,1,2.166023477911949e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,1,True,True,"[2667.013947735737, 0.724533345106845]",0.0,obese,0,2,2.6669586077332497e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,2,True,True,"[2036.621731881847, 0.31486404236170795]",0.0,obese,0,1,2.208980731666088e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,3,True,True,"[249.47433266663677, 1.5388072646368727]",0.0,obese,0,1,1.8749851733446121e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,4,True,True,"[1292.1895902973154, 2.2841041076224995]",0.0,obese,0,1,1.7909333109855652e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,5,True,True,"[733.7084967200956, 2.9159449108023483]",0.0,obese,0,1,1.9170111045241356e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,6,True,True,"[1261.0813282102883, 1.043375550571424]",0.0,obese,0,1,1.7080456018447876e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,7,True,True,"[1145.6936092702817, 0.8973838015348682]",0.0,obese,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,8,True,True,"[1166.8931991186705, 1.0448949895330177]",0.0,obese,0,1,1.9170111045241356e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,9,True,True,"[1208.7950632837537, 0.979829979520613]",0.0,obese,0,1,1.7909333109855652e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,10,True,True,"[2664.7228919233335, 2.0837709864201197]",0.0,obese,0,1,1.8330756574869156e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,11,True,True,"[318.59259707239596, 0.7659472605904455]",0.0,obese,0,1,1.834006980061531e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,12,True,True,"[1023.0204791925767, 0.14600098962489574]",0.0,obese,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,13,True,True,"[2810.582677233369, 1.9299050893652308]",0.0,obese,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,14,True,True,"[2482.8947818487486, 2.9922857773306224]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,15,True,True,"[2566.0779818892292, 0.7683255869013484]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,16,True,True,"[2502.882658676578, 1.0182065654914358]",0.0,obese,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,17,True,True,"[1506.5514525521837, 0.9481728526877767]",0.0,obese,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,18,True,True,"[2387.9419327577775, 1.874643352710222]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,19,True,True,"[2759.7612897526587, 0.6368637912996908]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,20,True,True,"[986.5116629886834, 1.6791194211488556]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,21,True,True,"[68.24187658229563, 0.3840297136226988]",0.0,obese,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,22,True,True,"[1487.2867213924765, 0.16641156275105662]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,23,True,True,"[2198.0636459808215, 0.7455604323372246]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,24,True,True,"[890.4799707769071, 0.10330023515214813]",0.0,obese,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,25,True,True,"[2819.40908609902, 2.319271518278133]",0.0,obese,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,26,True,True,"[1611.8528055584875, 2.0323025143349245]",0.0,obese,0,1,1.7920974642038345e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,27,True,True,"[2012.7941894579599, 2.924053448763335]",0.0,obese,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,28,True,True,"[943.9437338148465, 1.9549870581834916]",0.0,obese,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,bmi_category,obese,29,True,True,"[1054.884033793391, 0.3152764607574412]",0.0,obese,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,0,True,True,[[]],0.0,too_short,0,1,7.791910320520401e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,1,True,True,[[]],0.0,too_short,0,2,5.875015631318092e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,2,True,True,[[99]],0.0,too_short,0,2,8.375034667551517e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,3,True,True,[[]],0.0,too_short,0,3,8.999952115118504e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,4,True,True,[[-73]],0.0,too_short,0,1,2.708984538912773e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,5,True,True,[[]],0.0,too_short,0,2,4.166970029473305e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,6,True,True,[[]],0.0,too_short,0,2,4.500034265220165e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,7,True,True,[[3]],0.0,too_short,0,1,2.208980731666088e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,8,True,True,[[]],0.0,too_short,0,4,8.500064723193645e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,9,True,True,[[]],0.0,too_short,0,2,4.417030140757561e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,10,True,True,[[]],0.0,too_short,0,4,8.292030543088913e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,11,True,True,[[]],0.0,too_short,0,5,1.1541065759956837e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,12,True,True,[[-7]],0.0,too_short,0,1,2.3330794647336006e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,13,True,True,[[]],0.0,too_short,0,7,1.4916062355041504e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,14,True,True,[[99]],0.0,too_short,0,1,2.125045284628868e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,15,True,True,[[]],0.0,too_short,0,7,1.2291944585740566e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,16,True,True,[[30]],0.0,too_short,0,2,4.083034582436085e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,17,True,True,[[55]],0.0,too_short,0,2,3.7919962778687477e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,18,True,True,[[-7]],0.0,too_short,0,7,4.724995233118534e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,19,True,True,[[]],0.0,too_short,0,1,2.125045284628868e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,20,True,True,[[]],0.0,too_short,0,17,2.9416987672448158e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,21,True,True,[[-70]],0.0,too_short,0,2,3.875000402331352e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,22,True,True,[[-74]],0.0,too_short,0,2,4.041939973831177e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,23,True,True,[[-28]],0.0,too_short,0,1,2.2080494090914726e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,24,True,True,[[-77]],0.0,too_short,0,1,2.2919848561286926e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,25,True,True,[[]],0.0,too_short,0,5,1.0041985660791397e-05
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,26,True,True,[[]],0.0,too_short,0,5,9.750016033649445e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,27,True,True,[[-51]],0.0,too_short,0,3,4.791887477040291e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,28,True,True,[[]],0.0,too_short,0,2,3.5830307751893997e-06
+qwen_qwen3_32b,RANDOM,list_pattern,too_short,29,True,True,[[-24]],0.0,too_short,0,4,8.00006091594696e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,0,True,True,"[[87, 87]]",0.0,sorted_with_duplicates,0,196,0.00033579207956790924
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,1,False,False,[[]],1.0,,0,1000,0.0017481249524280429
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,2,True,True,"[[-56, -56, -54, 19]]",0.0,sorted_with_duplicates,0,477,0.0008049160242080688
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,3,True,True,"[[-70, 17, 17]]",0.0,sorted_with_duplicates,0,432,0.0007398329908028245
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,4,True,True,"[[-92, -92]]",0.0,sorted_with_duplicates,0,291,0.00048766692634671926
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,5,True,True,"[[-50, -50, -41, 92]]",0.0,sorted_with_duplicates,0,379,0.0006352090276777744
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,6,True,True,"[[74, 74]]",0.0,sorted_with_duplicates,0,155,0.00024691701401025057
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,7,True,True,"[[-97, -97, -82, -38]]",0.0,sorted_with_duplicates,0,187,0.0003000000724568963
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,8,True,True,"[[30, 30]]",0.0,sorted_with_duplicates,0,9,1.8291990272700787e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,9,True,True,"[[90, 90]]",0.0,sorted_with_duplicates,0,741,0.001195291057229042
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,10,True,True,"[[-24, -24, 100]]",0.0,sorted_with_duplicates,0,508,0.0008250829996541142
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,11,True,True,"[[-98, -42, -33, -33, 13]]",0.0,sorted_with_duplicates,0,508,0.0008317920146510005
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,12,True,True,"[[-74, -74, -73, 20, 86]]",0.0,sorted_with_duplicates,0,407,0.000677207950502634
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,13,True,True,"[[88, 88]]",0.0,sorted_with_duplicates,0,103,0.00017300003673881292
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,14,True,True,"[[57, 57]]",0.0,sorted_with_duplicates,0,381,0.0006162089994177222
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,15,True,True,"[[-71, -71, 32]]",0.0,sorted_with_duplicates,0,397,0.0006203328957781196
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,16,False,False,"[[67, 67, -96, 89, 99, -19, 20]]",1.0,,0,1000,0.001618417096324265
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,17,True,True,"[[55, 58, 73, 91, 91]]",0.0,sorted_with_duplicates,0,92,0.00014954095240682364
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,18,True,True,"[[-55, 45, 45, 70]]",0.0,sorted_with_duplicates,0,680,0.0011084170546382666
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,19,True,True,"[[75, 75]]",0.0,sorted_with_duplicates,0,288,0.00046208302956074476
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,20,True,True,"[[75, 75]]",0.0,sorted_with_duplicates,0,543,0.0008600420551374555
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,21,True,True,"[[19, 19]]",0.0,sorted_with_duplicates,0,113,0.00018287496641278267
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,22,True,True,"[[87, 87]]",0.0,sorted_with_duplicates,0,596,0.0009524170309305191
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,23,True,True,"[[10, 10, 11]]",0.0,sorted_with_duplicates,0,643,0.00102937500923872
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,24,True,True,"[[-82, 48, 48]]",0.0,sorted_with_duplicates,0,620,0.001010458916425705
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,25,False,False,[[-39]],1.0,,0,1000,0.0015458749840036035
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,26,True,True,"[[0, 0]]",0.0,sorted_with_duplicates,0,78,0.00012758409138768911
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,27,False,False,"[[-42, -38, 75, 70, 26, 97, -78]]",1.0,,0,1000,0.0015674590831622481
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,28,True,True,"[[-64, -49, -49]]",0.0,sorted_with_duplicates,0,66,0.00011316593736410141
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_with_duplicates,29,False,False,"[[30, 45, 3, -100, -39, -5]]",1.0,,0,1000,0.0015235419850796461
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,0,True,True,"[[-88, -76, -41]]",0.0,sorted_unique,0,33,6.033293902873993e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,1,True,True,"[[-35, 34]]",0.0,sorted_unique,0,22,4.0041981264948845e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,2,True,True,"[[7, 16]]",0.0,sorted_unique,0,1,2.374988980591297e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,3,True,True,"[[-87, -57, 86]]",0.0,sorted_unique,0,41,7.112498860806227e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,4,True,True,"[[21, 35]]",0.0,sorted_unique,0,4,8.415896445512772e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,5,True,True,"[[-94, 97]]",0.0,sorted_unique,0,29,4.495796747505665e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,6,True,True,"[[-38, 2, 51]]",0.0,sorted_unique,0,37,6.758410017937422e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,7,True,True,"[[-82, -54, -34]]",0.0,sorted_unique,0,14,2.995808608829975e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,8,True,True,"[[-13, 65]]",0.0,sorted_unique,0,8,1.5542027540504932e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,9,True,True,"[[-5, 76]]",0.0,sorted_unique,0,4,6.249989382922649e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,10,True,True,"[[-24, -8, 16]]",0.0,sorted_unique,0,4,1.0082963854074478e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,11,True,True,"[[-7, 92]]",0.0,sorted_unique,0,16,3.275007475167513e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,12,True,True,"[[-21, 47]]",0.0,sorted_unique,0,6,1.0874937288463116e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,13,True,True,"[[48, 100]]",0.0,sorted_unique,0,18,3.3791991882026196e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,14,True,True,"[[-45, 90]]",0.0,sorted_unique,0,3,7.0410314947366714e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,15,True,True,"[[-78, 87]]",0.0,sorted_unique,0,8,1.537497155368328e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,16,True,True,"[[-67, 78]]",0.0,sorted_unique,0,10,2.108409535139799e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,17,True,True,"[[-69, 12]]",0.0,sorted_unique,0,11,2.2625084966421127e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,18,True,True,"[[-78, -4]]",0.0,sorted_unique,0,8,1.2750038877129555e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,19,True,True,"[[-86, 31]]",0.0,sorted_unique,0,11,2.3834058083593845e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,20,True,True,"[[-75, -15]]",0.0,sorted_unique,0,4,7.417052984237671e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,21,True,True,"[[-59, -25, 80]]",0.0,sorted_unique,0,8,1.4375080354511738e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,22,True,True,"[[-21, 36]]",0.0,sorted_unique,0,14,2.62079993262887e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,23,True,True,"[[-1, 57]]",0.0,sorted_unique,0,3,6.00004568696022e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,24,True,True,"[[-27, -12]]",0.0,sorted_unique,0,31,6.420793943107128e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,25,True,True,"[[-77, -5]]",0.0,sorted_unique,0,15,2.920802216976881e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,26,True,True,"[[-96, -10]]",0.0,sorted_unique,0,1,3.00002284348011e-06
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,27,True,True,"[[-83, -28]]",0.0,sorted_unique,0,6,1.00000761449337e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,28,True,True,"[[-54, 19]]",0.0,sorted_unique,0,6,1.2375065125524998e-05
+qwen_qwen3_32b,RANDOM,list_pattern,sorted_unique,29,True,True,"[[-80, -7, 37]]",0.0,sorted_unique,0,4,8.999952115118504e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,0,True,True,"[[72, -42, -42, 56, -64, -84, 64, 50]]",0.0,unsorted_with_duplicates,0,16,3.716605715453625e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,1,True,True,"[[-35, -7, 64, 98, 63, -88, -88, -54]]",0.0,unsorted_with_duplicates,0,9,1.929106656461954e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,2,True,True,"[[68, 20, 93, 16, -35, 42, 42, -70]]",0.0,unsorted_with_duplicates,0,41,6.874999962747097e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,3,True,True,"[[95, 38, -18, 85, 55, 38, -100]]",0.0,unsorted_with_duplicates,0,13,2.8582988306879997e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,4,True,True,"[[32, -47, 72, -80, 21, 72, -30, 55]]",0.0,unsorted_with_duplicates,0,37,5.966599564999342e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,5,True,True,"[[-28, -19, -98, -19]]",0.0,unsorted_with_duplicates,0,7,1.3749930076301098e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,6,True,True,"[[-92, -24, -24, 56, 17]]",0.0,unsorted_with_duplicates,0,11,2.220796886831522e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,7,True,True,"[[-8, 53, -81, -81, 30, -100, 44]]",0.0,unsorted_with_duplicates,0,44,8.112506475299597e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,8,True,True,"[[60, -77, 27, -68, -68, -100]]",0.0,unsorted_with_duplicates,0,9,1.9291997887194157e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,9,True,True,"[[-65, -81, 93, -81]]",0.0,unsorted_with_duplicates,0,3,6.749993190169334e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,10,True,True,"[[-46, -46, 97, 6, 35]]",0.0,unsorted_with_duplicates,0,10,1.9290950149297714e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,11,True,True,"[[1, -11, 50, 2, 10, 13, 10]]",0.0,unsorted_with_duplicates,0,17,4.0790997445583344e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,12,True,True,"[[90, -47, -70, 19, -33, -70, -92]]",0.0,unsorted_with_duplicates,0,18,3.695895429700613e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,13,True,True,"[[-16, -15, -95, -60, -37, -40, -37, 11]]",0.0,unsorted_with_duplicates,0,17,3.770901821553707e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,14,True,True,"[[80, -44, 64, 80, -25]]",0.0,unsorted_with_duplicates,0,23,5.066592711955309e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,15,True,True,"[[-47, -19, -47, 46, 4]]",0.0,unsorted_with_duplicates,0,63,0.00011320796329528093
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,16,True,True,"[[-14, 68, 67, -98, -97, -97, -25]]",0.0,unsorted_with_duplicates,0,34,6.670807488262653e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,17,True,True,"[[-96, 28, 97, 28]]",0.0,unsorted_with_duplicates,0,69,0.00011991709470748901
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,18,True,True,"[[24, -31, -85, 26, 70, 88, 26, 1]]",0.0,unsorted_with_duplicates,0,3,8.209026418626308e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,19,True,True,"[[-77, -32, 46, 79, -80, -13, 21, 79]]",0.0,unsorted_with_duplicates,0,49,8.783303201198578e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,20,True,True,"[[24, 21, 68, -67, -17, -17]]",0.0,unsorted_with_duplicates,0,5,1.1124997399747372e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,21,True,True,"[[-19, -71, 14, 80, -71, -77, -73]]",0.0,unsorted_with_duplicates,0,116,0.00020454195328056812
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,22,True,True,"[[51, -31, -43, -88, 51, 8]]",0.0,unsorted_with_duplicates,0,27,5.1458016969263554e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,23,True,True,"[[-11, 85, 28, 85, -10]]",0.0,unsorted_with_duplicates,0,26,5.024997517466545e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,24,True,True,"[[38, -23, 4, 92, 96, -24, 96, 49]]",0.0,unsorted_with_duplicates,0,9,1.9291997887194157e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,25,True,True,"[[-70, 52, -84, 71, -78, -78, 57]]",0.0,unsorted_with_duplicates,0,19,3.658304922282696e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,26,True,True,"[[-11, -11, -83]]",0.0,unsorted_with_duplicates,0,19,4.258297849446535e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,27,True,True,"[[-85, -1, 5, -36, 99, -1, 67, 73]]",0.0,unsorted_with_duplicates,0,28,5.04170311614871e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,28,True,True,"[[90, 64, 90, -67]]",0.0,unsorted_with_duplicates,0,3,8.083065040409565e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_with_duplicates,29,True,True,"[[-94, 59, 59, -13, -6, 9, -57, 59]]",0.0,unsorted_with_duplicates,0,11,2.404092811048031e-05
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,0,True,True,"[[92, -84, 49, 25]]",0.0,unsorted_unique,0,1,3.2499665394425392e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,1,True,True,"[[-46, -84, -8, 59, 98]]",0.0,unsorted_unique,0,2,4.958012141287327e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,2,True,True,"[[62, 43, -48]]",0.0,unsorted_unique,0,1,2.834014594554901e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,3,True,True,"[[90, -100, -17, -27, -33]]",0.0,unsorted_unique,0,3,4.958012141287327e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,4,True,True,"[[-25, -78, -22, 53, 47]]",0.0,unsorted_unique,0,1,3.6249402910470963e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,5,True,True,"[[96, 88]]",0.0,unsorted_unique,0,1,2.500019036233425e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,6,True,True,"[[79, -6, 71, 94, -64]]",0.0,unsorted_unique,0,2,4.292000085115433e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,7,True,True,"[[-37, -85, -51, -61, 64, -9, 16, -63]]",0.0,unsorted_unique,0,1,4.375004209578037e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,8,True,True,"[[-7, -90, 37, -99, 9, -54]]",0.0,unsorted_unique,0,1,3.917026333510876e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,9,True,True,"[[57, 6, 51]]",0.0,unsorted_unique,0,1,3.0830269679427147e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,10,True,True,"[[72, 85, -39, -99]]",0.0,unsorted_unique,0,2,4.333094693720341e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,11,True,True,"[[-63, -15, -100, 33, 78]]",0.0,unsorted_unique,0,2,6.749993190169334e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,12,True,True,"[[-2, -31]]",0.0,unsorted_unique,0,2,3.7919962778687477e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,13,True,True,"[[-76, -49, -66, -47]]",0.0,unsorted_unique,0,1,3.2080570235848427e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,14,True,True,"[[-69, 44, -83, 4, 3, 17, -89, -8]]",0.0,unsorted_unique,0,1,4.500034265220165e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,15,True,True,"[[1, -79, 43, 8, -6, 39]]",0.0,unsorted_unique,0,1,3.625056706368923e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,16,True,True,"[[-88, 73, 68, -71]]",0.0,unsorted_unique,0,2,5.375011824071407e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,17,True,True,"[[90, -85, -43, -63, 85]]",0.0,unsorted_unique,0,3,6.166053935885429e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,18,True,True,"[[13, 90, -54, -9, 56, 88, 63]]",0.0,unsorted_unique,0,5,8.37491825222969e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,19,True,True,"[[-69, 41, -68, -22, 61, -13, -50]]",0.0,unsorted_unique,0,2,5.500041879713535e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,20,True,True,"[[-39, -96, 85, 58, -72, -79]]",0.0,unsorted_unique,0,2,6.875023245811462e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,21,True,True,"[[62, 50, 20]]",0.0,unsorted_unique,0,2,4.375004209578037e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,22,True,True,"[[-84, 95, 77, -12, 32, 98, 6, -67]]",0.0,unsorted_unique,0,2,5.042064003646374e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,23,True,True,"[[61, -23, 55, 54, 83, -97]]",0.0,unsorted_unique,0,2,4.832982085645199e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,24,True,True,"[[56, 6, -92, -60, -12, -16]]",0.0,unsorted_unique,0,1,4.083034582436085e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,25,True,True,"[[15, 90, 28, -19]]",0.0,unsorted_unique,0,1,3.3329706639051437e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,26,True,True,"[[59, 67, -34, -91, -25, 21]]",0.0,unsorted_unique,0,1,4.00003045797348e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,27,True,True,"[[-92, -16, -97]]",0.0,unsorted_unique,0,2,3.958004526793957e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,28,True,True,"[[45, 57, -62, 34, -91]]",0.0,unsorted_unique,0,1,3.458932042121887e-06
+qwen_qwen3_32b,RANDOM,list_pattern,unsorted_unique,29,True,True,"[[-94, 65, -31, 56]]",0.0,unsorted_unique,0,1,2.9170187190175056e-06
+qwen_qwen3_32b,RANDOM,number_kind,zero,0,True,True,[0],0.0,zero,0,58,3.91670037060976e-05
+qwen_qwen3_32b,RANDOM,number_kind,zero,1,True,True,[0],0.0,zero,0,383,0.00019291602075099945
+qwen_qwen3_32b,RANDOM,number_kind,zero,2,False,False,[3],3.0,,0,1000,0.0004907080437988043
+qwen_qwen3_32b,RANDOM,number_kind,zero,3,False,False,[-3],3.0,,0,1000,0.0004926660330966115
+qwen_qwen3_32b,RANDOM,number_kind,zero,4,True,True,[0],0.0,zero,0,953,0.00046429201029241085
+qwen_qwen3_32b,RANDOM,number_kind,zero,5,True,True,[0],0.0,zero,0,122,7.141707465052605e-05
+qwen_qwen3_32b,RANDOM,number_kind,zero,6,False,False,[3],3.0,,0,1000,0.0005020829848945141
+qwen_qwen3_32b,RANDOM,number_kind,zero,7,True,True,[0],0.0,zero,0,260,0.00013587495777755976
+qwen_qwen3_32b,RANDOM,number_kind,zero,8,False,False,[2],2.0,,0,1000,0.0004998749354854226
+qwen_qwen3_32b,RANDOM,number_kind,zero,9,False,False,[-2],2.0,,0,1000,0.0004965410334989429
+qwen_qwen3_32b,RANDOM,number_kind,zero,10,True,True,[0],0.0,zero,0,363,0.0001849159598350525
+qwen_qwen3_32b,RANDOM,number_kind,zero,11,True,True,[0],0.0,zero,0,582,0.0002965419553220272
+qwen_qwen3_32b,RANDOM,number_kind,zero,12,True,True,[0],0.0,zero,0,603,0.00031179096549749374
+qwen_qwen3_32b,RANDOM,number_kind,zero,13,True,True,[0],0.0,zero,0,759,0.000388749991543591
+qwen_qwen3_32b,RANDOM,number_kind,zero,14,False,False,[3],3.0,,0,1000,0.0005188749637454748
+qwen_qwen3_32b,RANDOM,number_kind,zero,15,False,False,[-1],1.0,,0,1000,0.0005116669926792383
+qwen_qwen3_32b,RANDOM,number_kind,zero,16,True,True,[0],0.0,zero,0,730,0.0003857079427689314
+qwen_qwen3_32b,RANDOM,number_kind,zero,17,False,False,[-2],2.0,,0,1000,0.0005151670193299651
+qwen_qwen3_32b,RANDOM,number_kind,zero,18,True,True,[0],0.0,zero,0,501,0.00025629205629229546
+qwen_qwen3_32b,RANDOM,number_kind,zero,19,False,False,[1],1.0,,0,1000,0.0005088750040158629
+qwen_qwen3_32b,RANDOM,number_kind,zero,20,True,True,[0],0.0,zero,0,168,8.395896293222904e-05
+qwen_qwen3_32b,RANDOM,number_kind,zero,21,False,False,[-1],1.0,,0,1000,0.0005000840174034238
+qwen_qwen3_32b,RANDOM,number_kind,zero,22,False,False,[-1],1.0,,0,1000,0.0004957501078024507
+qwen_qwen3_32b,RANDOM,number_kind,zero,23,False,False,[-3],3.0,,0,1000,0.0005018330411985517
+qwen_qwen3_32b,RANDOM,number_kind,zero,24,False,False,[-1],1.0,,0,1000,0.0005040830001235008
+qwen_qwen3_32b,RANDOM,number_kind,zero,25,False,False,[-1],1.0,,0,1000,0.0005036250222474337
+qwen_qwen3_32b,RANDOM,number_kind,zero,26,False,False,[-1],1.0,,0,1000,0.0005144999595358968
+qwen_qwen3_32b,RANDOM,number_kind,zero,27,False,False,[-3],3.0,,0,1000,0.0005152500234544277
+qwen_qwen3_32b,RANDOM,number_kind,zero,28,False,False,[-4],4.0,,0,1000,0.0005174999823793769
+qwen_qwen3_32b,RANDOM,number_kind,zero,29,True,True,[0],0.0,zero,0,961,0.00047833402641117573
+qwen_qwen3_32b,RANDOM,number_kind,even,0,True,True,[2604],0.0,even,0,6,5.875015631318092e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,1,True,True,[2710],0.0,even,0,1,1.8329592421650887e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,2,True,True,[1836],0.0,even,0,2,2.5830231606960297e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,3,True,True,[1250],0.0,even,0,1,1.7079291865229607e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,4,True,True,[1004],0.0,even,0,5,3.832974471151829e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,5,True,True,[1320],0.0,even,0,4,3.832974471151829e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,6,True,True,[-452],0.0,even,0,1,1.584063284099102e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,7,True,True,[342],0.0,even,0,1,1.4579854905605316e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,8,True,True,[1046],0.0,even,0,1,1.7079291865229607e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,9,True,True,[2828],0.0,even,0,1,1.7909333109855652e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,10,True,True,[1436],0.0,even,0,4,3.583962097764015e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,11,True,True,[1660],0.0,even,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,12,True,True,[-358],0.0,even,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,13,True,True,[1250],0.0,even,0,2,2.208980731666088e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,14,True,True,[2696],0.0,even,0,5,3.7079444155097008e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,15,True,True,[2964],0.0,even,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,16,True,True,[1006],0.0,even,0,2,2.2921012714505196e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,17,True,True,[1346],0.0,even,0,1,1.5409896150231361e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,18,True,True,[1754],0.0,even,0,2,2.5420449674129486e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,19,True,True,[-94],0.0,even,0,2,2.583954483270645e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,20,True,True,[1614],0.0,even,0,1,1.500011421740055e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,21,True,True,[954],0.0,even,0,2,2.125045284628868e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,22,True,True,[2422],0.0,even,0,2,2.3329630494117737e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,23,True,True,[2414],0.0,even,0,1,1.6660196706652641e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,24,True,True,[1864],0.0,even,0,2,2.125045284628868e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,25,True,True,[-8],0.0,even,0,1,1.6670674085617065e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,26,True,True,[-200],0.0,even,0,1,1.9170111045241356e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,27,True,True,[2992],0.0,even,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,28,True,True,[734],0.0,even,0,4,3.6659184843301773e-06
+qwen_qwen3_32b,RANDOM,number_kind,even,29,True,True,[-324],0.0,even,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,0,True,True,[1813],0.0,odd,0,1,1.8329592421650887e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,1,True,True,[1985],0.0,odd,0,2,2.5420449674129486e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,2,True,True,[2739],0.0,odd,0,2,2.4170149117708206e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,3,True,True,[1643],0.0,odd,0,2,2.374988980591297e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,4,True,True,[529],0.0,odd,0,4,4.083034582436085e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,5,True,True,[2827],0.0,odd,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,6,True,True,[1645],0.0,odd,0,1,1.7080456018447876e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,7,True,True,[2135],0.0,odd,0,1,1.7499551177024841e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,8,True,True,[2413],0.0,odd,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,9,True,True,[127],0.0,odd,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,10,True,True,[2529],0.0,odd,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,11,True,True,[-391],0.0,odd,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,12,True,True,[681],0.0,odd,0,2,2.5829067453742027e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,13,True,True,[1917],0.0,odd,0,1,1.7080456018447876e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,14,True,True,[1465],0.0,odd,0,2,2.4579931050539017e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,15,True,True,[2543],0.0,odd,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,16,True,True,[1979],0.0,odd,0,1,1.7909333109855652e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,17,True,True,[1763],0.0,odd,0,1,1.4579854905605316e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,18,True,True,[123],0.0,odd,0,1,1.708976924419403e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,19,True,True,[2729],0.0,odd,0,2,2.500019036233425e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,20,True,True,[413],0.0,odd,0,3,4.375004209578037e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,21,True,True,[-183],0.0,odd,0,3,3.5419361665844917e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,22,True,True,[749],0.0,odd,0,5,4.999921657145023e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,23,True,True,[115],0.0,odd,0,6,4.749977961182594e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,24,True,True,[2349],0.0,odd,0,1,1.8749851733446121e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,25,True,True,[2809],0.0,odd,0,2,2.5830231606960297e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,26,True,True,[925],0.0,odd,0,1,1.5419209375977516e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,27,True,True,[783],0.0,odd,0,2,2.375105395913124e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,28,True,True,[287],0.0,odd,0,2,2.416083589196205e-06
+qwen_qwen3_32b,RANDOM,number_kind,odd,29,True,True,[1089],0.0,odd,0,2,2.334010787308216e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,0,True,True,[1438],0.0,positive,0,1,2.3329630494117737e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,1,True,True,[386],0.0,positive,0,1,1.750071533024311e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,2,True,True,[1758],0.0,positive,0,2,2.5829067453742027e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,3,True,True,[372],0.0,positive,0,1,1.6659032553434372e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,4,True,True,[1771],0.0,positive,0,2,2.500019036233425e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,5,True,True,[1560],0.0,positive,0,1,2.0419247448444366e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,6,True,True,[2271],0.0,positive,0,1,1.500011421740055e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,7,True,True,[1259],0.0,positive,0,1,1.7079291865229607e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,8,True,True,[1873],0.0,positive,0,1,1.6660196706652641e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,9,True,True,[1204],0.0,positive,0,1,1.584063284099102e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,10,True,True,[950],0.0,positive,0,1,1.6670674085617065e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,11,True,True,[478],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,12,True,True,[2955],0.0,positive,0,1,1.4579854905605316e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,13,True,True,[1675],0.0,positive,0,1,1.4170072972774506e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,14,True,True,[2424],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,15,True,True,[445],0.0,positive,0,1,1.875101588666439e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,16,True,True,[2724],0.0,positive,0,1,1.584063284099102e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,17,True,True,[2213],0.0,positive,0,1,1.70909333974123e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,18,True,True,[889],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,19,True,True,[2953],0.0,positive,0,1,1.4579854905605316e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,20,True,True,[420],0.0,positive,0,1,1.4159595593810081e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,21,True,True,[2823],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,22,True,True,[272],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,23,True,True,[2478],0.0,positive,0,1,1.7079291865229607e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,24,True,True,[2373],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,25,True,True,[2553],0.0,positive,0,1,1.6669509932398796e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,26,True,True,[558],0.0,positive,0,1,1.500011421740055e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,27,True,True,[477],0.0,positive,0,1,1.4170072972774506e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,28,True,True,[2551],0.0,positive,0,1,1.6249250620603561e-06
+qwen_qwen3_32b,RANDOM,sign_type,positive,29,True,True,[805],0.0,positive,0,1,1.834006980061531e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,0,True,True,[-142],0.0,negative,0,19,1.391698606312275e-05
+qwen_qwen3_32b,RANDOM,sign_type,negative,1,True,True,[-160],0.0,negative,0,9,7.6249707490205765e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,2,True,True,[-348],0.0,negative,0,9,7.125083357095718e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,3,True,True,[-453],0.0,negative,0,1,1.7919810488820076e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,4,True,True,[-120],0.0,negative,0,2,2.5420449674129486e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,5,True,True,[-171],0.0,negative,0,13,9.584007784724236e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,6,True,True,[-82],0.0,negative,0,3,3.3329706639051437e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,7,True,True,[-268],0.0,negative,0,1,1.6660196706652641e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,8,True,True,[-111],0.0,negative,0,19,1.3791024684906006e-05
+qwen_qwen3_32b,RANDOM,sign_type,negative,9,True,True,[-265],0.0,negative,0,2,2.3329630494117737e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,10,True,True,[-268],0.0,negative,0,4,3.833905793726444e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,11,True,True,[-277],0.0,negative,0,1,1.8330756574869156e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,12,True,True,[-361],0.0,negative,0,3,2.874992787837982e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,13,True,True,[-280],0.0,negative,0,11,8.58306884765625e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,14,True,True,[-249],0.0,negative,0,3,2.750079147517681e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,15,True,True,[-431],0.0,negative,0,10,7.209018804132938e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,16,True,True,[-318],0.0,negative,0,4,4.208995960652828e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,17,True,True,[-56],0.0,negative,0,4,3.7499703466892242e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,18,True,True,[-175],0.0,negative,0,3,3.208988346159458e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,19,True,True,[-232],0.0,negative,0,6,5.416106432676315e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,20,True,True,[-499],0.0,negative,0,8,6.58305361866951e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,21,True,True,[-499],0.0,negative,0,18,1.2208940461277962e-05
+qwen_qwen3_32b,RANDOM,sign_type,negative,22,True,True,[-303],0.0,negative,0,9,7.1660615503787994e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,23,True,True,[-59],0.0,negative,0,22,1.4916062355041504e-05
+qwen_qwen3_32b,RANDOM,sign_type,negative,24,True,True,[-37],0.0,negative,0,21,1.4583929441869259e-05
+qwen_qwen3_32b,RANDOM,sign_type,negative,25,True,True,[-287],0.0,negative,0,6,4.458008334040642e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,26,True,True,[-278],0.0,negative,0,4,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,27,True,True,[-73],0.0,negative,0,5,4.500034265220165e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,28,True,True,[-257],0.0,negative,0,4,3.7499703466892242e-06
+qwen_qwen3_32b,RANDOM,sign_type,negative,29,True,True,[-321],0.0,negative,0,3,3.4170225262641907e-06
+qwen_qwen3_32b,RANDOM,sign_type,zero,0,False,False,[-3],3.0,,0,1000,0.0005774169694632292
+qwen_qwen3_32b,RANDOM,sign_type,zero,1,True,True,[0],0.0,zero,0,706,0.0004000829067081213
+qwen_qwen3_32b,RANDOM,sign_type,zero,2,False,False,[1],1.0,,0,1000,0.000558124971576035
+qwen_qwen3_32b,RANDOM,sign_type,zero,3,False,False,[2],2.0,,0,1000,0.0005650840466842055
+qwen_qwen3_32b,RANDOM,sign_type,zero,4,False,False,[-6],6.0,,0,1000,0.0005609170766547322
+qwen_qwen3_32b,RANDOM,sign_type,zero,5,False,False,[1],1.0,,0,1000,0.000561332912184298
+qwen_qwen3_32b,RANDOM,sign_type,zero,6,True,True,[0],0.0,zero,0,118,7.52920750528574e-05
+qwen_qwen3_32b,RANDOM,sign_type,zero,7,True,True,[0],0.0,zero,0,485,0.00027645891532301903
+qwen_qwen3_32b,RANDOM,sign_type,zero,8,False,False,[-3],3.0,,0,1000,0.0005650409730151296
+qwen_qwen3_32b,RANDOM,sign_type,zero,9,False,False,[-4],4.0,,0,1000,0.0005686670774593949
+qwen_qwen3_32b,RANDOM,sign_type,zero,10,True,True,[0],0.0,zero,0,628,0.00035516603384166956
+qwen_qwen3_32b,RANDOM,sign_type,zero,11,False,False,[-1],1.0,,0,1000,0.0005567920161411166
+qwen_qwen3_32b,RANDOM,sign_type,zero,12,False,False,[1],1.0,,0,1000,0.0005678329616785049
+qwen_qwen3_32b,RANDOM,sign_type,zero,13,False,False,[-1],1.0,,0,1000,0.0005626670317724347
+qwen_qwen3_32b,RANDOM,sign_type,zero,14,True,True,[0],0.0,zero,0,117,7.466704118996859e-05
+qwen_qwen3_32b,RANDOM,sign_type,zero,15,False,False,[-1],1.0,,0,1000,0.0005608749343082309
+qwen_qwen3_32b,RANDOM,sign_type,zero,16,False,False,[1],1.0,,0,1000,0.000567208044230938
+qwen_qwen3_32b,RANDOM,sign_type,zero,17,False,False,[2],2.0,,0,1000,0.0005577499978244305
+qwen_qwen3_32b,RANDOM,sign_type,zero,18,False,False,[-4],4.0,,0,1000,0.0005628749495372176
+qwen_qwen3_32b,RANDOM,sign_type,zero,19,True,True,[0],0.0,zero,0,832,0.0004872499266639352
+qwen_qwen3_32b,RANDOM,sign_type,zero,20,False,False,[-4],4.0,,0,1000,0.0005807499401271343
+qwen_qwen3_32b,RANDOM,sign_type,zero,21,False,False,[3],3.0,,0,1000,0.000560707994736731
+qwen_qwen3_32b,RANDOM,sign_type,zero,22,False,False,[1],1.0,,0,1000,0.0005587079795077443
+qwen_qwen3_32b,RANDOM,sign_type,zero,23,True,True,[0],0.0,zero,0,867,0.0004860420012846589
+qwen_qwen3_32b,RANDOM,sign_type,zero,24,False,False,[2],2.0,,0,1000,0.0005646670470014215
+qwen_qwen3_32b,RANDOM,sign_type,zero,25,False,False,[-2],2.0,,0,1000,0.0005567501066252589
+qwen_qwen3_32b,RANDOM,sign_type,zero,26,False,False,[1],1.0,,0,1000,0.0005618750583380461
+qwen_qwen3_32b,RANDOM,sign_type,zero,27,False,False,[-3],3.0,,0,1000,0.0005641659954562783
+qwen_qwen3_32b,RANDOM,sign_type,zero,28,True,True,[0],0.0,zero,0,893,0.0005055830115452409
+qwen_qwen3_32b,RANDOM,sign_type,zero,29,True,True,[0],0.0,zero,0,262,0.0001540409866720438
+qwen_qwen3_32b,RANDOM,string_category,empty,0,True,True,[''],0.0,empty,0,60,0.00014583300799131393
+qwen_qwen3_32b,RANDOM,string_category,empty,1,True,True,[''],0.0,empty,0,18,3.9792037568986416e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,2,True,True,[''],0.0,empty,0,43,8.7540945969522e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,3,True,True,[''],0.0,empty,0,6,1.2832926586270332e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,4,True,True,[''],0.0,empty,0,36,8.749996777623892e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,5,True,True,[''],0.0,empty,0,10,2.408307045698166e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,6,True,True,[''],0.0,empty,0,18,4.700000863522291e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,7,True,True,[''],0.0,empty,0,6,1.1208932846784592e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,8,True,True,[''],0.0,empty,0,4,1.0207993909716606e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,9,True,True,[''],0.0,empty,0,1,2.1669548004865646e-06
+qwen_qwen3_32b,RANDOM,string_category,empty,10,True,True,[''],0.0,empty,0,48,0.00011204101610928774
+qwen_qwen3_32b,RANDOM,string_category,empty,11,True,True,[''],0.0,empty,0,8,1.7874990589916706e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,12,True,True,[''],0.0,empty,0,4,9.333016350865364e-06
+qwen_qwen3_32b,RANDOM,string_category,empty,13,True,True,[''],0.0,empty,0,38,8.899997919797897e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,14,True,True,[''],0.0,empty,0,106,0.000224041985347867
+qwen_qwen3_32b,RANDOM,string_category,empty,15,True,True,[''],0.0,empty,0,21,5.187490023672581e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,16,True,True,[''],0.0,empty,0,27,6.083399057388306e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,17,True,True,[''],0.0,empty,0,80,0.0001659579575061798
+qwen_qwen3_32b,RANDOM,string_category,empty,18,True,True,[''],0.0,empty,0,13,2.9416987672448158e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,19,True,True,[''],0.0,empty,0,13,3.15000070258975e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,20,True,True,[''],0.0,empty,0,12,2.912490162998438e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,21,True,True,[''],0.0,empty,0,40,8.625001646578312e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,22,True,True,[''],0.0,empty,0,10,2.2332998923957348e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,23,True,True,[''],0.0,empty,0,7,1.2208009138703346e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,24,True,True,[''],0.0,empty,0,2,4.875008016824722e-06
+qwen_qwen3_32b,RANDOM,string_category,empty,25,True,True,[''],0.0,empty,0,15,3.658398054540157e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,26,True,True,[''],0.0,empty,0,28,6.266694981604815e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,27,True,True,[''],0.0,empty,0,40,9.679107461124659e-05
+qwen_qwen3_32b,RANDOM,string_category,empty,28,True,True,[''],0.0,empty,0,5,8.25000461190939e-06
+qwen_qwen3_32b,RANDOM,string_category,empty,29,True,True,[''],0.0,empty,0,2,4.208064638078213e-06
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,0,False,False,['BsRB'],1.0,,0,1000,0.002368540968745947
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,1,False,False,['wRgRE'],1.0,,0,1000,0.0023887919960543513
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,2,False,False,['AAYA'],1.0,,0,1000,0.002338833990506828
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,3,False,False,['SZEwS'],1.0,,0,1000,0.0023667499190196395
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,4,False,False,['YKdY'],1.0,,0,1000,0.002404875005595386
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,5,False,False,['V8W8d'],1.0,,0,1000,0.002411707886494696
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,6,False,False,['vPP9'],1.0,,0,1000,0.0024120829766616225
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,7,False,False,['0ucuy'],1.0,,0,1000,0.00240899994969368
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,8,False,False,['Y6SzY'],1.0,,0,1000,0.002368625020608306
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,9,False,False,['HPrGH'],1.0,,0,1000,0.002394291921518743
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,10,False,False,['xQx'],1.0,,0,1000,0.0024051249492913485
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,11,False,False,['o8go'],1.0,,0,1000,0.0023516250075772405
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,12,False,False,['elfe'],1.0,,0,1000,0.0024114580592140555
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,13,False,False,['UBOLU'],1.0,,0,1000,0.0024116660933941603
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,14,False,False,['lk44km'],1.0,,0,1000,0.0023997079115360975
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,15,False,False,['55YW5'],1.0,,0,1000,0.0023771669948473573
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,16,False,False,['Eqqx'],1.0,,0,1000,0.0023243329487740993
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,17,False,False,['MVGjM'],1.0,,0,1000,0.002407292020507157
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,18,False,False,['9099'],1.0,,0,1000,0.0023951668990775943
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,19,False,False,['kvvb'],1.0,,0,1000,0.0024193329736590385
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,20,False,False,['gtpDg'],1.0,,0,1000,0.002392666065134108
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,21,False,False,['1sh1'],1.0,,0,1000,0.0024474579840898514
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,22,False,False,['yWy'],1.0,,0,1000,0.002446667058393359
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,23,False,False,['CwaC'],1.0,,0,1000,0.0024025420425459743
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,24,False,False,['OjujZ'],1.0,,0,1000,0.0023891249438747764
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,25,False,False,['IfI'],1.0,,0,1000,0.0024304999969899654
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,26,False,False,['0zh0'],1.0,,0,1000,0.0023939170641824603
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,27,False,False,['CsLC'],1.0,,0,1000,0.0024025420425459743
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,28,False,False,['awMa'],1.0,,0,1000,0.002404125058092177
+qwen_qwen3_32b,RANDOM,string_category,long_palindrome,29,False,False,['jbbk'],1.0,,0,1000,0.00237370899412781
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,0,True,True,['D'],0.0,short_palindrome,0,12,3.483297768980265e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,1,True,True,['Q'],0.0,short_palindrome,0,6,1.7459038645029068e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,2,True,True,['X'],0.0,short_palindrome,0,25,6.3458108343184e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,3,True,True,['U'],0.0,short_palindrome,0,9,2.7999980375170708e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,4,True,True,[''],0.0,short_palindrome,0,14,4.195794463157654e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,5,True,True,['k'],0.0,short_palindrome,0,4,1.0165967978537083e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,6,True,True,['d'],0.0,short_palindrome,0,9,2.4791923351585865e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,7,True,True,[''],0.0,short_palindrome,0,4,1.1166906915605068e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,8,True,True,[''],0.0,short_palindrome,0,1,2.4579931050539017e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,9,True,True,['V'],0.0,short_palindrome,0,1,2.4170149117708206e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,10,True,True,[''],0.0,short_palindrome,0,1,1.9579892978072166e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,11,True,True,['v'],0.0,short_palindrome,0,7,2.0166044123470783e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,12,True,True,[''],0.0,short_palindrome,0,27,8.124997839331627e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,13,True,True,['i'],0.0,short_palindrome,0,1,2.415967173874378e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,14,True,True,[''],0.0,short_palindrome,0,1,2.125045284628868e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,15,True,True,['H'],0.0,short_palindrome,0,6,1.7166021279990673e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,16,True,True,['R'],0.0,short_palindrome,0,7,1.90419377759099e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,17,True,True,[''],0.0,short_palindrome,0,4,1.1541997082531452e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,18,True,True,[''],0.0,short_palindrome,0,4,8.750008419156075e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,19,True,True,[''],0.0,short_palindrome,0,5,1.4208024367690086e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,20,True,True,[''],0.0,short_palindrome,0,1,2.2080494090914726e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,21,True,True,[''],0.0,short_palindrome,0,7,1.3542012311518192e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,22,True,True,[''],0.0,short_palindrome,0,4,7.875030860304832e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,23,True,True,[''],0.0,short_palindrome,0,1,2.3329630494117737e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,24,True,True,['1'],0.0,short_palindrome,0,22,5.88749535381794e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,25,True,True,['8'],0.0,short_palindrome,0,3,7.625087164342403e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,26,True,True,['k'],0.0,short_palindrome,0,1,2.4579931050539017e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,27,True,True,['w'],0.0,short_palindrome,0,1,2.624932676553726e-06
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,28,True,True,['T'],0.0,short_palindrome,0,30,8.437503129243851e-05
+qwen_qwen3_32b,RANDOM,string_category,short_palindrome,29,True,True,[''],0.0,short_palindrome,0,5,1.650000922381878e-05
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,0,True,True,['W2sCO9'],0.0,long_non_palindrome,0,3,7.582944817841053e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,1,True,True,['9DwbIQT'],0.0,long_non_palindrome,0,1,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,2,True,True,['08C17rrbcJp6yz3'],0.0,long_non_palindrome,0,1,4.583969712257385e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,3,True,True,['W5tL55Et8b0VcLyC'],0.0,long_non_palindrome,0,1,5.875015631318092e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,4,True,True,['4EjSsB2OLm33rLraw'],0.0,long_non_palindrome,0,1,5.08397351950407e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,5,True,True,['YRwQXTM94B'],0.0,long_non_palindrome,0,1,4.042056389153004e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,6,True,True,['eDWZtpi1s37zRQ'],0.0,long_non_palindrome,0,1,4.625064320862293e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,7,True,True,['JlwUfTn2Z1WN'],0.0,long_non_palindrome,0,1,4.166038706898689e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,8,True,True,['Z8fv3e3jlB9DXvQleIe'],0.0,long_non_palindrome,0,1,5.083042196929455e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,9,True,True,['mxu4bIH02E8dQbq9pcp'],0.0,long_non_palindrome,0,3,7.6249707490205765e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,10,True,True,['A1oB6aw78ua'],0.0,long_non_palindrome,0,2,5.083042196929455e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,11,True,True,['nHwrsP'],0.0,long_non_palindrome,0,2,4.417030140757561e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,12,True,True,['A8c2kOvqyR5Qux'],0.0,long_non_palindrome,0,1,3.625056706368923e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,13,True,True,['g5GVHroe'],0.0,long_non_palindrome,0,1,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,14,True,True,['28NhsKhbfZd42EWEL'],0.0,long_non_palindrome,0,1,4.958012141287327e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,15,True,True,['OUGWX8Zj'],0.0,long_non_palindrome,0,1,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,16,True,True,['BLxdsx'],0.0,long_non_palindrome,0,1,3.0830269679427147e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,17,True,True,['SHTGoPqkyhsJWuk'],0.0,long_non_palindrome,0,1,4.458008334040642e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,18,True,True,['eRIN0zkMkjXls'],0.0,long_non_palindrome,0,1,3.5419361665844917e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,19,True,True,['0EU0A7aYdJVYJkND'],0.0,long_non_palindrome,0,1,4.542060196399689e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,20,True,True,['5lkDClzrVXi4yYnXQ'],0.0,long_non_palindrome,0,1,5.00003807246685e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,21,True,True,['662jUxLM9f3SdsBj'],0.0,long_non_palindrome,0,2,5.834037438035011e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,22,True,True,['X7wpEg'],0.0,long_non_palindrome,0,1,3.374996595084667e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,23,True,True,['aGI7hOL'],0.0,long_non_palindrome,0,1,2.9579969123005867e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,24,True,True,['vjN64K'],0.0,long_non_palindrome,0,1,3.1249364838004112e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,25,True,True,['Op596mHI3Qlamv'],0.0,long_non_palindrome,0,1,4.500034265220165e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,26,True,True,['lKIUqfawM3'],0.0,long_non_palindrome,0,1,3.5420525819063187e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,27,True,True,['1awfuiy092qpwIOrEgm'],0.0,long_non_palindrome,0,1,4.917033948004246e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,28,True,True,['YlXx899hK8r21'],0.0,long_non_palindrome,0,1,4.249974153935909e-06
+qwen_qwen3_32b,RANDOM,string_category,long_non_palindrome,29,True,True,['quioHlSoivD2cP1Gq2E'],0.0,long_non_palindrome,0,1,4.458008334040642e-06
+qwen_qwen3_32b,RANDOM,string_category,other,0,True,True,['xwv'],0.0,other,0,2,6.4999330788850784e-06
+qwen_qwen3_32b,RANDOM,string_category,other,1,True,True,['hSh7'],0.0,other,0,3,9.416020475327969e-06
+qwen_qwen3_32b,RANDOM,string_category,other,2,True,True,['rdq'],0.0,other,0,19,5.379202775657177e-05
+qwen_qwen3_32b,RANDOM,string_category,other,3,True,True,['4VtNT'],0.0,other,0,8,2.5333021767437458e-05
+qwen_qwen3_32b,RANDOM,string_category,other,4,True,True,['NdnD'],0.0,other,0,6,1.4124903827905655e-05
+qwen_qwen3_32b,RANDOM,string_category,other,5,True,True,['taKL'],0.0,other,0,2,4.834029823541641e-06
+qwen_qwen3_32b,RANDOM,string_category,other,6,True,True,['kNpGY'],0.0,other,0,13,3.7499936297535896e-05
+qwen_qwen3_32b,RANDOM,string_category,other,7,True,True,['riky7'],0.0,other,0,1,3.0420487746596336e-06
+qwen_qwen3_32b,RANDOM,string_category,other,8,True,True,['zD8UO'],0.0,other,0,2,6.458023563027382e-06
+qwen_qwen3_32b,RANDOM,string_category,other,9,True,True,['wii2'],0.0,other,0,3,7.6669966802001e-06
+qwen_qwen3_32b,RANDOM,string_category,other,10,True,True,['3qGt'],0.0,other,0,1,2.874992787837982e-06
+qwen_qwen3_32b,RANDOM,string_category,other,11,True,True,['yzJ'],0.0,other,0,9,2.716702874749899e-05
+qwen_qwen3_32b,RANDOM,string_category,other,12,True,True,['L8YOt'],0.0,other,0,1,2.6670750230550766e-06
+qwen_qwen3_32b,RANDOM,string_category,other,13,True,True,['nppk'],0.0,other,0,6,1.6459031030535698e-05
+qwen_qwen3_32b,RANDOM,string_category,other,14,True,True,['xSS'],0.0,other,0,11,3.362505231052637e-05
+qwen_qwen3_32b,RANDOM,string_category,other,15,True,True,['aH8'],0.0,other,0,5,1.3125012628734112e-05
+qwen_qwen3_32b,RANDOM,string_category,other,16,True,True,['z6lI'],0.0,other,0,17,3.975001163780689e-05
+qwen_qwen3_32b,RANDOM,string_category,other,17,True,True,['7DJn'],0.0,other,0,16,4.3625012040138245e-05
+qwen_qwen3_32b,RANDOM,string_category,other,18,True,True,['aS'],0.0,other,0,2,5.584093742072582e-06
+qwen_qwen3_32b,RANDOM,string_category,other,19,True,True,['j8'],0.0,other,0,4,1.0207993909716606e-05
+qwen_qwen3_32b,RANDOM,string_category,other,20,True,True,['VdrA'],0.0,other,0,3,8.333008736371994e-06
+qwen_qwen3_32b,RANDOM,string_category,other,21,True,True,['Lh'],0.0,other,0,5,1.1832918971776962e-05
+qwen_qwen3_32b,RANDOM,string_category,other,22,True,True,['1ZFX'],0.0,other,0,6,1.850002445280552e-05
+qwen_qwen3_32b,RANDOM,string_category,other,23,True,True,['3J'],0.0,other,0,3,9.457929991185665e-06
+qwen_qwen3_32b,RANDOM,string_category,other,24,True,True,['TuTx'],0.0,other,0,2,5.749985575675964e-06
+qwen_qwen3_32b,RANDOM,string_category,other,25,True,True,['tN4F'],0.0,other,0,1,2.4579931050539017e-06
+qwen_qwen3_32b,RANDOM,string_category,other,26,True,True,['iH8S'],0.0,other,0,6,1.7208047211170197e-05
+qwen_qwen3_32b,RANDOM,string_category,other,27,True,True,['bIdk'],0.0,other,0,7,1.6750069335103035e-05
+qwen_qwen3_32b,RANDOM,string_category,other,28,True,True,['wJMC'],0.0,other,0,2,5.334033630788326e-06
+qwen_qwen3_32b,RANDOM,string_category,other,29,True,True,['c4'],0.0,other,0,2,5.541951395571232e-06

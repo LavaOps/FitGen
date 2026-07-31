@@ -1,0 +1,27 @@
+{
+  "function_name": "loan_eligibility",
+  "fitness_function_name": "fitness_loan_eligibility",
+  "targets": [
+    "reject_underage",
+    "approve",
+    "review",
+    "reject_low_income"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 0,
+      "max": 120
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000000
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "def fitness_loan_eligibility(chromosome, target):\n    age, income, employed = chromosome\n\n    # K constant for branch distance calculation (make non-zero distance positive)\n    K = 1\n\n    if target == \"reject_underage\":\n        # Target: age < 18\n        # Condition to satisfy: age < 18\n        dist_age_lt_18 = 0 if age < 18 else (age - 18 + K)\n        return dist_age_lt_18\n\n    elif target == \"approve\":\n        # Target: Path where age >= 18 AND income >= 50000 AND employed is True\n\n        # Condition to satisfy: age >= 18\n        dist_age_ge_18 = 0 if age >= 18 else (18 - age + K)\n\n        # Condition to satisfy: income >= 50000\n        dist_income_ge_50k = 0 if income >= 50000 else (50000 - income + K)\n\n        # Condition to satisfy: employed is True\n        dist_employed_true = 0 if employed else 1\n\n        return dist_age_ge_18 + dist_income_ge_50k + dist_employed_true\n\n    elif target == \"review\":\n        # Target: Path where age >= 18 AND income >= 30000 AND income < 50000 (implies the first 'if' was false)\n\n        # Condition to satisfy: age >= 18\n        dist_age_ge_18 = 0 if age >= 18 else (18 - age + K)\n\n        # Condition to satisfy: income >= 30000\n        dist_income_ge_30k = 0 if income >= 30000 else (30000 - income + K)\n\n        # Condition to satisfy: income < 50000 (to bypass the 'approve' branch's income condition)\n        dist_income_lt_50k = 0 if income < 50000 else (income - 50000 + K)\n\n        return dist_age_ge_18 + dist_income_ge_30k + dist_income_lt_50k\n\n    elif target == \"reject_low_income\":\n        # Target: Path where age >= 18 AND income < 30000 (implies both 'if' and 'elif' were false)\n\n        # Condition to satisfy: age >= 18\n        dist_age_ge_18 = 0 if age >= 18 else (18 - age + K)\n\n        # Condition to satisfy: income < 30000 (to bypass the 'review' branch's income condition)\n        dist_income_lt_30k = 0 if income < 30000 else (income - 30000 + K)\n\n        return dist_age_ge_18 + dist_income_lt_30k\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "Generated fitness function to cover four distinct return paths based on age, income, and employment status. Branch distances are calculated using standard branch distance formulas (e.g., `max(0, a - b + K)` for `a < b`), summing up distances for conjuncts, and adding a small constant K (1) to ensure positive non-zero distances. For boolean conditions, 0 is returned if the condition is true, and 1 if false."
+}

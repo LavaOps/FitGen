@@ -1,0 +1,25 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height",
+    "underweight",
+    "normal",
+    "overweight",
+    "obese"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 3000.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 3000.0
+    }
+  ],
+  "fitness_code": "def fitness_bmi_category(chromosome, target):\n    weight = chromosome[0]\n    height = chromosome[1]\n    # distance for height condition (height must be <= 0 for invalid_height, >0 otherwise)\n    height_dist = max(0.0, height)\n    if height <= 0:\n        label = \"invalid_height\"\n        dist = height_dist\n    else:\n        bmi = weight / (height * height)\n        # determine actual label\n        if bmi < 18.5:\n            label = \"underweight\"\n        elif bmi < 25:\n            label = \"normal\"\n        elif bmi < 30:\n            label = \"overweight\"\n        else:\n            label = \"obese\"\n        # compute branch distance for the requested target\n        if target == \"underweight\":\n            dist = max(0.0, bmi - 18.5)\n        elif target == \"normal\":\n            if bmi < 18.5:\n                dist = 18.5 - bmi\n            elif bmi >= 25:\n                dist = bmi - 25\n            else:\n                dist = 0.0\n        elif target == \"overweight\":\n            if bmi < 25:\n                dist = 25 - bmi\n            elif bmi >= 30:\n                dist = bmi - 30\n            else:\n                dist = 0.0\n        elif target == \"obese\":\n            dist = max(0.0, 30 - bmi)\n        elif target == \"invalid_height\":\n            dist = height_dist\n        else:\n            raise ValueError(f\"Unknown target: {target}\")\n        # height must be >0 for all non\u2011invalid targets\n        if target != \"invalid_height\":\n            dist = dist + height_dist\n    # fitness value: 0 only when the target matches the actual label\n    if target == label:\n        return 0.0\n    else:\n        return max(0.0, dist)",
+  "notes": "Fitness returns 0 exactly when the original function would return the specified label; otherwise a non\u2011negative branch\u2011distance value is provided."
+}

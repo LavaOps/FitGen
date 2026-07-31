@@ -1,0 +1,23 @@
+{
+  "function_name": "transaction_pattern",
+  "fitness_function_name": "fitness_transaction_pattern",
+  "targets": [
+    "empty",
+    "contains_zero",
+    "many_large_deposits",
+    "many_large_withdrawals",
+    "mixed_transactions",
+    "simple_pattern"
+  ],
+  "input_schema": [
+    {
+      "type": "list_int",
+      "min_len": 0,
+      "max_len": 6,
+      "min": -100,
+      "max": 100
+    }
+  ],
+  "fitness_code": "\ndef fitness_transaction_pattern(chromosome, target):\n    if target not in TARGETS_transaction_pattern:\n        raise ValueError(\"Unknown target\")\n\n    amounts = chromosome[0]\n\n    if target == \"empty\" and len(amounts) == 0:\n        return 0\n    elif target != \"empty\" and len(amounts) == 0:\n        return 1\n\n    if target == \"contains_zero\" and any(x == 0 for x in amounts):\n        return 0\n    elif target != \"contains_zero\" and any(x == 0 for x in amounts):\n        return 1\n\n    positives = sum(1 for x in amounts if x > 0)\n    negatives = sum(1 for x in amounts if x < 0)\n    total = sum(amounts)\n\n    if target == \"many_large_deposits\" and positives >= 3 and negatives == 0 and total > 100:\n        return 0\n    elif target != \"many_large_deposits\" and positives >= 3 and negatives == 0 and total > 100:\n        return 1\n    elif target == \"many_large_deposits\" and not (positives >= 3 and negatives == 0 and total > 100):\n        return max(0, 3 - positives) + max(0, negatives) + max(0, 100 - total)\n\n    if target == \"many_large_withdrawals\" and negatives >= 2 and total < -50:\n        return 0\n    elif target != \"many_large_withdrawals\" and negatives >= 2 and total < -50:\n        return 1\n    elif target == \"many_large_withdrawals\" and not (negatives >= 2 and total < -50):\n        return max(0, 2 - negatives) + max(0, total + 50)\n\n    if target == \"mixed_transactions\" and positives > 0 and negatives > 0:\n        return 0\n    elif target != \"mixed_transactions\" and positives > 0 and negatives > 0:\n        return 1\n    elif target == \"mixed_transactions\" and not (positives > 0 and negatives > 0):\n        return max(0, -positives) + max(0, -negatives)\n\n    if target == \"simple_pattern\" and not (len(amounts) == 0 or any(x == 0 for x in amounts) or positives >= 3 and negatives == 0 and total > 100 or negatives >= 2 and total < -50 or positives > 0 and negatives > 0):\n        return 0\n    elif target != \"simple_pattern\" and not (len(amounts) == 0 or any(x == 0 for x in amounts) or positives >= 3 and negatives == 0 and total > 100 or negatives >= 2 and total < -50 or positives > 0 and negatives > 0):\n        return 1\n\n    return 1\n\nTARGETS_transaction_pattern = [\n    \"empty\",\n    \"contains_zero\",\n    \"many_large_deposits\",\n    \"many_large_withdrawals\",\n    \"mixed_transactions\",\n    \"simple_pattern\"\n]\n",
+  "notes": ""
+}

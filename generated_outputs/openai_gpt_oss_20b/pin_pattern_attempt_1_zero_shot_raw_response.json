@@ -1,0 +1,11 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": ["secret_pin", "all_same", "ordered_sum_20", "other"],
+  "input_schema": [
+    {"type": "int", "min": -500, "max": 3000},
+    {"type": "int", "min": -500, "max": 3000},
+    {"type": "int", "min": -500, "max": 3000},
+    {"type": "int", "min": -500, "max": 3000}
+  ],
+  "fitness_code": "TARGETS_pin_pattern = [\"secret_pin\", \"all_same\", \"ordered_sum_20\", \"other\"]\n\ndef fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n    if target == \"secret_pin\":\n        dist = abs(a - 7) + abs(b - 3) + abs(c - 9) + abs(d - 1)\n        return max(0, dist)\n    elif target == \"all_same\":\n        dist = abs(a - b

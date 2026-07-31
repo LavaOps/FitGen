@@ -1,0 +1,46 @@
+```json
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "positive",
+    "negative",
+    "zero"
+  ],
+  "input_schema": [
+    {"type": "float", "min": -1000.0, "max": 1000.0}
+  ],
+  "fitness_code": "
+def fitness_sign_type(chromosome, target):
+    x = chromosome[0]
+    if target == \"positive\":
+        if x > 0:
+            return 0
+        else:
+            return max(0, x)
+    elif target == \"negative\":
+        if x < 0:
+            return 0
+        else:
+            return max(0, -x)
+    elif target == \"zero\":
+        if x == 0:
+            return 0
+        else:
+            return max(0, abs(x) - 1e-06)
+    else:
+        raise ValueError(\"Unknown target\")
+
+def sign_type(x):
+    if x > 0:
+        return \"positive\"
+    elif x < 0:
+        return \"negative\"
+    else:
+        return \"zero\"
+
+TARGETS_sign_type = [\"positive\", \"negative\", \"zero\"]
+",
+  "notes": ""
+}
+```

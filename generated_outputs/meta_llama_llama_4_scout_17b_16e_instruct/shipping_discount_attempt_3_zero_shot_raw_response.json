@@ -1,0 +1,28 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "float",
+      "min": 0.0,
+      "max": 300.0
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "\nTARGETS_shipping_discount = [\n    'invalid',\n    'free_express_shipping',\n    'standard_discount',\n    'small_discount',\n    'no_discount'\n]\n\ndef fitness_shipping_discount(chromosome, target):\n    order_total, distance, is_member = chromosome\n\n    if target not in TARGETS_shipping_discount:\n        raise ValueError('Unknown target')\n\n    if order_total < 0 or distance < 0:\n        invalid_free_express_shipping = max(0, 200 - order_total) + max(0, distance - 50) + (1 if not is_member else 0)\n        invalid_standard_discount = max(0, 100 - order_total) + max(0, distance - 100)\n        invalid_small_discount = max(0, 50 - order_total) + (1 if not is_member else 0)\n        invalid_no_discount = max(0, 0 - order_total) + max(0, distance - 0) + (1 if not is_member else 0)\n\n        if target == 'invalid':\n            return 0\n        elif target == 'free_express_shipping':\n            return invalid_free_express_shipping\n        elif target == 'standard_discount':\n            return invalid_standard_discount\n        elif target == 'small_discount':\n            return invalid_small_discount\n        elif target == 'no_discount':\n            return invalid_no_discount\n\n    if order_total >= 200 and distance <= 50 and is_member:\n        free_express_shipping_invalid = max(0, order_total - 200) + max(0, distance - 50) + (1 if not is_member else 0)\n        free_express_shipping_standard_discount = max(0, 100 - order_total) + max(0, distance - 100)\n        free_express_shipping_small_discount = max(0, 50 - order_total) + (1 if not is_member else 0)\n        free_express_shipping_no_discount = max(0, 0 - order_total) + max(0, distance - 0) + (1 if not is_member else 0)\n\n        if target == 'free_express_shipping':\n            return 0\n        elif target == 'invalid':\n            return free_express_shipping_invalid\n        elif target == 'standard_discount':\n            return free_express_shipping_standard_discount\n        elif target == 'small_discount':\n            return free_express_shipping_small_discount\n        elif target == 'no_discount':\n            return free_express_shipping_no_discount\n\n    if order_total >= 100 and distance <= 100:\n        standard_discount_invalid = max(0, order_total - 200) + max(0, distance - 50) + (1 if not is_member else 0) + max(0, 200 - order_total) + max(0, 50 - distance)\n        standard_discount_free_express_shipping = max(0, 200 - order_total) + max(0, 50 - distance) + (1 if not is_member else 0)\n        standard_discount_small_discount = max(0, 50 - order_total) + (1 if not is_member else 0)\n        standard_discount_no_discount = max(0, 0 - order_total) + max(0, distance - 0) + (1 if not is_member else 0)\n\n        if target == 'standard_discount':\n            return 0\n        elif target == 'invalid':\n            return standard_discount_invalid\n        elif target == 'free_express_shipping':\n            return standard_discount_free_express_shipping\n        elif target == 'small_discount':\n            return standard_discount_small_discount\n        elif target == 'no_discount':\n            return standard_discount_no_discount\n\n    if order_total >= 50 or is_member:\n        small_discount_invalid = max(0, order_total - 200) + max(0, distance - 50) + (1 if not is_member else 0) + max(0, 200 - order_total) + max(0, 50 - distance) + max(0, 100 - order_total) + max(0, distance - 100)\n        small_discount_free_express_shipping = max(0, 200 - order_total) + max(0, 50 - distance) + (1 if not is_member else 0)\n        small_discount_standard_discount = max(0, 100 - order_total) + max(0, distance - 100)\n        small_discount_no_discount = max(0, 0 - order_total) + max(0, distance - 0) + (1 if not is_member else 0)\n\n        if target == 'small_discount':\n            return 0\n        elif target == 'invalid':\n            return small_discount_invalid\n        elif target == 'free_express_shipping':\n            return small_discount_free_express_shipping\n        elif target == 'standard_discount':\n            return small_discount_standard_discount\n        elif target == 'no_discount':\n            return small_discount_no_discount\n\n    no_discount_invalid = max(0, order_total - 200) + max(0, distance - 50) + (1 if not is_member else 0) + max(0, 200 - order_total) + max(0, 50 - distance) + max(0, 100 - order_total) + max(0, distance - 100) + max(0, 50 - order_total) + (1 if not is_member else 0)\n    no_discount_free_express_shipping = max(0, 200 - order_total) + max(0, 50 - distance) + (1 if not is_member else 0)\n    no_discount_standard_discount = max(0, 100 - order_total) + max(0, distance - 100)\n    no_discount_small_discount = max(0, 50 - order_total) + (1 if not is_member else 0)\n\n    if target == 'no_discount':\n        return 0\n    elif target == 'invalid':\n        return no_discount_invalid\n    elif target == 'free_express_shipping':\n        return no_discount_free_express_shipping\n    elif target == 'standard_discount':\n        return no_discount_standard_discount\n    elif target == 'small_discount':\n        return no_discount_small_discount\n",
+  "notes": ""
+}

@@ -1,0 +1,931 @@
+model,method,function_name,target,run_id,found,validated,best_chromosome,best_fitness,reached_branch,generation,evaluations,runtime
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,0,False,False,"[2024.0649954586268, 8.21346887712936]",0.0034518513864583156,,935,8093,0.012392790988087654
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,1,False,False,"[1286.2382311122135, 7.172395826162368]",0.003045762023671017,,3823,8093,0.011077375034801662
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,2,False,False,"[2844.136016110391, 12.404459526694941]",0.01605493443496897,,2169,8093,0.010133458068594337
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,3,False,False,"[2950.530486570075, 12.628979678471486]",0.0003472057459461553,,3386,8091,0.009598915930837393
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,4,False,False,"[1893.7763038632668, 10.119570441098316]",0.007121239082586328,,5754,8093,0.008976083947345614
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,5,False,False,"[2720.370963527384, 12.127094961209904]",0.002434492589596715,,3699,8093,0.00869416689965874
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,6,False,False,"[2892.6924969925954, 12.505233166200851]",0.0022595413827559696,,3261,8093,0.00897612504195422
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,7,False,False,"[2971.605637817085, 12.669607511629353]",0.012490609577852751,,2976,8094,0.00898379203863442
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,8,False,False,"[2973.4878213073866, 12.683114779642093]",0.015218617927903466,,3221,8093,0.008884541923180223
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,9,False,False,"[2487.879965868728, 11.600802091815519]",0.013555674647665938,,4307,8092,0.009124165982939303
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,10,False,False,"[2795.7753161133, 12.300801109138671]",0.022829206241272715,,7449,8093,0.008990291971713305
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,11,False,False,"[2608.569759820057, 11.875550673986437]",0.0032706864648517353,,291,8094,0.008980917045846581
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,12,False,False,"[2060.722371798597, 10.554622877531244]",0.0016051499667284475,,7005,8092,0.008807416073977947
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,13,False,False,"[2764.083087102267, 9.600424758408689]",0.010432878341504193,,2257,8093,0.008890792028978467
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,14,False,False,"[2354.6530408598665, 11.277671887817748]",0.013477922588812419,,1830,8091,0.008912791963666677
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,15,False,False,"[2708.83775117257, 12.100851431038727]",0.0008771930871276368,,7722,8092,0.008877790998667479
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,16,False,False,"[2455.0077127856785, 11.518433205962081]",0.004018092785493366,,7020,8092,0.008833334082737565
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,17,False,False,"[2494.1807705908777, 11.609586004022344]",0.005228851959596881,,5555,8093,0.008925874950364232
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,18,False,False,"[2934.703483605504, 12.5999659607121]",0.014743385907184603,,2341,8093,0.008912457968108356
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,19,False,False,"[2890.888254410827, 12.498149133649376]",0.007165108731811642,,5949,8092,0.008865582989528775
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,20,False,False,"[2956.096431762509, 12.638847745734886]",0.005619699640330822,,6910,8092,0.008850666927173734
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,21,False,False,"[2609.2359850716894, 11.875175665446495]",0.002621894251010559,,7255,8090,0.008820625022053719
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,22,False,False,"[2846.7681448113085, 12.408839905283719]",0.012008427768385843,,1194,8093,0.009017833974212408
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,23,False,False,"[2802.4312297418264, 12.30798318306687]",0.0004495180876595839,,2254,8094,0.008925957954488695
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,24,False,False,"[2989.2834821491983, 12.713429336474936]",0.00553914719286297,,6014,8092,0.008917500032112002
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,25,False,False,"[2531.8770570812276, 11.698858511049341]",0.0006854756827827657,,282,8094,0.009180375025607646
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,26,False,False,"[2967.4346962651534, 12.664218452955067]",0.002243134240085709,,3764,8092,0.009083874989300966
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,27,False,False,"[2942.400316207502, 12.613742374646433]",0.006724254840772659,,5627,8094,0.009085249970667064
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,28,False,False,"[2754.7110959019255, 9.58198432931067]",0.0030320430721957337,,5085,8093,0.008997542085126042
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,invalid_height,29,False,False,"[2444.1209443880607, 11.499493718230331]",0.017306911050614104,,7563,8093,0.008853625040501356
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,0,True,True,"[1467.6298205249675, 2458.819968318202]",0.0,underweight,0,1,3.7919962778687477e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,1,True,True,"[2351.691122605778, 1264.8630299573697]",0.0,underweight,0,1,3.00002284348011e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,2,True,True,"[1345.499127210288, 1711.0674826424508]",0.0,underweight,0,1,3.00002284348011e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,3,True,True,"[1282.2576769849318, 2999.996178914648]",0.0,underweight,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,4,True,True,"[334.99261129729473, 1479.055136970107]",0.0,underweight,0,1,2.666027285158634e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,5,True,True,"[1433.901190068641, 491.6071022530388]",0.0,underweight,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,6,True,True,"[2929.4889273927843, 155.04919525281136]",0.0,underweight,0,1,2.750079147517681e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,7,True,True,"[617.1863340079906, 1327.1588789344378]",0.0,underweight,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,8,True,True,"[1132.6323220774627, 1385.686255956366]",0.0,underweight,0,1,3.00002284348011e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,9,True,True,"[2437.939773957212, 2367.4791730857924]",0.0,underweight,0,1,2.6670750230550766e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,10,True,True,"[2453.2618778780848, 272.17149301361786]",0.0,underweight,0,1,2.624932676553726e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,11,True,True,"[1582.3364268150326, 78.45196345315408]",0.0,underweight,0,1,3.0410010367631912e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,12,True,True,"[104.28428510607036, 1383.3779642138252]",0.0,underweight,0,1,2.6669586077332497e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,13,True,True,"[111.02736951500746, 772.0003234916734]",0.0,underweight,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,14,True,True,"[717.2962563367525, 1662.0291042681044]",0.0,underweight,0,1,2.9170187190175056e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,15,True,True,"[2537.231236507731, 2217.988750656077]",0.0,underweight,0,1,2.666027285158634e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,16,True,True,"[1319.1011257706236, 948.1679590146246]",0.0,underweight,0,1,2.291053533554077e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,17,True,True,"[1352.0646559702332, 285.0621777138229]",0.0,underweight,0,1,2.6670750230550766e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,18,True,True,"[2991.7238827326723, 2787.7860266816488]",0.0,underweight,0,1,2.9170187190175056e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,19,True,True,"[2828.6675212649116, 297.4876262579166]",0.0,underweight,0,1,2.625049091875553e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,20,True,True,"[2875.0693093861723, 1011.5507388806492]",0.0,underweight,0,1,2.2080494090914726e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,21,True,True,"[1886.4475642541854, 2966.457187869294]",0.0,underweight,0,1,2.625049091875553e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,22,True,True,"[1612.3505766735861, 1466.7140804383882]",0.0,underweight,0,1,2.750079147517681e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,23,True,True,"[2134.640256425348, 1435.3904391527713]",0.0,underweight,0,1,2.625049091875553e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,24,True,True,"[503.62132290080484, 2574.338813885029]",0.0,underweight,0,1,2.7091009542346e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,25,True,True,"[360.8244990124756, 1276.8759501162604]",0.0,underweight,0,1,2.708984538912773e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,26,True,True,"[220.09463133861863, 2771.466852641245]",0.0,underweight,0,1,2.6670750230550766e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,27,True,True,"[2918.459322736, 2006.09875526272]",0.0,underweight,0,1,2.249958924949169e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,28,True,True,"[81.5986123439313, 1500.9262629141833]",0.0,underweight,0,1,2.6670750230550766e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,underweight,29,True,True,"[129.1506433018752, 40.721046057523246]",0.0,underweight,0,1,2.9579969123005867e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,0,True,True,"[2989.046685845835, 12.294795039889546]",0.0,normal,466,467,0.0006708329310640693
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,1,True,True,"[2184.593224707807, 10.710774974667325]",0.0,normal,36,37,6.612495053559542e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,2,True,True,"[2876.6880318135354, 12.3167992790049]",0.0,normal,217,218,0.0003339169779792428
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,3,True,True,"[2978.276701428151, 12.632741234205437]",0.0,normal,199,200,0.00029687501955777407
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,4,True,True,"[2727.5963273378097, 11.244481849623746]",0.0,normal,134,135,0.00019399996381253004
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,5,True,True,"[2991.441717512595, 12.39262256728396]",0.0,normal,329,330,0.0005099590634927154
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,6,True,True,"[2845.112413999868, 11.974014791731856]",0.0,normal,255,256,0.00038070802111178637
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,7,True,True,"[2871.8656398224844, 12.353988879695601]",0.0,normal,543,544,0.0007589159067720175
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,8,True,True,"[2852.1143384470784, 11.963467886023334]",0.0,normal,293,294,0.00043679203372448683
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,9,True,True,"[2779.457266955654, 11.954643340666522]",0.0,normal,50,51,8.420890662819147e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,10,True,True,"[2237.047186764647, 10.710820921801368]",0.0,normal,229,230,0.00032887503039091825
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,11,True,True,"[2889.8943903088652, 12.090898336800697]",0.0,normal,481,482,0.0006952909752726555
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,12,True,True,"[2835.324534912299, 11.591667148021363]",0.0,normal,284,285,0.0004253749502822757
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,13,True,True,"[3000.0, 10.969131020221457]",0.0,normal,79,80,0.00012908398639410734
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,14,True,True,"[2948.1213253528567, 11.729702278145403]",0.0,normal,111,112,0.00016429193783551455
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,15,True,True,"[2870.517276823162, 11.882283604846515]",0.0,normal,310,311,0.0004640000406652689
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,16,True,True,"[2843.486658457557, 12.305251541797864]",0.0,normal,182,183,0.000264541944488883
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,17,True,True,"[2759.8129866633994, 12.009266922743269]",0.0,normal,221,222,0.0003138339379802346
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,18,True,True,"[2935.490576054208, 12.401332349904399]",0.0,normal,142,143,0.00022212497424334288
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,19,True,True,"[2897.451234116389, 12.351940930887807]",0.0,normal,646,647,0.0008838750654831529
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,20,True,True,"[2515.019811491417, 11.276905220015284]",0.0,normal,221,222,0.0003273340407758951
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,21,True,True,"[2852.067577708762, 11.825358595109387]",0.0,normal,181,182,0.0002687089145183563
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,22,True,True,"[1691.9160491071964, 9.123586597771615]",0.0,normal,118,119,0.0001736249541863799
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,23,True,True,"[922.2903943777534, 6.2628158329084425]",0.0,normal,586,587,0.0008074999786913395
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,24,True,True,"[2095.889053149004, 9.359146539390515]",0.0,normal,95,96,0.000141416909173131
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,25,True,True,"[1896.0170268063812, 9.718083154313327]",0.0,normal,29,30,4.554097540676594e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,26,True,True,"[2888.298556999975, 11.883010202592441]",0.0,normal,610,611,0.0008492920314893126
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,27,True,True,"[2956.4526110125817, 11.331702049377999]",0.0,normal,166,167,0.00024387496523559093
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,28,True,True,"[2958.126646727004, 12.174823683228974]",0.0,normal,231,232,0.00033445795997977257
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,normal,29,True,True,"[2952.7257352737915, 12.156612837224245]",0.0,normal,566,567,0.0007938750786706805
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,0,True,True,"[2977.731664309497, 10.165642231840476]",0.0,overweight,686,687,0.000971625093370676
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,1,True,True,"[2889.621842200929, 10.70088227991219]",0.0,overweight,489,490,0.0006402080180123448
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,2,True,True,"[2781.999461165311, 10.43838210455494]",0.0,overweight,3160,3165,0.003490417031571269
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,3,False,False,"[2692.0384579406755, 12.0539237205468]",0.027822530214493213,,7339,8093,0.009164416929706931
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,4,True,True,"[2958.4984181991003, 10.558594346678209]",0.0,overweight,377,378,0.0004544170806184411
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,5,True,True,"[2907.2767832848745, 10.760953214955979]",0.0,overweight,4624,4631,0.005373040912672877
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,6,True,True,"[2965.1958291351343, 10.372902417809804]",0.0,overweight,85,86,0.00012312503531575203
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,7,True,True,"[1895.6400769969655, 8.302835387522745]",0.0,overweight,33,34,6.062502507120371e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,8,True,True,"[1133.4799585141225, 6.625424178286932]",0.0,overweight,3445,3450,0.00382604100741446
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,9,True,True,"[2524.3442061833853, 9.943071742992956]",0.0,overweight,5361,5369,0.006079499959014356
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,10,True,True,"[2610.073885274759, 10.162635461820026]",0.0,overweight,3648,3653,0.00422758306376636
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,11,True,True,"[660.9586220430095, 4.7830165284212365]",0.0,overweight,630,631,0.0008622499881312251
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,12,True,True,"[2966.4642389160917, 10.173563364233084]",0.0,overweight,1325,1327,0.001539458055049181
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,13,True,True,"[1899.0593050042762, 8.523559312312145]",0.0,overweight,5026,5034,0.005658582900650799
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,14,True,True,"[1376.8678168984347, 7.218385301230923]",0.0,overweight,1139,1141,0.0012424580054357648
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,15,True,True,"[753.2971641937744, 5.226768047591535]",0.0,overweight,245,246,0.0003369998885318637
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,16,True,True,"[2388.0477846754466, 9.630623566900617]",0.0,overweight,5159,5166,0.00578383298125118
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,17,False,False,"[2856.482625444852, 12.426726708524562]",0.002284647129130235,,4363,8092,0.009217250044457614
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,18,True,True,"[2976.187711153543, 10.3024028308345]",0.0,overweight,337,338,0.0004858750617131591
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,19,True,True,"[2991.1531839738363, 10.43544145160702]",0.0,overweight,4563,4570,0.005345416953787208
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,20,True,True,"[1456.1189998376744, 7.229144996819426]",0.0,overweight,1426,1428,0.001766999950632453
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,21,True,True,"[2900.774950511448, 9.927391269155873]",0.0,overweight,277,278,0.00040970800910145044
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,22,True,True,"[2847.321737441641, 10.655479663666837]",0.0,overweight,1263,1265,0.0015816250815987587
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,23,True,True,"[1858.925572029807, 8.165907729301825]",0.0,overweight,1365,1367,0.001530042034573853
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,24,True,True,"[2856.183591028446, 10.192416579773656]",0.0,overweight,1256,1258,0.0015425409656018019
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,25,True,True,"[2130.182738227692, 8.840422889255294]",0.0,overweight,73,74,0.0001157920341938734
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,26,True,True,"[2981.073937464221, 10.237013135549034]",0.0,overweight,3230,3236,0.0037220000522211194
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,27,True,True,"[29.214103347908583, 1.0]",0.0,overweight,750,751,0.0009987499797716737
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,28,True,True,"[2721.750734447318, 9.734953755363568]",0.0,overweight,1306,1308,0.0014449170557782054
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,overweight,29,True,True,"[2618.242932319874, 10.22800460459728]",0.0,overweight,1037,1038,0.0013042920036241412
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,0,True,True,"[2873.345392600063, 7.867361682405871]",0.0,obese,656,657,0.0008070829790085554
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,1,True,True,"[2327.393274309126, 3.0159225033711268]",0.0,obese,652,653,0.0008216669084504247
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,2,True,True,"[1391.595816949387, 6.105271162721637]",0.0,obese,412,413,0.0005825420375913382
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,3,True,True,"[2694.378875671018, 5.99318925898884]",0.0,obese,882,884,0.0010785829508677125
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,4,True,True,"[2209.0894909400145, 5.088025451134293]",0.0,obese,652,653,0.0007454169681295753
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,5,True,True,"[2995.162926723399, 1.5876780292101156]",0.0,obese,1189,1190,0.0014939999673515558
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,6,True,True,"[2963.6983180471957, 7.298857262605152]",0.0,obese,227,228,0.00033958395943045616
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,7,True,True,"[1626.9655673007483, 0.9365861092087702]",0.0,obese,475,476,0.0005417079664766788
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,8,True,True,"[2802.0861437766416, 5.637314514204572]",0.0,obese,43,44,7.658405229449272e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,9,True,True,"[2476.905255283893, 1.1654907130188574]",0.0,obese,1268,1269,0.0014524169964715838
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,10,True,True,"[2748.305771202604, 9.258380274500379]",0.0,obese,908,910,0.0010432079434394836
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,11,True,True,"[2987.7481055676712, 0.9695401912729329]",0.0,obese,127,128,0.00019212497863918543
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,12,True,True,"[43.63684288318148, 0.5382146501002882]",0.0,obese,3433,3436,0.003787958063185215
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,13,True,True,"[737.1607186402415, 1.9059687739545472]",0.0,obese,741,742,0.0008985840249806643
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,14,True,True,"[2948.639459302301, 9.867586125186795]",0.0,obese,430,431,0.0005059590330347419
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,15,True,True,"[2883.0534494713384, 9.74184442388808]",0.0,obese,578,579,0.0006663340609520674
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,16,True,True,"[2930.3447394509885, 6.8473470832319805]",0.0,obese,1050,1052,0.0012293329928070307
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,17,True,True,"[2884.662594286271, 3.7936409392589354]",0.0,obese,61,62,9.870901703834534e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,18,True,True,"[2132.2395760219874, 5.516575721372541]",0.0,obese,78,79,0.00012904207687824965
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,19,True,True,"[1307.0003618846458, 6.4761840519809155]",0.0,obese,371,372,0.00042204197961837053
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,20,True,True,"[2174.8405116713716, 7.943598319528067]",0.0,obese,2742,2745,0.0031321250135079026
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,21,True,True,"[2731.849995219522, 4.728865664083148]",0.0,obese,373,374,0.00045125000178813934
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,22,True,True,"[2967.779718911873, 1.067911671295052]",0.0,obese,548,549,0.0006730420282110572
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,23,True,True,"[2937.5769398354296, 6.642785571130627]",0.0,obese,459,460,0.0005691249389201403
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,24,True,True,"[2206.143408568216, 8.212384681196617]",0.0,obese,222,223,0.0003073749830946326
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,25,True,True,"[2985.8592960428537, 0.41077750578377703]",0.0,obese,694,695,0.0008280409965664148
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,26,True,True,"[2814.046799976233, 9.279462613425938]",0.0,obese,526,527,0.0007181670516729355
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,27,True,True,"[2280.201831846325, 6.864441196500537]",0.0,obese,3437,3443,0.003863082965835929
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,28,True,True,"[2968.309037504649, 6.477447628609245]",0.0,obese,223,224,0.00031958299223333597
+llama_3_3_70b_versatile,HILL_CLIMBING,bmi_category,obese,29,True,True,"[2977.3406788235566, 7.098089041775779]",0.0,obese,238,239,0.0003486250061541796
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,0,True,True,[0],0.0,zero,43,44,7.170799653977156e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,1,True,True,[0],0.0,zero,36,37,5.508307367563248e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,2,True,True,[0],0.0,zero,57,58,7.604097481817007e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,3,True,True,[0],0.0,zero,85,86,0.0001004580408334732
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,4,True,True,[0],0.0,zero,64,65,8.041702676564455e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,5,True,True,[0],0.0,zero,99,100,0.00011020794045180082
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,6,True,True,[0],0.0,zero,122,123,0.00014416698832064867
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,7,True,True,[0],0.0,zero,84,85,9.904196485877037e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,8,True,True,[0],0.0,zero,123,124,0.00014541693963110447
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,9,True,True,[0],0.0,zero,57,58,6.745802238583565e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,10,True,True,[0],0.0,zero,83,84,9.962508920580149e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,11,True,True,[0],0.0,zero,74,75,8.454197086393833e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,12,True,True,[0],0.0,zero,86,87,9.229104034602642e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,13,True,True,[0],0.0,zero,103,104,0.00010220904368907213
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,14,True,True,[0],0.0,zero,73,74,9.008299093693495e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,15,True,True,[0],0.0,zero,91,92,0.00010104198008775711
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,16,True,True,[0],0.0,zero,45,46,6.812496576458216e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,17,True,True,[0],0.0,zero,95,96,0.0001179591054096818
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,18,True,True,[0],0.0,zero,34,35,4.433305002748966e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,19,True,True,[0],0.0,zero,94,95,0.00011179200373589993
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,20,True,True,[0],0.0,zero,64,65,7.820792961865664e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,21,True,True,[0],0.0,zero,49,50,5.8458070270717144e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,22,True,True,[0],0.0,zero,109,110,0.00012979202438145876
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,23,True,True,[0],0.0,zero,145,146,0.00015400000847876072
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,24,True,True,[0],0.0,zero,41,42,5.533394869416952e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,25,True,True,[0],0.0,zero,117,118,0.00014762498904019594
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,26,True,True,[0],0.0,zero,123,124,0.00014166708569973707
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,27,True,True,[0],0.0,zero,74,75,8.187501225620508e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,28,True,True,[0],0.0,zero,100,101,0.00011483300477266312
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,zero,29,True,True,[0],0.0,zero,132,133,0.0001432499848306179
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,0,True,True,[504],0.0,even,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,1,True,True,[-68],0.0,even,0,1,2.540997229516506e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,2,True,True,[352],0.0,even,0,1,2.0830193534493446e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,3,True,True,[224],0.0,even,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,4,True,True,[1662],0.0,even,0,1,2.4170149117708206e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,5,True,True,[342],0.0,even,2,3,5.375011824071407e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,6,True,True,[1584],0.0,even,1,2,4.499917849898338e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,7,True,True,[518],0.0,even,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,8,True,True,[2762],0.0,even,3,4,7.458031177520752e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,9,True,True,[2982],0.0,even,0,1,2.500019036233425e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,10,True,True,[166],0.0,even,2,3,5.624955520033836e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,11,True,True,[6],0.0,even,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,12,True,True,[2930],0.0,even,0,1,2.459040842950344e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,13,True,True,[132],0.0,even,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,14,True,True,[776],0.0,even,1,2,4.58303838968277e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,15,True,True,[738],0.0,even,3,4,7.791910320520401e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,16,True,True,[2176],0.0,even,0,1,2.040993422269821e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,17,True,True,[144],0.0,even,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,18,True,True,[-348],0.0,even,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,19,True,True,[2022],0.0,even,2,3,5.958019755780697e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,20,True,True,[1600],0.0,even,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,21,True,True,[916],0.0,even,0,1,2.124928869307041e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,22,True,True,[466],0.0,even,1,2,3.832974471151829e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,23,True,True,[76],0.0,even,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,24,True,True,[816],0.0,even,0,1,2.500019036233425e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,25,True,True,[266],0.0,even,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,26,True,True,[1914],0.0,even,1,2,4.58303838968277e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,27,True,True,[2036],0.0,even,0,1,2.5420449674129486e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,28,True,True,[2396],0.0,even,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,even,29,True,True,[-26],0.0,even,2,3,6.292015314102173e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,0,True,True,[2643],0.0,odd,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,1,True,True,[-91],0.0,odd,1,2,4.00003045797348e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,2,True,True,[2293],0.0,odd,1,2,4.459056071937084e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,3,True,True,[-161],0.0,odd,0,1,2.208980731666088e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,4,True,True,[2641],0.0,odd,0,1,2.00001522898674e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,5,True,True,[-55],0.0,odd,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,6,True,True,[1403],0.0,odd,0,1,2.4170149117708206e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,7,True,True,[2645],0.0,odd,1,2,4.041008651256561e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,8,True,True,[1491],0.0,odd,1,2,4.458008334040642e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,9,True,True,[1551],0.0,odd,0,1,2.5420449674129486e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,10,True,True,[-429],0.0,odd,0,1,2.291053533554077e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,11,True,True,[-379],0.0,odd,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,12,True,True,[1487],0.0,odd,0,1,2.624932676553726e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,13,True,True,[439],0.0,odd,1,2,4.375004209578037e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,14,True,True,[2615],0.0,odd,0,1,2.2909371182322502e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,15,True,True,[2563],0.0,odd,0,1,2.5419285520911217e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,16,True,True,[-341],0.0,odd,2,3,7.958966307342052e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,17,True,True,[1127],0.0,odd,1,2,5.082925781607628e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,18,True,True,[-17],0.0,odd,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,19,True,True,[-479],0.0,odd,0,1,2.334010787308216e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,20,True,True,[1603],0.0,odd,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,21,True,True,[2947],0.0,odd,0,1,2.249958924949169e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,22,True,True,[1933],0.0,odd,1,2,4.749977961182594e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,23,True,True,[193],0.0,odd,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,24,True,True,[2367],0.0,odd,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,25,True,True,[-307],0.0,odd,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,26,True,True,[2809],0.0,odd,5,6,1.0292045772075653e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,27,True,True,[551],0.0,odd,1,2,4.66697383671999e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,28,True,True,[1873],0.0,odd,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,number_kind,odd,29,True,True,[2799],0.0,odd,2,3,5.915993824601173e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,0,True,True,['KBZdQ'],0.0,weak_short,15,16,4.312500823289156e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,1,True,True,['bB6wt'],0.0,weak_short,8,9,1.8791062757372856e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,2,True,True,['SBj'],0.0,weak_short,0,1,3.959052264690399e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,3,True,True,['leE7l'],0.0,weak_short,34,35,9.237509220838547e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,4,True,True,['PEIo6'],0.0,weak_short,14,15,3.316602669656277e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,5,True,True,['CmfMR'],0.0,weak_short,30,31,5.3458032198250294e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,6,True,True,['3zdwy'],0.0,weak_short,9,10,2.2416934370994568e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,7,True,True,['2fmjR'],0.0,weak_short,12,13,2.475001383572817e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,8,True,True,[''],0.0,weak_short,0,1,5.958019755780697e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,9,True,True,['V'],0.0,weak_short,0,1,3.250082954764366e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,10,True,True,[''],0.0,weak_short,0,1,2.874992787837982e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,11,True,True,['gU57C'],0.0,weak_short,28,29,5.212496034801006e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,12,True,True,['at'],0.0,weak_short,0,1,3.208988346159458e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,13,True,True,['i'],0.0,weak_short,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,14,True,True,[''],0.0,weak_short,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,15,True,True,['VbW'],0.0,weak_short,0,1,3.0830269679427147e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,16,True,True,['TPpVH'],0.0,weak_short,5,6,1.3542012311518192e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,17,True,True,['NZsas'],0.0,weak_short,42,43,6.791600026190281e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,18,True,True,['GVv'],0.0,weak_short,0,1,3.0830269679427147e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,19,True,True,['eexGW'],0.0,weak_short,35,36,6.070802919566631e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,20,True,True,[''],0.0,weak_short,0,1,2.583954483270645e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,21,True,True,['W1'],0.0,weak_short,0,1,2.500019036233425e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,22,True,True,['iPh'],0.0,weak_short,0,1,3.00002284348011e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,23,True,True,[''],0.0,weak_short,0,1,2.583954483270645e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,24,True,True,['qPDMU'],0.0,weak_short,5,6,1.4374963939189911e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,25,True,True,['Wd'],0.0,weak_short,0,1,2.834014594554901e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,26,True,True,['k'],0.0,weak_short,0,1,2.624932676553726e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,27,True,True,['w'],0.0,weak_short,0,1,2.666027285158634e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,28,True,True,['0GC0p'],0.0,weak_short,0,1,3.1669624149799347e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_short,29,True,True,['cGFD'],0.0,weak_short,0,1,3.2079406082630157e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,0,True,True,['tmaRSAfk4s'],0.0,strong,24,25,6.0416990891098976e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,1,True,True,['9DwbIQAy3k'],0.0,strong,7,8,2.2083986550569534e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,2,True,True,['08C17rrbcJp6yz3'],0.0,strong,0,1,5.458015948534012e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,3,True,True,['N55Et8b0VY'],0.0,strong,6,7,1.7208978533744812e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,4,True,True,['jSsB2OLm33rLraw'],0.0,strong,0,1,5.542067810893059e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,5,True,True,['YRwQXTM94B'],0.0,strong,0,1,5.00003807246685e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,6,True,True,['eDWZtpi1s37zRQ'],0.0,strong,0,1,5.334033630788326e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,7,True,True,['JlwUfTn2Z1WN'],0.0,strong,0,1,5.292007699608803e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,8,True,True,['l3mvNYFRzM'],0.0,strong,15,16,4.220893606543541e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,9,True,True,['LkGAi9jpYm'],0.0,strong,19,20,4.795799031853676e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,10,True,True,['8fMd2iEeTL'],0.0,strong,29,30,6.150000263005495e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,11,True,True,['JJxFmyI1zY'],0.0,strong,24,25,5.737494211643934e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,12,True,True,['A8c2kOvqyR5Qux'],0.0,strong,0,1,5.166977643966675e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,13,True,True,['e5GVHroe47'],0.0,strong,5,6,1.779093872755766e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,14,True,True,['sKy2WbrG1t'],0.0,strong,21,22,5.141703877598047e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,15,True,True,['OUzWX8ZjwC'],0.0,strong,4,5,1.4582998119294643e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,16,True,True,['dLxarXa0x3'],0.0,strong,16,17,3.74580267816782e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,17,True,True,['SHTGoPqk7hcJWuk'],0.0,strong,2,3,1.1791940778493881e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,18,True,True,['eRIN0zkMkjXls'],0.0,strong,0,1,5.375011824071407e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,19,True,True,['U0A7aYdJVYJkND9'],0.0,strong,0,1,4.708068445324898e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,20,True,True,['kDClzl8PHU'],0.0,strong,10,11,3.0125025659799576e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,21,True,True,['9Up7LzPKhl'],0.0,strong,31,32,6.845803000032902e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,22,True,True,['T7ppEDqByH'],0.0,strong,15,16,3.812497016042471e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,23,True,True,['BGMAMOL9c8'],0.0,strong,19,20,4.325003828853369e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,24,True,True,['jjN64kPfgI'],0.0,strong,9,10,2.6541994884610176e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,25,True,True,['Op596mHI3Qlamv'],0.0,strong,0,1,5.541951395571232e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,26,True,True,['lKIUqfawM3'],0.0,strong,0,1,4.875008016824722e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,27,True,True,['jstB7u3qCJ'],0.0,strong,25,26,6.00829953327775e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,28,True,True,['YlXx899hK8r21'],0.0,strong,0,1,5.124951712787151e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,strong,29,True,True,['utxnboiPVds5'],0.0,strong,31,32,7.387506775557995e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,0,True,True,['ARDTGUDuyKhnZ'],0.0,medium,14,15,4.2208004742860794e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,1,True,True,['HoH2MG7e8'],0.0,medium,48,49,0.00010887510143220425
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,2,True,True,['DfbWLVeUsX'],0.0,medium,7,8,2.2500054910779e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,3,True,True,['0oid1g2'],0.0,medium,0,1,4.416098818182945e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,4,True,True,['gbVpZHwQjCD'],0.0,medium,73,74,0.00016141601372510195
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,5,True,True,['SLLSh70'],0.0,medium,0,1,4.375004209578037e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,6,True,True,['ZRvZiRf'],0.0,medium,0,1,4.292000085115433e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,7,True,True,['riky78'],0.0,medium,2,3,9.999959729611874e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,8,True,True,['TOvRyY'],0.0,medium,7,8,2.0875013433396816e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,9,True,True,['VnnwiuKPoFVq'],0.0,medium,59,60,0.00013091694563627243
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,10,True,True,['6q7tZm'],0.0,medium,7,8,2.0499923266470432e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,11,True,True,['y8z1Ms'],0.0,medium,20,21,4.145794082432985e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,12,True,True,['L8YOt0'],0.0,medium,1,2,6.749993190169334e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,13,True,True,['6zDyRk'],0.0,medium,13,14,3.470794763416052e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,14,True,True,['Ne1rAg3R0'],0.0,medium,54,55,0.00012041698209941387
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,15,True,True,['tbZlOzdLkMkcaQ'],0.0,medium,13,14,3.8874917663633823e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,16,True,True,['ukLoU22'],0.0,medium,0,1,3.7919962778687477e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,17,True,True,['WxX8Toe2X'],0.0,medium,1,2,7.707974873483181e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,18,True,True,['eIyWTJDfGBGaVuv'],0.0,medium,6,7,2.437504008412361e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,19,True,True,['5OXCPRwh'],0.0,medium,0,1,4.166038706898689e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,20,True,True,['SnRYBq'],0.0,medium,0,1,3.999914042651653e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,21,True,True,['XeI2el'],0.0,medium,9,10,2.5957939215004444e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,22,True,True,['S20MtrImg'],0.0,medium,82,83,0.0001752919051796198
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,23,True,True,['zFjKcthCfxJU'],0.0,medium,18,19,4.858395550400019e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,24,True,True,['TcysgPEBENB'],0.0,medium,0,1,5.08397351950407e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,25,True,True,['ED4Fs3'],0.0,medium,7,8,2.104195300489664e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,26,True,True,['2BHziD'],0.0,medium,27,28,5.937495734542608e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,27,True,True,['KzLD5Y'],0.0,medium,10,11,2.5792047381401062e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,28,True,True,['E0zDMaPs'],0.0,medium,0,1,4.375004209578037e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,medium,29,True,True,['fQk42PUEI'],0.0,medium,33,34,8.695793803781271e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,0,True,True,['kwlkez'],0.0,weak_no_digit_upper,3550,3551,0.0072485830169171095
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,1,True,True,['wpftigg'],0.0,weak_no_digit_upper,2317,2318,0.004577917046844959
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,2,True,True,['aoomfw'],0.0,weak_no_digit_upper,712,713,0.0014209169894456863
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,3,False,False,['kTiDdzswNBGYvB'],1.0,,0,8081,0.01612399995792657
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,4,True,True,['jkiyrbo'],0.0,weak_no_digit_upper,1617,1618,0.0032339999452233315
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,5,True,True,['upqopt'],0.0,weak_no_digit_upper,1313,1314,0.002609832910820842
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,6,True,True,['eoucxe'],0.0,weak_no_digit_upper,3903,3904,0.007797708967700601
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,7,True,True,['xtfzie'],0.0,weak_no_digit_upper,762,763,0.0014869580045342445
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,8,True,True,['byvohxpblii'],0.0,weak_no_digit_upper,7,8,2.362497616559267e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,9,True,True,['yxbozq'],0.0,weak_no_digit_upper,1823,1824,0.003618875052779913
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,10,True,True,['ucdnctd'],0.0,weak_no_digit_upper,6048,6049,0.01201058307196945
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,11,False,False,['8GspGCaFqyAt19g'],1.0,,0,8081,0.016037749941460788
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,12,True,True,['sovrrq'],0.0,weak_no_digit_upper,1883,1884,0.003701291047036648
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,13,True,True,['mltesm'],0.0,weak_no_digit_upper,337,338,0.0006613750010728836
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,14,True,True,['xudnly'],0.0,weak_no_digit_upper,2002,2003,0.003961332957260311
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,15,True,True,['ftnkuh'],0.0,weak_no_digit_upper,2242,2243,0.004436250077560544
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,16,True,True,['ciddnm'],0.0,weak_no_digit_upper,3434,3435,0.0067918330896645784
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,17,True,True,['mvetgp'],0.0,weak_no_digit_upper,1228,1229,0.0024334589252248406
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,18,True,True,['egkkmu'],0.0,weak_no_digit_upper,1212,1213,0.002378333010710776
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,19,True,True,['guugbwrpy'],0.0,weak_no_digit_upper,583,584,0.001141624990850687
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,20,True,True,['fvdchpi'],0.0,weak_no_digit_upper,1678,1679,0.003342209034599364
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,21,True,True,['fikxpoza'],0.0,weak_no_digit_upper,751,752,0.0014865000266581774
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,22,True,True,['lcgjuh'],0.0,weak_no_digit_upper,858,859,0.0017369999550282955
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,23,True,True,['kamysh'],0.0,weak_no_digit_upper,5553,5554,0.010895290994085371
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,24,True,True,['ayybcxo'],0.0,weak_no_digit_upper,368,369,0.0007377499714493752
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,25,True,True,['aqnzkmyuxj'],0.0,weak_no_digit_upper,704,705,0.0013997090281918645
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,26,True,True,['hzkuqb'],0.0,weak_no_digit_upper,1447,1448,0.002858875086531043
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,27,True,True,['ydkzlcc'],0.0,weak_no_digit_upper,3089,3090,0.006088042049668729
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,28,True,True,['bjzxpj'],0.0,weak_no_digit_upper,5336,5337,0.010496582952328026
+llama_3_3_70b_versatile,HILL_CLIMBING,password_strength,weak_no_digit_upper,29,True,True,['zvbtujv'],0.0,weak_no_digit_upper,354,355,0.00071854202542454
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,0,True,True,"[0.0, 0.0, False]",0.0,invalid,321,322,0.00052220793440938
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,1,True,True,"[0.0, 0.0, True]",0.0,invalid,283,284,0.0004400840261951089
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,2,True,True,"[0.0, 0.0, True]",0.0,invalid,271,272,0.0004388340748846531
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,3,True,True,"[0.0, 0.0, True]",0.0,invalid,394,395,0.000604041968472302
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,4,True,True,"[0.0, 0.0, True]",0.0,invalid,176,177,0.000288457958959043
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,5,True,True,"[0.0, 0.0, False]",0.0,invalid,231,232,0.0003565410152077675
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,6,True,True,"[0.0, 0.0, False]",0.0,invalid,292,293,0.0004676670068874955
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,7,True,True,"[0.0, 0.0, False]",0.0,invalid,320,321,0.0004973330069333315
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,8,True,True,"[0.0, 0.0, True]",0.0,invalid,272,273,0.0004413339775055647
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,9,True,True,"[0.0, 0.0, False]",0.0,invalid,164,165,0.00028658309020102024
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,10,True,True,"[0.0, 0.0, False]",0.0,invalid,341,342,0.0005365420365706086
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,11,True,True,"[0.0, 0.0, False]",0.0,invalid,342,343,0.0005348339909687638
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,12,True,True,"[0.0, 0.0, True]",0.0,invalid,281,282,0.000437874929048121
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,13,True,True,"[0.0, 0.0, False]",0.0,invalid,349,350,0.0005750000709667802
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,14,True,True,"[0.0, 0.0, True]",0.0,invalid,253,254,0.00041274994146078825
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,15,True,True,"[0.0, 0.0, False]",0.0,invalid,362,363,0.0005710839759558439
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,16,True,True,"[0.0, 0.0, True]",0.0,invalid,610,611,0.0009413340594619513
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,17,True,True,"[0.0, 0.0, False]",0.0,invalid,354,355,0.0005618749419227242
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,18,True,True,"[0.0, 0.0, True]",0.0,invalid,343,344,0.0005329160485416651
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,19,True,True,"[0.0, 0.0, False]",0.0,invalid,301,302,0.0004755409900099039
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,20,True,True,"[0.0, 0.0, False]",0.0,invalid,248,249,0.0004039589548483491
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,21,True,True,"[0.0, 0.0, True]",0.0,invalid,161,162,0.00025183300022035837
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,22,True,True,"[0.0, 0.0, False]",0.0,invalid,391,392,0.0005915829678997397
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,23,True,True,"[0.0, 0.0, True]",0.0,invalid,456,457,0.0007471670396625996
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,24,True,True,"[0.0, 0.0, False]",0.0,invalid,454,455,0.0007251249626278877
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,25,True,True,"[0.0, 0.0, True]",0.0,invalid,165,166,0.00026408396661281586
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,26,True,True,"[0.0, 0.0, False]",0.0,invalid,210,211,0.00032041699159890413
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,27,True,True,"[0.0, 0.0, False]",0.0,invalid,226,227,0.0003754580393433571
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,28,True,True,"[0.0, 0.0, True]",0.0,invalid,536,537,0.0008425000123679638
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,invalid,29,True,True,"[0.0, 0.0, False]",0.0,invalid,196,197,0.00033258297480642796
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,0,True,True,"[354.94404923993227, 49.236682252254184, True]",0.0,free_express_shipping,8,9,2.191704697906971e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,1,True,True,"[912.6137786031749, 41.834237488862, True]",0.0,free_express_shipping,1,2,6.916932761669159e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,2,True,True,"[700.0718896224937, 32.85208534520123, True]",0.0,free_express_shipping,0,1,3.250082954764366e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,3,True,True,"[269.0106970393388, 33.028596600606754, True]",0.0,free_express_shipping,19,20,3.629201091825962e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,4,True,True,"[574.9340939110475, 0.6655368658631264, True]",0.0,free_express_shipping,33,34,7.379089947789907e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,5,True,True,"[269.5663810436446, 5.480112179002694, True]",0.0,free_express_shipping,7,8,1.89170241355896e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,6,True,True,"[426.78597385149317, 34.53090500616068, True]",0.0,free_express_shipping,52,53,9.291700553148985e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,7,True,True,"[423.4928350919904, 18.911076369099487, True]",0.0,free_express_shipping,49,50,8.820893708616495e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,8,True,True,"[520.509152546944, 49.76134567630398, True]",0.0,free_express_shipping,210,211,0.0003089170204475522
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,9,True,True,"[203.4612165971409, 8.127236163053553, True]",0.0,free_express_shipping,61,62,0.00010833295527845621
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,10,True,True,"[235.6095549305702, 16.159898367438252, True]",0.0,free_express_shipping,78,79,0.00012633309233933687
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,11,True,True,"[311.2556155388549, 45.578340515489245, True]",0.0,free_express_shipping,38,39,7.937499321997166e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,12,True,True,"[880.5127791879582, 10.242392229586006, True]",0.0,free_express_shipping,15,16,4.0499959141016006e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,13,True,True,"[761.5433772267031, 18.379130078628126, True]",0.0,free_express_shipping,3,4,1.1458992958068848e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,14,True,True,"[606.0144911598503, 36.287924556853255, True]",0.0,free_express_shipping,19,20,4.025001544505358e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,15,True,True,"[422.73277402682663, 13.88938980232779, True]",0.0,free_express_shipping,21,22,3.608397673815489e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,16,True,True,"[516.2724422558016, 12.769911361408425, True]",0.0,free_express_shipping,126,127,0.00019941595382988453
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,17,True,True,"[888.1992806639918, 5.224037394261683, True]",0.0,free_express_shipping,684,686,0.0008698749588802457
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,18,True,True,"[784.9156086875903, 19.910881854832585, True]",0.0,free_express_shipping,10,11,2.7333968318998814e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,19,True,True,"[910.4175293474743, 37.7232799677295, True]",0.0,free_express_shipping,26,27,5.341705400496721e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,20,True,True,"[563.1949534313172, 1.5987109370952934, True]",0.0,free_express_shipping,9,10,1.937500201165676e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,21,True,True,"[354.2739669669669, 25.64673306186438, True]",0.0,free_express_shipping,69,70,0.00010720896534621716
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,22,True,True,"[428.4500831454733, 38.715792482907574, True]",0.0,free_express_shipping,78,79,0.00013204198330640793
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,23,True,True,"[769.4448874778203, 26.022779490399994, True]",0.0,free_express_shipping,46,47,9.374995715916157e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,24,True,True,"[944.2766313185093, 17.77905840859273, True]",0.0,free_express_shipping,155,156,0.00024737499188631773
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,25,True,True,"[575.2024760250537, 39.021252877628925, True]",0.0,free_express_shipping,2,3,9.875046089291573e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,26,True,True,"[330.63341381051373, 10.152535293954656, True]",0.0,free_express_shipping,101,102,0.0001519171055406332
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,27,True,True,"[541.426889161168, 49.54664029562689, True]",0.0,free_express_shipping,278,279,0.00041087507270276546
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,28,True,True,"[913.7155410372462, 17.537835301281447, True]",0.0,free_express_shipping,1,2,6.500049494206905e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,free_express_shipping,29,True,True,"[739.1578532537173, 15.866087662416474, True]",0.0,free_express_shipping,34,35,7.56249064579606e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,0,True,True,"[155.2203241752458, 40.47310496359157, True]",0.0,standard_discount,6,7,2.3083994165062904e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,1,True,True,"[477.12913341370427, 59.097360749445606, False]",0.0,standard_discount,6,7,1.5749945305287838e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,2,True,True,"[635.9962088928858, 2.7426317156881153, True]",0.0,standard_discount,118,119,0.00021316600032150745
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,3,True,True,"[713.5970578520266, 19.188316046061082, False]",0.0,standard_discount,28,29,6.579095497727394e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,4,True,True,"[477.81872248544863, 69.60908498371477, False]",0.0,standard_discount,32,33,7.14579364284873e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,5,True,True,"[204.02435917308475, 34.638209278517465, True]",0.0,standard_discount,91,92,0.00018970901146531105
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,6,True,True,"[843.2055786836007, 80.6293073994423, False]",0.0,standard_discount,11,12,2.862501423805952e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,7,True,True,"[281.0933367268763, 43.640198981069304, True]",0.0,standard_discount,140,141,0.0002532909857109189
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,8,True,True,"[746.2920726817478, 58.61038032235499, True]",0.0,standard_discount,0,1,3.1669624149799347e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,9,True,True,"[986.0171658219588, 60.96295975407695, True]",0.0,standard_discount,13,14,3.170897252857685e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,10,True,True,"[378.3626962097419, 1.846501935810596, True]",0.0,standard_discount,18,19,3.587501123547554e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,11,True,True,"[174.74363572468775, 67.77303763845089, False]",0.0,standard_discount,46,47,9.304098784923553e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,12,True,True,"[496.731074939112, 39.71969706005085, False]",0.0,standard_discount,42,43,8.449994493275881e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,13,True,True,"[988.9173817089467, 79.11533281447348, True]",0.0,standard_discount,35,36,6.9458968937397e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,14,True,True,"[669.6342300814769, 75.4354665437048, True]",0.0,standard_discount,22,23,4.333304241299629e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,15,True,True,"[110.07382888508666, 36.30035357305961, True]",0.0,standard_discount,34,35,6.629200652241707e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,16,True,True,"[733.2445716248162, 27.022134157519307, False]",0.0,standard_discount,22,23,5.195906851440668e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,17,True,True,"[223.8441789946552, 65.95244593930182, True]",0.0,standard_discount,9,10,2.7582980692386627e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,18,True,True,"[689.3720618575176, 55.246350462773705, False]",0.0,standard_discount,0,1,3.250082954764366e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,19,True,True,"[697.2528806568822, 15.490446317173333, True]",0.0,standard_discount,4,5,1.4124903827905655e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,20,True,True,"[387.99392475227273, 1.9855359807763318, False]",0.0,standard_discount,23,24,4.3541076593101025e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,21,True,True,"[818.6769628359749, 99.55076765325965, True]",0.0,standard_discount,5,6,1.7750076949596405e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,22,True,True,"[767.8683073516527, 4.688859020149039, False]",0.0,standard_discount,22,23,4.254200030118227e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,23,True,True,"[794.1726713349167, 35.190640888098976, False]",0.0,standard_discount,30,31,6.37079356238246e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,24,True,True,"[175.62279069819022, 92.33752596772027, True]",0.0,standard_discount,0,1,3.1660310924053192e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,25,True,True,"[246.6302989099014, 79.8603056492444, False]",0.0,standard_discount,0,1,3.2909447327256203e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,26,True,True,"[780.872303034664, 48.22729514865476, True]",0.0,standard_discount,12,13,3.470899537205696e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,27,True,True,"[146.2373136859334, 75.07922313481762, False]",0.0,standard_discount,62,63,0.00012250000145286322
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,28,True,True,"[379.01703258915893, 14.615459739757641, False]",0.0,standard_discount,73,74,0.0001461249776184559
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,standard_discount,29,True,True,"[149.09806285814986, 63.401324015170516, True]",0.0,standard_discount,88,89,0.00017737504094839096
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,0,True,True,"[519.9215896110562, 894.1343123424896, False]",0.0,small_discount,0,1,3.2919924706220627e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,1,True,True,"[839.00718128272, 860.0568930930132, True]",0.0,small_discount,0,1,3.2499665394425392e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,2,True,True,"[527.1070282307267, 551.7971182358939, False]",0.0,small_discount,0,1,3.3330870792269707e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,3,True,True,"[9.715678562810858, 49.96211955470653, True]",0.0,small_discount,0,1,3.2499665394425392e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,4,True,True,"[813.8546192582463, 741.8813457905098, True]",0.0,small_discount,0,1,3.2499665394425392e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,5,True,True,"[169.9078029176746, 740.6462578342569, False]",0.0,small_discount,0,1,3.374996595084667e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,6,True,True,"[336.0789210166087, 985.4412726354167, False]",0.0,small_discount,0,1,3.1669624149799347e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,7,True,True,"[570.6218412339266, 930.0721987875364, False]",0.0,small_discount,0,1,3.125052899122238e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,8,True,True,"[295.41423376508726, 646.898033138155, True]",0.0,small_discount,0,1,3.4170225262641907e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,9,True,True,"[994.2789860881736, 899.2920135226394, True]",0.0,small_discount,0,1,3.0420487746596336e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,10,True,True,"[317.89292076071774, 186.2441966095426, False]",0.0,small_discount,0,1,3.1660310924053192e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,11,True,True,"[156.63789681699137, 200.48027874226392, False]",0.0,small_discount,0,1,3.2499665394425392e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,12,True,True,"[790.9228005389774, 283.87541162888306, False]",0.0,small_discount,0,1,3.3329706639051437e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,13,True,True,"[801.8523315547637, 288.79456623532275, False]",0.0,small_discount,0,1,3.0420487746596336e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,14,True,True,"[503.1090992811578, 757.596312918255, False]",0.0,small_discount,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,15,True,True,"[937.4010498887386, 678.5967803524937, True]",0.0,small_discount,0,1,2.708984538912773e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,16,True,True,"[940.6200113681623, 782.529623273716, True]",0.0,small_discount,0,1,2.7079368010163307e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,17,True,True,"[345.7496979261302, 833.2505844259043, False]",0.0,small_discount,0,1,2.8330832719802856e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,18,True,True,"[930.832478614028, 164.34375180790207, True]",0.0,small_discount,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,19,True,True,"[465.4464418227947, 106.76949810205805, True]",0.0,small_discount,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,20,True,True,"[36.02842776638848, 640.4693963900913, True]",0.0,small_discount,0,1,2.91608739644289e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,21,True,True,"[345.6024946527071, 882.8002995188382, True]",0.0,small_discount,0,1,2.750079147517681e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,22,True,True,"[590.172166482739, 430.0742013231965, False]",0.0,small_discount,0,1,2.7921050786972046e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,23,True,True,"[120.42541634650483, 505.42590670531507, False]",0.0,small_discount,0,1,4.375004209578037e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,24,True,True,"[284.9417614876224, 668.3006392011906, False]",0.0,small_discount,0,1,3.00002284348011e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,25,True,True,"[6.3043958858320925, 21.471896499367315, True]",0.0,small_discount,0,1,1.3666111044585705e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,26,True,True,"[212.4900137380106, 505.8190870238009, False]",0.0,small_discount,0,1,5.458015948534012e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,27,True,True,"[952.5203056733105, 217.68029523995935, True]",0.0,small_discount,0,1,4.041939973831177e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,28,True,True,"[568.5523826787763, 284.32321489360135, False]",0.0,small_discount,0,1,3.5420525819063187e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,small_discount,29,True,True,"[315.3341232026335, 167.13101080053673, False]",0.0,small_discount,0,1,3.08395829051733e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,0,True,True,"[11.340946478486881, 935.777180639887, False]",0.0,no_discount,47,48,9.612506255507469e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,1,True,True,"[22.35447441981353, 601.219860253051, False]",0.0,no_discount,49,50,8.095800876617432e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,2,True,True,"[9.240425660080763, 861.5542608678456, False]",0.0,no_discount,39,40,7.120892405509949e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,3,True,True,"[45.285696306785475, 514.7780501741006, False]",0.0,no_discount,7,8,1.7291982658207417e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,4,True,True,"[39.786871392912985, 550.3757466199014, False]",0.0,no_discount,2,3,7.874914444983006e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,5,True,True,"[44.41337830523817, 425.8194629060502, False]",0.0,no_discount,34,35,6.858306005597115e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,6,True,True,"[31.646566816832742, 255.07376626636037, False]",0.0,no_discount,66,67,0.00010504201054573059
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,7,True,True,"[47.52772364392715, 636.5417322239107, False]",0.0,no_discount,63,64,9.562494233250618e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,8,True,True,"[0.686078449740946, 35.113384323335495, False]",0.0,no_discount,47,48,7.604097481817007e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,9,True,True,"[49.70209184747977, 202.133772273832, False]",0.0,no_discount,70,71,0.00010716705583035946
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,10,True,True,"[24.93761837131271, 956.2420649328283, False]",0.0,no_discount,6,7,1.537497155368328e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,11,True,True,"[23.736947054054713, 585.3633613251429, False]",0.0,no_discount,22,23,4.3042004108428955e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,12,True,True,"[36.353194193540716, 964.3075369382835, False]",0.0,no_discount,34,35,6.466591730713844e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,13,True,True,"[37.09036092689677, 340.1660539883932, False]",0.0,no_discount,0,1,2.874992787837982e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,14,True,True,"[20.793176418793745, 147.96116732016318, False]",0.0,no_discount,70,71,0.00011345802340656519
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,15,True,True,"[15.134231346226157, 956.3089461622811, False]",0.0,no_discount,73,74,0.00011795898899435997
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,16,True,True,"[47.98034537374895, 643.5654281993827, False]",0.0,no_discount,117,118,0.00017574999947100878
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,17,True,True,"[10.71947372185623, 105.20154294291773, False]",0.0,no_discount,19,20,4.066701512783766e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,18,True,True,"[48.09366281066224, 239.11360947065052, False]",0.0,no_discount,64,65,0.00010958302300423384
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,19,True,True,"[12.875080215694668, 602.1904018102864, False]",0.0,no_discount,10,11,2.466596197336912e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,20,True,True,"[29.590357081108852, 339.5729101070591, False]",0.0,no_discount,27,28,5.512498319149017e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,21,True,True,"[32.94408149214233, 586.7548961847829, False]",0.0,no_discount,4,5,1.2874952517449856e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,22,True,True,"[19.73402531684798, 51.383046983883574, False]",0.0,no_discount,202,203,0.00026537501253187656
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,23,True,True,"[24.626540478529137, 251.75237681731411, False]",0.0,no_discount,38,39,6.595905870199203e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,24,True,True,"[17.222197495119538, 799.9191226049351, False]",0.0,no_discount,57,58,9.524996858090162e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,25,True,True,"[1.4257875280081498, 126.49673820525776, False]",0.0,no_discount,49,50,7.591606117784977e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,26,True,True,"[21.24504905839332, 285.6183176625159, False]",0.0,no_discount,93,94,0.0001478750491514802
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,27,True,True,"[24.53441369474102, 930.7688741021735, False]",0.0,no_discount,49,50,8.66670161485672e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,28,True,True,"[2.1785688414626687, 382.665101122918, False]",0.0,no_discount,71,72,0.00010812492109835148
+llama_3_3_70b_versatile,HILL_CLIMBING,shipping_discount,no_discount,29,True,True,"[43.04305002781816, 389.4396009510975, False]",0.0,no_discount,5,6,1.3999990187585354e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,0,True,True,[1348],0.0,positive,4,5,1.1999974958598614e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,1,True,True,[1143],0.0,positive,0,1,2.7909409254789352e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,2,True,True,[1211],0.0,positive,0,1,2.6669586077332497e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,3,True,True,[2319],0.0,positive,0,1,3.0420487746596336e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,4,True,True,[2164],0.0,positive,0,1,2.6669586077332497e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,5,True,True,[1916],0.0,positive,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,6,True,True,[2337],0.0,positive,0,1,2.4170149117708206e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,7,True,True,[1877],0.0,positive,0,1,2.5420449674129486e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,8,True,True,[1573],0.0,positive,0,1,1.875101588666439e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,9,True,True,[2472],0.0,positive,1,2,5.00003807246685e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,10,True,True,[343],0.0,positive,2,3,7.1249669417738914e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,11,True,True,[57],0.0,positive,0,1,2.500019036233425e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,12,True,True,[1539],0.0,positive,0,1,2.4170149117708206e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,13,True,True,[128],0.0,positive,0,1,1.8330756574869156e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,14,True,True,[2526],0.0,positive,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,15,True,True,[2321],0.0,positive,1,2,4.875008016824722e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,16,True,True,[650],0.0,positive,0,1,2.2919848561286926e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,17,True,True,[1532],0.0,positive,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,18,True,True,[2710],0.0,positive,2,3,4.584086127579212e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,19,True,True,[2885],0.0,positive,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,20,True,True,[149],0.0,positive,2,3,7.1249669417738914e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,21,True,True,[958],0.0,positive,0,1,2.0830193534493446e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,22,True,True,[99],0.0,positive,4,5,8.66700429469347e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,23,True,True,[1569],0.0,positive,0,1,2.125045284628868e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,24,True,True,[278],0.0,positive,0,1,2.415967173874378e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,25,True,True,[2938],0.0,positive,0,1,2.500019036233425e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,26,True,True,[732],0.0,positive,0,1,2.125045284628868e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,27,True,True,[1076],0.0,positive,0,1,2.374988980591297e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,28,True,True,[1551],0.0,positive,0,1,2.334010787308216e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,positive,29,True,True,[1877],0.0,positive,4,5,9.499955922365189e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,0,True,True,[-323],0.0,negative,21,22,3.929203376173973e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,1,True,True,[-435],0.0,negative,53,54,6.545800715684891e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,2,True,True,[-418],0.0,negative,0,1,2.124928869307041e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,3,True,True,[-385],0.0,negative,16,17,2.683396451175213e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,4,True,True,[-161],0.0,negative,0,1,2.5420449674129486e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,5,True,True,[-32],0.0,negative,0,1,2.540997229516506e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,6,True,True,[-495],0.0,negative,30,31,4.4874963350594044e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,7,True,True,[-84],0.0,negative,3,4,7.2909751906991005e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,8,True,True,[-244],0.0,negative,14,15,2.516701351851225e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,9,True,True,[-215],0.0,negative,17,18,2.6791938580572605e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,10,True,True,[-118],0.0,negative,22,23,3.22909327223897e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,11,True,True,[-402],0.0,negative,7,8,1.4457968063652515e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,12,True,True,[-323],0.0,negative,0,1,2.3329630494117737e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,13,True,True,[-429],0.0,negative,35,36,4.470802377909422e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,14,True,True,[-217],0.0,negative,40,41,5.4833944886922836e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,15,True,True,[-189],0.0,negative,38,39,5.7541998103260994e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,16,True,True,[-338],0.0,negative,54,55,6.60829246044159e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,17,True,True,[-437],0.0,negative,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,18,True,True,[-120],0.0,negative,25,26,3.266602288931608e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,19,True,True,[-452],0.0,negative,19,20,3.087497316300869e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,20,True,True,[-38],0.0,negative,0,1,2.4579931050539017e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,21,True,True,[-113],0.0,negative,12,13,1.8915976397693157e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,22,True,True,[-341],0.0,negative,1,2,4.832982085645199e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,23,True,True,[-94],0.0,negative,1,2,3.916909918189049e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,24,True,True,[-350],0.0,negative,7,8,1.0582967661321163e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,25,True,True,[-271],0.0,negative,1,2,4.250090569257736e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,26,True,True,[-83],0.0,negative,41,42,4.804192576557398e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,27,True,True,[-458],0.0,negative,0,1,2.499902620911598e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,28,True,True,[-1],0.0,negative,69,70,8.050003089010715e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,negative,29,True,True,[-368],0.0,negative,0,1,2.5420449674129486e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,0,True,True,[0],0.0,zero,101,102,0.00010229204781353474
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,1,True,True,[0],0.0,zero,107,108,0.00011908297892659903
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,2,True,True,[0],0.0,zero,68,69,7.79579859226942e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,3,True,True,[0],0.0,zero,66,67,7.366703357547522e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,4,True,True,[0],0.0,zero,139,140,0.0001367080258205533
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,5,True,True,[0],0.0,zero,32,33,4.1291932575404644e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,6,True,True,[0],0.0,zero,74,75,8.433288894593716e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,7,True,True,[0],0.0,zero,150,151,0.00015474995598196983
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,8,True,True,[0],0.0,zero,51,52,5.974993109703064e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,9,True,True,[0],0.0,zero,58,59,7.266702596098185e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,10,True,True,[0],0.0,zero,70,71,8.549995254725218e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,11,True,True,[0],0.0,zero,74,75,8.67500202730298e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,12,True,True,[0],0.0,zero,48,49,6.125005893409252e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,13,True,True,[0],0.0,zero,49,50,7.283303420990705e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,14,True,True,[0],0.0,zero,173,174,0.00019175000488758087
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,15,True,True,[0],0.0,zero,24,25,3.8082944229245186e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,16,True,True,[0],0.0,zero,34,35,4.525005351752043e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,17,True,True,[0],0.0,zero,92,93,0.00011200003791600466
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,18,True,True,[0],0.0,zero,127,128,0.00012729200534522533
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,19,True,True,[0],0.0,zero,98,99,0.00011124997399747372
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,20,True,True,[0],0.0,zero,78,79,9.204202797263861e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,21,True,True,[0],0.0,zero,62,63,7.766694761812687e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,22,True,True,[0],0.0,zero,164,165,0.00016533408779650927
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,23,True,True,[0],0.0,zero,92,93,0.00010279100388288498
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,24,True,True,[0],0.0,zero,49,50,5.795806646347046e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,25,True,True,[0],0.0,zero,82,83,9.31670656427741e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,26,True,True,[0],0.0,zero,168,169,0.00017270899843424559
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,27,True,True,[0],0.0,zero,67,68,8.67500202730298e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,28,True,True,[0],0.0,zero,44,45,5.250005051493645e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,sign_type,zero,29,True,True,[0],0.0,zero,8,9,1.3416982255876064e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,0,True,True,[''],0.0,empty,23,24,4.833401180803776e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,1,True,True,[''],0.0,empty,22,23,6.691704038530588e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,2,True,True,[''],0.0,empty,13,14,3.224995452910662e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,3,True,True,[''],0.0,empty,21,22,3.324996214359999e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,4,True,True,[''],0.0,empty,26,27,5.016603972762823e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,5,True,True,[''],0.0,empty,25,26,4.333304241299629e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,6,True,True,[''],0.0,empty,13,14,2.6792054995894432e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,7,True,True,[''],0.0,empty,5,6,1.4041084796190262e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,8,True,True,[''],0.0,empty,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,9,True,True,[''],0.0,empty,19,20,3.67090106010437e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,10,True,True,[''],0.0,empty,21,22,4.312500823289156e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,11,True,True,[''],0.0,empty,17,18,3.2250070944428444e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,12,True,True,[''],0.0,empty,8,9,1.5833997167646885e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,13,True,True,[''],0.0,empty,17,18,3.2957992516458035e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,14,True,True,[''],0.0,empty,13,14,2.8082984499633312e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,15,True,True,[''],0.0,empty,34,35,5.795795004814863e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,16,True,True,[''],0.0,empty,9,10,1.9875005818903446e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,17,True,True,[''],0.0,empty,39,40,6.283295806497335e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,18,True,True,[''],0.0,empty,12,13,2.1708081476390362e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,19,True,True,[''],0.0,empty,17,18,3.445800393819809e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,20,True,True,[''],0.0,empty,45,46,7.883296348154545e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,21,True,True,[''],0.0,empty,18,19,4.0499959141016006e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,22,True,True,[''],0.0,empty,18,19,3.466696944087744e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,23,True,True,[''],0.0,empty,29,30,5.662499461323023e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,24,True,True,[''],0.0,empty,47,48,7.79579859226942e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,25,True,True,[''],0.0,empty,34,35,5.7582976296544075e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,26,True,True,[''],0.0,empty,10,11,2.1915999241173267e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,27,True,True,[''],0.0,empty,17,18,2.9708025977015495e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,28,True,True,[''],0.0,empty,8,9,1.49579718708992e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,empty,29,True,True,[''],0.0,empty,9,10,1.945893745869398e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,0,False,False,['Csr3s22'],1.0,,0,8081,0.012199249933473766
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,1,True,True,['fJJf'],0.0,long_palindrome,5300,5301,0.008027042029425502
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,2,False,False,['jmYk'],1.0,,14,8081,0.012255875044502318
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,3,False,False,['myJVwPvAleJCh'],1.0,,0,8081,0.012190458015538752
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,4,False,False,['xhzBZGrTw0rpi09'],1.0,,0,8081,0.012194124981760979
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,5,False,False,['OHLBLng'],1.0,,0,8081,0.0122170839458704
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,6,False,False,['w5kaxzRerh2zF7'],1.0,,0,8081,0.012214208953082561
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,7,False,False,['oGhXHPeizzRU'],1.0,,0,8081,0.012198292068205774
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,8,False,False,['h2rX'],1.0,,0,8081,0.012297999928705394
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,9,True,True,['EiWiE'],0.0,long_palindrome,3478,3479,0.005296165938489139
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,10,False,False,['WtLe5yXf'],1.0,,0,8081,0.012229708023369312
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,11,False,False,['betk'],1.0,,0,8081,0.012254417059011757
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,12,False,False,['cA6Y5'],1.0,,0,8081,0.01211233390495181
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,13,False,False,['J72EpKPxge6KT'],1.0,,0,8081,0.012213999987579882
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,14,True,True,['WXXW'],0.0,long_palindrome,136,137,0.00021820899564772844
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,15,False,False,['QeVW'],1.0,,15,8081,0.012220375007018447
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,16,False,False,['FotOCv0'],1.0,,0,8081,0.012168542016297579
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,17,False,False,['NAjZKPb2SB03'],1.0,,0,8081,0.01213020901195705
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,18,False,False,['V1xPGXo3'],1.0,,0,8081,0.012315250001847744
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,19,True,True,['1AXA1'],0.0,long_palindrome,4773,4774,0.007293375092558563
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,20,True,True,['AYCYA'],0.0,long_palindrome,4837,4838,0.007381999981589615
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,21,False,False,['Va6T'],1.0,,12,8081,0.012368125026114285
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,22,False,False,['A1cvM9Zpjd'],1.0,,0,8081,0.012386249960400164
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,23,False,False,['bAs7FXc'],1.0,,0,8081,0.012336999992839992
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,24,False,False,['CBDf'],1.0,,0,8081,0.012284916010685265
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,25,False,False,['msCmrc5'],1.0,,0,8081,0.012286624987609684
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,26,False,False,['jF70sb'],1.0,,0,8081,0.0119407499441877
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,27,False,False,['sNxeIV780'],1.0,,0,8081,0.012132667005062103
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,28,False,False,['PLQolP'],1.0,,0,8081,0.012228791019879282
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_palindrome,29,False,False,['9cE4rlaYhWZ'],1.0,,0,8081,0.012111041927710176
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,0,True,True,['3'],0.0,short_palindrome,50,51,8.779100608080626e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,1,True,True,['4'],0.0,short_palindrome,17,18,3.250001464039087e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,2,True,True,['l'],0.0,short_palindrome,40,41,6.345903966575861e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,3,True,True,['j'],0.0,short_palindrome,21,22,3.491598181426525e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,4,True,True,['A'],0.0,short_palindrome,15,16,2.4916022084653378e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,5,True,True,['a'],0.0,short_palindrome,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,6,True,True,[''],0.0,short_palindrome,0,1,2.7919886633753777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,7,True,True,['o'],0.0,short_palindrome,1,2,5.00003807246685e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,8,True,True,['B'],0.0,short_palindrome,5,6,1.0582967661321163e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,9,True,True,['N'],0.0,short_palindrome,18,19,3.3374992199242115e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,10,True,True,['N'],0.0,short_palindrome,33,34,5.208305083215237e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,11,True,True,[''],0.0,short_palindrome,0,1,2.583954483270645e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,12,True,True,['k'],0.0,short_palindrome,26,27,4.533398896455765e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,13,True,True,['x'],0.0,short_palindrome,1,2,4.749977961182594e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,14,True,True,['8'],0.0,short_palindrome,32,33,5.27920201420784e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,15,True,True,['A'],0.0,short_palindrome,7,8,1.3708020560443401e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,16,True,True,[''],0.0,short_palindrome,0,1,2.4170149117708206e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,17,True,True,['M'],0.0,short_palindrome,43,44,6.524997297674417e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,18,True,True,['b'],0.0,short_palindrome,34,35,5.308305844664574e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,19,True,True,['U'],0.0,short_palindrome,41,42,6.89999433234334e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,20,True,True,['X'],0.0,short_palindrome,33,34,5.47909876331687e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,21,True,True,['P'],0.0,short_palindrome,39,40,6.354099605232477e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,22,True,True,['f'],0.0,short_palindrome,29,30,5.00829191878438e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,23,True,True,['n'],0.0,short_palindrome,19,20,3.1917006708681583e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,24,True,True,['8'],0.0,short_palindrome,32,33,5.6458055041730404e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,25,True,True,['1R1'],0.0,short_palindrome,34,35,5.3582945838570595e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,26,True,True,['D'],0.0,short_palindrome,30,31,4.570791497826576e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,27,True,True,['m'],0.0,short_palindrome,26,27,4.537496715784073e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,28,True,True,['G'],0.0,short_palindrome,37,38,6.0333055444061756e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,short_palindrome,29,True,True,['8'],0.0,short_palindrome,23,24,3.7209014408290386e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,0,True,True,['YDgSQ8'],0.0,long_non_palindrome,17,18,2.716702874749899e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,1,True,True,['QfEBXAROocOzW7Y'],0.0,long_non_palindrome,0,1,4.500034265220165e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,2,True,True,['1MCQETiPYrgogc'],0.0,long_non_palindrome,0,1,4.208064638078213e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,3,True,True,['FqgazpWOOd'],0.0,long_non_palindrome,0,1,3.7910649552941322e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,4,True,True,['4LTIGq'],0.0,long_non_palindrome,8,9,1.8208986148238182e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,5,True,True,['rnrMPMwOJBdZ'],0.0,long_non_palindrome,0,1,3.958004526793957e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,6,True,True,['sRbPxu'],0.0,long_non_palindrome,14,15,2.437504008412361e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,7,True,True,['r4lAUCH5jC'],0.0,long_non_palindrome,0,1,3.7909485399723053e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,8,True,True,['1CJnME'],0.0,long_non_palindrome,13,14,2.1292013116180897e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,9,True,True,['wrEArPs0'],0.0,long_non_palindrome,0,1,3.457884304225445e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,10,True,True,['aWJYVLPwwqHc'],0.0,long_non_palindrome,0,1,4.00003045797348e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,11,True,True,['BhoL7b'],0.0,long_non_palindrome,7,8,1.4625024050474167e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,12,True,True,['QSdu94'],0.0,long_non_palindrome,5,6,1.0750023648142815e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,13,True,True,['HWPDy5hsNjoi'],0.0,long_non_palindrome,0,1,4.00003045797348e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,14,True,True,['6AE4y9B'],0.0,long_non_palindrome,0,1,3.2909447327256203e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,15,True,True,['5CaiwhzU7S00d'],0.0,long_non_palindrome,0,1,4.125060513615608e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,16,True,True,['10hm4RH3oJwHcJm'],0.0,long_non_palindrome,0,1,4.249974153935909e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,17,True,True,['l50Fu5'],0.0,long_non_palindrome,9,10,1.7832964658737183e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,18,True,True,['ZgLwbP'],0.0,long_non_palindrome,13,14,2.5916029699146748e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,19,True,True,['QXufmr1mHlTYC'],0.0,long_non_palindrome,0,1,5.083042196929455e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,20,True,True,['kmqzf2'],0.0,long_non_palindrome,7,8,1.4792080037295818e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,21,True,True,['XCq0T0Rq'],0.0,long_non_palindrome,0,1,3.4170225262641907e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,22,True,True,['VcpTH9'],0.0,long_non_palindrome,15,16,2.5415909476578236e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,23,True,True,['FRUEhz'],0.0,long_non_palindrome,7,8,1.4375080354511738e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,24,True,True,['91rw5yQkXZOZct'],0.0,long_non_palindrome,0,1,4.00003045797348e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,25,True,True,['OIc01oL5'],0.0,long_non_palindrome,0,1,3.4999102354049683e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,26,True,True,['WD2yrf2VsJ'],0.0,long_non_palindrome,0,1,3.6249402910470963e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,27,True,True,['Y1LDRYa13'],0.0,long_non_palindrome,0,1,3.4170225262641907e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,28,True,True,['8cnBaV'],0.0,long_non_palindrome,15,16,2.587493509054184e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,long_non_palindrome,29,True,True,['Ea6gUTMaP'],0.0,long_non_palindrome,0,1,3.5830307751893997e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,0,True,True,['TPWhh'],0.0,other,70,71,0.00011899997480213642
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,1,True,True,['y1YUt'],0.0,other,3,4,8.499948307871819e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,2,True,True,['bhZAB'],0.0,other,359,360,0.0005755419842898846
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,3,True,True,['oTBmY'],0.0,other,42,43,7.716706022620201e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,4,True,True,['b2'],0.0,other,0,1,3.2080570235848427e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,5,True,True,['tqxsZ'],0.0,other,5,6,1.391698606312275e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,6,True,True,['b6HGl'],0.0,other,3,4,9.541981853544712e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,7,True,True,['4RMbI'],0.0,other,0,1,4.041939973831177e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,8,True,True,['WWUFu'],0.0,other,368,369,0.0005785829853266478
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,9,True,True,['s7Fs8'],0.0,other,150,151,0.00024220894556492567
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,10,True,True,['i5Drj'],0.0,other,1,2,6.375019438564777e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,11,True,True,['fm'],0.0,other,3,4,9.58307646214962e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,12,True,True,['RpBtN'],0.0,other,134,135,0.00021608395036309958
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,13,True,True,['Jw'],0.0,other,0,1,3.1249364838004112e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,14,True,True,['ZN5'],0.0,other,0,1,2.749962732195854e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,15,True,True,['3sSon'],0.0,other,16,17,3.38749960064888e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,16,True,True,['Q8szm'],0.0,other,34,35,6.40420475974679e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,17,True,True,['dO'],0.0,other,9,10,1.9124941900372505e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,18,True,True,['Gf'],0.0,other,1,2,4.875008016824722e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,19,True,True,['W9'],0.0,other,2,3,6.582937203347683e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,20,True,True,['nXAno'],0.0,other,56,57,9.595893789082766e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,21,True,True,['03zf2'],0.0,other,27,28,5.124998278915882e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,22,True,True,['lvRrY'],0.0,other,12,13,2.629193477332592e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,23,True,True,['er'],0.0,other,15,16,2.829195000231266e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,24,True,True,['vtJD7'],0.0,other,175,176,0.00027904100716114044
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,25,True,True,['vD'],0.0,other,12,13,2.4209031835198402e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,26,True,True,['CjIhH'],0.0,other,0,1,3.625056706368923e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,27,True,True,['kzcVs'],0.0,other,3,4,1.0165967978537083e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,28,True,True,['qZd9P'],0.0,other,3,4,9.95793379843235e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,string_category,other,29,True,True,['SJ2e2'],0.0,other,50,51,8.816597983241081e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,0,True,True,[''],0.0,empty,15,16,3.495893906801939e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,1,True,True,[''],0.0,empty,23,24,4.558393266052008e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,2,True,True,[''],0.0,empty,18,19,3.925000783056021e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,3,True,True,[''],0.0,empty,9,10,2.062495332211256e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,4,True,True,[''],0.0,empty,5,6,1.2750038877129555e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,5,True,True,[''],0.0,empty,34,35,6.362504791468382e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,6,True,True,[''],0.0,empty,3,4,8.375034667551517e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,7,True,True,[''],0.0,empty,15,16,2.9749935492873192e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,8,True,True,[''],0.0,empty,9,10,1.991703175008297e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,9,True,True,[''],0.0,empty,29,30,5.716702435165644e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,10,True,True,[''],0.0,empty,36,37,5.908298771828413e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,11,True,True,[''],0.0,empty,0,1,2.625049091875553e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,12,True,True,[''],0.0,empty,45,46,7.866602391004562e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,13,True,True,[''],0.0,empty,29,30,5.204195622354746e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,14,True,True,[''],0.0,empty,28,29,5.366699770092964e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,15,True,True,[''],0.0,empty,20,21,3.7250109016895294e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,16,True,True,[''],0.0,empty,1,2,5.375011824071407e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,17,True,True,[''],0.0,empty,43,44,7.804192136973143e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,18,True,True,[''],0.0,empty,25,26,5.24159986525774e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,19,True,True,[''],0.0,empty,14,15,2.916704397648573e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,20,True,True,[''],0.0,empty,2,3,7.082941010594368e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,21,True,True,[''],0.0,empty,43,44,7.970805745571852e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,22,True,True,[''],0.0,empty,33,34,6.42499653622508e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,23,True,True,[''],0.0,empty,25,26,4.9458001740276814e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,24,True,True,[''],0.0,empty,39,40,7.283303420990705e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,25,True,True,[''],0.0,empty,22,23,4.39999857917428e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,26,True,True,[''],0.0,empty,5,6,1.2999982573091984e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,27,True,True,[''],0.0,empty,34,35,5.8750039897859097e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,28,True,True,[''],0.0,empty,8,9,1.7541926354169846e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,empty,29,True,True,[''],0.0,empty,20,21,3.595894668251276e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,0,True,True,['v2jG'],0.0,too_short,26,27,5.674990825355053e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,1,True,True,['KlhO'],0.0,too_short,19,20,3.362505231052637e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,2,True,True,[''],0.0,too_short,0,1,2.9170187190175056e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,3,True,True,['5FFd'],0.0,too_short,27,28,5.4541975259780884e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,4,True,True,['ICOH'],0.0,too_short,7,8,1.5416997484862804e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,5,True,True,['PbK'],0.0,too_short,0,1,3.0410010367631912e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,6,True,True,['QSaa'],0.0,too_short,41,42,6.999995093792677e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,7,True,True,['qLJl'],0.0,too_short,24,25,4.558300133794546e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,8,True,True,['H72J'],0.0,too_short,22,23,4.5625027269124985e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,9,True,True,['8TqX'],0.0,too_short,1,2,5.875015631318092e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,10,True,True,['lsvv'],0.0,too_short,0,1,3.1670788303017616e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,11,True,True,['Hnin'],0.0,too_short,10,11,2.3458036594092846e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,12,True,True,['mbGB'],0.0,too_short,6,7,1.433398574590683e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,13,True,True,['EfRt'],0.0,too_short,21,22,3.670796286314726e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,14,True,True,['jEG'],0.0,too_short,0,1,2.624932676553726e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,15,True,True,['s7D0'],0.0,too_short,23,24,4.5625027269124985e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,16,True,True,['dvAl'],0.0,too_short,9,10,1.725007314234972e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,17,True,True,['iaIw'],0.0,too_short,0,1,3.5420525819063187e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,18,True,True,['xuKQ'],0.0,too_short,18,19,3.799994010478258e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,19,True,True,['8QSr'],0.0,too_short,31,32,5.600007716566324e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,20,True,True,['bDAK'],0.0,too_short,17,18,3.304204437881708e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,21,True,True,['q0cP'],0.0,too_short,13,14,2.7333968318998814e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,22,True,True,['MrYK'],0.0,too_short,11,12,2.2875028662383556e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,23,True,True,['JZEn'],0.0,too_short,0,1,3.2909447327256203e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,24,True,True,['7GCC'],0.0,too_short,15,16,2.895807847380638e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,25,True,True,['BMFu'],0.0,too_short,14,15,2.9499991796910763e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,26,True,True,['Z37w'],0.0,too_short,27,28,4.966696724295616e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,27,True,True,['4p91'],0.0,too_short,13,14,2.4999957531690598e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,28,True,True,['2MyG'],0.0,too_short,22,23,4.4291955418884754e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,too_short,29,True,True,['r5gP'],0.0,too_short,27,28,5.216605495661497e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,0,True,True,['1kXEaLk9c'],0.0,starts_with_digit,101,102,0.00016175000928342342
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,1,True,True,['77TkbpE2726'],0.0,starts_with_digit,219,220,0.0003497079014778137
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,2,True,True,['8'],0.0,starts_with_digit,2,3,6.8749068304896355e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,3,True,True,['0S'],0.0,starts_with_digit,12,13,2.5499961338937283e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,4,True,True,['9qq3WEIZgGtyJ'],0.0,starts_with_digit,36,37,6.412493530660868e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,5,True,True,['4w'],0.0,starts_with_digit,31,32,5.479203537106514e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,6,True,True,['8ydk9haKtO'],0.0,starts_with_digit,126,127,0.0001984169939532876
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,7,True,True,['5'],0.0,starts_with_digit,29,30,5.495792720466852e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,8,True,True,['67Flr2IrO'],0.0,starts_with_digit,28,29,5.12079568579793e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,9,True,True,['37XmUYlLEKvH'],0.0,starts_with_digit,57,58,9.791599586606026e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,10,True,True,['3W2tEs5j'],0.0,starts_with_digit,84,85,0.00014112493954598904
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,11,True,True,['8PXRWXovqht'],0.0,starts_with_digit,37,38,6.25409884378314e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,12,True,True,['5'],0.0,starts_with_digit,23,24,4.541699308902025e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,13,True,True,['7VLn8GFOO6Wv'],0.0,starts_with_digit,53,54,9.341596160084009e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,14,True,True,['1i8oe'],0.0,starts_with_digit,72,73,0.00011854094918817282
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,15,True,True,['7WxbnNHB'],0.0,starts_with_digit,51,52,8.749996777623892e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,16,True,True,['3NQE56xiKzmYUFb'],0.0,starts_with_digit,110,111,0.00017695804126560688
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,17,True,True,['4X1N'],0.0,starts_with_digit,10,11,2.2165942937135696e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,18,True,True,['9Opbw94SG'],0.0,starts_with_digit,44,45,7.629196625202894e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,19,True,True,['2o9A4'],0.0,starts_with_digit,70,71,0.00011266593355685472
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,20,True,True,['10lV60RNnJBil'],0.0,starts_with_digit,14,15,3.091699909418821e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,21,True,True,['3kS'],0.0,starts_with_digit,53,54,8.479191455990076e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,22,True,True,['90ceSCkBb'],0.0,starts_with_digit,58,59,9.74580179899931e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,23,True,True,['7JAdbH89RVcZa'],0.0,starts_with_digit,34,35,6.150000263005495e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,24,True,True,['3kEJo367mahyPw'],0.0,starts_with_digit,5,6,1.4124903827905655e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,25,True,True,['3QQ'],0.0,starts_with_digit,71,72,0.00011491600889712572
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,26,True,True,['0oQkpgIz5Bb'],0.0,starts_with_digit,119,120,0.00019145896658301353
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,27,True,True,['2'],0.0,starts_with_digit,120,121,0.00018929096404463053
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,28,True,True,['9'],0.0,starts_with_digit,1,2,5.416921339929104e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,starts_with_digit,29,True,True,['22D6BRCn5a70Q'],0.0,starts_with_digit,100,101,0.00016004196368157864
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,0,False,False,['ABWpZi3Ya'],1.0,,21,8081,0.019104333012364805
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,1,False,False,['TOEsYfXd9MX'],1.0,,0,8081,0.019139665993861854
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,2,False,False,['jkdkQEV6uF4f'],1.0,,0,8081,0.01920675009023398
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,3,False,False,['nfchgM7Wp'],1.0,,9,8081,0.019099749973975122
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,4,False,False,['Dow0bXmqa'],1.0,,40,8081,0.019121042103506625
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,5,False,False,['mcrg15Dpe'],1.0,,3,8081,0.01927525002975017
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,6,False,False,['mF1HSWyUM'],1.0,,19,8081,0.019165707984939218
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,7,False,False,['TyNUysVQh'],1.0,,16,8081,0.019223541021347046
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,8,False,False,['3SxXKU37T'],1.0,,12,8081,0.019180999952368438
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,9,False,False,['Zp7A2YUEv'],1.0,,19,8081,0.019001749926246703
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,10,False,False,['hzKcqqGJn'],1.0,,1,8081,0.0198904579738155
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,11,False,False,['0kg5ksbcy71'],1.0,,0,8081,0.02139745804015547
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,12,False,False,['eGipINZyF'],1.0,,20,8081,0.019676749943755567
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,13,False,False,['gYENKWA1B'],1.0,,25,8081,0.020520291989669204
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,14,False,False,['chtkAyRtZ'],1.0,,6,8081,0.019676583004184067
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,15,False,False,['AdX05fiIhvU5'],1.0,,0,8081,0.019376165932044387
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,16,False,False,['7iDWokA81je9'],1.0,,0,8081,0.019749875064007938
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,17,False,False,['z0UYsMC2A'],1.0,,9,8081,0.01962250005453825
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,18,False,False,['z0nrfrfyf'],1.0,,7,8081,0.01932674995623529
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,19,False,False,['n9Y9sKkf0'],1.0,,22,8081,0.019830584060400724
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,20,False,False,['mBzw1iYwx'],1.0,,0,8081,0.018941208021715283
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,21,False,False,['d442nt8tu'],1.0,,29,8081,0.01925124996341765
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,22,False,False,['HzbzQoXJP'],1.0,,1,8081,0.019018208025954664
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,23,False,False,['Ma6MmiD3puOeD'],1.0,,0,8081,0.019070792011916637
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,24,False,False,['jr8mx4vu1'],1.0,,15,8081,0.01908291596919298
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,25,False,False,['73cVY1dUfi6B'],1.0,,0,8081,0.0192009590100497
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,26,False,False,['2R90w4NNso'],1.0,,0,8081,0.019286500057205558
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,27,False,False,['bQeGoNVHq'],1.0,,40,8081,0.01940341608133167
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,28,False,False,['jXgtZJyQ81AiG'],1.0,,0,8081,0.0192143329186365
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,strong_username,29,False,False,['68H9IvDwceb6ifX'],1.0,,0,8081,0.019011124968528748
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,0,True,True,['mAr2su4XqyACci'],0.0,medium_username,0,1,7.833936251699924e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,1,True,True,['pG4oR'],0.0,medium_username,10,11,3.250001464039087e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,2,True,True,['ogXPl7D0GJ'],0.0,medium_username,0,1,5.915993824601173e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,3,True,True,['UaUZ4'],0.0,medium_username,10,11,3.0499999411404133e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,4,True,True,['E3tWF'],0.0,medium_username,1,2,7.707974873483181e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,5,True,True,['KEBPafoVIP3'],0.0,medium_username,11,12,3.51249473169446e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,6,True,True,['JLDakB4'],0.0,medium_username,2,3,1.0707997716963291e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,7,True,True,['sb6Zf'],0.0,medium_username,0,1,4.417030140757561e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,8,True,True,['vDq4M'],0.0,medium_username,3,4,1.233397051692009e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,9,True,True,['mZ7b4'],0.0,medium_username,1,2,7.334048859775066e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,10,True,True,['Zw3aEvJE6ME'],0.0,medium_username,0,1,5.66698145121336e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,11,True,True,['hHZO4'],0.0,medium_username,54,55,0.0001194169744849205
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,12,True,True,['Sd7Zs8fNjfiC0W'],0.0,medium_username,0,1,5.917041562497616e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,13,True,True,['zqKhNzVG6q'],0.0,medium_username,16,17,5.3875031881034374e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,14,True,True,['mj3kj3K'],0.0,medium_username,1,2,8.124974556267262e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,15,True,True,['qKkW5P2VXZj'],0.0,medium_username,0,1,5.833921022713184e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,16,True,True,['P6U2z'],0.0,medium_username,10,11,2.9916991479694843e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,17,True,True,['tt4YdF404I5DEk'],0.0,medium_username,0,1,6.333924829959869e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,18,True,True,['mSldCBZvZa4'],0.0,medium_username,8,9,2.7792062610387802e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,19,True,True,['fjIaJoaRuJr9'],0.0,medium_username,5,6,1.9916915334761143e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,20,True,True,['oEeIgndsF8'],0.0,medium_username,21,22,5.5750017054378986e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,21,True,True,['N6TV93c1tILHh69'],0.0,medium_username,0,1,6.083049811422825e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,22,True,True,['YuK8NUm'],0.0,medium_username,132,133,0.0002888330491259694
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,23,True,True,['ioKc2'],0.0,medium_username,14,15,3.741704858839512e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,24,True,True,['r5eu9V'],0.0,medium_username,4,5,1.608405727893114e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,25,True,True,['BeU5R'],0.0,medium_username,27,28,6.062490865588188e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,26,True,True,['ZhBd5'],0.0,medium_username,77,78,0.00018337497022002935
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,27,True,True,['uOy5nUHpIqSqE9'],0.0,medium_username,0,1,6.0409074649214745e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,28,True,True,['yUdwj9'],0.0,medium_username,17,18,4.695798270404339e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,medium_username,29,True,True,['cvsQ6JKaP'],0.0,medium_username,0,1,5.166977643966675e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,0,True,True,['rkUlu'],0.0,weak_username,0,1,4.499917849898338e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,1,True,True,['orMwlOIuYB'],0.0,weak_username,36,37,9.39579913392663e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,2,True,True,['hHgjtv'],0.0,weak_username,14,15,4.208390600979328e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,3,True,True,['zBTIgEeOTxck'],0.0,weak_username,88,89,0.00022074999287724495
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,4,True,True,['LtMgIZy'],0.0,weak_username,18,19,4.970794543623924e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,5,True,True,['WuZkB'],0.0,weak_username,30,31,7.616693619638681e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,6,True,True,['yr2cf'],0.0,weak_username,24,25,6.0582999140024185e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,7,True,True,['KExhJ'],0.0,weak_username,154,155,0.00036691699642688036
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,8,True,True,['FwrOlqo'],0.0,weak_username,0,1,4.707952030003071e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,9,True,True,['tPlGBT'],0.0,weak_username,11,12,3.362505231052637e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,10,True,True,['PnmiZZO'],0.0,weak_username,6,7,2.2707972675561905e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,11,True,True,['oBXWgkw'],0.0,weak_username,9,10,2.9499991796910763e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,12,True,True,['QcDRJp'],0.0,weak_username,1,2,8.25000461190939e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,13,True,True,['zth6ir'],0.0,weak_username,11,12,3.3125048503279686e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,14,True,True,['YOIrT'],0.0,weak_username,49,50,0.00010608299635350704
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,15,True,True,['gfnNt'],0.0,weak_username,42,43,9.854207746684551e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,16,True,True,['kFdUrsZATas'],0.0,weak_username,35,36,9.045901242643595e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,17,True,True,['sIXsIiSNgi'],0.0,weak_username,39,40,0.00010787497740238905
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,18,True,True,['pBVSm'],0.0,weak_username,42,43,0.00011000002268701792
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,19,True,True,['k1zsn'],0.0,weak_username,34,35,8.070806507021189e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,20,True,True,['UkHZj'],0.0,weak_username,0,1,4.333909600973129e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,21,True,True,['RAplu'],0.0,weak_username,34,35,9.37500735744834e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,22,True,True,['ZnRkXvDao'],0.0,weak_username,159,160,0.00038608303293585777
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,23,True,True,['fjULRboiEzlt'],0.0,weak_username,9,10,3.295904025435448e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,24,True,True,['jjsd4t'],0.0,weak_username,3,4,1.3333046808838844e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,25,True,True,['b68rfe3'],0.0,weak_username,18,19,5.308294203132391e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,26,True,True,['bYofXbFNvW'],0.0,weak_username,0,1,5.416921339929104e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,27,True,True,['n1sva'],0.0,weak_username,7,8,4.754203837364912e-05
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,28,True,True,['qmCtR'],0.0,weak_username,0,1,4.458008334040642e-06
+llama_3_3_70b_versatile,HILL_CLIMBING,username_category,weak_username,29,True,True,['UdAqn'],0.0,weak_username,14,15,3.958295565098524e-05

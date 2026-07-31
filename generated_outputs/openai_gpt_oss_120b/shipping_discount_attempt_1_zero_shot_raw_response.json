@@ -1,0 +1,28 @@
+{
+  "function_name": "shipping_discount",
+  "fitness_function_name": "fitness_shipping_discount",
+  "targets": [
+    "invalid",
+    "free_express_shipping",
+    "standard_discount",
+    "small_discount",
+    "no_discount"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "bool"
+    }
+  ],
+  "fitness_code": "TARGETS_shipping_discount = [\n    \"invalid\",\n    \"free_express_shipping\",\n    \"standard_discount\",\n    \"small_discount\",\n    \"no_discount\"\n]\n\ndef fitness_shipping_discount(chromosome, target):\n    order_total = chromosome[0]\n    distance = chromosome[1]\n    is_member = chromosome[2]\n\n    if target == \"invalid\":\n        cond = (order_total < 0) or (distance < 0)\n        if cond:\n            return 0\n        d1 = max(0, order_total)\n        d2 = max(0, distance)\n        return max(0, d1 + d2)\n\n    if target == \"free_express_shipping\":\n        cond = (order_total >= 200) and (distance <= 50) and is_member\n        if cond:\n            return 0\n        d1 = max(0, 200 - order_total)\n        d2 = max(0, distance - 50)\n        d3 = 0 if is_member else 1\n        return max(0, d1 + d2 + d3)\n\n    if target == \"standard_discount\":\n        earlier_invalid = (order_total < 0) or (distance < 0)\n        earlier_free = (order_total >= 200) and (distance <= 50) and is_member\n        cond = (order_total >= 100) and (distance <= 100) and not earlier_invalid and not earlier_free\n        if cond:\n            return 0\n        d1 = max(0, 100 - order_total)\n        d2 = max(0, distance - 100)\n        penalty = 1 if earlier_invalid or earlier_free else 0\n        return max(0, d1 + d2 + penalty)\n\n    if target == \"small_discount\":\n        earlier_invalid = (order_total < 0) or (distance < 0)\n        earlier_free = (order_total >= 200) and (distance <= 50) and is_member\n        earlier_std = (order_total >= 100) and (distance <= 100) and not earlier_invalid and not earlier_free\n        cond = (order_total >= 50 or is_member) and not earlier_invalid and not earlier_free and not earlier_std\n        if cond:\n            return 0\n        need_order = max(0, 50 - order_total)\n        need_member = 0 if is_member else 1\n        base = min(need_order, need_member)\n        penalty = 1 if earlier_invalid or earlier_free or earlier_std else 0\n        return max(0, base + penalty)\n\n    if target == \"no_discount\":\n        earlier_invalid = (order_total < 0) or (distance < 0)\n        earlier_free = (order_total >= 200) and (distance <= 50) and is_member\n        earlier_std = (order_total >= 100) and (distance <= 100) and not earlier_invalid and not earlier_free\n        earlier_small = (order_total >= 50 or is_member) and not earlier_invalid and not earlier_free and not earlier_std\n        cond = not (earlier_invalid or earlier_free or earlier_std or earlier_small)\n        if cond:\n            return 0\n        return 1\n\n    raise ValueError(\"Unknown target: \" + str(target))",
+  "notes": "Fitness function returns 0 exactly when the original shipping_discount would return the specified label; otherwise returns a positive branch\u2011distance value."
+}

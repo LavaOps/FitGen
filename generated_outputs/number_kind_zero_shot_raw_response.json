@@ -1,0 +1,18 @@
+{
+  "function_name": "number_kind",
+  "fitness_function_name": "fitness_number_kind",
+  "targets": [
+    "target_x_is_zero",
+    "target_x_is_even",
+    "target_x_is_odd"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "TARGETS_number_kind = [\n    \"target_x_is_zero\",\n    \"target_x_is_even\",\n    \"target_x_is_odd\"\n]\n\ndef fitness_number_kind(chromosome, target):\n    x = chromosome[0]\n\n    if target == \"target_x_is_zero\":\n        # Target: x == 0\n        # Fitness is 0 if x is 0, otherwise abs(x)\n        return abs(x)\n\n    elif target == \"target_x_is_even\":\n        # Target: x != 0 AND x % 2 == 0\n        fitness = 0.0\n        # Branch distance for x != 0\n        if x == 0:\n            fitness += 1.0 # Penalty for x being 0\n        # Branch distance for x % 2 == 0\n        fitness += abs(x % 2)\n        return fitness\n\n    elif target == \"target_x_is_odd\":\n        # Target: x != 0 AND x % 2 != 0\n        fitness = 0.0\n        # Branch distance for x != 0\n        if x == 0:\n            fitness += 1.0 # Penalty for x being 0\n        # Branch distance for x % 2 != 0\n        if x % 2 == 0:\n            fitness += 1.0 # Penalty for x being even\n        return fitness\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "The fitness function targets the three distinct return paths: 'zero', 'even', and 'odd'. For 'zero', it directly uses the absolute value of x. For 'even' and 'odd', it combines branch distances for 'x != 0' and 'x % 2 == 0' or 'x % 2 != 0' conditions. A penalty of 1.0 is added when a boolean condition is false, and 0 otherwise. For numeric conditions like 'x == 0' or 'x % 2 == 0', the absolute difference is used."
+}

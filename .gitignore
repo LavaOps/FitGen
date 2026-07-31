@@ -1,0 +1,7 @@
+.venv/
+llm_env/
+htmlcov/
+__pycache__/
+.pytest_cache/
+.coverage
+.DS_Store

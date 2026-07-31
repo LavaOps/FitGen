@@ -1,0 +1,25 @@
+{
+  "function_name": "bmi_category",
+  "fitness_function_name": "fitness_bmi_category",
+  "targets": [
+    "invalid_height",
+    "underweight",
+    "normal",
+    "overweight",
+    "obese"
+  ],
+  "input_schema": [
+    {
+      "type": "float",
+      "min": 20.0,
+      "max": 200.0
+    },
+    {
+      "type": "float",
+      "min": 1.0,
+      "max": 2.5
+    }
+  ],
+  "fitness_code": "\ndef fitness_bmi_category(chromosome, target):\n    weight = chromosome[0]\n    height = chromosome[1]\n\n    if height <= 0:\n        t = \"invalid_height\"\n    else:\n        bmi = weight / (height * height)\n        if bmi < 18.5:\n            t = \"underweight\"\n        elif bmi < 25:\n            t = \"normal\"\n        elif bmi < 30:\n            t = \"overweight\"\n        else:\n            t = \"obese\"\n\n    if t == target:\n        return 0\n    elif t == \"invalid_height\" and target != \"invalid_height\":\n        return max(0, abs(height))\n    elif t == \"underweight\" and target == \"invalid_height\":\n        return max(0, abs(height)) + max(0, 18.5 - bmi)\n    elif t == \"underweight\" and target != \"underweight\" and target != \"invalid_height\":\n        return max(0, bmi - 18.5)\n    elif t == \"normal\" and target == \"invalid_height\":\n        return max(0, abs(height)) + max(0, bmi - 18.5)\n    elif t == \"normal\" and target == \"underweight\":\n        return max(0, 18.5 - bmi)\n    elif t == \"normal\" and target != \"normal\" and target != \"invalid_height\" and target != \"underweight\":\n        return max(0, abs(bmi - 25))\n    elif t == \"overweight\" and target == \"invalid_height\":\n        return max(0, abs(height)) + max(0, abs(bmi - 25))\n    elif t == \"overweight\" and target == \"underweight\":\n        return max(0, 18.5 - bmi) + max(0, abs(bmi - 25))\n    elif t == \"overweight\" and target == \"normal\":\n        return max(0, abs(bmi - 25))\n    elif t == \"overweight\" and target != \"overweight\" and target != \"invalid_height\" and target != \"underweight\" and target != \"normal\":\n        return max(0, bmi - 30)\n    elif t == \"obese\" and target == \"invalid_height\":\n        return max(0, abs(height)) + max(0, bmi - 30)\n    elif t == \"obese\" and target == \"underweight\":\n        return max(0, 18.5 - bmi) + max(0, bmi - 30)\n    elif t == \"obese\" and target == \"normal\":\n        return max(0, abs(bmi - 25)) + max(0, bmi - 30)\n    elif t == \"obese\" and target == \"overweight\":\n        return max(0, bmi - 30)\n    else:\n        raise ValueError(\"Unknown target\")\n",
+  "notes": ""
+}

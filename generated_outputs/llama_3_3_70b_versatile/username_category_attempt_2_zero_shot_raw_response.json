@@ -1,0 +1,21 @@
+{
+  "function_name": "username_category",
+  "fitness_function_name": "fitness_username_category",
+  "targets": [
+    "empty",
+    "too_short",
+    "starts_with_digit",
+    "strong_username",
+    "medium_username",
+    "weak_username"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "\ndef fitness_username_category(chromosome, target):\n    username = chromosome[0]\n    \n    if target == \"empty\":\n        return 0 if len(username) == 0 else max(0, len(username))\n    \n    if target == \"too_short\":\n        return 0 if len(username) > 0 and len(username) < 5 else max(0, 5 - len(username) if len(username) < 5 else len(username) - 5)\n    \n    if target == \"starts_with_digit\":\n        return 0 if username and username[0].isdigit() else max(0, 1)\n    \n    has_digit = any(ch.isdigit() for ch in username)\n    has_upper = any(ch.isupper() for ch in username)\n    has_special = any(not ch.isalnum() for ch in username)\n    \n    if target == \"strong_username\":\n        return 0 if len(username) >= 10 and has_digit and has_upper and has_special else max(0, 10 - len(username) if len(username) < 10 else 0) + max(0, int(not has_digit)) + max(0, int(not has_upper)) + max(0, int(not has_special))\n    \n    if target == \"medium_username\":\n        return 0 if has_digit and has_upper and not (len(username) >= 10 and has_special) else max(0, int(not has_digit)) + max(0, int(not has_upper))\n    \n    if target == \"weak_username\":\n        return 0 if not (has_digit and has_upper) and not (len(username) >= 10 and has_digit and has_upper and has_special) and not username[0].isdigit() and len(username) >= 5 else max(0, int(has_digit and has_upper))\n    \n    raise ValueError(\"Unknown target\")\n",
+  "notes": ""
+}

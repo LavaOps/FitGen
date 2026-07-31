@@ -1,0 +1,18 @@
+{
+  "function_name": "sign_type",
+  "fitness_function_name": "fitness_sign_type",
+  "targets": [
+    "x_is_positive",
+    "x_is_negative",
+    "x_is_zero"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 500
+    }
+  ],
+  "fitness_code": "TARGETS_sign_type = [\n    \"x_is_positive\",\n    \"x_is_negative\",\n    \"x_is_zero\"\n]\n\ndef fitness_sign_type(chromosome, target):\n    x = chromosome[0]\n\n    if target == \"x_is_positive\":\n        if x > 0:\n            return 0\n        else:\n            # Distance for x > 0, when x <= 0\n            # If x is 0, distance is 1. If x is -1, distance is 2.\n            return 1 - x\n    elif target == \"x_is_negative\":\n        if x < 0:\n            return 0\n        else:\n            # Distance for x < 0, when x >= 0\n            # If x is 0, distance is 1. If x is 1, distance is 2.\n            return x + 1\n    elif target == \"x_is_zero\":\n        if x == 0:\n            return 0\n        else:\n            # Distance for x == 0, when x != 0\n            return abs(x)\n    else:\n        raise ValueError(\"Unknown target: \" + str(target))\n",
+  "notes": "The fitness function `fitness_sign_type` takes a chromosome (list containing x) and a target string. It calculates a branch distance for three targets: `x_is_positive` (x > 0), `x_is_negative` (x < 0), and `x_is_zero` (x == 0). A value of 0 is returned if the target branch is covered, otherwise a positive branch-distance-like value is returned, where smaller values indicate being closer to satisfying the branch condition."
+}

@@ -1,0 +1,30 @@
+{
+  "function_name": "triangle_type",
+  "fitness_function_name": "fitness_triangle_type",
+  "targets": [
+    "invalid_side",
+    "not_triangle",
+    "equilateral",
+    "isosceles",
+    "scalene"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "int",
+      "min": 0,
+      "max": 1000
+    }
+  ],
+  "fitness_code": "TARGETS_triangle_type = [\"invalid_side\", \"not_triangle\", \"equilateral\", \"isosceles\", \"scalene\"]\n\ndef fitness_triangle_type(chromosome, target):\n    a, b, c = chromosome\n    k = 1 # Small constant for strict inequalities\n\n    # Helper functions for branch distance\n    # Returns 0 if the condition is met, positive otherwise.\n    # Smaller positive values indicate closer to satisfying the condition.\n    def bd_eq(x, y): # Target x == y\n        return abs(x - y)\n\n    def bd_neq(x, y): # Target x != y\n        return max(0, k - abs(x - y))\n\n    def bd_lt(x, y): # Target x < y\n        return max(0, x - y + k)\n\n    def bd_le(x, y): # Target x <= y\n        return max(0, x - y)\n\n    def bd_gt(x, y): # Target x > y\n        return max(0, y - x + k)\n\n    def bd_ge(x, y): # Target x >= y\n        return max(0, y - x)\n\n    if target not in TARGETS_triangle_type:\n        raise ValueError(f\"Unknown target: {target}\")\n\n    path_distance = 0.0\n\n    # --- First condition: a <= 0 or b <= 0 or c <= 0 -> \"invalid_side\" ---\n    # Distances to make (a <= 0) true, (b <= 0) true, (c <= 0) true\n    d_a_le_0_T = bd_le(a, 0)\n    d_b_le_0_T = bd_le(b, 0)\n    d_c_le_0_T = bd_le(c, 0)\n    \n    # To satisfy `a <= 0 or b <= 0 or c <= 0` (OR condition)\n    bd_cond1_T = min(d_a_le_0_T, d_b_le_0_T, d_c_le_0_T)\n    \n    # To falsify `a <= 0 or b <= 0 or c <= 0` (i.e., `a > 0 and b > 0 and c > 0`)\n    # Sum of distances to make each sub-condition true for falsification\n    bd_cond1_F = bd_gt(a, 0) + bd_gt(b, 0) + bd_gt(c, 0)\n\n    if target == \"invalid_side\":\n        return bd_cond1_T\n    \n    # If the target is not \"invalid_side\", we must falsify cond1\n    path_distance += bd_cond1_F\n\n    # --- Second condition: a + b <= c or a + c <= b or b + c <= a -> \"not_triangle\" ---\n    # Distances to make each sub-condition true\n    d_ab_le_c_T = bd_le(a + b, c)\n    d_ac_le_b_T = bd_le(a + c, b)\n    d_bc_le_a_T = bd_le(b + c, a)\n\n    # To satisfy `a + b <= c or a + c <= b or b + c <= a` (OR condition)\n    bd_cond2_T = min(d_ab_le_c_T, d_ac_le_b_T, d_bc_le_a_T)\n\n    # To falsify `a + b <= c or a + c <= b or b + c <= a`\n    # (i.e., `a + b > c and a + c > b and b + c > a`)\n    bd_cond2_F = bd_gt(a + b, c) + bd_gt(a + c, b) + bd_gt(b + c, a)\n\n    if target == \"not_triangle\":\n        return path_distance + bd_cond2_T\n    \n    # If the target is not \"not_triangle\", we must falsify cond2\n    path_distance += bd_cond2_F\n\n    # --- Third condition: a == b and b == c -> \"equilateral\" ---\n    # Distances to make each sub-condition true\n    d_a_eq_b_T = bd_eq(a, b)\n    d_b_eq_c_T = bd_eq(b, c)\n\n    # To satisfy `a == b and b == c` (AND condition)\n    bd_cond3_T = d_a_eq_b_T + d_b_eq_c_T\n\n    # To falsify `a == b and b == c` (i.e., `a != b or b != c`)\n    bd_cond3_F = min(bd_neq(a, b), bd_neq(b, c))\n\n    if target == \"equilateral\":\n        return path_distance + bd_cond3_T\n    \n    # If the target is not \"equilateral\", we must falsify cond3\n    path_distance += bd_cond3_F\n\n    # --- Fourth condition: a == b or a == c or b == c -> \"isosceles\" ---\n    # Distances to make each sub-condition true\n    d_a_eq_b_isosceles_T = bd_eq(a, b)\n    d_a_eq_c_isosceles_T = bd_eq(a, c)\n    d_b_eq_c_isosceles_T = bd_eq(b, c)\n\n    # To satisfy `a == b or a == c or b == c` (OR condition)\n    bd_cond4_T = min(d_a_eq_b_isosceles_T, d_a_eq_c_isosceles_T, d_b_eq_c_isosceles_T)\n\n    # To falsify `a == b or a == c or b == c`\n    # (i.e., `a != b and a != c and b != c`)\n    bd_cond4_F = bd_neq(a, b) + bd_neq(a, c) + bd_neq(b, c)\n\n    if target == \"isosceles\":\n        return path_distance + bd_cond4_T\n    \n    # If the target is not \"isosceles\", we must falsify cond4\n    path_distance += bd_cond4_F\n\n    # --- Fifth (else) branch: \"scalene\" ---\n    # This branch is reached if all preceding conditions are falsified\n    if target == \"scalene\":\n        return path_distance\n    \n    # Should not be reached due to initial target check\n    return float('inf')",
+  "notes": "The fitness function calculates branch distances for each condition. For compound conditions (OR/AND), it minimizes/sums distances respectively. To reach a specific target, it sums the branch distances to falsify all preceding conditions in the control flow and the branch distance to satisfy the target condition."
+}

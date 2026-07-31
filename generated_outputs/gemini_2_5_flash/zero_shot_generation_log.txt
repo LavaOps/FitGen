@@ -1,0 +1,62 @@
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.137
+list_pattern: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.111
+list_pattern: semantic validation passed on attempt 3: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.015
+pin_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.001
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.173
+string_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+transaction_pattern: attempt 1 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 2 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: EOF while parsing an object at line 16 column 2504 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: attempt 3 failed JSON parsing: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+transaction_pattern: FAILED during generation: transaction_pattern: failed after 3 generation attempts. Last error: JSON parse failed: 1 validation error for FitnessGenerationResult
+  Invalid JSON: number out of range at line 16 column 4319 [type=json_invalid, input_value='{\n  "function_name": "t...00000000000000000000000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+triangle_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+username_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+bmi_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+list_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+number_kind: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+password_strength: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.031
+pin_pattern: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.250
+pin_pattern: attempt 2 failed semantic validation: Semantic mismatch rate too high: 0.250
+pin_pattern: semantic validation passed on attempt 3: Semantic validation passed. mismatch_rate=0.000
+shipping_discount: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+sign_type: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+string_category: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+transaction_pattern: semantic validation passed on attempt 1: Semantic validation passed. mismatch_rate=0.000
+triangle_type: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.200
+triangle_type: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+username_category: attempt 1 failed semantic validation: Semantic mismatch rate too high: 0.179
+username_category: semantic validation passed on attempt 2: Semantic validation passed. mismatch_rate=0.000
+bmi_category: accepted attempt 1 without semantic validation
+list_pattern: accepted attempt 1 without semantic validation
+number_kind: accepted attempt 1 without semantic validation
+password_strength: accepted attempt 1 without semantic validation
+pin_pattern: accepted attempt 1 without semantic validation
+shipping_discount: accepted attempt 1 without semantic validation
+sign_type: accepted attempt 1 without semantic validation
+string_category: accepted attempt 1 without semantic validation
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: accepted attempt 1 without semantic validation
+username_category: accepted attempt 1 without semantic validation
+bmi_category: accepted attempt 1 without semantic validation
+list_pattern: accepted attempt 1 without semantic validation
+number_kind: accepted attempt 1 without semantic validation
+password_strength: accepted attempt 1 without semantic validation
+pin_pattern: accepted attempt 1 without semantic validation
+shipping_discount: accepted attempt 1 without semantic validation
+sign_type: accepted attempt 1 without semantic validation
+string_category: accepted attempt 1 without semantic validation
+transaction_pattern: accepted attempt 1 without semantic validation
+triangle_type: accepted attempt 1 without semantic validation
+username_category: accepted attempt 1 without semantic validation

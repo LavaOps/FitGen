@@ -1,0 +1,20 @@
+{
+  "function_name": "string_category",
+  "fitness_function_name": "fitness_string_category",
+  "targets": [
+    "empty",
+    "long_palindrome",
+    "short_palindrome",
+    "long_non_palindrome",
+    "other"
+  ],
+  "input_schema": [
+    {
+      "type": "str",
+      "min_len": 0,
+      "max_len": 15
+    }
+  ],
+  "fitness_code": "def fitness_string_category(chromosome, target):\n    s = chromosome[0]\n    length = len(s)\n    is_pal = s == s[::-1]\n    # basic distances\n    empty_dist = max(0, length)\n    palindrome_dist = 0 if is_pal else 1\n    # length related distances\n    long_pal_len_dist = max(0, 4 - length)          # need length > 3\n    short_pal_len_dist = max(0, length - 3)         # need length <= 3\n    short_pal_empty_dist = max(0, 1 - length)      # need not empty\n    long_nonpal_len_dist = max(0, 6 - length)      # need length > 5\n    other_len_dist = max(0, length - 5)            # need length <= 5\n\n    if target == \"empty\":\n        return 0 if length == 0 else empty_dist\n    elif target == \"long_palindrome\":\n        dist = palindrome_dist + long_pal_len_dist\n        return 0 if (is_pal and length > 3) else max(0, dist)\n    elif target == \"short_palindrome\":\n        dist = palindrome_dist + short_pal_len_dist + short_pal_empty_dist\n        return 0 if (is_pal and 0 < length <= 3) else max(0, dist)\n    elif target == \"long_non_palindrome\":\n        dist = (0 if not is_pal else 1) + long_nonpal_len_dist\n        return 0 if (not is_pal and length > 5) else max(0, dist)\n    elif target == \"other\":\n        dist = (0 if not is_pal else 1) + other_len_dist\n        return 0 if (not is_pal and 0 < length <= 5) else max(0, dist)\n    else:\n        raise ValueError(\"Unknown target: \" + str(target))",
+  "notes": "Fitness function returns 0 exactly when the original function would return the specified label; otherwise returns a positive branch\u2011distance\u2011like value."
+}

@@ -1,0 +1,34 @@
+{
+  "function_name": "pin_pattern",
+  "fitness_function_name": "fitness_pin_pattern",
+  "targets": [
+    "secret_pin_branch",
+    "all_same_branch",
+    "ordered_sum_20_branch",
+    "other_branch"
+  ],
+  "input_schema": [
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    },
+    {
+      "type": "int",
+      "min": -500,
+      "max": 3000
+    }
+  ],
+  "fitness_code": "def fitness_pin_pattern(chromosome, target):\n    a, b, c, d = chromosome\n    K_FALSE_PENALTY = 10\n\n    def bd_eq(val, target_val):\n        \"\"\"Branch distance for equality (val == target_val).\"\"\"\n        return abs(val - target_val)\n\n    def bd_lt(val, target_val):\n        \"\"\"Branch distance for less than (val < target_val).\"\"\"\n        \"\"\"Returns 0 if val < target_val, positive otherwise.\"\"\"\n        return max(0, val - target_val + 1)\n\n    def bd_gt(val, target_val):\n        \"\"\"Branch distance for greater than (val > target_val).\"\"\"\n        \"\"\"Returns 0 if val > target_val, positive otherwise.\"\"\"\n        return max(0, target_val - val + 1)\n\n    def bd_must_be_false(condition_result):\n        \"\"\"Returns K_FALSE_PENALTY if the condition is TRUE (must be false), 0 otherwise.\"\"\"\n        return K_FALSE_PENALTY if condition_result else 0\n\n    # Evaluate conditions from the original function to be used for bd_must_be_false\n    cond_secret_pin = (a == 7 and b == 3 and c == 9 and d == 1)\n    cond_all_same_expr = (a == b and b == c and c == d)\n    cond_ordered_sum_20_expr = (a + b + c + d == 20 and a < b and b < c and c < d)\n\n    if target == \"secret_pin_branch\":\n        distance = bd_eq(a, 7)\n        distance += bd_eq(b, 3)\n        distance += bd_eq(c, 9)\n        distance += bd_eq(d, 1)\n        return distance\n\n    elif target == \"all_same_branch\":\n        distance = bd_must_be_false(cond_secret_pin)\n        distance += bd_eq(a, b)\n        distance += bd_eq(b, c)\n        distance += bd_eq(c, d)\n        return distance\n\n    elif target == \"ordered_sum_20_branch\":\n        distance = bd_must_be_false(cond_secret_pin)\n        distance += bd_must_be_false(cond_all_same_expr)\n\n        distance += bd_eq(a + b + c + d, 20)\n        distance += bd_lt(a, b)\n        distance += bd_lt(b, c)\n        distance += bd_lt(c, d)\n        return distance\n\n    elif target == \"other_branch\":\n        distance = bd_must_be_false(cond_secret_pin)\n        distance += bd_must_be_false(cond_all_same_expr)\n        distance += bd_must_be_false(cond_ordered_sum_20_expr)\n        return distance\n\n    else:\n        raise ValueError(f\"Unknown target: {target}\")",
+  "notes": "Fitness function for 'pin_pattern' with targets for 'secret_pin', 'all_same', 'ordered_sum_20', and 'other' branches. Branch distances are calculated using equality, less than, greater than, and must-be-false components. The previous error was due to an unterminated docstring in the `bd_lt` and `bd_gt` functions, which has been corrected."
+}

@@ -1,0 +1,13 @@
+model,method,function_name,actual_success_rate,total_runs
+openai_gpt_oss_20b,GA_ADAPTIVE,number_kind,100.0,90
+openai_gpt_oss_20b,GA_ADAPTIVE,sign_type,100.0,90
+openai_gpt_oss_20b,GA_ADAPTIVE,string_category,84.66666666666667,150
+openai_gpt_oss_20b,GA_FIXED,number_kind,100.0,90
+openai_gpt_oss_20b,GA_FIXED,sign_type,100.0,90
+openai_gpt_oss_20b,GA_FIXED,string_category,80.0,150
+openai_gpt_oss_20b,HILL_CLIMBING,number_kind,100.0,90
+openai_gpt_oss_20b,HILL_CLIMBING,sign_type,100.0,90
+openai_gpt_oss_20b,HILL_CLIMBING,string_category,85.33333333333334,150
+openai_gpt_oss_20b,RANDOM,number_kind,77.77777777777779,90
+openai_gpt_oss_20b,RANDOM,sign_type,76.66666666666667,90
+openai_gpt_oss_20b,RANDOM,string_category,80.66666666666666,150
