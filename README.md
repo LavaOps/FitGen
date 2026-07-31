@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .
 ├── target_functions.py                 # Benchmark programs
 ├── generate_fitness_zero_shot.py      # LLM-based fitness-function generation
@@ -83,3 +84,6 @@ Generated outputs:
 results/validated_all_methods_results.csv
 results/actual_branch_coverage_by_method.csv
 results/actual_branch_coverage_by_method_function.csv
+=======
+# FitGen
+>>>>>>> 1741f126e5a5d2f3ccff8995e11fa442db2bf279
