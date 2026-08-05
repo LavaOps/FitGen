@@ -1,18 +1,3 @@
-# target_functions.py
-
-"""
-Target benchmark programs for zero-shot LLM-based fitness-function generation.
-
-These 12 functions include different input types and condition types:
-- int
-- float
-- bool
-- str
-- list[int]
-
-Each function returns a branch label so that offline validation is easier.
-"""
-
 
 def sign_type(x):
     if x > 0:
@@ -23,6 +8,7 @@ def sign_type(x):
         return "zero"
 
 
+
 def number_kind(x):
     if x == 0:
         return "zero"
@@ -31,14 +17,6 @@ def number_kind(x):
     else:
         return "odd"
 
-
-# def max_of_three(a, b, c):
-#     if a >= b and a >= c:
-#         return "a_is_max"
-#     elif b >= a and b >= c:
-#         return "b_is_max"
-#     else:
-#         return "c_is_max"
 
 
 def triangle_type(a, b, c):
@@ -56,30 +34,6 @@ def triangle_type(a, b, c):
         return "scalene"
 
 
-# def is_leap_year(year):
-#     if year % 400 == 0:
-#         return "divisible_by_400"
-#     elif year % 100 == 0:
-#         return "divisible_by_100_not_400"
-#     elif year % 4 == 0:
-#         return "divisible_by_4_not_100"
-#     else:
-#         return "not_leap_year"
-
-
-# def grade_category(score):
-#     if score < 0 or score > 100:
-#         return "invalid"
-#     elif score >= 90:
-#         return "A"
-#     elif score >= 80:
-#         return "B"
-#     elif score >= 70:
-#         return "C"
-#     elif score >= 60:
-#         return "D"
-#     else:
-#         return "F"
 
 
 def bmi_category(weight, height):
@@ -98,16 +52,6 @@ def bmi_category(weight, height):
         return "obese"
 
 
-# def loan_eligibility(age, income, employed):
-#     if age < 18:
-#         return "reject_underage"
-
-#     if income >= 50000 and employed:
-#         return "approve"
-#     elif income >= 30000:
-#         return "review"
-#     else:
-#         return "reject_low_income"
 
 
 def password_strength(s):
@@ -138,19 +82,7 @@ def string_category(s):
         return "other"
 
 
-# def list_score(nums):
-#     if len(nums) == 0:
-#         return "empty"
 
-#     total = sum(nums)
-#     avg = total / len(nums)
-
-#     if avg > 10:
-#         return "high"
-#     elif avg >= 0:
-#         return "medium"
-#     else:
-#         return "low"
 
 
 def list_pattern(nums):
@@ -255,23 +187,7 @@ if __name__ == "__main__":  # pragma: no cover
         triangle_type(3, 4, 5),
     )
 
-    # print(
-    #     "is_leap_year:",
-    #     is_leap_year(2000),
-    #     is_leap_year(1900),
-    #     is_leap_year(2024),
-    #     is_leap_year(2023),
-    # )
 
-    # print(
-    #     "grade_category:",
-    #     grade_category(-5),
-    #     grade_category(95),
-    #     grade_category(85),
-    #     grade_category(75),
-    #     grade_category(65),
-    #     grade_category(50),
-    # )
 
     print(
         "bmi_category:",
@@ -282,13 +198,7 @@ if __name__ == "__main__":  # pragma: no cover
         bmi_category(70, 0),
     )
 
-    # print(
-    #     "loan_eligibility:",
-    #     loan_eligibility(16, 10000, False),
-    #     loan_eligibility(25, 60000, True),
-    #     loan_eligibility(25, 40000, False),
-    #     loan_eligibility(25, 10000, False),
-    # )
+
 
     print(
         "password_strength:",
@@ -307,13 +217,7 @@ if __name__ == "__main__":  # pragma: no cover
         string_category("abc"),
     )
 
-    # print(
-    #     "list_score:",
-    #     list_score([]),
-    #     list_score([20, 15]),
-    #     list_score([1, 2, 3]),
-    #     list_score([-5, -2]),
-    # )
+
 
     print(
         "list_pattern:",
