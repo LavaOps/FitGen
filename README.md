@@ -194,22 +194,6 @@ meta_llama_llama_4_scout_17b_16e_instruct/
 
 Each directory contains the complete experimental outputs generated using the repaired fitness functions produced by FitGen.
 
-For the semantic-validation ablation, the corresponding
-
-```
-no_semantic_*
-```
-
-Examples:
-```
-generated_fitness_no_semantic_gemini_2_5_flash.py
-generated_fitness_no_semantic_qwen_qwen3_32b.py
-generated_fitness_no_semantic_openai_gpt_oss_120b.py
-generated_fitness_no_semantic_openai_gpt_oss_20b.py
-generated_fitness_no_semantic_llama_3_3_70b_versatile.py
-generated_fitness_no_semantic_meta_llama_llama_4_scout_17b_16e_instruct.py
-```
-
 
 directories contain the results obtained without semantic validation.
 
