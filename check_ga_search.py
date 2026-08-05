@@ -1,11 +1,4 @@
-# check_ga_search.py
 
-"""
-Quick check for ga_search.py.
-
-This checks that GA runs for different input types:
-int, float, bool, str, and list[int].
-"""
 
 import random
 

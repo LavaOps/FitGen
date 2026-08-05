@@ -1,8 +1,4 @@
-# check_validation.py
 
-"""
-Check whether validation.py correctly validates known valid inputs.
-"""
 
 from benchmark_registry import BENCHMARKS
 from validation import get_reached_branch, validate_branch

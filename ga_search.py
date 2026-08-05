@@ -1,13 +1,4 @@
-# ga_search.py
-"""
-Generic Genetic Algorithm search for zero-shot LLM-generated fitness functions.
 
-This GA assumes integer chromosomes and automatically determines chromosome
-length from the target function signature.
-
-The GA minimizes the generated fitness function.
-Fitness 0 means the target branch/path is considered covered.
-"""
 
 import copy
 import math
@@ -34,10 +25,7 @@ import string
 
 
 def sanitize_schema(schema):
-    """
-    Clamp LLM-generated input schema to safe practical limits.
-    This prevents bad LLM schemas from creating huge strings/lists/ranges.
-    """
+
     schema = dict(schema)
     t = schema.get("type")
 
@@ -215,11 +203,6 @@ def crossover(parent1, parent2):
 
 
 def safe_fitness(function_name, chromosome, target):
-    """
-    Safely evaluate generated fitness.
-    If the generated fitness function raises an error or returns invalid fitness,
-    return infinity.
-    """
 
     try:
         value = evaluate_fitness(
@@ -286,21 +269,7 @@ def run_ga(
     tournament_size=3,
     verbose=False,
 ):
-    """
-    Run GA for one function and one target branch.
 
-    Returns:
-        found
-        validated
-        function_name
-        target
-        best_chromosome
-        best_fitness
-        reached_branch
-        generation
-        evaluations
-        runtime
-    """
 
     input_schema = [
         sanitize_schema(schema)

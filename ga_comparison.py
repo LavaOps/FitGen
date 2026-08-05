@@ -1,16 +1,4 @@
-# ga_comparison.py
 
-"""
-Run fixed-mutation GA and adaptive-mutation GA for all benchmark programs
-and all target branches.
-
-Methods:
-    GA_FIXED
-    GA_ADAPTIVE
-
-Output:
-    results/ga_comparison_results.csv
-"""
 
 import csv
 import random
@@ -42,9 +30,6 @@ METHOD_CONFIGS = {
 
 
 def run_one_experiment(method, function_name, target, run_id, target_index):
-    """
-    Run one GA experiment for one method, one function, and one target.
-    """
 
     if method not in METHOD_CONFIGS:
         raise ValueError(f"Unknown method: {method}")
@@ -90,9 +75,6 @@ def run_one_experiment(method, function_name, target, run_id, target_index):
 
 
 def save_results(rows, output_file):
-    """
-    Save GA comparison results to CSV.
-    """
 
     output_path = Path(output_file)
     output_path.parent.mkdir(exist_ok=True)

@@ -1,20 +1,4 @@
-# analyze_results.py
 
-"""
-Analyze GA experiment results for zero-shot Gemini-generated fitness functions.
-
-Input:
-    results/zero_shot_ga_results.csv
-
-Outputs:
-    results/summary_by_function.csv
-    results/summary_by_target.csv
-    results/success_rate_by_function.png
-    results/validation_rate_by_function.png
-    results/avg_generation_by_function.png
-    results/avg_runtime_by_function.png
-    results/avg_best_fitness_by_function.png
-"""
 
 from pathlib import Path
 
@@ -27,9 +11,6 @@ OUTPUT_DIR = Path("results")
 
 
 def load_results():
-    """
-    Load experiment results and clean data types.
-    """
 
     df = pd.read_csv(RESULTS_FILE)
 
@@ -45,9 +26,6 @@ def load_results():
 
 
 def create_summary_tables(df):
-    """
-    Create summary tables by function and by target.
-    """
 
     summary_by_function = df.groupby("function_name").agg(
         success_rate=("found", "mean"),

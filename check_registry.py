@@ -1,9 +1,3 @@
-# check_registry.py
-
-"""
-Check that benchmark_registry.py loads correctly.
-"""
-
 from benchmark_registry import BENCHMARKS
 
 

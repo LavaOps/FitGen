@@ -1,18 +1,4 @@
-# benchmark_registry.py
 
-"""
-Benchmark registry for the zero-shot LLM branch coverage project.
-
-This file is used after LLM generation for:
-1. offline validation,
-2. input generation,
-3. GA search,
-4. result analysis,
-5. pytest generation.
-
-In the zero-shot prompting setting, we do NOT use this registry to give
-detailed branch-distance rules to the LLM.
-"""
 
 from target_functions import (
     sign_type,

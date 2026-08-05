@@ -1,22 +1,10 @@
-# check_generated_fitness.py
 
-"""
-Check whether zero-shot Gemini-generated fitness functions return 0
-for known valid inputs from benchmark_registry.py.
-
-This is an offline correctness check.
-The known valid inputs were not given to Gemini in the initial prompt.
-They are used here only to validate the generated fitness functions.
-"""
 
 from benchmark_registry import BENCHMARKS
 from generated_fitness import evaluate_fitness
 
 
 def is_zero(value):
-    """
-    Return True if a fitness value is numerically zero.
-    """
 
     try:
         return abs(float(value)) < 1e-9

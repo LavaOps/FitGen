@@ -1,14 +1,4 @@
-# experiments.py
 
-"""
-Run GA experiments for all 12 benchmark programs and all target branches.
-
-This version uses zero-shot Gemini-generated fitness functions from
-generated_fitness.py.
-
-Output:
-    results/zero_shot_ga_results.csv
-"""
 
 import csv
 import random
@@ -22,9 +12,6 @@ OUTPUT_FILE = "results/zero_shot_ga_results.csv"
 
 
 def run_one_experiment(function_name, target, run_id):
-    """
-    Run GA once for one function and one target branch.
-    """
 
     seed = 1000 + run_id
     random.seed(seed)

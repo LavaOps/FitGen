@@ -1,8 +1,3 @@
-# check_input_generators.py
-
-"""
-Quick check for input_generators.py.
-"""
 
 from benchmark_registry import BENCHMARKS
 from input_generators import random_chromosome, mutate_chromosome, crossover

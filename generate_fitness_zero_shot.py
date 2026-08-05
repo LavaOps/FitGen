@@ -1,21 +1,4 @@
-# generate_fitness_zero_shot.py
 
-"""
-LLM-based fitness-function generation for branch coverage.
-
-This script sends one target Python function at a time to the selected LLM
-provider/model and asks it to generate a branch-distance-style fitness function.
-
-Supported providers:
-- gemini
-- groq
-
-The generated fitness functions are checked using:
-- JSON parsing
-- syntax validation
-- semantic validation
-- repair/regeneration attempts
-"""
 import time
 import ast
 import inspect
@@ -262,9 +245,6 @@ def save_prompt_template() -> None:
 
 
 def discover_target_functions():
-    """
-    Automatically discover all user-defined functions from target_functions.py.
-    """
 
     functions = {}
 
@@ -327,12 +307,6 @@ def is_zero(value) -> bool:
 
 
 def check_known_valid_inputs(function_name: str, code: str, known_valid_inputs: dict) -> Tuple[bool, Optional[str]]:
-    """
-    Offline semantic check only.
-
-    This is not sent to the LLM. It is only used to evaluate whether the generated
-    fitness function behaves correctly on known branch-covering examples.
-    """
 
     if not known_valid_inputs:
         return True, None
@@ -501,12 +475,6 @@ def sample_chromosome(input_schema):
 
 
 def semantic_validate_generated_fitness(function_name, function_obj, result, num_samples=300):
-    """
-    Check whether generated fitness agrees with the original function labels.
-
-    Good fitness should satisfy:
-        fitness(chromosome, target) == 0  iff  original_function(*chromosome) == target
-    """
 
     namespace = {}
     exec(result.fitness_code, namespace)
@@ -754,9 +722,6 @@ def save_generated_fitness(
 
 
 def save_generation_summary(results, failed) -> None:
-    """
-    Save a summary of successful and failed LLM fitness generations.
-    """
 
     RAW_OUTPUT_DIR.mkdir(exist_ok=True)
 

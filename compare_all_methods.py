@@ -1,30 +1,5 @@
 # compare_all_methods.py
 
-"""
-Combine and analyze all method results using LLM-generated fitness functions.
-
-Methods:
-    RANDOM
-    HILL_CLIMBING
-    GA_FIXED
-    GA_ADAPTIVE
-
-Inputs:
-    results/random_results.csv
-    results/hill_climbing_results.csv
-    results/ga_comparison_results.csv
-
-Outputs:
-    results/all_methods_results.csv
-    results/summary_by_method.csv
-    results/summary_by_method_function.csv
-    results/summary_by_method_target.csv
-    results/success_rate_by_method.png
-    results/validation_rate_by_method.png
-    results/avg_evaluations_by_method.png
-    results/avg_runtime_by_method.png
-    results/avg_best_fitness_by_method.png
-"""
 
 from pathlib import Path
 
@@ -47,9 +22,6 @@ GA_FILE = RESULTS_DIR / "ga_comparison_results.csv"
 
 
 def load_one_file(path, expected_methods=None):
-    """
-    Load one result CSV file and clean data types.
-    """
 
     if not path.exists():
         raise FileNotFoundError(f"Missing result file: {path}")
@@ -73,9 +45,6 @@ def load_one_file(path, expected_methods=None):
 
 
 def clean_results(df):
-    """
-    Convert result columns into useful numeric/boolean types.
-    """
 
     df["found"] = df["found"].astype(str).str.lower() == "true"
     df["validated"] = df["validated"].astype(str).str.lower() == "true"
@@ -89,9 +58,6 @@ def clean_results(df):
 
 
 def load_all_results():
-    """
-    Load RANDOM, HILL_CLIMBING, GA_FIXED, and GA_ADAPTIVE result files.
-    """
 
     random_df = load_one_file(
         RANDOM_FILE,
@@ -136,12 +102,6 @@ def load_all_results():
 
 
 def create_summary_tables(df):
-    """
-    Create summary tables:
-        1. by method
-        2. by method and function
-        3. by method, function, and target
-    """
 
     summary_by_method = df.groupby("method", observed=False).agg(
         success_rate=("found", "mean"),
@@ -240,9 +200,6 @@ def create_summary_tables(df):
 
 
 def plot_bar(df, x_col, y_col, title, xlabel, ylabel, output_file, ylim_100=False):
-    """
-    Create one bar plot with value labels.
-    """
 
     ax = df.plot(
         kind="bar",
@@ -294,9 +251,6 @@ def plot_grouped_bar(
     output_file,
     ylim_100=False,
 ):
-    """
-    Create a grouped bar chart, usually method by function.
-    """
 
     pivot = df.pivot(
         index=index_col,
@@ -324,9 +278,6 @@ def plot_grouped_bar(
 
 
 def create_plots(summary_by_method, summary_by_method_function):
-    """
-    Create comparison plots.
-    """
 
     plot_bar(
         summary_by_method,

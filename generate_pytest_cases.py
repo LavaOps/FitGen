@@ -1,19 +1,4 @@
-# generate_pytest_cases.py
 
-"""
-Generate pytest test cases from successful and validated results
-across all search methods.
-
-Input:
-    results/all_methods_results.csv
-
-Output:
-    tests/test_llm_generated_cases.py
-
-This script selects one successful and validated chromosome for each
-function-target pair. It can choose from RANDOM, HILL_CLIMBING,
-GA_FIXED, and GA_ADAPTIVE results.
-"""
 
 import ast
 from pathlib import Path
@@ -34,14 +19,7 @@ METHOD_PRIORITY = {
 
 
 def parse_chromosome(value):
-    """
-    Convert chromosome string from CSV back into a Python object.
 
-    Examples:
-        "[5]" -> [5]
-        "['abc123']" -> ['abc123']
-        "[[20, 15]]" -> [[20, 15]]
-    """
 
     if isinstance(value, list):
         return value
@@ -62,7 +40,6 @@ def main():
 
     df["method_priority"] = df["method"].map(METHOD_PRIORITY).fillna(99)
 
-    # Keep only successful and validated results.
     df = df[
         (df["found"] == True)
         & (df["validated"] == True)
@@ -76,8 +53,6 @@ def main():
             "and compare_all_methods.py first."
         )
 
-    # Prefer GA_ADAPTIVE, then GA_FIXED, then HILL_CLIMBING, then RANDOM.
-    # Within each method, prefer fewer evaluations and lower runtime.
     df = df.sort_values(
         by=[
             "function_name",
@@ -88,7 +63,6 @@ def main():
         ]
     )
 
-    # Select one best input for each function-target pair.
     selected = df.drop_duplicates(
         subset=["function_name", "target"],
         keep="first",
