@@ -124,6 +124,16 @@ These files illustrate how FitGen performs validation-guided regeneration after 
 generated_fitness_*.py
 ```
 
+Examples:
+```
+generated_fitness_gemini_2_5_flash.py
+generated_fitness_qwen_qwen3_32b.py
+generated_fitness_openai_gpt_oss_120b.py
+generated_fitness_openai_gpt_oss_20b.py
+generated_fitness_llama_3_3_70b_versatile.py
+generated_fitness_meta_llama_llama_4_scout_17b_16e_instruct.py
+```
+
 
 These files contain the repaired fitness functions produced after FitGen successfully completes
 
