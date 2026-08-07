@@ -271,7 +271,7 @@ def run_one_experiment(function_name, target, run_id, target_index):
     result = run_random_search(
         function_name=function_name,
         target=target,
-        max_evaluations=1000,
+        max_evaluations=8080,
     )
 
     result["run_id"] = run_id
