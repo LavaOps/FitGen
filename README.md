@@ -1,8 +1,8 @@
-# FitGen: Validation-Guided Repair of LLM-Generated Fitness Functions for Search-Based Software Testing
+# FitGen: Validation and Guided Repair of LLM Generated Executable Fitness Functions for Search Based Software Testing
 
 This repository contains the implementation and experimental artifacts for the paper:
 
-**FitGen: Validation-Guided Repair of LLM-Generated Fitness Functions for Search-Based Software Testing**
+**FitGen: Validation and Guided Repair of LLM Generated Executable Fitness Functions for Search Based Software Testing**
 
 FitGen automatically generates branch-aware fitness functions from Python source code using Large Language Models (LLMs), validates the generated fitness functions through a multi-stage validation pipeline (output, syntax, compilation, and semantic validation), repairs incorrect generations using validation-guided regeneration, and evaluates the repaired fitness functions using multiple Search-Based Software Testing (SBST) algorithms.
 
@@ -17,6 +17,15 @@ The repository includes:
 - Scripts used to generate the tables reported in the paper
 
 ---
+
+# Quick Start
+
+Create and activate a Python environment, then install the dependencies:
+
+```bash
+python -m venv fitgen_env
+source fitgen_env/bin/activate
+pip install -r requirements.txt
 
 
 # Repository Structure
