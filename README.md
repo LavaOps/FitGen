@@ -26,7 +26,7 @@ Create and activate a Python environment, then install the dependencies:
 python -m venv fitgen_env
 source fitgen_env/bin/activate
 pip install -r requirements.txt
-
+```
 
 # Repository Structure
 ```bash
