@@ -4,6 +4,12 @@ This repository contains the implementation and experimental artifacts for the p
 
 **FitGen: Validation and Guided Repair of LLM Generated Executable Fitness Functions for Search Based Software Testing**
 
+7th International Workshop on Automated Program Repair (APR 2026), co-located with ASE 2026.
+
+Paper DOI: https://doi.org/10.1145/3843776.3844668
+
+Artifact: https://doi.org/10.5281/zenodo.22179727
+
 FitGen automatically generates branch-aware fitness functions from Python source code using Large Language Models (LLMs), validates the generated fitness functions through a multi-stage validation pipeline (output, syntax, compilation, and semantic validation), repairs incorrect generations using validation-guided regeneration, and evaluates the repaired fitness functions using multiple Search-Based Software Testing (SBST) algorithms.
 
 
@@ -17,6 +23,21 @@ The repository includes:
 - Scripts used to generate the tables reported in the paper
 
 ---
+
+
+## Citation
+
+If you use FitGen in your research, please cite the paper:
+
+```bibtex
+@inproceedings{nayim2026fitgen,
+  author    = {Md Al Muzahid Nayim and Faezeh Rajabi Kouchi and Amit Kumar Sikder and Myra B. Cohen},
+  title     = {FitGen: Validation and Guided Repair of LLM Generated Executable Fitness Functions for Search Based Software Testing},
+  booktitle = {Proceedings of the 7th International Workshop on Automated Program Repair (APR 2026)},
+  year      = {2026},
+  doi       = {10.1145/3843776.3844668}
+}
+```
 
 # Quick Start
 
@@ -435,3 +456,8 @@ python create_semantic_validation_ablation_table.py
 
 
 This repository contains both the repaired fitness functions produced by FitGen and the corresponding first-pass LLM generations without semantic validation, allowing reviewers to reproduce the semantic-validation ablation study and compare repaired versus unrepaired optimization objectives.
+
+
+# Acknowledgments
+
+This work was funded in part by the U.S. Department of Energy Office of Science, Biological and Environmental Research (BER) division award DE-SC0025510.
