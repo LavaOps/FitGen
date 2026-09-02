@@ -461,3 +461,5 @@ This repository contains both the repaired fitness functions produced by FitGen 
 # Acknowledgments
 
 This work was funded in part by the U.S. Department of Energy Office of Science, Biological and Environmental Research (BER) division award DE-SC0025510.
+
+**Disclaimer:** Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the Department of Energy.
