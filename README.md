@@ -7,7 +7,6 @@ This repository contains the implementation and experimental artifacts for the p
 7th International Workshop on Automated Program Repair (APR 2026), co-located with ASE 2026.
 
 Paper DOI: https://doi.org/10.1145/3843776.3844668
-
 Artifact: https://doi.org/10.5281/zenodo.22179727
 
 FitGen automatically generates branch-aware fitness functions from Python source code using Large Language Models (LLMs), validates the generated fitness functions through a multi-stage validation pipeline (output, syntax, compilation, and semantic validation), repairs incorrect generations using validation-guided regeneration, and evaluates the repaired fitness functions using multiple Search-Based Software Testing (SBST) algorithms.
